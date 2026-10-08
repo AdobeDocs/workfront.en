@@ -77,6 +77,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 14, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enhancements to layout templates</a>
+                <p>Several enhancements have been made to layout templates, including hiding or displaying items in the Main Menu, positioning custom application in the Main Menu, and hiding Details in the left navigation.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
 <!--
         <tr>
             <td>
@@ -139,15 +148,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom weeks in addition to custom quarters for Workfront Planning customers</a>
                 <p>If your organization has a Planning package, you can now configure custom weeks in the same way you configure custom quarters.</p>
-            </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enhancements to layout templates</a>
-                <p>Several enhancements have been made to layout templates, including hiding or displaying items in the Main Menu, positioning custom application is the Main Menu, and hiding Details in the left navigation.</p>
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>

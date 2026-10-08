@@ -85,7 +85,7 @@ Several enhancements have been made to layout templates:
 * You can now reposition custom applications to be in any order with the default Workfront menu options. This allows you to position each application in the most relevant place. Previously, custom applications were always the last items in the layout template's Main Menu options and could not be repositioned.
 * You can now hide an object's Details page from the left navigation panel. An object must have at least one item displayed in the left panel. If all other items are hidden, then you cannot hide the last remaining item.
 
-For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and[Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Improved experience for updating field choices in the custom form designer
 
