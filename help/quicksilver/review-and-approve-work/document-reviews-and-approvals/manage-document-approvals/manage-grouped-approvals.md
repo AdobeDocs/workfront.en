@@ -94,7 +94,7 @@ To remove participants from an active grouped approval:
 
 ## Add documents to a grouped approval
 
-You can add documents to a grouped approval until its first stage is locked. Once the first stage locks, you can no longer add documents, because the participants in that stage wouldn't have had the chance to review them.
+You can add documents to a grouped approval until its first stage is locked. Once the first stage locks, you can no longer add documents.
 
 To add a document to a grouped approval:
 
@@ -126,18 +126,25 @@ To remove a document from a grouped approval:
 
 1. Click **Save**.
 
-   The document's approval status stays visible and unchanged from the moment it was removed. The grouped approval view updates to reflect the remaining documents in the group.
+   >[!NOTE]
+   >
+   >The document's approval status stays visible and unchanged from the moment it was removed. The grouped approval view updates to reflect the remaining documents in the group.
+
 
 ## Resolve a "Needs work" decision on a single document in a multi-stage grouped approval
 
-In a multi-stage grouped approval, all the documents in a stage must reach a decision before the group can advance to the next stage. If a document is marked **Needs work**, it can't move forward with the rest of the group, so it must be removed from the group for the stage to progress.
+In a multi-stage grouped approval, all the documents in a stage must reach a decision before the group can advance to the next stage. If a document is marked **Needs work**, it can't move forward with the rest of the group, so it must be manually removed from the group for the stage to progress. 
 
-^ before the stage can progress?
+When you remove the document from the group, it becomes its own standalone approval and keeps all of its existing decisions, comments, and history without restarting. You can add the revised document as a new version to the standalone approval or create a new grouped approval with it.
 
 To resolve a "Needs work" decision:
 
 1. Remove the document that was marked **Needs work** from the group. For more information, see [Remove documents from a grouped approval](#remove-documents-from-a-grouped-approval). The removed document becomes its own standalone approval and keeps its existing decisions, comments, and history.
 
-1. After the document is updated, request approval on it again, either as a single document or as part of a new group. Because the document already carries an approval decision, you can't add it back to the original group.
+1. After the document is updated, upload it as a new version and request approval on it again or add it as part of a new group. 
 
-   For more information, see [Create a document approval workflow](create-a-document-approval.md) and [Create a grouped approval](create-a-grouped-approval.md).
+   For more information, see 
+   
+   * [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+   * [Create a document approval workflow](create-a-document-approval.md)
+   * [Create a grouped approval](create-a-grouped-approval.md)
