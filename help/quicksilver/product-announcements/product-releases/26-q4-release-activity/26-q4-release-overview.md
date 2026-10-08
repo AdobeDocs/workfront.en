@@ -374,17 +374,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 14, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
             </td>
-            <td><p>N/A</p></td>
+            <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
             <td><p>October 14, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
@@ -394,7 +392,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>[DATE]</p></td>
             <td><p>[DATE]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
