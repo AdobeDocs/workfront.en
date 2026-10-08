@@ -163,79 +163,79 @@ To copy a project:
 1. Select a **Status**. By default, the original project's status is selected.
 
 1. (Optional) Deselect the items that you don't want to copy to the new project. The following table describes what happens when you deselect the items:
-      
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+
+    <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Select all</td> 
       <td> <p>Selects all options and clears all the fields and objects listed from the new project. </p> 
       
       <p> Deselecting this option deselects all items. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Assignments</td> 
-      <td>Removes all the project and task assignments.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Progress</td> 
-      <td>Removes the progress on all the tasks, displaying them as New. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Custom Data</td> 
-      <td> <p>Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:</p> 
-       <ul> 
-        <li>Tasks</li> 
-        <li>Expenses</li> 
-        <li> Documents</li> 
-       </ul> 
-      <p>The custom forms remain attached to the tasks, expenses, documents, and project, but the information in the form's custom fields isn't copied to the new project. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td> <p>Removes everything in the Documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Assignments</td> 
+        <td>Removes all the project and task assignments.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Progress</td> 
+        <td>Removes the progress on all the tasks, displaying them as New. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Custom Data</td> 
+        <td> <p>Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:</p> 
+        <ul> 
+          <li>Tasks</li> 
+          <li>Expenses</li> 
+          <li> Documents</li> 
+        </ul> 
+        <p>The custom forms remain attached to the tasks, expenses, documents, and project, but the information in the form's custom fields isn't copied to the new project. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Documents</td> 
+        <td> <p>Removes everything in the Documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">All Predecessors</td> 
       <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p>
       
       Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
-     </tr>
+      </tr>
 
-  <tr> 
-      <td role="rowheader">Budgeted hours</td> 
-      <td> <p>Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project.</p> 
-    <p>
-   Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a></p>
-   </tr></td>
     <tr> 
-      <td role="rowheader">Financial Information</td> 
-      <td> <p>Removes the information in the following areas: </p> 
-       <ul> 
-        <li>Finance subtab of the project</li> 
-        <li> Planned Benefit in the Business Case</li> 
-        <li>Financial information from all tasks<br></li> 
-       </ul> <p>For more information about the project Finance subtab, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Manage information in the project Finance area</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approval Process</td> 
-      <td>Removes all approvals associated with the tasks or the project. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Reminder Notifications</td> 
-      <td> Removes the Reminder Notifications associated with the tasks or the project. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Expenses</td> 
-      <td>Removes expenses associated with the tasks or the project. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Permissions</td> 
-      <td> Removes permissions to all the users on the tasks or the project.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+        <td role="rowheader">Budgeted hours</td> 
+        <td> <p>Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project.</p> 
+      <p>
+    Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a></p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Financial Information</td> 
+        <td> <p>Removes the information in the following areas: </p> 
+        <ul> 
+          <li>Finance subtab of the project</li> 
+          <li> Planned Benefit in the Business Case</li> 
+          <li>Financial information from all tasks<br></li> 
+        </ul> <p>For more information about the project Finance subtab, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Manage information in the project Finance area</a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Approval Process</td> 
+        <td>Removes all approvals associated with the tasks or the project. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Reminder Notifications</td> 
+        <td> Removes the Reminder Notifications associated with the tasks or the project. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Expenses</td> 
+        <td>Removes expenses associated with the tasks or the project. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Permissions</td> 
+        <td> Removes permissions to all the users on the tasks or the project.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Click **Copy project**. The copied project is created. 
