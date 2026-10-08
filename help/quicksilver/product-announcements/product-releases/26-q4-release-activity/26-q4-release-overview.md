@@ -365,6 +365,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 1, 2026</p></td>
             <td><p>October 1, 2026</p></td>
         </tr>
+<!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -374,6 +375,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 14, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a><p>[!BADGE Off schedule]{type=Neutral}</p>
