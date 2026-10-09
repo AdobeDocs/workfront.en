@@ -15,7 +15,7 @@ Grouped approvals support Basic and Advanced mode, multiple stages, and parallel
 
 >[!IMPORTANT]
 >
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. Grouped approvals are available only in the new Documents area. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 
