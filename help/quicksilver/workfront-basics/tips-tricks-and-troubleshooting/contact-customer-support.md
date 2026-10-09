@@ -138,7 +138,7 @@ If you have any questions or problems submitting a request, call the Customer Su
 
 1. Navigate to the **[!UICONTROL My Cases]** page. This page opens when you submit a case, or you can open it by clicking **[!UICONTROL My Cases]** in the left navigation.
 
-1. (Optional) Use the options at the top of the page to filter by **Product ([!DNL Experience Cloud] solution)** or case **[!UICONTROL Status]** ([!UICONTROL Open] or Cl[!UICONTROL ]osed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
+1. (Optional) Use the options at the top of the page to filter by **Product ([!DNL CX Enterprise] solution)** or case **[!UICONTROL Status]** ([!UICONTROL Open] or [!UICONTROL Closed]). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
 
 1. (Optional) To view more details on a case, click the **Case Number** to access it. 
 
