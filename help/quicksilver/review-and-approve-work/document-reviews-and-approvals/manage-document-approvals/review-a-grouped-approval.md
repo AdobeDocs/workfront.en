@@ -17,7 +17,9 @@ If one or more documents are marked **Needs work** in a multi-stage grouped appr
 
 
 
-
+>[!IMPORTANT]
+>
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. Grouped approvals are available only in the new Documents area. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Access requirements
 

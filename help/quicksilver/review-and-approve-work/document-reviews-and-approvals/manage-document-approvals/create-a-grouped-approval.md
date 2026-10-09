@@ -13,7 +13,10 @@ feature: Work Management, Digital Content and Documents
 
 A grouped approval bundles multiple documents under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-document approvals.
 
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. Grouped approvals are available only in the new Documents area. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>[!IMPORTANT]
+>
+>If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. Grouped approvals are available only in the new Documents area. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 ## Access requirements
 
