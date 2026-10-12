@@ -31,8 +31,6 @@ topic_v2:
 
 <!-- Audited: 5/2025 -->
 
-{{highlighted-preview}}
-
 You can manage multiple versions of a document in Workfront.
 
 ## Access requirements
@@ -158,9 +156,7 @@ To delete a document version:
 
    ![Delete the document version](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Manage document versions in the new Documents area in Preview
+## Manage document versions in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -234,8 +230,6 @@ Workfront numbers each version in the order you upload it (for example, V1, V2, 
    >[!NOTE]
    >
    >Deleting a version doesn't change the numbers of the other versions. For example, if you delete V3 from a document with versions V1 through V5, the remaining versions keep their original numbers, and there is no V3 afterward. The next version you upload becomes V6.
-
-</div>
 
 ### View the current file during an approval
 
