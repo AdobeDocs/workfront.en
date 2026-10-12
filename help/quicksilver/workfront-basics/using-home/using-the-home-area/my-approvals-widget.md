@@ -158,3 +158,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    </table>
       
 After you make a decision, the approval is removed from the My Approval widget.
+
+>[!NOTE]
+>
+>Work approvals can also be removed from the My Approvals widget when the project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
