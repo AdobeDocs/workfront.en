@@ -125,7 +125,7 @@ For more information about creating billing records, see [Create billing records
 
 #### Preserve Project Revenue by using multiple Billing Rate overrides {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-When billing rates change for job roles at the project level, you can preserve existing revenue which has already been calculated on the project by using multiple billing rates overrides which are locked within a specified time frame.
+When billing rates change for job roles at the project level, you can preserve existing revenue that has already been calculated on the project by using multiple billing rate overrides, which are locked within a specified time frame.
 
 For more information about using multiple billing rates overrides, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +146,7 @@ Cost rates can change at the following levels:
 * Project level (for users)
   For more information about overriding user cost rates, see [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-When billing rates change at any level mentioned above, you can preserve existing costs which have already been calculated on the project by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed. For more information about creating billing records, see [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
+When cost rates change at any level mentioned above, you can preserve existing costs that have already been calculated on the project by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed. For more information about creating billing records, see [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 You can also avoid using the manual Recalculate Finance option, if you don't want to create a billing record, as described in the section [Manually recalculate finances for a project](#manually-recalculate-finances-for-a-project) in this article.
 
@@ -217,9 +217,13 @@ The following actions trigger the financial recalculation of projects in Workfro
 * Changing task status
 * Moving a task with hours to another project
 * Changing the project status from Complete to an active status
+* Adding an expense at the project or task level
 
 >[!NOTE]
 >
->When you change the project status, only the planned values are being recalculated.
+>When you change the project status, only the planned values are recalculated.
+> 
+>When you add an expense, only the Actual Cost is recalculated.
 
 You can also recalculate finances manually under the **More** menu ![More menu](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.
+
