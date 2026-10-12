@@ -28,8 +28,6 @@ topic_v2:
 ---
 # Copy and move reports in Canvas Dashboards
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
@@ -89,28 +87,8 @@ You must add a report to a dashboard before it can be duplicated.
 
 For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicate a report in Production
 
-{{step1-to-dashboards}}
-
-1. In the left panel, click **Canvas Dashboards**. 
-1. On the **Canvas Dashboards** page, click the **More** ![More button](assets/more-icon.png) icon in the upper-right corner of the report you want to duplicate, then select **Duplicate**. 
-
-    ![Duplicate button](assets/duplicate-button.png)
-
-1. (Optional) In the **Configure** box that appears, enter a new report **Name** in the **Details** tab.   
-
-1. (Optional) Make any needed adjustments to the configurations using the tabs on the left side. 
-  
-    >[!NOTE]
-    >
-    >These tabs will vary depending on if you duplicated a KPI, table, or chart report.  For more, see [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md), and [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md). 
- 
-1. Click **Save**. The duplicated report appears on the dashboard.
-
-<div class="preview">
-
-## Copy or move a report in Preview
+## Copy or move a report
 
 You can copy a report to the current dashboard, copy it to another dashboard, or move it to another dashboard. Copying creates a duplicate of the report at the destination; moving relocates it off its current dashboard.
 
@@ -156,4 +134,3 @@ To copy or move a report:
 
     ![copy and move](assets/copy-and-move.png)
 
-</div>
