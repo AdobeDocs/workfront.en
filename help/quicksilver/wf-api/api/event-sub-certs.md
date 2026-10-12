@@ -118,11 +118,21 @@ For more information, see
 
 ## Download certificates
 
-Click the following links to download the client certificates.
+Download the ZIP file containing the current Workfront event subscription client certificates. These certificates expire on April 25, 2027.
 
+[Download client certificates](assets/event-subscription-certificates-nov02.zip)
+
+| Environment | Certificate file |
+| -- | -- |
+| Production | event-subs-prod-cert-nov02.crt |
+| Preview | event-subs-preview-cert-nov02.crt |
+| Sandbox | event-subs-sandbox-cert-nov02.crt |
+
+<!--
 * [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
 * [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
 * [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
