@@ -9,8 +9,6 @@ feature: Work Management, Digital Content and Documents
 
 # Create a grouped approval
 
-<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there. This functionality will be available in Production environments on October 14 and 15, 2026.</span>
-
 A grouped approval bundles multiple documents under a single approval workflow. You can use Basic and Advanced mode, multiple stages, and parallel paths with grouped approvals, just as you can with single-document approvals.
 
 Grouped approvals are available only in the new Documents area, which appears when your organization uses Adobe cloud storage. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
