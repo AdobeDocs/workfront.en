@@ -969,8 +969,8 @@ feature-set: Workfront
     * [Skills available for direct install](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * CX Enterprise Coworker in Workfront {#coworker-in-workfront}
     * [CX Enterprise Coworker in Workfront: article index](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Enterprise Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Workfront skills in CX Enterprise Coworker ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)

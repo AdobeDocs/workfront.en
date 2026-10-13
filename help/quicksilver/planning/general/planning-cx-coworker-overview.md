@@ -103,7 +103,7 @@ Or
 
 * Coworker must be enabled for your organization before it is available for users in your company.
 
-  For information, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md). 
+  For information, see [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md). 
 
 * After Workfront has enabled the agent for your Workfront instance, it is available for the main Workfront administrator and they can enable it for your organization. For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -124,7 +124,7 @@ Or
 
 ## Functionality currently available for Coworker
 
-Currently, Coworker is available in the Planning area of Workfront and it uses a set of skills to access and manipulate information for Planning objects. For more information, see [CX Enterprise Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md). 
+Currently, Coworker is available in the Planning area of Workfront and it uses a set of skills to access and manipulate information for Planning objects. For more information, see [Workfront skills in CX Enterprise Coworker ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md). 
 
 You can use Coworker to perform the following actions:
 
