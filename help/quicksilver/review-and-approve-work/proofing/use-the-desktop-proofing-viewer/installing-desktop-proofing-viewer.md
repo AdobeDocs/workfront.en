@@ -66,8 +66,6 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-
-
 ## Install the Desktop Proofing Viewer on Mac
 
 If your Adobe Workfront administrator or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
