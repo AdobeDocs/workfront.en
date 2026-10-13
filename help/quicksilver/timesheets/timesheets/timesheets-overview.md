@@ -69,17 +69,17 @@ To access a timesheet:
 
    All of your timesheets as well as timesheets you have access to are displayed by default. For information about the timesheet layout in Adobe Workfront, see [Timesheet layout overview](../../timesheets/timesheets/timesheet-layout.md).
 
-   ![All Timesheets list](assets/all-timesheets-list-nwe-350x68.png)
+   ![All Timesheets list](assets/list-of-all-timesheets.png)
 
 1. Click one of the following options in the upper-right corner to display your timesheets: 
 
     * **My Timesheets** to display only your timesheets.
 
-    ![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+    <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
     * **My Timesheet Approvals** to display only timesheets you approve.
 
-      ![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+    <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Optional) Update the view, filter, and grouping at the top of the list of timesheets. For more information, see [Reporting elements: filters, views, and groupings](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
