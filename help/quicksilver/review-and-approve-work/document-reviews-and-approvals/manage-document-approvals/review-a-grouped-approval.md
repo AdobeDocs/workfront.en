@@ -100,7 +100,7 @@ In the Frame.io viewer, all the documents in the group display together so you c
 
 ## Additional resources 
 
-This article covers what's specific to reviewing a group of documents. For information on making a decision on a single document, adding markup, and more, see
+This article covers information about reviewing a group of documents. For information on making a decision on a single document, adding markup, and more, see
 
 * [Approve a document in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
 * [Review a document in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

@@ -148,3 +148,8 @@ To resolve a "Needs work" decision:
    * [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
    * [Create a document approval workflow](create-a-document-approval.md)
    * [Create a grouped approval](create-a-grouped-approval.md)
+
+
+## Known limitations
+
+There is a temporary syncing issue with Frame.io when you add or remove documents in a grouped approval. The changes will not be reflected in Frame.io until the next time the document is synced.
