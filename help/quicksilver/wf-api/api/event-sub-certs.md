@@ -137,3 +137,6 @@ Download the ZIP file containing the current Workfront event subscription client
 >[!NOTE]
 >
 >You can use the same client certificate for both Sandbox environments.
+
+
+
