@@ -206,7 +206,7 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 >
 >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is still available to these organizations.
 
-For more information, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+For more information, see [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## AI Assistant icon removed from the record Details preview box in preparation for the CX Enterprise Coworker launch
 
