@@ -42,7 +42,7 @@ For more detailed information about how to log time in Workfront, see [Log time]
 
 >[!TIP]
 >
->If you are a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets: article index](../create-and-manage-timesheets/create-and-manage-timesheets.md). 
+>If you are a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets: article index](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Understand project time vs non-project time
@@ -67,9 +67,9 @@ To access a timesheet:
 
 {{step1-to-timesheets}}
 
-      All of your timesheets as well as timesheets you have access to display by default. For information about the timesheet layout in Adobe Workfront, see [Timesheet layout overview](../../timesheets/timesheets/timesheet-layout.md).
+   All of your timesheets as well as timesheets you have access to are displayed by default. For information about the timesheet layout in Adobe Workfront, see [Timesheet layout overview](../../timesheets/timesheets/timesheet-layout.md).
 
-      ![All Timesheets list](assets/all-timesheets-list-nwe-350x68.png)
+   ![All Timesheets list](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Click one of the following options in the upper-right corner to display your timesheets: 
 
