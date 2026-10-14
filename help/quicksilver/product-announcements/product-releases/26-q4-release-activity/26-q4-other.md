@@ -50,7 +50,7 @@ For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/nav
 
 The following Workfront lists now use the enhanced list format:
 
-* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications
+* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications (This update was removed from the Preview environment on October 14 and will not be part of the quarterly release. These lists will be updated at a later date.)
 * Setup > Documents > Experience Manager Assets
 * Project or Template > Queue Topics
 * Project or Template > Topic Groups
