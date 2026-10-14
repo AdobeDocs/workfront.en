@@ -50,6 +50,7 @@ This section contains the following articles:
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
 * [Configure fields to track in change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+* [View user employment history](../../../administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
 * [View user login information](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md) 
 * [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
