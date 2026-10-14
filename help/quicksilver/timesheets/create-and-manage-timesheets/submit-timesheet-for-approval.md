@@ -82,7 +82,7 @@ To submit a timesheet for approval:
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Click **Submit for approval** to launch the timesheet approval process.
 
-   ![Submit for approval button](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Submit for approval button](assets/submit-for-approval-button-on-timesheet.png)
 
    The **Submit for approval** button is replaced by the **Approve**, **Reject**, and **Recall** buttons. The status of the timesheet changes to **Submitted**.
 
