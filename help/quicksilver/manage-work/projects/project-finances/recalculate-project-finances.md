@@ -217,13 +217,27 @@ The following actions trigger the financial recalculation of projects in Workfro
 * Changing task status
 * Moving a task with hours to another project
 * Changing the project status from Complete to an active status
-* Adding an expense at the project or task level
 
 >[!NOTE]
 >
 >When you change the project status, only the planned values are recalculated.
-> 
->When you add an expense, only the Actual Cost is recalculated.
 
 You can also recalculate finances manually under the **More** menu ![More menu](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.
+
+### How expenses affect finance recalculation
+
+These scenarios exist when adding expenses to projects and tasks:
+
+* Adding an expense to a project that does not have billing rates updates the project's expense cost and revenue data, without recalculating all task finances.
+* Adding an expense to a task (on a project that does not have billing rates) recalculates that task's cost and revenue data and updates the project totals. Unrelated tasks are not recalculated.
+* xx
+
+>[!NOTE]
+>
+>When a Planned Amount is saved on the expense, the Planned Cost is updated. When an Actual Amount is saved on the expense, the Actual Cost is updated.
+
+
+
+<!--Adding an expense at the project or task level updates the project's Actual Cost.-->
+
 
