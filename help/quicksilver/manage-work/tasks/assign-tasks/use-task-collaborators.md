@@ -23,11 +23,11 @@ role_v2:
 
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-Work Agents connect to agents that you have configured in Copilot Studio, Claude, Writer,  <span class="preview">OpenAI or IBM. </span>
+Work Agents connect to agents that you have configured in Copilot Studio, Claude,  <span class="preview">OpenAI or IBM. </span>
 
 >[!IMPORTANT]
 >
->Writer is deprecating their use of agents. Work Agents configured using Writer agents will not work after October 9. 2026.
+>Writer has deprecated their use of agents. Work Agents configured using Writer agents no longer work after October 9. 2026.
 >
 >For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
 
@@ -62,11 +62,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
+* You must configure an agent in Copilot, Claude, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
 
 ## Work Agent overview
 
-Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
+Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio or Claude.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
 
 Some example workflows may include:
 
@@ -78,7 +78,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* The Workfront MCP server does not need to be added to the agent used as a Work Agent, and does not need to be connected for the Work Agent to work.
->* Work Agents currently support agents created in Copilot Studio, Claude, and Writer.ai, <span class="preview">OpenAI, and IBM. </span>
+>* Work Agents currently support agents created in Copilot Studio, Claude, <span class="preview">OpenAI, and IBM. </span>
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
