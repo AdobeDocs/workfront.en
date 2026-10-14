@@ -224,20 +224,17 @@ The following actions trigger the financial recalculation of projects in Workfro
 
 You can also recalculate finances manually under the **More** menu ![More menu](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.
 
-### How expenses affect finance recalculation
+### How expenses affect automatic finance recalculation
 
 These scenarios exist when adding expenses to projects and tasks:
 
-* Adding an expense to a project that does not have billing rates updates the project's expense cost and revenue data, without recalculating all task finances.
-* Adding an expense to a task (on a project that does not have billing rates) recalculates that task's cost and revenue data and updates the project totals. Unrelated tasks are not recalculated.
-* xx
+* Adding an expense to a project that does not have billing rates updates the project's costs, without recalculating all finances.
+* Adding an expense to a task (on a project that does not have billing rates) recalculates that task's costs and updates the project costs. No other tasks are recalculated.
+* When billing rates exist on the project and an expense is added at the project or task level with the **Billable** field selected, a whole-project finance recalculation is triggered, including labor costs and revenues.
 
 >[!NOTE]
 >
 >When a Planned Amount is saved on the expense, the Planned Cost is updated. When an Actual Amount is saved on the expense, the Actual Cost is updated.
 
-
-
-<!--Adding an expense at the project or task level updates the project's Actual Cost.-->
 
 
