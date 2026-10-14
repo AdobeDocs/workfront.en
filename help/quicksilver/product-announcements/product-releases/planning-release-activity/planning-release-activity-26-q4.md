@@ -296,7 +296,7 @@ You can customize week labels which are visible in the timeline view. You can ch
 
 Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filters for connected record fields
 

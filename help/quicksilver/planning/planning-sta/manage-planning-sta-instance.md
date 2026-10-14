@@ -95,7 +95,7 @@ You can configure up to 100 quarters for your Workfront Planning instance. You c
 
 Configuring custom quarters in Workfront Planning is similar to configuring custom quarters in Workfront. 
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
 ## Configure Customer Info
 
