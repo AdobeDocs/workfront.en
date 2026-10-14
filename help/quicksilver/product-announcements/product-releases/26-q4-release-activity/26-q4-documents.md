@@ -51,7 +51,7 @@ For more information, see:
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
@@ -68,7 +68,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 You can now group multiple documents under a single approval workflow, so they move through the same stages together. 
@@ -84,7 +84,7 @@ For more information, see [Create a grouped approval](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 >[!BADGE Off schedule]{type=Neutral}
 

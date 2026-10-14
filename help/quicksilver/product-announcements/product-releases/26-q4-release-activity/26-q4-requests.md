@@ -25,7 +25,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: September 24, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.

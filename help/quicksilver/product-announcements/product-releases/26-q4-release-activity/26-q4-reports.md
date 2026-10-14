@@ -25,7 +25,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta. For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
@@ -35,7 +35,7 @@ Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to t
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.
@@ -49,7 +49,7 @@ For more information, see [Register a private listing for Workfront Data Connect
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 To make it easier to use Canvas Dashboards, we've added tools to the Workfront MCP. Now, you can build and manage Canvas Dashboards through chat, and the dashboard and widgets are created for you using your Workfront data. This works from MCP clients like Claude and Cursor.
@@ -93,7 +93,7 @@ For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. 
@@ -105,7 +105,7 @@ When you copy a widget, a dialog box now opens where you select the destination 
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.

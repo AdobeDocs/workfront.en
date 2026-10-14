@@ -25,7 +25,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 Multiple updates have been made to the billing rates functionality on a project template.

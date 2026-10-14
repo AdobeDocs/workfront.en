@@ -25,7 +25,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 The following changes have been made to enhanced list filters and groupings:
@@ -45,7 +45,7 @@ For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/nav
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 The following Workfront lists now use the enhanced list format:

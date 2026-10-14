@@ -25,6 +25,21 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+
+## Create and manage business rules with Coworker and the Workfront MCP server for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 12, 2026
+>Production for everyone: October 15, 2026
+
+We have added skills to Coworker and the Workfront MCP server to manage Planning business rules.
+
+You can now create, list, view, update, and delete business rules for record types using either Coworker or the Workfront MCP. The new skills also help you generate business-rule formulas that the formula engine accepts, so you get fewer invalid formulas.
+
+For information, see [Workfront skills in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) or [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 <!--
 
 ## See the total record count in table views

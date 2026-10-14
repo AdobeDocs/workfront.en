@@ -25,7 +25,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 To help you track how a user's job role, agency, cost center, and billing rates have changed over time, we've added Employment History.
@@ -41,7 +41,7 @@ For more information, see [View user employment history](/help/quicksilver/admin
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 To help you save time translating custom terms and field labels, we've added the ability to generate AI translations for custom localization. Now, Workfront administrators can use AI to generate translations for untranslated custom text, or fill in additional language translations for a previously localized term, then review and adjust the results before saving.
@@ -55,7 +55,7 @@ For more information, see [Configure custom localization](/help/quicksilver/admi
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
@@ -76,7 +76,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 Several enhancements have been made to layout templates:
@@ -92,7 +92,7 @@ For more information, see [Customize the Main Menu using a layout template](/hel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 When working with drop-down fields, radio buttons, and check boxes in the form designer, you can now add, edit, and delete field choices in a single dialog. Previously, you would add and edit choices in the right panel of the designer and there was not a lot of space if you created a long list of choices.
@@ -115,7 +115,7 @@ For information, see [Configure event subscriptions in Workfront](/help/quicksil
 >[!NOTE]
 >
 >Preview: September 22, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 15, 2026
 >Production for everyone: October 15, 2026
 
 To make the Workfront MCP servers more flexible and customizable to your organization, we've added the ability to add custom OAuth callback URLs. Workfront administrators can now maintain their own organization's allowlist of trusted OAuth callback URLs for MCP integrations. This lets you connect custom AI agentic platforms whose OAuth callback URL is unique to your organization, beyond the platforms that Workfront supports natively.
