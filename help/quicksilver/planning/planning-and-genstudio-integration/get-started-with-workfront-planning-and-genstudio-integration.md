@@ -343,12 +343,11 @@ Consider the following when working with Activations:
 
 * When you activate from GenStudio, activation details are recorded and tracked in Workfront Planning. GenStudio and Planning keep shared records (Campaigns, Products, Personas, Activations, and more) aligned.  
 
-<!--
 * Activations records include the following:
 
     * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
     * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
---> 
+
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

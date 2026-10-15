@@ -117,13 +117,13 @@ Your Workfront access level must include the following license types to access I
   * A Workflow and a Planning package, during Open beta
   * A Workflow and a Planning package or a Workfront Planning as a standalone product, after general availability. 
 
-## Permissions requirements
+## Workfront permissions requirements
 
 When you use the Ideation space from Workfront Planning each Planning record is connected to one brief in Ideation space. 
 
 Ideation space brief permissions are inherited from Workfront Planning record permissions. <!--not sure if this is right, because now you can share the ideation with others??-->
 
-You must have Manage permissions for a record type in Planning to create records in order to create or edit a record in the ideation space.
+You must have Contribute or higher permissions for a record type in Planning to create records in order to create or edit a record in the ideation space.
 
 Planning users with View permissions on records can view the ideation space of a record. 
 
@@ -131,7 +131,7 @@ The following table shows the connection between Workfront Planning record permi
 
 | Planning record-level permission  | Ideation space brief-level permissions |
 |---|---|
-| Manage permissions to a record | Can create a brief in the Ideation space of the record|
+| Contribute or higher permissions to a record | Can create a brief in the Ideation space of the record|
 | View permissions to a record | Can read the brief of that record in Ideation space, but cannot modify it|
 
 ## Ideation space permissions
