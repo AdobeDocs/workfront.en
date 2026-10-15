@@ -382,8 +382,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now group multiple documents under a single approval workflow, so they move through the same stages together.</p>
             </td>
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -391,8 +391,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
             </td>
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
         </tr>
         <tr>
             <td>
