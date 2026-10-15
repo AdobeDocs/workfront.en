@@ -217,6 +217,7 @@ The following actions trigger the financial recalculation of projects in Workfro
 * Changing task status
 * Moving a task with hours to another project
 * Changing the project status from Complete to an active status
+* Adding a billable expense at the project or task level
 
 >[!NOTE]
 >
@@ -228,13 +229,13 @@ You can also recalculate finances manually under the **More** menu ![More menu](
 
 These scenarios exist when adding expenses to projects and tasks:
 
-* Adding an expense to a project that does not have billing rates updates the project's costs, without recalculating all finances.
-* Adding an expense to a task (on a project that does not have billing rates) recalculates that task's costs and updates the project costs. No other tasks are recalculated.
-* When billing rates exist on the project and an expense is added at the project or task level with the **Billable** field selected, a whole-project finance recalculation is triggered, including labor costs and revenues.
+* Adding a non-billable expense to a project updates the project's costs, without recalculating all finances.
+* Adding a non-billable expense to a task recalculates that task's costs and the project's costs. No other tasks are recalculated.
+* Adding a billable expense at the project or task level triggers a financial recalculation on the project, including labor costs and revenues.
 
 >[!NOTE]
 >
 >When a Planned Amount is saved on the expense, the Planned Cost is updated. When an Actual Amount is saved on the expense, the Actual Cost is updated.
 
-
+For more information about expenses, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
