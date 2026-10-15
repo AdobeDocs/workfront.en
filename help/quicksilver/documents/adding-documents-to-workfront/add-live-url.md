@@ -69,3 +69,6 @@ To add a web link:
     ![Add a web link as a document](assets/web-url.png)
 
 To request approval on the web link, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+## Known limitations
+
