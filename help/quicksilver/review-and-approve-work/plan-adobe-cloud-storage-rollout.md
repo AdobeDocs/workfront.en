@@ -1,4 +1,5 @@
 ---
+user-type: administrator
 product-area: documents
 navigation-topic: approvals
 title: Plan your Adobe cloud storage rollout
@@ -6,12 +7,15 @@ description: Choose how Adobe cloud storage appears to your users, pilot it with
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
+recommendations: noDisplay, noCatalog
+exl-id: b4413742-c250-4110-9097-6d38842355a4
+
 ---
 # Plan your Adobe cloud storage rollout
 
-You decide how and when Adobe cloud storage reaches your users. Nothing changes until a Workfront administrator sets Adobe cloud storage as the default storage option, so you have time to test the experience and prepare your teams before anyone works in it.
+You decide how and when Adobe cloud storage reaches your users. Nothing changes until a Workfront administrator sets Adobe cloud storage as the default storage option in the setup area, so you have time to test the experience and prepare your teams before anyone works in it.
 
-This article covers the rollout configurations you can choose, how to pilot with a single group, and a suggested order of work. For an orientation to the move, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+This article covers the rollout configurations you can choose, how to pilot with a single group, and a suggested order of work. 
 
 ## Choose how Adobe cloud storage rolls out
 
@@ -22,7 +26,7 @@ For step-by-step instructions, see [Enable Adobe cloud storage for your organiza
 ### Configuration options
 
 * **Adobe cloud storage only**: New projects use Adobe cloud storage by default. Users can't create legacy projects.
-* **Adobe cloud storage and legacy Workfront storage**: When users create a project, they choose between Adobe cloud storage (labeled "New project") and legacy Workfront storage (labeled "Legacy project").
+* **Adobe cloud storage and legacy Workfront storage**: When users create a project, they choose between Adobe cloud storage (labeled "New project") and legacy Workfront storage (labeled "Legacy storage"). This option is enabled by selecting the **Allow user to select storage provider** checkbox in the setup area.
 
 >[!TIP]
 >
@@ -30,9 +34,11 @@ For step-by-step instructions, see [Enable Adobe cloud storage for your organiza
 
 Existing objects keep the storage model they were created with. Changing the default storage preference doesn't change any existing object.
 
+![storage preferences in setup](assets/storage-preference-groups.png)
+
 ## Plan your rollout
 
-Every Workfront environment is different. Before you set Adobe cloud storage as the default for your users, take some time to plan what a successful rollout looks like for your organization. The suggestions below aren't a checklist, but a starting point for your own plan.
+Every Workfront environment is different. Before you set Adobe cloud storage as the default for your users, take some time to plan what a successful rollout looks like for your organization. The suggestions below aren't an exact checklist, but a starting point for your own plan.
 
 ### Pick a pilot group
 

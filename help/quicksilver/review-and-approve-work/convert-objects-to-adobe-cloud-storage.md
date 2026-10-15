@@ -1,4 +1,5 @@
 ---
+user-type: administrator
 product-area: documents
 navigation-topic: approvals
 title: Convert legacy objects to Adobe cloud storage
@@ -6,6 +7,8 @@ description: Learn the three cases where you can convert a legacy Workfront stor
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
+recommendations: noDisplay, noCatalog
+
 ---
 # Convert legacy objects to Adobe cloud storage
 
@@ -17,9 +20,12 @@ In most scenarios, you can move, copy, and convert Workfront objects only betwee
 
 For an orientation to the move and what's different on Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
+<!-- 
+need to validate with PM
 >[!NOTE]
 >
 >In all three conversion scenarios, documents and document folders don't move from legacy Workfront storage to Adobe cloud storage. Documents that exist on the legacy object before the conversion remain on legacy storage.
+-->
 
 ## Convert a legacy task to an Adobe cloud storage project
 
