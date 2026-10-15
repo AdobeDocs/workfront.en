@@ -6,32 +6,16 @@ description: Understand what happens to your existing document approval workflow
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-    internal-label: Work management
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource management
-subfeature_v2:
-  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
-    internal-label: Digital content and documents
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
 ---
 # Move from legacy document approvals to Unified Approvals
 
-Moving to a version of Workfront that supports Adobe cloud storage also moves your organization from legacy document approvals to unified approvals. This article provides information on which functionality will be available in Unified Approvals as well as recommendations for Workfront administrators moving users off legacy document approvals.
+Adobe cloud storage projects use Unified Approvals by default. This article describes the functionality available in Unified Approvals compared to legacy document approvals.
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
->This change applies organization-wide as soon as you move to a version of Workfront that supports Adobe cloud storage. There's no pilot group or gradual rollout option for the move from legacy document approvals to unified approvals.<br>
->For the details about what changes with Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+>Unified Approvals is the default only for new objects created on Adobe cloud storage. Legacy Workfront storage objects keep their current approval service.<br>
+>For more information, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Understand what is changing from legacy document approvals to Unified Approvals
 
@@ -42,18 +26,18 @@ Moving to a version of Workfront that supports Adobe cloud storage also moves yo
 | Approval stages and paths | One approval stage, no parallel paths | [Multiple approval stages and parallel review paths](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Approval templates | Each approval configured from scratch | [Reusable templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) available in Workfront Setup |
 | Review and markup | Proofing viewer | [Proofing viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) on legacy Workfront storage objects, or the [Frame.io viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) on Adobe cloud storage objects |
-| AI-assisted review | Not available | Automatic brand-compliance checks with [AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| AI-assisted review | Not available | Automatic brand-compliance checks with [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy reporting | Home KPI widgets and [Canvas Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### What happens to approvals already in progress
 
-In-flight approvals that were created in legacy document approvals will continue to function as they did before the upgrade. However, any new approvals created after the upgrade will use Unified Approvals.
+In-flight approvals that were created in legacy document approvals continue to function as they did before. New approvals on Adobe cloud storage objects use Unified Approvals. New approvals on legacy Workfront storage objects keep the approval service those objects already use.
 
 
-## Prepare for the upgrade
+## Prepare for the move
 
 * Share the [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) article with your end users.
-* Review your existing Workfront Fusion scenarios. If you use legacy document approvals with proofing, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before your organization upgrades.
+* Review your existing Workfront Fusion scenarios. If you use legacy document approvals with proofing, see [Update Workfront Fusion scenarios for unified review and approval](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) before you bring teams onto Adobe cloud storage.
 * Set up a review and approval dashboard in Canvas Dashboards to replace any legacy approval reports. See [Create a review and approval dashboard](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) for details.
 
 
@@ -65,4 +49,4 @@ In-flight approvals that were created in legacy document approvals will continue
 * [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Use Unified Approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
