@@ -9,9 +9,9 @@ role: Admin
 ---
 # What's different on Adobe cloud storage
 
-After your contract is updated to include the new unified review and approval experience, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe cloud storage. The new Documents area, the Frame.io viewer, and the other behaviors described here apply only to objects that use Adobe cloud storage.
+With Adobe cloud storage, your environment can contain two types of objects: objects on legacy Workfront storage (the objects you have today) and objects created using Adobe cloud storage. The new Documents area, the Frame.io viewer, and the other behaviors described here apply only to objects that use Adobe cloud storage.
 
-For an orientation to the move and what turns on when, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+For an orientation to the move, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Understand legacy Workfront storage and Adobe cloud storage
 
