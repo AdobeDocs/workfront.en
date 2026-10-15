@@ -22,4 +22,4 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 
 To make key decisions easier to find, you can now pin top-level comment threads on projects, tasks, issues, documents, programs, and portfolios. Pinned threads appear in a "Pinned threads" section above the update stream which is always visible. Each object supports up to 10 pinned threads. Anyone who can view the object can see the pinned threads, pin and unpin them. 
 
-For information, see Update work (help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+For information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
