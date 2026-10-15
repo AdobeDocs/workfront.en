@@ -25,8 +25,8 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta. For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -35,8 +35,8 @@ Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to t
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.
 
@@ -49,8 +49,8 @@ For more information, see [Register a private listing for Workfront Data Connect
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make it easier to use Canvas Dashboards, we've added tools to the Workfront MCP. Now, you can build and manage Canvas Dashboards through chat, and the dashboard and widgets are created for you using your Workfront data. This works from MCP clients like Claude and Cursor.
 
@@ -93,8 +93,8 @@ For more information, see [Use Canvas Dashboards](/help/quicksilver/reports-and-
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. 
 
@@ -105,8 +105,8 @@ When you copy a widget, a dialog box now opens where you select the destination 
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
 
@@ -120,7 +120,7 @@ For more information, see [Report filter reference for Canvas Dashboards](/help/
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 You can now Copy a Canvas Dashboard using the new **Copy dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
 
@@ -166,7 +166,7 @@ This change does not impact the way current reports function.
 >
 >Preview: August 27, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 The new pivot table report type in Canvas Dashboards aggregates data with accurate, complete roll-ups. You can build metrics like counts, sums, and averages directly on your dashboard, then drill into the underlying records behind any total.
 
@@ -178,7 +178,7 @@ For more information, see [Build a pivot table report in a Canvas Dashboard](/he
 >
 >Preview: August 13, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 Scheduled reports now require an end date to prevent indefinite delivery. Schedules that pass their end date are automatically deactivated.
 
@@ -192,7 +192,7 @@ For more information, see [Schedule an automatic report delivery](/help/quicksil
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 You can now add native reference fields to lists and reports in Workfront.
 
@@ -207,7 +207,7 @@ For information about adding fields to reports, see [Create a custom report](/he
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 You now see selected options for multi-select custom fields in a consistent, predictable order on legacy lists and reports. Field order is determined by how the fields are arranged in the custom form.
 

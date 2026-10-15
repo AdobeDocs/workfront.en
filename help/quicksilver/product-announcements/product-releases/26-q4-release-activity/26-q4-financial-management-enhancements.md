@@ -25,8 +25,8 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Multiple updates have been made to the billing rates functionality on a project template.
 
@@ -48,7 +48,7 @@ For more information, see [Edit project templates](/help/quicksilver/manage-work
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 Multiple updates have been made to the company billing rates functionality.
 
@@ -72,7 +72,7 @@ For more information, see [Override job role billing rates at the company level]
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 >This feature is only available for organizations on the Workflow Ultimate package.
 
 When using rate attributes as filters in various areas of Workfront such as Advanced Assignments, additional validation is now applied to parent-child filtering.
