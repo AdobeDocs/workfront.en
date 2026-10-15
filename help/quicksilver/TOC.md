@@ -1928,6 +1928,12 @@ feature-set: Workfront
   * [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc} [Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Move to Workfront on Adobe cloud storage {#move-to-adobe-cloud-storage}
+    * [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [What's different on Adobe cloud storage](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Enable Adobe cloud storage for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Convert legacy objects to Adobe cloud storage](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
