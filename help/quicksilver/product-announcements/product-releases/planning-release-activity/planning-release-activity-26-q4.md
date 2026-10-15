@@ -25,7 +25,21 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
 
 ## Create and manage business rules with Coworker and the Workfront MCP server for Workfront Planning
 
@@ -33,6 +47,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >
 >Preview: October 12, 2026
 >Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 We have added skills to Coworker and the Workfront MCP server to manage Planning business rules.
 

@@ -25,8 +25,8 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 
 The following changes have been made to enhanced list filters and groupings:
 
@@ -45,8 +45,8 @@ For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/nav
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 
 The following Workfront lists now use the enhanced list format:
 
@@ -79,7 +79,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 In all enhanced lists, the following updates are now available:
 
@@ -94,7 +94,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 The following Workfront lists now use the enhanced list format:
 
@@ -155,7 +155,7 @@ For more information, see [Left navigation in Adobe Workfront](/help/quicksilver
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Multiple updates have been made to enhanced lists:
 
@@ -170,7 +170,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 When you hover over an object's breadcrumb, you can now copy its name and link together in one action. This makes it faster to share objects in Slack, email, or other tools, without copying the name and URL separately.
 

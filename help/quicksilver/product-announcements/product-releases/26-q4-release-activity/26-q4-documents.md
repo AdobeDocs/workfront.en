@@ -51,8 +51,8 @@ For more information, see:
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -68,8 +68,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 
 You can now group multiple documents under a single approval workflow, so they move through the same stages together. 
 
@@ -84,8 +84,8 @@ For more information, see [Create a grouped approval](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Preview: This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 16, 2026
+>Production for everyone: October 16, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
@@ -98,7 +98,7 @@ For more information, see <!-- [Add a web link as a document](/help/quicksilver/
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 
@@ -130,7 +130,7 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 >
 >Preview: N/A
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
 
@@ -144,7 +144,7 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 >
 >Preview: N/A
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 When a document has a proof attached, the "Go to review" link in approval emails now opens the proof viewer directly, so reviewers and approvers can start their review right away. If a document has no proof, the link continues to open the Approvals section of the document, as before.
 
@@ -154,7 +154,7 @@ When a document has a proof attached, the "Go to review" link in approval emails
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 You can now add a Workfront Team as an approver or reviewer on a document approval or approval template, instead of adding each person individually:
 
@@ -174,7 +174,7 @@ For more information, see:
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 If your organization uses Adobe cloud storage and you have a Frame.io Enterprise license, you can now choose a Frame.io workspace in the Project Details on a project template. Projects created from the template automatically use the workspace set on the template, so projects are routed to the desired Frame.io workspace with no extra action needed at project creation.
 
@@ -194,7 +194,7 @@ For more information, see [Edit project templates](/help/quicksilver/manage-work
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -216,8 +216,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Preview: N/A
->Production for everyone: October 15, 2026
->This feature did not release in the Production fast release on September 17, 2026, as originally planned. It will now be available in Production for everyone on October 15, 2026.
+>Production for everyone: October 16, 2026
+>This feature did not release in the Production fast release on September 17, 2026, as originally planned. It will now be available in Production for everyone on October 16, 2026.
 
 When you set a custom message on a document approval, that message now also appears in the subject line of the approval-request email, led by the due date when one is set. This lets reviewers see what needs attention and by when directly from their inbox, without opening the email.
 
@@ -229,7 +229,7 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 If your organization uses Adobe cloud storage, the Versions panel in the new Documents area has a new design:
 
@@ -247,7 +247,7 @@ For more information, see [Manage document versions](/help/quicksilver/documents
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 If your organization uses Adobe cloud storage, the Approvals panel in the new Documents area now shows approval history across versions:
 
@@ -280,7 +280,7 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 If your organization uses Adobe cloud storage, you can link individual assets from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
 
@@ -296,7 +296,7 @@ For more information, see [Link content from Experience Manager Assets with Adob
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 16, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 
