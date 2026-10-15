@@ -270,7 +270,12 @@ You can use either the Planning Designer, or the AI Assistant or <span class="pr
 
 ## Create or update objects using the Planning Designer
 
-You can create or update objects in Workfront Planning either by using the Planning Designer, or the AI Assistant or <span class="preview"> Coworker</span>, unless otherwise specified. 
+You can create or update objects in Workfront Planning either by using the Planning Designer, the AI Assistant or <span class="preview"> Coworker</span>, unless otherwise specified. 
+
+>[!TIP]
+>
+>We recommend that you search for an existent workspace before you start creating the same one. The Planning Designer might display an error message if a workspace already exists. 
+
 
 1. Log in to Workfront, then click the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, then click **Planning**. 
 

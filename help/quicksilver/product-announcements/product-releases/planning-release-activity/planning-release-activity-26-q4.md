@@ -27,6 +27,36 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 <!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Create and manage business rules with Coworker and the Workfront MCP server for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 12, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+We have added skills to Coworker and the Workfront MCP server to manage Planning business rules.
+
+You can now create, list, view, update, and delete business rules for record types using either Coworker or the Workfront MCP. The new skills also help you generate business-rule formulas that the formula engine accepts, so you get fewer invalid formulas.
+
+For information, see [Workfront skills in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) or [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
@@ -296,7 +326,7 @@ You can customize week labels which are visible in the timeline view. You can ch
 
 Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filters for connected record fields
 
