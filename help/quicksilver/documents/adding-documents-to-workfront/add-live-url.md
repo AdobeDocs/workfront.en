@@ -73,4 +73,4 @@ To request approval on the web link, see [Create a document approval workflow](/
 ## Known limitations
 
 * There is a temporary issue with web link documents created in Frame.io. If you create a web link in Frame.io and then create an approval on it in Workfront, the document will not open in Frame.io. Web links created in Workfront are not affected. Until this is resolved, create web link documents in Workfront before starting an approval.
-* 
+* You cannot currently create new versions of web link documents in Frame.io. If you need to create a new version of a web link document, create the new version in Workfront.
