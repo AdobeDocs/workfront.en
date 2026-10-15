@@ -206,7 +206,7 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 >
 >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is still available to these organizations.
 
-For more information, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+For more information, see [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## AI Assistant icon removed from the record Details preview box in preparation for the CX Enterprise Coworker launch
 
@@ -296,7 +296,7 @@ You can customize week labels which are visible in the timeline view. You can ch
 
 Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filters for connected record fields
 

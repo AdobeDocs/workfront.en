@@ -111,6 +111,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## Updated experience when sharing a request form
@@ -191,7 +192,7 @@ You can set up to 100 custom quarters. Prior to this update you could set up onl
 
 There are no changes in the custom quarter experience for customers who have not purchased Workfront Planning.  
 
-For more information, see [Enable custom quarters for projects](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+For more information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
 ## Calculate all dependent formulas at the same time 
 

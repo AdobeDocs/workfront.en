@@ -334,6 +334,58 @@ The sections below describe the following:
 
     For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
+
+#### GenStudio Activations overview
+
+<!--
+Some commented out information here comes from glean
+-->
+
+Activations are GenStudio record types available in the GenStudio workspace in Workfront Planning. GenStudio uses Activations to track and manage ad activations (whether an add is drafted or published) as part of campaign execution. 
+
+Consider the following when working with Activations: 
+
+* You cannot create an activation record from Workfront Planning. 
+
+
+* A GenStudio Project maps 1:1 to a Workfront Planning workspace; activations are stored in and referenced from that workspace. 
+
+* Visibility and actions depend on your access to that GenStudio project and workspace.  
+
+* GenStudio adds an extra layer of protection so critical records (including Activations) can't be modified or deleted outside intended controls, even by system administrators.  
+
+* When you activate from GenStudio, activation details are recorded and tracked in Workfront Planning. GenStudio and Planning keep shared records (Campaigns, Products, Personas, Activations, and more) aligned.  
+
+<!--
+
+<div class="preview">
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+</div>
+
+-->
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
+
 ### Record type fields in the GenStudio workspace
 
 Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
