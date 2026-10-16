@@ -42,16 +42,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
+>Workfront no longer recommends using API keys for new integrations. Instead, use one of the following authentication methods through Adobe Developer Console:
 >
->* Server authentication with JWT
->* User authentication with OAuth2
+>* Server-to-server authentication
+>* User authentication
 >
->For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>API keys continue to work at this time, but Adobe recommends planning new integrations around Adobe Developer Console authentication.
 >
->For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Workfront's legacy custom OAuth2 service is also being retired. New custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027.
 >
->For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>For migration information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 

@@ -146,16 +146,18 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 
 >[!IMPORTANT]
 >
->Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
+>Workfront no longer recommends using API keys for new integrations. Use Adobe Developer Console authentication instead:
 >
->* Server authentication with JWT
->* User authentication with OAuth2
+>* Server-to-server authentication
+>* User authentication
 >
->For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>API keys continue to work at this time, but Adobe recommends planning new integrations around Adobe Developer Console authentication.
 >
->For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
+>Workfront's legacy custom OAuth2 service is being retired. New custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027.
 >
->For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
+>For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>For migration information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 >[!NOTE]
 >
@@ -163,53 +165,9 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Using a valid username and password, you can use the following request to obtain a session ID:
+Legacy examples for the `/login` endpoint and API-key-based login should no longer be used for new integrations.
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-This sets a cookie to authenticate future requests as well as return a JSON response with the newly created sessionID, the userID of the logged in user, and other session attributes.
-
->[!NOTE]
->
->If you have a designated API user who is also an administrator, Workfront strongly suggests you use an API Key to log in.
-
-**Generating an API Key**
-
-You can generate&nbsp;an API Key when you log into the system as that user, as shown in the following example:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**Retrieving a Previously-Generated API Key**
-
-You can also retrieve an API Key that has been previously generated for a particular user by running getApiKey:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-You can then use this result to authenticate any API call by adding "apiKey" as a request parameter with this value in place of a sessionID or username and password. This is beneficial from a security perspective.
-
-The following request is an example of retrieving data from a project using the apiKey:
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**Invalidating an API Key**
-
-If the apiKey value has been compromised, you can run "clearApiKey" which invalidates the current API Key, as shown in the following example:
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-Once cleared, you can run getApiKey again to generate a new API Key.
+For current authentication guidance, use Adobe Developer Console authentication. For migration details from legacy Workfront OAuth2 applications, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 ### Logout
 
