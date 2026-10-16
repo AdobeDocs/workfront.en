@@ -52,7 +52,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Add a web link as a document
 
-You can upload an html web page to Workfront as a web link. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file. For more information about how Frame.io handles web links, see [Frame.io web links](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+You can upload an html web page to Workfront as a web link. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file. For more information about how Frame.io handles web links, see [Frame.io web links](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 <!--
 >[!IMPORTANT]
