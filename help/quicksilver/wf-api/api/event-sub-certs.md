@@ -9,13 +9,15 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rFy1Sc7UKGbenuOywbCTw4ezfmmRRDKMihHJD--LPto
+TQID: 'https://experienceleague.adobe.com/rFy1Sc7UKGbenuOywbCTw4ezfmmRRDKMihHJD--LPto'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -116,12 +118,25 @@ For more information, see
 
 ## Download certificates
 
-Click the following links to download the client certificates.
+Download the ZIP file containing the current Workfront event subscription client certificates. These certificates expire on April 25, 2027.
 
+[Download client certificates](assets/event-subscription-certificates-nov02.zip)
+
+| Environment | Certificate file |
+| -- | -- |
+| Production | event-subs-prod-cert-nov02.crt |
+| Preview | event-subs-preview-cert-nov02.crt |
+| Sandbox | event-subs-sandbox-cert-nov02.crt |
+
+<!--
 * [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
 * [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
 * [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
 >You can use the same client certificate for both Sandbox environments.
+
+
+

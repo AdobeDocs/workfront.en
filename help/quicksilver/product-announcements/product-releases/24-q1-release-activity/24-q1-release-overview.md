@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-TQID: https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k
+TQID: 'https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ subfeature_v2:
     internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
     internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

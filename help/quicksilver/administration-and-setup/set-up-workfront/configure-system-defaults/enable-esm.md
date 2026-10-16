@@ -2,22 +2,29 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Enable Adobe cloud storage for Your Organization
+title: Enable Adobe cloud storage for your organization
 description: You can enable Adobe cloud storage for your organization to use a unified storage solution for all Adobe products.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+
 ---
 # Enable Adobe cloud storage for your organization
 
-Adobe cloud storage is a unified storage solution for all Adobe products. It is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products.
+Adobe cloud storage is a unified, cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. This article describes how to enable Adobe cloud storage as the default storage option for your entire organization or for specific groups. 
 
-Adobe cloud storage is enabled by default for new customers and can be enabled for existing customers upon contract renewal.
+This is the single action that turns on the new experience: once you enable it, new projects use Adobe cloud storage, which includes the Frame.io viewer and Unified Approvals. Nothing changes until you choose to enable Adobe cloud storage.
 
-For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Because you control the timing, you can test the experience, update your Workfront Fusion scenarios, and plan for reporting changes before anyone works in it. For more information about what's different and how to plan your rollout, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+
+## How approvals work with Adobe cloud storage
+
+Adobe cloud storage determines which approval service a project uses. Moving to a version of Workfront that supports Adobe cloud storage doesn't automatically switch your whole organization to Unified Approvals. Instead, the approval service depends on each project's storage model:
+
+* **Adobe cloud storage projects** use Unified Approvals by default, with review and approval in the Frame.io viewer.
+* **Legacy Workfront storage projects** keep the approval service they already use. Depending on your organization, this could be Unified Approvals or legacy document approvals.
+
+For more information about the review and approval experience on Adobe cloud storage, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Access requirements
 
@@ -65,10 +72,10 @@ To enable Adobe cloud storage for your organization:
 
 1. In the Applies to drop-down menu, choose one of the following options:
 
-    - **Entire organization**: This option applies the default storage provider to your entire Workfront environment. Any time a user creates a new project, the default storage provider will be used.
-    - **Specific groups**: This option applies the default storage provider only to specific groups within your organization. Any time a user in the specified groups creates a new project, the default storage provider will be used
+    * **Entire organization**: This option applies the default storage provider to your entire Workfront environment. Any time a user creates a new project, the default storage provider will be used.
+    * **Specific groups**: This option applies the default storage provider only to specific groups within your organization. Any time a user in the specified groups creates a new project, the default storage provider will be used.
 
-    ![storage preference groups](assets/configure-storage-preference.png)
+        ![storage preference groups](assets/configure-storage-preference.png)
 
 1. Click **Save**.
 

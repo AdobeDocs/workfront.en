@@ -7,8 +7,17 @@ description: Groups and teams are collections of users in Adobe Workfront. Learn
 author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Groups vs. teams in Workfront
 

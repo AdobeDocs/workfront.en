@@ -6,10 +6,16 @@ description: Overview of reconciling resource allocations between projects and i
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

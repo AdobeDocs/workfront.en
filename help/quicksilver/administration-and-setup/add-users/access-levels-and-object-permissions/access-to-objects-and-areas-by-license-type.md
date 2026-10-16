@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-TQID: https://experienceleague.adobe.com/UV5Oh-MjdnrGMJv62onf7uC8sFcbsyyQiAoJsxK9NFk
+TQID: 'https://experienceleague.adobe.com/UV5Oh-MjdnrGMJv62onf7uC8sFcbsyyQiAoJsxK9NFk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,7 +17,9 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner

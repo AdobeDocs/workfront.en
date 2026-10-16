@@ -1,11 +1,11 @@
 ---
-title: "[!DNL Adobe Workfront] documentation"
+title: '[!DNL Adobe Workfront] documentation'
 description: Documentation for [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QmFw0pkobCJGrlGBAiK-XPDBjNQ2JWQVuLnlCFQaUbc
+TQID: 'https://experienceleague.adobe.com/QmFw0pkobCJGrlGBAiK-XPDBjNQ2JWQVuLnlCFQaUbc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
@@ -36,9 +38,16 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 >[!TAB Latest release]
 
-* [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+
+>[!TAB 2027 releases]
+
+* [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
 
 >[!TAB 2026 releases]
 
@@ -47,6 +56,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
 >[!TAB 2025 releases]

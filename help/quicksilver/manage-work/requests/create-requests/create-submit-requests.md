@@ -223,6 +223,11 @@ To create a request in the Workfront web app:
     >   
     >For more information about how to publish a project as a Help Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
+1. (Conditional) If you are submitting the request from the New request experience and your organization allows **Form Fill** powered by AI, you can upload documents, emails or links to other objects (project, tasks, or issues) as prompts. AI uses these items to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
+
+
+   For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 1. In the **New request** form, do one of the following:
 
    * (Conditional) Select an available draft from the notification message displayed under the Request Type field.

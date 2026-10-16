@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Create a predecessor relationship using the Predecessors area
 
+{{highlighted-preview}}
+
 <!-- Audited: 5/2025 -->
 
 You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you wouldn't want to host a party (dependent task) before you send out the invitations (predecessor task).
@@ -117,5 +119,6 @@ To create a predecessor task for a project task:
 1. Click **Save**.
 
 1. (Optional) To remove a predecessor, select it from the list of predecessors, then click the **Remove** icon ![Remove icon](assets/remove-or-delete-icon.png).
+   <span class="preview">To remove a predecessor, select it in the list of predecessors and click **Remove** in the action bar at the bottom of the screen.</span>
 
    The predecessor is removed from the list. The predecessor task is not deleted from its project. 

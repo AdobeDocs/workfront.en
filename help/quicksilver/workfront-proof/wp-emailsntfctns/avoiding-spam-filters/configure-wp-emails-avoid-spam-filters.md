@@ -3,17 +3,24 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure [!DNL Workfront Proof] emails to avoid spam filters
-description: "Your email client's spam filter serves an important purpose: protecting you from annoying and possibly malicious spam emails. But, if you don't have the correct settings in the spam filter, it can keep you from seeing the following important [!DNL Workfront Proof] emails: proof email notifications, newsletters, and special communications."
+description: 'Your email client''s spam filter serves an important purpose: protecting you from annoying and possibly malicious spam emails. But, if you don''t have the correct settings in the spam filter, it can keep you from seeing the following important [!DNL Workfront Proof] emails: proof email notifications, newsletters, and special communications.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+TQID: 'https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

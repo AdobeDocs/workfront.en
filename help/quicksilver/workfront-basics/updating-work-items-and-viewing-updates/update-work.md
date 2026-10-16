@@ -8,13 +8,15 @@ feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
+TQID: 'https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
@@ -34,11 +36,11 @@ topic_v2:
 <!-- Audited: 4/2025 -->
 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -616,6 +618,30 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 1. Continue adding your update and click **Reply** to add the comment.
 -->
+
+<div class="preview">
+
+## Pin comments
+
+You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+
+1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+
+   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+
+   The number of pinned threads is listed in parentheses to the right of the section name. 
+
+   ![Pinned threads in Comments section](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+
+</div>
+
+
 
 ## Delete a comment or a reply
 

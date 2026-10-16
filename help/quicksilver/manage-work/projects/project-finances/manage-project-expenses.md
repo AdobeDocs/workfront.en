@@ -55,11 +55,11 @@ The total amount of your expenses from all the tasks and project contributes to 
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>Edit access to Projects and Financial Data</td> 
+   <td>Edit access to Projects and Tasks</td> 
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>Contribute or higher permissions to the project, with permissions to View or Edit General Finance</td> 
+   <td><p>To add expenses, and edit or delete expenses that you created: Contribute or higher permissions to the project or task, with permissions to Add expenses.</p><p>To view, edit, or delete expenses added by other users: Manage permissions to the project or task, with permissions to View Cost rates (for viewing) or Edit Cost rates (for editing or deleting).</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Delete Expenses
 
-1. Go to the project you want to delete an expense for.
+1. Go to the project or task you want to delete an expense for.
 1. Click **Expenses** in the left panel.
 1. Select the expense that you want to delete, then click the **Delete** icon ![Delete](assets/delete.png).
 1. In the **Delete Expense** dialog, click **Yes, Delete It**.

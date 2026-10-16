@@ -9,13 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-TQID: https://experienceleague.adobe.com/UFCo9Uq4G5kh9C35EH9OzpCe3Ra75gzC-B7Eytt-rX0
+TQID: 'https://experienceleague.adobe.com/UFCo9Uq4G5kh9C35EH9OzpCe3Ra75gzC-B7Eytt-rX0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
@@ -58,7 +60,7 @@ Workfront provides the following project statuses with your Adobe Workfront inst
   <tr> 
    <td>Planning (required status)</td> 
    <td> <p>The project manager is planning the timeline of the project, the assignment of the tasks, and the approvals. The project manager sets this status on a project manually.</p> <p><b>TIP</p> <p> We recommend that you set the default status for new projects in Workfront to Planning. As a Workfront administrator, you can change the default status for all your new projects in the Projects area of Project Preferences.</p> <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configure system-wide project preferences</a>.</p></td> 
-   <td> <p>Users on the project team can see the project on their Projects lists by default (without a custom filter), in the Projects area of Workfront. The tasks and issues that are assigned to them on the project do not populate their Work List. Only approvals and accepted work items display in the Home Work List.</p> <p>No notifications are sent while a project has this status.</p> <p>We recommend that you make all the changes that can trigger an update to the timeline of the project, or any changes to tasks and issue assignments while the project is in the Planning status. This minimizes the amount of notifications users receive.</p> <p>The timeline of the project is not calculated automatically by the system.</p> </td> 
+   <td> <p>Users on the project team can see the project on their Projects lists by default (without a custom filter), in the Projects area of Workfront. The tasks and issues that are assigned to them on the project do not populate their Work List. Only approvals and accepted work items display in the Home Work List.</p> <p>When a project is in Planning status, some notifications about assignments, approvals, and issue activity are sent to users on the project team, while many timeline-related notifications are not.</p> <p>We recommend that you make all the changes that can trigger an update to the timeline of the project, or any changes to tasks and issue assignments while the project is in the Planning status. This minimizes the amount of notifications users receive.</p> <p>The timeline of the project is not calculated automatically by the system.</p> </td> 
   </tr> 
   <tr> 
    <td>Current (required status)</td> 

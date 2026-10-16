@@ -1,11 +1,19 @@
 ---
-title: Create Planning Records from Ideation Space Briefs
-description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space. 
+title: Create or Edit Planning Records from Ideation Space Briefs
+description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space.
 role: User, Admin
 author: Alina
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
-# Create Planning records from Ideation space briefs
+# Create or edit Planning records from Ideation space briefs
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -52,8 +60,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
+<!--
+Not available for beta:
 Or
-<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,13 +120,13 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-## Considerations about using the Ideation space to create records
+## Considerations about using the Ideation space to create or edit Planning records
 
-* You can only launch the Ideation space from Workfront Planning or from the Main Menu of Workfront, as you create or edit records. The Ideation space does not exist outside of Workfront. 
-* To access the Ideation space, you must have a workspace and a record type in Workfront Planning.
+* You must launch the Ideation space from Workfront Planning to be able to create or edit a Planning record. Accessing the ideation space from the Workfront Main menu does not connect an ideation brief to a Planning record. 
+* To use the Ideation space to create or edit records, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
-* When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated canvas in the Ideation space is not deleted.
-* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. 
+* When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated space is not deleted.
+* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change?-->
 * The following scenarios exist when fields are created, edited or removed in Workfront Planning: 
 
     * New fields created on records linked to Ideation briefs are added daily to the brief. New fields appear empty in the Ideation brief. 
@@ -122,7 +134,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Renamed fields update their names in the brief. 
 * You can add documents as cards in the Ideation space. This also includes images.
 
-    The following file types are supported: PDF, Excel, CSV, PNG (and other image formats), Word, PowerPoint. Videos are not supported. 
+    You can add the following file types: PDF, Excel, CSV, PNG (and other image formats), Word, PowerPoint. Videos are not supported. 
 
     All uploaded documents are converted to PDF on the backend for processing.
 * You can drag and drop records directly from Workfront Planning onto the space, and they appear the same way as manually uploaded files.
@@ -189,7 +201,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
     This finishes creating the record with the additional information and it adds it to the record type you originally selected.
 
-## Edit existing records in Ideation space
+## Edit existing records using the Ideation space
 
 You can open the Ideation space from existing records to update them. 
 
@@ -220,7 +232,7 @@ You cannot bulk-edit records in the Ideation space.
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel

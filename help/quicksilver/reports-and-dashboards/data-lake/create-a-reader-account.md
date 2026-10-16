@@ -9,13 +9,15 @@ feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/quzpgKox47Evsg8rb-rPl-RPRYrTy-D1fmIEjgduCRA
+TQID: 'https://experienceleague.adobe.com/quzpgKox47Evsg8rb-rPl-RPRYrTy-D1fmIEjgduCRA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -67,6 +69,10 @@ For more detail about the information in this table, see [Access requirements in
 ## Create a reader account
 
 You must create a new Snowflake reader account for your organization before you can begin creating connections. 
+
+The reader account provides read-only access to your Data Connect data, which you can query from Snowflake or a third-party visualization or data processing tool. Data Connect shares your data through Snowflake views only. Database tables aren't included.
+
+For more information, see [Create a reader account](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create) in the Snowflake documentation.
 
 >[!IMPORTANT]
 >

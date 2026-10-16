@@ -7,13 +7,15 @@ description: You can use filters in Adobe Workfront to reduce the amount of info
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+TQID: 'https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner

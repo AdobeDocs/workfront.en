@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Canvas Dashboards beta: release activity"
+title: 'Canvas Dashboards beta: release activity'
 description: Weekly release activity for the Adobe Workfront Canvas Dashboards beta
 author: Courtney
 feature: Product Announcements
@@ -9,10 +9,16 @@ hide: true
 exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iLGfLOfnqg85aMeaxM60-Y-5VahJnf6SKKNrfGuAIxI
+TQID: 'https://experienceleague.adobe.com/iLGfLOfnqg85aMeaxM60-Y-5VahJnf6SKKNrfGuAIxI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

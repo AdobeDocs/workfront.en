@@ -6,13 +6,18 @@ description: You can download a single version or all versions of a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-TQID: https://experienceleague.adobe.com/tv5rjRqUbD3OuZyqGas4Qu0gSwhS5dUmsCcgU5qt36w
+TQID: 'https://experienceleague.adobe.com/tv5rjRqUbD3OuZyqGas4Qu0gSwhS5dUmsCcgU5qt36w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

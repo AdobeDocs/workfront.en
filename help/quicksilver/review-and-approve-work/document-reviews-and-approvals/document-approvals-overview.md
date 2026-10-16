@@ -9,13 +9,18 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
+TQID: 'https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -41,16 +46,18 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ## Built on Adobe cloud storage
 
-Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
+Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
 
 Key benefits of Adobe cloud storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions with Adobe Identity Management system (IMS) for secure access control
-* End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
+* End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps
 * Scalable storage and quota management for enterprise needs
 
 For more details, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Creative Cloud apps (Photoshop, Illustrator, and InDesign) can also access Workfront projects directly. For more information, see [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Unified review and approval 
 

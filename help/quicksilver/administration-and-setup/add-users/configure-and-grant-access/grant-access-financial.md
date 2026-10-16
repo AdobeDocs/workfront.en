@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-TQID: https://experienceleague.adobe.com/96BLmX7DGhWQUbgTrCW8lBq64p29nRA-ZtmtvEZSxLk
+TQID: 'https://experienceleague.adobe.com/96BLmX7DGhWQUbgTrCW8lBq64p29nRA-ZtmtvEZSxLk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,7 +16,9 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -115,10 +117,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights to view or edit financial data on that object are determined by a combination of two things:
 
-* The permissions that you grant to your recipient for the object
-* The recipient's access level settings for the object's type
+* The permissions that you grant to your recipient for the specific object
+* The recipient's access level settings for the object's type and for Financial Data
+
+Access to custom financial fields can also be restricted, based on the user's permissions and access level settings. For more information, see [Restrict access to financial data in custom fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
 ## Access to financial information by license type
 

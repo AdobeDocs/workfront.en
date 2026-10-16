@@ -3,6 +3,9 @@ title: Adobe Workfront Scenario Planner with the 21.4 release
 description: Adobe Workfront Scenario Planner with the 21.4 release
 author: Luke
 draft: Probably
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 ---
 # Adobe Workfront Scenario Planner with the 21.4 release
 

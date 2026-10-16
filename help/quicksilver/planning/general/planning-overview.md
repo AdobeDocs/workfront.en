@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EXDQUUA9-OKoA8Yj3de1TnanFEgXfKPvP8ksBGChiSI
+TQID: 'https://experienceleague.adobe.com/EXDQUUA9-OKoA8Yj3de1TnanFEgXfKPvP8ksBGChiSI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,9 +19,9 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
-subfeature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
+subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
@@ -49,11 +49,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 >[!IMPORTANT]
 >
@@ -181,11 +180,11 @@ To locate Workfront Planning:
 * [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md): General information about Workfront Planning, when purchased as a standalone product. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
 
-    <!--
-    >[!NOTE]
-    >
-    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
-    -->
+<div class="preview">
+
+* [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): A conversational interface where you describe a goal in plain language, and then it plans, executes, and validates the work across your Workfront Planning and other connected Adobe systems before bringing it back for your approval. CX Enterprise Coworker preserves everything AI Assistant does today while adding more powerful end-to-end capabilities in both a new full-screen experience and the Workfront right rail.
+
+</div>
 
 * [Adobe Workfront Planning modules for Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account. You must purchase an additional license to have access to Workfront Fusion. 
 

@@ -5,7 +5,12 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Adobe Workfront MCP server tools
@@ -19,6 +24,19 @@ For information about how to use these tools through an AI agentic platform, see
 >[!IMPORTANT]
 >
 >The AI agentic platform acts in Workfront using your Workfront account, access level, and object permissions. A tool only works if you have the corresponding access in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
+
+## How product entitlements affect the tool list
+
+The tools that appear in your AI agentic platform depend on your organization's Workfront product entitlements.
+
+* Customers licensed only for Workfront Planning see Planning tools, but not Workflow tools.
+* Customers licensed only for Workfront Workflow see Workflow tools, but not Planning tools.
+* Customers licensed for both Workfront Workflow and Workfront Planning see both sets of tools.
+* Insights and context tools are available to all customers.
+
+If your organization is not entitled to a product area, the related tools do not appear in the tool list for that connection. If an AI agentic platform attempts to call a tool that is not available for your entitlements, the request is blocked.
+
+The following tables identify the product area each tool belongs to.
 
 
 ## Read and write actions
@@ -37,10 +55,15 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Approvals tools
 
+Product requirement: All customers
+
+There are currently no entitlement limitations on approvals tools.
+
 ### Documents
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
+| Upload Document to Workfront** | `upload_document_ui` | It lets you upload a file to a project, task, issue, program, portfolio or template, and optionally into a folder. | Write |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
@@ -53,7 +76,7 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
+**This tool opens an interactive upload panel in the chat, so it only works in tools that support MCP Apps. Currently, only Claude is supported for this tool. It appears under "Interactive tools" in the tool permissions and asks for approval by default.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -113,6 +136,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 | Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
+
+Product requirement: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -198,6 +223,8 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Workflow tools
 
+Product requirement: Workfront Workflow
+
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
 ### Objects and fields
@@ -281,7 +308,13 @@ Example prompts:
 
 ### Insights tools
 
+Product requirement: Workfront Workflow or Workfront Planning.
+
 Insights tools retrieve information about Workfront objects.
+
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
@@ -297,18 +330,53 @@ Insights tools retrieve information about Workfront objects.
 
 ## Feedback tools
 
+Product requirement: Workfront Workflow or Workfront Planning.
+
 <span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
 | <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
 
+## Reporting tools
 
+Product requirement: All customers
+
+Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
+
+
+### Canvas Dashboards
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| List Dashboards | `reporting_relist_dashboards` | Lists the Reporting dashboards visible to you. Supports the `view` values `"my"`, `"shared"`, `"all"`, and `"favorites"`. Returns dashboard metadata only, including a URL to open each dashboard. | Read |
+| Get Dashboard | `reporting_get_dashboard` | Fetches a Canvas Dashboard by ID, including metadata, layout, prompts, filter, and widget IDs. Widget data is not hydrated. | Read |
+| Get Widget | `reporting_get_widget` | Fetches a widget shell and its flattened content configuration. Field references are returned as `{id, label, dataType}` so they can be reused directly in the `reporting_update_*_widget` tools. Supported content types are Table, KPI, and MultiSeries. | Read |
+| Create Dashboard | `reporting_create_dashboard` | Creates an empty Reporting dashboard. Returns the full created dashboard, including its ID, title, description, currency, creator ID, create date, and empty widget, prompt, and filter collections. | Write |
+| Update Dashboard | `reporting_update_dashboard` | Partially updates a dashboard's title, description, currency, prompt, filter, and per-widget `ignoreDashboardFilters` and layout settings. Omitted fields are left unchanged, and prompt and filter are fully replaced when provided. | Write |
+| Create Table Widget | `reporting_create_table_widget` | Creates a Table widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update Table Widget | `reporting_update_table_widget` | Updates an existing Table widget and its report configuration. Replaces the stored table configuration, including columns, buckets, row limit, caption, description, condition, and run-as-user settings. | Write |
+| Create KPI Widget | `reporting_create_kpi_widget` | Creates a KPI widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update KPI Widget | `reporting_update_kpi_widget` | Updates an existing KPI widget and its report configuration. `fieldId` and `aggregation` are required, and the underlying report is fully replaced. | Write |
+| Create Chart Widget | `reporting_create_chart_widget` | Creates a Chart widget and its report configuration. Supported chart types are BAR, COLUMN, LINE, and PIE, including SIMPLE, MULTI_SERIES, and STACKED variants where supported. | Write |
+| Update Chart Widget | `reporting_update_chart_widget` | Updates an existing Chart widget and its report configuration. `aggregationFieldId`, `aggregationType`, `groupByFields`, and `chartType` are required, and the underlying report is fully replaced. | Write |
+| Copy Widget | `reporting_copy_widget` | Copies an existing widget to the same dashboard or to a different dashboard, duplicating the widget and its report configuration. | Write |
+| Copy Dashboard | `reporting_copy_dashboard` | Copies a dashboard to a new dashboard, including its widgets and report configurations. You can optionally copy only a subset of widgets and choose whether to include the prompt and filter. | Write |
+| Delete Object | `reporting_delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
-When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically. You don't need to reconnect or change anything on your side.
+When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically.
 
+The tool list is set when the connection starts. If your organization's product entitlements change, the updated tool list appears the next time you start a new connection to the Workfront MCP server.
+
+
+
+## Intent telemetry
+
+Workfront MCP server tracks user intent for customers. Intent data gathered is generic for telemetry purposes, and only ever gathered for the intent of a user as it relates to the Workfront product. Prompt intent telemetry is only used to improve existing MCP tools in order to provide more accurate responses. 
+
+Users can disable telemetry collection by reaching out to customer support to file a request.
 
 
 ## Additional tools coming soon
@@ -316,5 +384,3 @@ When Adobe releases a new version of the Workfront MCP server, the AI agentic pl
 We are working on adding the following tools to the Workfront MCP server in the future:
 
 * Boards
-
-

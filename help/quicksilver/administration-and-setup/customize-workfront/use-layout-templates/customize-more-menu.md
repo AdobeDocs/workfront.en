@@ -9,6 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Customize the More menu using a layout template
 
@@ -16,7 +25,7 @@ You can use a layout template to determine the options that appear when a user c
 
 ![Sample More menu for a project](assets/more-menu-display-for-project.png)
 
-For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
+For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md).
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -62,5 +71,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * Click the **Show** ![Show icon](assets/add-secondary-nav-item.png) or **Hide** ![Hide icon](assets/delete-secondary-nav-item.png) icons to display or hide sections in the left panel. You cannot hide items that do not have a **Show** or **Hide** icon.
 
    * Drag items ![Move icon](assets/move-icon---dots.png) to change their order on the left panel.
+
+   >[!NOTE]
+   >
+   >If you hide the **Share** option in the More menu for projects, tasks, or issues, the Share button is hidden in the object header.
 
 1. Click **Done**.

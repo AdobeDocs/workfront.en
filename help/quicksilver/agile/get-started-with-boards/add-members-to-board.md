@@ -8,13 +8,18 @@ feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h8BLZKVxio5iIyDPmJUCm4XFblnNxOuNrX5z0--tPuk
+TQID: 'https://experienceleague.adobe.com/h8BLZKVxio5iIyDPmJUCm4XFblnNxOuNrX5z0--tPuk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -91,11 +96,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Change the board owner
 
-   >[!NOTE]
-   >
-   >Only a system administrator or the current board owner can change the board owner. A board can only have one owner.
-   >
-   >The ability to change the board owner is available on basic, retrospective, and Kanban boards, but not dynamic boards.
+>[!NOTE]
+>
+>Only a system administrator or the current board owner can change the board owner. A board can only have one owner.
+>
+>The ability to change the board owner is available on basic, retrospective, and Kanban boards, but not dynamic boards.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **[!UICONTROL Change board owner]**.

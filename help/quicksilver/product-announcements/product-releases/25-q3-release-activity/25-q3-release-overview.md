@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY
+TQID: 'https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -23,6 +23,8 @@ subfeature_v2:
     internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

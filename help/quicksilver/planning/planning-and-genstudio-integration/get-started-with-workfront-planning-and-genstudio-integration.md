@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+TQID: 'https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,27 +17,19 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -329,6 +321,50 @@ The sections below describe the following:
 * You can edit record information on all records in the GenStudio workspace from Workfront Planning.
 
     For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+
+#### GenStudio Activations overview
+
+<!--
+Some commented out information here comes from glean
+-->
+
+Activations are GenStudio record types available in the GenStudio workspace in Workfront Planning. GenStudio uses Activations to track and manage ad activations (whether an add is drafted or published) as part of campaign execution. 
+
+Consider the following when working with Activations: 
+
+* You cannot create an activation record from Workfront Planning. 
+
+* A GenStudio Project maps 1:1 to a Workfront Planning workspace; activations are stored in and referenced from that workspace. 
+
+* Visibility and actions depend on your access to that GenStudio project and workspace.  
+
+* GenStudio adds an extra layer of protection so critical records (including Activations) can't be modified or deleted outside intended controls, even by system administrators.  
+
+* When you activate from GenStudio, activation details are recorded and tracked in Workfront Planning. GenStudio and Planning keep shared records (Campaigns, Products, Personas, Activations, and more) aligned.  
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### Record type fields in the GenStudio workspace
 

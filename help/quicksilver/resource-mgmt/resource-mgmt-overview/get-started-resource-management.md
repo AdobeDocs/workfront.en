@@ -7,7 +7,7 @@ description: Resource Management allows you to configure your system to accurate
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
+TQID: 'https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer
@@ -68,7 +68,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
 * To schedule or assign resources to actual work (tasks and issues), use the following tool:
 
-  * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users or Task Collaborators to actual work that is currently unassigned or assigned to job roles.
+  * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users or Work Agents to actual work that is currently unassigned or assigned to job roles.
 
      For information about the Workfront Balancer, see [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md). 
   
@@ -113,8 +113,8 @@ The process of managing resources in Workfront includes the following stages:
    * Job Roles  
      For more information about creating job roles, see the article [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-   * Task Collaborators
-     For more information about creating Task Collaborators, see [Configure a Task Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+   * Work Agents
+     For more information about creating Work Agents, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
    
    * Schedules  
      For more information about creating schedules, see the article [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).

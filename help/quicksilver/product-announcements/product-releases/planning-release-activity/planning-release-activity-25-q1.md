@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+TQID: 'https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ subfeature_v2:
     internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,6 +4,15 @@ description: Fourth Quarter 2026 Financial Management enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Fourth Quarter 2026 Financial Management enhancements
 
@@ -11,13 +20,35 @@ This page describes Financial Management enhancements made with the Fourth Quart
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Enhancements to billing rates on templates
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
+
+Multiple updates have been made to the billing rates functionality on a project template.
+
+### For customers on all Workfront and Workflow packages
+
+The Rates area on templates has been updated to an enhanced list.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+### For customers on the Workflow Ultimate package only
+
+Rate attributes are now available to apply to job role billing rates on the template.
+
+For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
 ## Enhancements to company billing rates
 
 >[!NOTE]
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Multiple updates have been made to the company billing rates functionality.
 
@@ -41,7 +72,7 @@ For more information, see [Override job role billing rates at the company level]
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 >This feature is only available for organizations on the Workflow Ultimate package.
 
 When using rate attributes as filters in various areas of Workfront such as Advanced Assignments, additional validation is now applied to parent-child filtering.

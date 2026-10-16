@@ -4,6 +4,15 @@ description: Other enhancements during the Fourth Quarter 2026 release time fram
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 ---
 # Other enhancements during the Fourth Quarter 2026 release timeframe
 
@@ -11,13 +20,66 @@ This page describes enhancements made with the Fourth Quarter 2026 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Updates to enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
+
+The following changes have been made to enhanced list filters and groupings:
+
+* In filters and groupings that use field groups, the groups are now collapsed by default. You no longer have to scroll as far to find the correct group of fields.
+* The filter operators "Has any of" and "Has none of" have been changed to to "Is any of" and "Is none of."
+
+The following changes have been made to enhanced list column headers, to provide consistency across all enhanced lists in Workfront:
+
+* An icon has been added to each header to indicate the type of field that the column represents. For example, a column for Assignees or Users has the icon of a person, and a date field shows a calendar. These icons are also displayed next to fields in the Column manager.
+* Column headers now provide a smoother, more consistent experience when changing the column size.
+
+For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Multiple screens updated to enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
+
+The following Workfront lists now use the enhanced list format:
+
+* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications (This update was removed from the Preview environment on October 14 and will not be part of the quarterly release. These lists will be updated at a later date.)
+* Setup > Documents > Experience Manager Assets
+* Project or Template > Queue Topics
+* Project or Template > Topic Groups
+* Project or Template > Routing Rules
+* Task or Template Task > Predecessors
+
+Updates include the following for some or all the lists:
+
+* A new look and feel of the list, with updates to colors, formatting, and fonts.
+* The option to create a new object in the list was moved to the top right and displays as a blue button.
+* The toolbar was removed. Now, when you select one or more objects in the table, the action bar appears at the bottom of the list in blue.
+* Some columns might have been repositioned or removed, or new columns were added.
+* Some confirmations and warnings have been removed or changed.
+* Saving in some lists is now automatic, and the Save button might have been removed.
+* Some enhanced lists allow columns to be renamed or sorted.
+* Some enhanced lists include the Column manager, which allows you to add and arrange columns. You can select columns by native or custom fields in Workfront.
+* Icons within table cells have been replaced by More menus with multiple options.
+
+NOTE: Not all updates are available on all lists.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 ## Enhanced list updates
 
 >[!NOTE]
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 In all enhanced lists, the following updates are now available:
 
@@ -32,7 +94,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The following Workfront lists now use the enhanced list format:
 
@@ -93,7 +155,7 @@ For more information, see [Left navigation in Adobe Workfront](/help/quicksilver
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Multiple updates have been made to enhanced lists:
 
@@ -108,7 +170,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 When you hover over an object's breadcrumb, you can now copy its name and link together in one action. This makes it faster to share objects in Slack, email, or other tools, without copying the name and URL separately.
 

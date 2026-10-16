@@ -1,9 +1,23 @@
 ---
 title: Manage Your Instance of Adobe Workfront Planning as a Standalone Product
-description: This article describes how you can manage preferences and your customer's information for Adobe Workfront Planning when your organization has purchased is as a standalone product.  
+description: This article describes how you can manage preferences and your customer's information for Adobe Workfront Planning when your organization has purchased is as a standalone product.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Manage your instance of Adobe Workfront Planning as a standalone product
@@ -81,7 +95,7 @@ You can configure up to 100 quarters for your Workfront Planning instance. You c
 
 Configuring custom quarters in Workfront Planning is similar to configuring custom quarters in Workfront. 
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
 ## Configure Customer Info
 

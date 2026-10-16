@@ -6,13 +6,18 @@ description: You can review approvals metrics in Canvas Dashboards.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+TQID: 'https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

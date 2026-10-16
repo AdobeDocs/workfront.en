@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-TQID: https://experienceleague.adobe.com/dxy0JMlWXuf--uVuidCL40tbPt24-2nUorrFYMmUhmM
+TQID: 'https://experienceleague.adobe.com/dxy0JMlWXuf--uVuidCL40tbPt24-2nUorrFYMmUhmM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -21,6 +21,8 @@ subfeature_v2:
     internal-label: Timesheets
   - id: d83a421c-ecb9-4757-b609-c531392f90eb
     internal-label: Create and manage groups
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

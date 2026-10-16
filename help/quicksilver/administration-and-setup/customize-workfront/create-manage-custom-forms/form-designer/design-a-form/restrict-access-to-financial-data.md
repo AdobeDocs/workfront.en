@@ -8,6 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Restrict access to financial data in custom fields
 
@@ -15,7 +29,7 @@ When you create a custom field, you can define optional settings to restrict acc
 
 For information about creating a custom field, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-For information about access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). For information about sharing and permissions, see [Overview of sharing permissions on objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For information about defining access to financial data through access levels and permissions, see [Grant access to financial data](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Access requirements
 
@@ -71,16 +85,27 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >For calculated fields, any format is allowed. All other field types must use the **Currency** format, or the **Finance permission type** field will be unavailable.
 
-1. (Optional) For calculated fields only, turn on the **Automatic permission** option to allow the finance permissions to automatically come from the fields in the formula.
+1. (Optional) For calculated fields only, turn on the **Automatic permission** option to allow the finance permissions to automatically be created from the fields in the formula.
 
 1. Select an option for the **Finance permission type**.
 
-   Users must have this finance permission type before they can view or edit this custom field on the form.
+   This setting defines the type of access and permissions that users must have before they can view or edit this custom field on the form.
 
-   * **No permissions required:** All users can see this field
-   * **General:** Users must have permissions to edit or view General Finance
-   * **Bill:** Users must have permissions to edit or view billing rates
-   * **Cost:** Users must have permissions to edit or view cost rates
+   * **No permissions required:** All users can see the field, regardless of their access level and object permissions.
+   * **General:** Users must have one of these to see the field:
+   
+     * Their access level includes View or Edit access to Financial Data, with access enabled for General Finance.
+     * Their permissions to the object where the custom form is attached include viewing or editing General Finance.
+
+   * **Bill:** Users must have one of these to see the field:
+
+     * Their access level includes View or Edit access to Financial Data, with access enabled for Billing Rates.
+     * Their permissions to the object where the custom form is attached include viewing or editing Billing Rates.
+
+   * **Cost:** Users must have one of these to see the field:
+
+     * Their access level includes View or Edit access to Financial Data, with access enabled for Cost Rates.
+     * Their permissions to the object where the custom form is attached include viewing or editing Cost Rates.
 
    For calculated fields:
    

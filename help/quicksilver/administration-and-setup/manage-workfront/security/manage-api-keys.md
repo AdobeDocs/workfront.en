@@ -10,7 +10,7 @@ role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZZMeRwrZeWgY8HVIHhp9aX-1wi64DCdiZgHsoNkP8ZI
+TQID: 'https://experienceleague.adobe.com/ZZMeRwrZeWgY8HVIHhp9aX-1wi64DCdiZgHsoNkP8ZI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -40,16 +42,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
+>Workfront no longer recommends using API keys for new integrations. Instead, use one of the following authentication methods through Adobe Developer Console:
 >
->* Server authentication with JWT
->* User authentication with OAuth2
+>* Server-to-server authentication
+>* User authentication
 >
->For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>API keys continue to work at this time, but Adobe recommends planning new integrations around Adobe Developer Console authentication.
 >
->For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Workfront's legacy custom OAuth2 service is also being retired. New custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027.
 >
->For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>For migration information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 

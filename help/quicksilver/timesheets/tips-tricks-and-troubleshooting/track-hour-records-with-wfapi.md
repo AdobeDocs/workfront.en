@@ -7,10 +7,16 @@ description: If your organization uses Adobe Workfront to enter hours worked, bu
 author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-TQID: https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE
+TQID: 'https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

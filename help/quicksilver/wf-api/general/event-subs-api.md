@@ -9,10 +9,13 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+TQID: 'https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -35,6 +38,10 @@ topic_v2:
 When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.  
 
 Because event subscriptions send data to another service, they are manage through commands instead of through the Workfront application.
+
+>[!NOTE]
+>
+>To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 

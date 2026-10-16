@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-TQID: https://experienceleague.adobe.com/iVdQWwlLpuiS6rjH4U6FRGhPdibD6tyGmmWhLoG6If4
+TQID: 'https://experienceleague.adobe.com/iVdQWwlLpuiS6rjH4U6FRGhPdibD6tyGmmWhLoG6If4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -94,13 +96,15 @@ To ensure that your organization can migrate to the Adobe Admin Console, you mus
    >
    >These actions regarding user emails must be complete before your organization begins moving to the Adobe Admin Console.
     
-1. (Optional) Update all custom integrations to use OAuth2.
+1. (Optional) Update all custom integrations to use Adobe Developer Console authentication.
 
-   For instructions on setting up OAuth2 integrations, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+    For information about migrating legacy Workfront OAuth2 integrations, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   >[!NOTE]
-   >
-   >This step is optional, but highly recommended, because other forms of API authentication and authorization will be deprecated in the future.
+    For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+
+    >[!NOTE]
+    >
+    >This step is optional, but highly recommended. Workfront custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027. 
 
 After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 

@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+TQID: 'https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -25,8 +25,6 @@ subfeature_v2:
     internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
     internal-label: Requests
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
-    internal-label: Workfront Fusion
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
@@ -35,6 +33,8 @@ subfeature_v2:
     internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
     internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

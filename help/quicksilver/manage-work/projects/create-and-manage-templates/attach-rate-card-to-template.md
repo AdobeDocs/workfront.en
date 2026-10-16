@@ -6,6 +6,12 @@ title: Attach a Rate Card to a Template
 description: When you assign a rate card to a template, the rate card is then attached to all projects created from the template.
 author: Lisa
 feature: Work Management
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 ---
 # Attach a rate card to a template
 

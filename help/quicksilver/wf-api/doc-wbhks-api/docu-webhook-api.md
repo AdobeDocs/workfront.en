@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
     internal-label: Workfront Document Webhooks

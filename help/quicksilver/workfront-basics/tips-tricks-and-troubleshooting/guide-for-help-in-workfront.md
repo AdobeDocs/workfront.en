@@ -8,7 +8,7 @@ author: Becky
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iBp-i2UxWo1qoDv6z-dWI8gF5ILCBRPWbYlQVWtkHpo
+TQID: 'https://experienceleague.adobe.com/iBp-i2UxWo1qoDv6z-dWI8gF5ILCBRPWbYlQVWtkHpo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements

@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+TQID: 'https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -97,9 +99,9 @@ You can also have a different calculation for the same field, on the new form. K
 >
 >Changes in calculated expressions can cause the field value on objects to become outdated. To ensure that you always view the up-to-date calculation in these fields, do one of the following:
 >
->* After saving an object where you have edited data in an attached custom form, click the More icon ![More icon](assets/more-icon.png) on the object's main page, then Recalculate Custom Expressions.
->* Select the Recalculate Custom Expressions option when editing objects in bulk.
->* Select the Update previous calculations option when editing a Calculated Custom Field on a custom form.
+>* After saving an object where you have edited data in an attached custom form, click the **More** icon ![More icon](assets/more-icon.png) on the object's main page, then **Recalculate Custom Expressions**.
+>* Select the **Recalculate Custom Expressions** option when editing objects in bulk.
+>* Select the Update previous calculations option when editing a calculated custom field on a custom form.
 
 To reuse an existing calculated custom field:
 
@@ -328,18 +330,18 @@ To reuse an existing calculated custom field:
       >
       >You can do any of the following to get help with your calculation:
       > 
-      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![Expression help text](assets/hover-expression-help-text.jpg)
+      >* Hover over an expression in your calculation to see a description and an example showing how it can be used. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![Expression help text](assets/hover-expression-help-text.png)
       >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
-      >  ![Colors for field expressions](assets/colors-fields-expressions.jpg)
-      >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
+      >  ![Colors for field expressions](assets/colors-fields-expressions.png)
+      >* Find calculation errors, underlined in red, as you go. You can hover over a highlighted error to display a brief description of its cause.
       >  ![Error help](assets/error-help.png) 
       >* In the area below your calculation, preview the results on an existing Workfront object.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![Preview calculation](assets/preview-calc.jpg)
+      >  ![Preview calculation](assets/preview-calc.png)
       >* Reference expressions in a long calculation using the line numbers that display on the left.
 
       +++
+
    1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
 
    1. (Optional) Use any of the following options to further configure your calculated custom field:
@@ -350,7 +352,7 @@ To reuse an existing calculated custom field:
     <tbody> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple-choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
+      <td>You can add Display logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple-choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Add logic rules to custom forms and fields</a>. <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip logic and other logic types are unavailable for calculated custom fields.</p> <p><b>Note:</b> Custom fields hidden by display logic keep their values, and they are still included in expressions such as CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Update previous calculations</td> 

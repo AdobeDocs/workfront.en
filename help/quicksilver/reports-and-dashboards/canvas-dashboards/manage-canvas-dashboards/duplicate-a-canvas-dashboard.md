@@ -5,6 +5,12 @@ title: Copy a Canvas Dashboard
 description: You can Copy a Canvas Dashboard to create a variation of it, such as an audience-specific copy, without rebuilding it from scratch.
 author: Courtney
 feature: Reports and Dashboards
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 ---
 # Copy a Canvas Dashboard
 

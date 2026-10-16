@@ -1,10 +1,24 @@
 ---
 title: Configure Record Type Business Rules
-description: You can configure record type business rules that can enforce certain actions on records according to field values. 
+description: You can configure record type business rules that can enforce certain actions on records according to field values.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Configure record type business rules
@@ -90,6 +104,19 @@ Or
 * You can have more that one business rule for a record type.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
    All the rules are checked together at the same time. <!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
+
+<!--
+<div class="preview">
+
+* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+
+   The warning is visible in all areas where you are editing records, including the table view or details page. 
+
+* If multiple rules are violated, each violation issues its own toast notification. The text in the toast notification comes from the rule's message.
+
+</div>
+
+-->
 
 ## Configure business rules
 

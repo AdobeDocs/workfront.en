@@ -6,7 +6,7 @@ description: After you have installed and configured [!DNL Adobe Workfront] for 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-TQID: https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U
+TQID: 'https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
     internal-label: Adobe Workfront for Slack

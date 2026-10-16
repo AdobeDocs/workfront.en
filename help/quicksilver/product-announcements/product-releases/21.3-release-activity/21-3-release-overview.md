@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-TQID: https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg
+TQID: 'https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,7 +18,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
 subfeature_v2:
@@ -34,8 +34,6 @@ subfeature_v2:
     internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
     internal-label: Requests
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
-    internal-label: Workfront Fusion
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
@@ -44,6 +42,8 @@ subfeature_v2:
     internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
     internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

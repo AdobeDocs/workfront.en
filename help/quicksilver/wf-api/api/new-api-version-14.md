@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-TQID: https://experienceleague.adobe.com/gRCMOHLFlV01R9aOqqFuDzTVjGbxjvU2NVIVmPiTE5E
+TQID: 'https://experienceleague.adobe.com/gRCMOHLFlV01R9aOqqFuDzTVjGbxjvU2NVIVmPiTE5E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals

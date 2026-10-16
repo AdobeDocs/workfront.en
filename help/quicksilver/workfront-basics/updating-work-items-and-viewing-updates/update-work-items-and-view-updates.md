@@ -2,16 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: "Update work items and view updates: article index"
+title: 'Update work items and view updates: article index'
 description: You can use the Updates section of most objects to add comments and replies, or to follow system-tracked updates about changes that take place on the object.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-TQID: https://experienceleague.adobe.com/fzDoXrXB2daswcxxmcBjquMbFXRT8QrBtUw-2ZY1pQA
+TQID: 'https://experienceleague.adobe.com/fzDoXrXB2daswcxxmcBjquMbFXRT8QrBtUw-2ZY1pQA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -6,6 +6,15 @@ description: The following notifications alert you about activities taking place
 author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Notifications: Information about projects I own
 
@@ -36,7 +45,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Daily</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>A project I own gets behind</strong> </p> <p>The Project Owner receives an email notification when the project is behind schedule. A project is behind schedule when the Progress Status is "[!UICONTROL At Risk]," "[!UICONTROL Behind]," or "[!UICONTROL Late]."</p> <p>The best practice is to keep this notification active. </p> <p>Users with a [!UICONTROL Review] license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Project Progress Change]: &lt;Project Name></em></p> <p> The subject of the daily digest notification is: <em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest> </em></p> </td> 
+   <td> <p><strong>A project I own gets behind</strong> </p> <p>The Project Owner receives an email notification when the project is behind schedule. A project is behind schedule when the Progress Status is "[!UICONTROL At Risk]," "[!UICONTROL Behind]," or "[!UICONTROL Late]." <p>A notification is sent only if the project status is [!UICONTROL Current] or [!UICONTROL Planning].</p> <p>The best practice is to keep this notification active. </p> <p>Users with a [!UICONTROL Review] license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Project Progress Change]: &lt;Project Name></em></p> <p> The subject of the daily digest notification is: <em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest> </em></p> </td> 
    <td> <p>Project Name<br>Portfolio Name<br>Project Reference Number<br>Project Progress Status<br>Project [!UICONTROL Planned Start Date]<br>Project [!UICONTROL Planned Completion Date]<br>Project [!UICONTROL Projected Start Date]<br>Project [!UICONTROL Projected Completion Date]<br>Project Percent Complete<br>Project Status<br>Project Owner<br>*Project Name<br>*Project Reference Number<br>*Project Progress Status<br>*Date of the daily digest<br></p> </td> 
    <td><strong>Daily</strong> </td> 
   </tr> 

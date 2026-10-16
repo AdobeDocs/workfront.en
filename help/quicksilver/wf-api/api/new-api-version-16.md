@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-TQID: https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c
+TQID: 'https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets

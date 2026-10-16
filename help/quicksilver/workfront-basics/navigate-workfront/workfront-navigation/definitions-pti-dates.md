@@ -6,10 +6,13 @@ description: This article provides definitions to the most common dates associat
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

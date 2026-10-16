@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Calculated custom field example: display the manager of an issue's creator on the issue custom form"
+title: 'Calculated custom field example: display the manager of an issue''s creator on the issue custom form'
 description: Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/97--IY38NM0xV5PLImVpO04wx2ou-Le-2x-07Yl6NQs
+TQID: 'https://experienceleague.adobe.com/97--IY38NM0xV5PLImVpO04wx2ou-Le-2x-07Yl6NQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms

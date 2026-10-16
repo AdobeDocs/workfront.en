@@ -6,7 +6,7 @@ description: You can add a Slack comment as an update to a specific project, tas
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-TQID: https://experienceleague.adobe.com/q0-ZRmAwXozuuPJgeZ-IWhUHuYwBXYFlarjRIfXdxAs
+TQID: 'https://experienceleague.adobe.com/q0-ZRmAwXozuuPJgeZ-IWhUHuYwBXYFlarjRIfXdxAs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
     internal-label: Adobe Workfront for Slack

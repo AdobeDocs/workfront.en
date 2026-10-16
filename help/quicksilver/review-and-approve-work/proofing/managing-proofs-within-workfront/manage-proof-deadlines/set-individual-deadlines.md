@@ -7,13 +7,18 @@ description: You can set different deadlines for different reviewers on a proof 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-TQID: https://experienceleague.adobe.com/7Zr9HmQsfHEPqRjRYM0-wN8-Xj--iYlHA8ebug8Z-Ow
+TQID: 'https://experienceleague.adobe.com/7Zr9HmQsfHEPqRjRYM0-wN8-Xj--iYlHA8ebug8Z-Ow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

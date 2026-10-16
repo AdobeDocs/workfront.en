@@ -80,6 +80,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Routing Rule** to add the new rule. The **New Routing Rule** box opens.
 
     ![New Routing Rule box](assets/new-routing-rule-box.png)
+    
 1. Enter the following information for the Routing Rule:
 
    <table style="table-layout:auto"> 

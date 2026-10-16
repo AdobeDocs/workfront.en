@@ -8,13 +8,15 @@ author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ut9fs4RLSxJPM-R4AywFIRowiFrBWP0sEsCUllm25i4
+TQID: 'https://experienceleague.adobe.com/Ut9fs4RLSxJPM-R4AywFIRowiFrBWP0sEsCUllm25i4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms

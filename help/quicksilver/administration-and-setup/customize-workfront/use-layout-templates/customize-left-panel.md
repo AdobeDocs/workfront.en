@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-TQID: https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ
+TQID: 'https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
@@ -193,7 +195,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr> 
        <td>[!UICONTROL User Details]</td> 
        <td>The name of a user</td> 
-       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer], [!UICONTROL Employment History]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Rate Card]</td> 
@@ -231,6 +233,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    * Click the **Show** ![Show icon](assets/add-secondary-nav-item.png) or **Hide** ![Hide icon](assets/delete-secondary-nav-item.png) icons to display or hide sections in the left panel. You cannot hide items that do not have a **Show** or **Hide** icon.
 
+     Every area or object type must have at least one section in the left panel. If all other items are hidden, then you cannot hide the last remaining item.
+
    * Drag items ![Move icon](assets/move-icon---dots.png) to change their order on the left panel.
 
    >[!NOTE]
@@ -241,7 +245,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >* [!UICONTROL Home]
    >* [!UICONTROL Branding]
    > 
-   >For information about how to customize the additional areas, see the following articles:
+   >For information about how to customize these additional areas, see the following articles:
    >
    >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Customize the [!UICONTROL Summary panel] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 

@@ -8,18 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
+TQID: 'https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -156,17 +160,28 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
    
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+      <div class="preview">
+
+      * When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. 
+      * When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.
+      * If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.
+
+      </div>
  
    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+<div class="preview">
+
+* You can share a request with others after it's been submitted. 
+
+   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+
+</div>
 
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
-
 
 ## Submit a request to Workfront Planning in the Requests area of Workfront
 
@@ -201,7 +216,22 @@ Not sure how to change the request status, but dev also said: Changing the names
    >The **Name** field is unique to your organization and it might display a different label in your Workfront instance. The field is the primary field of the record. 
 
 1. Update the remaining fields in the request form. Fields with a red asterisk are required. 
-1. (Conditional) If your organization allows **Form Fill** powered by AI, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
+
+   >[!TIP]
+   >
+   ><span class="preview">The values for dependent connected record fields are limited by the dependency rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   
+1. (Optional and conditional) Click **Fill form** to have AI fill out the form for you. Workfront fills in the fields on the form based on information from previous requests. 
+
+      >[!TIP]
+      >
+      >Your organization must allow **AI Form Fill** in the System Preferences area, to be able to use the Fill form capability. 
+      >
+      >For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
+
+1. (Conditional) If your organization allows **AI Form Fill**, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
 
 
    For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -320,7 +350,15 @@ You can submit a request when you add new records from a record type page.
    The request form opens. 
 1. Start entering all the information in all the available fields
 
-   Or click **Fill form** to have AI fill out the form for you. 
+   Or click **Fill form** to have AI fill out the form for you. Workfront fills in the fields on the form based on information from previous requests. 
+
+      >[!TIP]
+      >
+      >If your organization allows **AI Form Fill** in the System Preferences area, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
+      >
+      >For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Click **Submit request**.
 
    The request is submitted. 

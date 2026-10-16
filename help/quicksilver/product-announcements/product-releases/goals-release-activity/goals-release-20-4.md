@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-TQID: https://experienceleague.adobe.com/SHHn-SR8Z3ThsS94S6bH9V-auX6jYxQHwmtNlI903oA
+TQID: 'https://experienceleague.adobe.com/SHHn-SR8Z3ThsS94S6bH9V-auX6jYxQHwmtNlI903oA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
     internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

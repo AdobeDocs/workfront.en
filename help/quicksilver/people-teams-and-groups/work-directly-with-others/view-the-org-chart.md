@@ -6,13 +6,15 @@ description: The organizational chart feature allows you to to view the organiza
 author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-TQID: https://experienceleague.adobe.com/yG7JWupEfUWFnOTrvrg-0MXYz-Jbw6td4gmO-lcRwPg
+TQID: 'https://experienceleague.adobe.com/yG7JWupEfUWFnOTrvrg-0MXYz-Jbw6td4gmO-lcRwPg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

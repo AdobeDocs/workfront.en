@@ -5,10 +5,13 @@ draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+TQID: 'https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

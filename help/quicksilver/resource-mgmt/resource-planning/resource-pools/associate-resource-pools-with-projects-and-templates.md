@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h5f9-95DJ4UoSyR01MwD0jfGXru3s-BT3HvzdLFX4CY
+TQID: 'https://experienceleague.adobe.com/h5f9-95DJ4UoSyR01MwD0jfGXru3s-BT3HvzdLFX4CY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,7 +16,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
     internal-label: Resource Planner

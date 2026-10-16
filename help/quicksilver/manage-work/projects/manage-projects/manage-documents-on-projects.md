@@ -6,6 +6,15 @@ description: Depending on whether your Workfront administrator chooses for your 
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Document management overview for projects and related objects
 
@@ -125,6 +134,7 @@ The following sections document how document storage works for Workfront objects
 Consider the following when working with projects: 
 
 * When you create an Adobe cloud storage project, Workfront creates a folder in the Documents section of the project where documents are saved. The folder name is the same name as the project. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the project to match the project's new name.
+* When you rename a project with Adobe cloud storage, the document folder is automatically renamed. However, if there is a problem and the storage cannot be reached at that moment, the new name is rejected for both the project and the folder and the old names are left unchanged. You can try renaming again after a while. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * When you create or move an Adobe cloud storage project to a legacy Workfront storage portfolio or program, the portfolio or program is automatically converted to an Adobe cloud storage object, if the portfolio or program do not have documents attached before the project is added. 
 * You cannot create a legacy Workfront storage project for an Adobe cloud storage portfolio or program. 
 * When you import a project from MS Project, Workfront creates a legacy Workfront storage project, even when your Workfront administrator made the Adobe cloud storage the default for your system. 
@@ -137,6 +147,7 @@ For more information, also see the [Document management for project templates](#
 Consider the following when working with portfolios: 
 
 * When you create an Adobe cloud storage portfolio, Workfront creates a folder in the Documents section of the portfolio where documents are saved. The folder name is the same name as the portfolio. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the portfolio to match the portfolio's new name.
+* When you rename a portfolio with Adobe cloud storage, the document folder is automatically renamed. However, if there is a problem and the storage cannot be reached at that moment, the new name is rejected for both the portfolio and the folder and the old names are left unchanged. You can try renaming again after a while. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -159,6 +170,7 @@ This is not possible anymore:
 Consider the following when working with programs: 
 
 * When you create an Adobe cloud storage program, Workfront creates a folder in the Documents section of the program where documents are saved. The folder name is the same as the name of the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the program, to match the program's new name.
+* When you rename a program with Adobe cloud storage, the document folder is automatically renamed. However, if there is a problem and the storage cannot be reached at that moment, the new name is rejected for both the program and the folder and the old names are left unchanged. You can try renaming again after a while. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * You cannot add a legacy Workfront storage project to an Adobe cloud storage program. 
 
@@ -178,7 +190,8 @@ Consider the following when working with tasks:
 
 * Tasks inherit the storage type from projects. 
 * When you upload a document to a task on an Adobe cloud storage project, Workfront automatically creates a folder in the Documents section of the task. The folder name is the same as the task. 
-* You can rename and delete the document folder from the Adobe cloud storage task which also deletes the documents in the folder. After you add new documents to the task, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
+* Renaming the task does not rename to document folder. 
+* You can delete the document folder from the Adobe cloud storage task which also deletes the documents in the folder. After you add new documents to the task, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
 * For Adobe cloud storage projects, the document folder on a task displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move a task from a legacy Workfront storage project to an Adobe cloud storage one. The reverse is also not possible. 
 * The following scenarios exist when converting a task to a project: <!--this info also duplicated in Convert tasks to projects-->
@@ -194,7 +207,8 @@ Consider the following when working with issues:
 
 * Issues inherit the storage type from projects. 
 * When you upload a document to an issue on an Adobe cloud storage project, Workfront automatically creates a folder in the Documents section of the issue. The folder name is the same as the issue. 
-* You can rename and delete the document folder from the Adobe cloud storage issue which also deletes the documents in the folder. After you add new documents to the issue, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
+* Renaming an issue does not rename the document folder. 
+* You can delete the document folder from the Adobe cloud storage issue which also deletes the documents in the folder. After you add new documents to the issue, the folder is automatically recreated. Deleted documents are not placed back in the folder. 
 * For Adobe cloud storage projects, the document folder on an issue displays as a subfolder on the documents folder automatically created for the project.
 * You cannot copy or move an issue from a legacy Workfront storage project to an Adobe cloud storage one. The reverse is also not possible. 
 * The following scenarios exist when converting an issue to a project: <!--this info also duplicated in Convert an issue to a project-->
@@ -214,6 +228,7 @@ Consider the following when working with issues:
 Consider the following when working with templates: 
 
 * When you create an Adobe cloud storage template, Workfront creates a folder in the Documents section of the template where documents are saved. The folder name is the same name as the program. You cannot delete or manually rename the folder. The folder is renamed if you change the name of the template, to match the template's new name.
+* When you rename a template with Adobe cloud storage, the document folder is automatically renamed. However, if there is a problem and the storage cannot be reached at that moment, the new name is rejected for both the template and the folder and the old names are left unchanged. You can try renaming again after a while. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * You can use a legacy Workfront storage template to create legacy Workfront storage projects; you can use an Adobe cloud storage template to create an Adobe cloud storage project. 
 
 * When creating projects using templates from a portfolio or program, the following scenarios exist: 
@@ -231,7 +246,8 @@ Consider the following when working with template tasks:
 
 * Template tasks inherit the storage type from templates. 
 * When you upload a document to a template task on an Adobe cloud storage template, Workfront automatically creates a folder in the Documents section of the template task. The folder name is the same as the template task. 
-* You can rename and delete the document folder from the Adobe cloud storage template task which also deletes the documents in the folder. After you add new documents to the template task, the folder is automatically recreated. Deleted documents are not placed back in the folder.
+* Renaming the template task does not rename the document folder. 
+* You can delete the document folder from the Adobe cloud storage template task which also deletes the documents in the folder. After you add new documents to the template task, the folder is automatically recreated. Deleted documents are not placed back in the folder.
 * For Adobe cloud storage templates, the document folder on a template task displays as a subfolder on the documents folder automatically created for the template. 
 * You cannot copy or move a template task from a legacy Workfront storage template to an Adobe cloud storage one. The reverse is also not possible.
 

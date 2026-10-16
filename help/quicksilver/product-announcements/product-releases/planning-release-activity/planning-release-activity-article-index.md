@@ -1,16 +1,22 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
+title: 'Adobe Workfront Planning Release Activity: Article Index'
 description: This is the release activity for the Adobe Workfront Planning product.
 author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-TQID: https://experienceleague.adobe.com/WfACzd26qbiMADECjBjQUd8a-NzxLv15rSj31AZ-9Ng
+TQID: 'https://experienceleague.adobe.com/WfACzd26qbiMADECjBjQUd8a-NzxLv15rSj31AZ-9Ng'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
