@@ -77,7 +77,7 @@ This update includes the following:
 * The Custom Quarters section is added to the Setup left panel. The functionality remains the same.  
 * The Custom Quarters section has been removed from the Project Preferences section of a group. Group administrators no longer have visibility into the Custom Quarters setup anymore.  
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Collapse custom form section by default
 

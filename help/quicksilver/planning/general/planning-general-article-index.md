@@ -38,7 +38,7 @@ Review the following articles:
 
 <div class="preview">
 
-* [Adobe Workfront Planning CX Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 </div>
 

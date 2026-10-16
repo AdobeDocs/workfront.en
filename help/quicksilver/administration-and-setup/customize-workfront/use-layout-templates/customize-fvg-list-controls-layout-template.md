@@ -140,3 +140,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    Or
 
    If you are finished customizing, click **Save and Close**.
+

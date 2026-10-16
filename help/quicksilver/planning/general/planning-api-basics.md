@@ -63,9 +63,7 @@ We support the following two flows depending on your integration type:
 
 To get started, create a project in the Adobe Developer Console and add the Workfront Planning API to obtain your credentials. 
 
-To set up credentials, create an OAuth2 application in Workfront. 
-
-For information, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md). 
+For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/). 
 
 >[!NOTE]
 >
@@ -463,7 +461,7 @@ For more API-related documentation, also see the following articles:
 * [Workfront Planning API](https://developer.adobe.com/wf-planning) developer documentation and reference
 * [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md)
-* [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

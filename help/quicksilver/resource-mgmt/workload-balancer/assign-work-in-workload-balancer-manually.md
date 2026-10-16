@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-TQID: https://experienceleague.adobe.com/lLNKgsayPJ5WYqv-QO5GFY57FQGg6kMeVTSWOq3htIc
+TQID: 'https://experienceleague.adobe.com/lLNKgsayPJ5WYqv-QO5GFY57FQGg6kMeVTSWOq3htIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer

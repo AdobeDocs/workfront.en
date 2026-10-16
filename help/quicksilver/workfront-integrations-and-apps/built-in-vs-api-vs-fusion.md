@@ -77,7 +77,11 @@ Advantages of creating an [!UICONTROL OAuth2] application may include the follow
 * Setting up or using an [!UICONTROL OAuth2] application does not require additional technical knowledge, such as familiarity with the [!DNL Workfront] API.
 * Your organization may use software that is not offered as a [!DNL Workfront] built-in application. You can still integrate this software with [!DNL Workfront] by using an [!UICONTROL OAuth2] application, even if the software is proprietary to your organization.
 
-For more information, see [Create OAuth2 applications for Workfront integrations](../administration-and-setup/configure-integrations/create-oauth-application.md).
+Workfront custom OAuth2 applications are being retired. New custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027.
+
+For migration information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
+For authentication guidance for new integrations, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 ## [!DNL Workfront] API
 

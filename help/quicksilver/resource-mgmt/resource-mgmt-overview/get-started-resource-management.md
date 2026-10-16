@@ -7,7 +7,7 @@ description: Resource Management allows you to configure your system to accurate
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
+TQID: 'https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
     internal-label: Workload Balancer

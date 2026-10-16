@@ -155,4 +155,4 @@ No, there is no additional cost associated with authenticating through Adobe Dev
 
 **Where can I get help?**
 
-Reach out to your Workfront account team or open a support case if you have questions about your specific integration or timeline. For the official, up-to-date setup walkthrough with screenshots, see [Gaining access](https://developer.adobe.com/workfront-apis/guides/gaining_access/) in Adobe's Developer Console documentation.
+Reach out to your Workfront account team or open a support case if you have questions about your specific integration or timeline. For the official, up-to-date setup walkthrough with screenshots, see [Gaining access](https://developer.adobe.com/workfront-apis/guides/gaining-access/) in Adobe's Developer Console documentation.

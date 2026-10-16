@@ -151,9 +151,9 @@ The following are some examples of how to make the most out of your ideation whe
     * **Verify before finalizing**. AI-generated responses may be inaccurate, so always check **Sources** on a card and confirm against linked sources before finalizing a record.
     * **Mix AI cards with real records**. Drag and drop actual records in the Ideation space.
 
-## Ideation space available in Adobe CX Coworker
+## Ideation space available in Adobe CX Enterprise Coworker
 
-The Ideation space also supports a conversational, back-and-forth mode via Adobe's CX Coworker.
+The Ideation space also supports a conversational, back-and-forth mode via Adobe's CX Enterprise Coworker.
 
 Users can ask follow-up questions and refine a brief conversationally rather than getting a single one-shot result. 
 
