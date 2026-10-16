@@ -52,13 +52,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Add a web link as a document
 
-You can upload an html web page to Workfront as a web link. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file. For more information about how Frame.io handles web links, see [Frame.io web links](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+You can upload an html web page to Workfront as a web link. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file. For more information about how Frame.io handles web links, see [HTML Review for Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* URLs are supported if the site allows iFrame embeddings. 
+>* Private web URLs are supported but certain authentication flows may not work depending on server configuration.
+>* Youtube and Figma URLs are not currently supported.<br>
+>For more information, see [What types of URLs are supported in Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 To add a web link:
 
