@@ -96,13 +96,15 @@ To ensure that your organization can migrate to the Adobe Admin Console, you mus
    >
    >These actions regarding user emails must be complete before your organization begins moving to the Adobe Admin Console.
     
-1. (Optional) Update all custom integrations to use OAuth2.
+1. (Optional) Update all custom integrations to use Adobe Developer Console authentication.
 
-   For instructions on setting up OAuth2 integrations, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+    For information about migrating legacy Workfront OAuth2 integrations, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   >[!NOTE]
-   >
-   >This step is optional, but highly recommended, because other forms of API authentication and authorization will be deprecated in the future.
+    For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+
+    >[!NOTE]
+    >
+    >This step is optional, but highly recommended. Workfront custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027. 
 
 After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 
