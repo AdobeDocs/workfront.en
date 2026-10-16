@@ -72,31 +72,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step1-to-timesheets}}
 
-   The **All** filter is selected by default which displays all the timesheets that you have access to view.
+   All timesheets that you have access to view are displayed by default.
 
-   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list](assets/list-of-all-timesheets.png)
 
-1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) and type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) and type a keyword to search for a specific timesheet. For example, you can search for a timesheet time frame or owner name. 
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
-   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
+   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve,
 
      Or
 
      Select **My Timesheets** to view only your timesheets.
 
-     This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
+     This applies the **My Timesheet Approvals** or the **My Timesheet** filters to the list of timesheets.
 
-     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Click the Filter icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to apply a filter or create a new filter. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the**View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -105,47 +103,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Select one or several timesheets, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the timesheet list. 
-1. View or specify the following information:
+1. View or enter the following information:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Owner</strong> </td> 
-      <td> <p>This is the name of the user for which the timesheet was created.&nbsp;You cannot edit this field. </p> <p>The field does not display when you select multiple timesheets. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Start Date</strong> </td> 
-      <td>This is the start date of the timesheet.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>End Date</strong> </td> 
-      <td> This is the end date of the timesheet.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td> This is the status of the timesheet.
-      The following are possible timesheet status options: 
-      <ul><li><b>Open</b>: The timesheet is open and hour entries can be edited.</li>
-      <li><b>Submitted</b>: The timesheet is submitted for approval to the designated approvers.</li>
-      <li><b>Rejected</b>: The timesheet was not approved by the approvers and is now available again for the user to edit the time entries.</li>
-      <li><b>Closed</b>: The timesheet is either closed by the user or approved by the approver and as a result, it is now closed. You cannot add time to a closed timesheet.</li>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Approvers</strong> </td> 
-      <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Can edit time</strong> </td> 
-      <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> <p>This option is not available when you select multiple timesheets. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Overtime</strong> </td> 
-      <td> <p>You can choose to hide the Overtime box on the timesheet.</p> <p>This option is disabled by default.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Field Name | Description |
+   | --------- | ---------- |
+   | Owner | <p>This is the name of the user for which the timesheet was created. You cannot edit this field.</p><p>This field does not display when you select multiple timesheets.</p> |
+   | Start Date | This is the start date of the timesheet. |
+   | End Date | This is the end date of the timesheet. |
+   | Status | <p>This is the status of the timesheet. The following are possible timesheet status options:</p><ul><li>**Open**: The timesheet is open and hour entries can be edited.</li><li>**Submitted**: The timesheet is submitted for approval to the designated approvers.</li><li>**Rejected**: The timesheet was not approved by the approvers and is now available again for the user to edit the time entries.</li><li>**Closed**: The timesheet is either closed by the user or approved by the approver and as a result, it is now closed. You cannot add time to a closed timesheet.</li></ul> |
+   | Approvers | <p>Approvers are users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Start entering the names of the timesheet approvers and select them when they appear in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after one of the approvers approves the timesheet, the timesheet is marked as **Closed** and it disappears from the timesheet approvals list of all the remaining approvers.</p> |
+   | Can edit time | <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p><p>This option is not available when you select multiple timesheets.</p> |
+   | Overtime | <p>You can choose to hide the Overtime box on the timesheet.</p><p>This option is disabled by default.</p> |
 
 1. Click **Save**.

@@ -32,7 +32,7 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Work Agent: Create a collaborator using a standard AI platform like Claude, OpenAI, Copilot, or Writer, then assign the collaborator to a task or issue to complete work items.
+* Work Agent: Create a collaborator using a standard AI platform like Claude, OpenAI, or Copilot, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -89,7 +89,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ### For Work Agents
 
-You must configure an agent in Claude, Copilot Studio, Writer, OpenAI, or IBM before you can use it as a Work Agent. 
+You must configure an agent in Claude, Copilot Studio, OpenAI, or IBM before you can use it as a Work Agent. 
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 Work Agents are agents that you can assign to tasks or issues in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, or Writer, OpenAI, and IBM.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Currently, agents used as Work Agents can be created in Copilot Studio, Claude, OpenAI, and IBM.
 
 Work Agents can be assigned to tasks or issues.
 
@@ -142,14 +142,13 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    >
    ><span class="preview">If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.</span>
 
-1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot or Writer, or use a custom agent.
+1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot, or use a custom agent.
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
    |Platform|Required authentication|
    |---|---|
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |Writer Agent|API key<br>Application ID|
    |<span class="preview">OpenAI Agents</span>|<span class="preview">API key <br>Agent ID</span>|
    |<span class="preview">IBM watsonx Orchestrate</span>|<span class="preview">Service URL<br>API Key<br> Agent ID</span>|
 
@@ -205,6 +204,17 @@ You may find the following best practices helpful when creating an agent to use 
 -->
 +++ Writer
 
+
+
+>[!IMPORTANT]
+>
+>Writer has deprecated their use of agents. Work Agents configured using Writer agents no longer work after October 9. 2026.
+>
+>For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
+
+
+<!--
+
 >[!NOTE]
 >
 > You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
@@ -224,6 +234,8 @@ More detailed information about creating agents can be found in the [Writer docu
  
 1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
 1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
+
+-->
 
 +++
 

@@ -116,7 +116,8 @@ You can filter items in a widget's [!UICONTROL Worklist] to see only specific ty
 
 >[!NOTE]
 >
->The filter options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters, do not change. If you switch browsers or computers, then the filters revert to the default option, which is with all filters deselected.
+>The filter options for most widgets are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters, do not change. If you switch browsers or computers, then the filters revert to the default option, which is with all filters deselected. <br>
+>The My Approvals widget does not store filter options in the browser. The My Approvals widget always defaults to the My Approvals filter option, which displays approvals assigned to you.
 
 To filter your work:
 
@@ -131,7 +132,7 @@ To filter your work:
    | My Tasks     | Displays tasks assigned to you                                                                    |
    | My Issues    | Displays issues assigned to you                                                                   |
    | My Requests  | Displays all requests that you have submitted                                                                 |
-   | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
+   | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals |
 
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** filter or a filter that you have created. 

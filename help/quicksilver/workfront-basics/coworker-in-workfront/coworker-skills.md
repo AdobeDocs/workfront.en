@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Coworker skills
+title: Workfront skills in CX Enterprise Coworker 
 content-type: reference
 description: Learn about the skills available for Coworker in Adobe Workfront.
 author: Becky
@@ -11,7 +11,7 @@ feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
 ---
-# CX Enterprise Coworker skills
+# Workfront skills in CX Enterprise Coworker 
 
 {{preview-fast-release-general}}
 

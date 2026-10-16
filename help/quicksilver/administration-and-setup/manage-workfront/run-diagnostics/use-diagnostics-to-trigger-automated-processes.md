@@ -67,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Use diagnostics to trigger automated processes
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
 1. Expand **System**, then click **Diagnostics**.
 1. Select from any of the following options:

@@ -93,7 +93,8 @@ You can view or manage approvals from the following areas:
 
    * All projects, tasks, issues, timesheets, documents, access, and <span class="preview">Workfront Planning requests</span> awaiting your approval are displayed in the My Approvals widget in the Home area.
    * Approvals that you submitted yourself also display in the My Approvals widget in the Home area when you choose the Approvals I've submitted filter option. For more information, see the [Review work you submit for approval in the Home area](#review-work-you-submit-for-approval-in-the-home-area) section in this article.
-   * Approvals are removed from the My Approvals widget in the Home area when the associated project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
+   * Work approvals are removed from the My Approvals widget when the project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
+   * Unified document and proof approvals are removed from the My Approvals widget when the document or proof workflow is completed or deleted.
 
   For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
 

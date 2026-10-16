@@ -216,7 +216,22 @@ Not sure how to change the request status, but dev also said: Changing the names
    >The **Name** field is unique to your organization and it might display a different label in your Workfront instance. The field is the primary field of the record. 
 
 1. Update the remaining fields in the request form. Fields with a red asterisk are required. 
-1. (Conditional) If your organization allows **Form Fill** powered by AI, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
+
+   >[!TIP]
+   >
+   ><span class="preview">The values for dependent connected record fields are limited by the dependency rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   
+1. (Optional and conditional) Click **Fill form** to have AI fill out the form for you. Workfront fills in the fields on the form based on information from previous requests. 
+
+      >[!TIP]
+      >
+      >Your organization must allow **AI Form Fill** in the System Preferences area, to be able to use the Fill form capability. 
+      >
+      >For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
+
+1. (Conditional) If your organization allows **AI Form Fill**, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
 
 
    For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -335,7 +350,15 @@ You can submit a request when you add new records from a record type page.
    The request form opens. 
 1. Start entering all the information in all the available fields
 
-   Or click **Fill form** to have AI fill out the form for you. 
+   Or click **Fill form** to have AI fill out the form for you. Workfront fills in the fields on the form based on information from previous requests. 
+
+      >[!TIP]
+      >
+      >If your organization allows **AI Form Fill** in the System Preferences area, you can upload documents as prompts. AI uses these documents to fill in the form, and you can accept or reject the AI suggestions before you submit the request.
+      >
+      >For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Click **Submit request**.
 
    The request is submitted. 

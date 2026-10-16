@@ -134,6 +134,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * For the dependency chain to work, all dependent fields must exist on the same record type at the same time. 
 
+* Dependent fields are supported for all areas where the connected records fields display, including the Details areas of a record or request forms. 
+
 ## Create a dependent connection
 
 1. As a workspace manager, go to a record type in Workfront Planning and open it in the table view. 
@@ -166,7 +168,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
         ![Dependent icon tooltip in column header](assets/dependent-icon-tooltip-in-column-header.png)   
 1. (Optional) Click **Record filtering rules** and select fields from the record type you are connecting to to limit the options for that field's values, then click **Done**.
 
-    When the two fields are present on a third record type, the options for the connected field record type will be limited by the filter you select here. 
+    For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 1. (Optional and recommended) Go to a third record type and add both the first and second record type as connected record fields. 
 
     ![Dependent connected field indicator on a third record type](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

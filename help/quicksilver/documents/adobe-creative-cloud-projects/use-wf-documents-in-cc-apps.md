@@ -80,9 +80,9 @@ You can save a new file to Workfront or you can save a new copy of an existing f
 To save a new document to Workfront: 
 
 1. Open Photoshop, Illustrator, or InDesign, and create a new file.
-1. If you are saving a new file, click **Save** in the top menu.
-Or
-If you are saving a new copy of an existing file, click **Save As** in the top menu.
+1. In the top menu, do one of the following:
+    * To save a new file, click **Save**.
+    * To save a new copy of an existing file, click **Save As**.
 1. In the **Save As** dialog, select **Save to cloud documents**, then choose the Workfront project you need. 
 
     >[!NOTE]
@@ -104,9 +104,9 @@ You can add a document approval in Workfront to any document you uploaded from P
 
 ## Manage versions of a document in Workfront from a Creative Cloud app
 
-When you save a document from Photoshop, Illustrator, or InDesign to Workfront, the changes you save appear in the Current file on the Versions tab and are marked with a "New changes" badge.
+When you save a document from Photoshop, Illustrator, or InDesign to Workfront, the changes you save appear in the Current file on the Versions tab and are marked with a "New updates" badge.
 
-You can request an approval on the Current file rather than uploading a new versionof the document. For more information, see [Request an approval on the Current file](#request-approval-on-the-current-file).
+You can request an approval on the Current file rather than uploading a new version of the document. For more information, see [Request an approval on the Current file](#request-approval-on-the-current-file).
 
 ![current file with new changes badge](assets/current-file.png)
 

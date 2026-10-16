@@ -19,6 +19,6 @@ feature_v2:
 
 This section contains the following articles:
 
-* [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+* [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
 * [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
-* [CX Enterprise Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+* [Workfront skills in CX Enterprise Coworker ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)

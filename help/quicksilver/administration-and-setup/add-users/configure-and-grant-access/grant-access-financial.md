@@ -117,10 +117,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-When you share any object with another user, the recipient's rights on it are determined by a combination of two things:
+When you share any object with another user, the recipient's rights to view or edit financial data on that object are determined by a combination of two things:
 
-* The permissions that you grant to your recipient for the object
-* The recipient's access level settings for the object's type
+* The permissions that you grant to your recipient for the specific object
+* The recipient's access level settings for the object's type and for Financial Data
+
+Access to custom financial fields can also be restricted, based on the user's permissions and access level settings. For more information, see [Restrict access to financial data in custom fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
 ## Access to financial information by license type
 

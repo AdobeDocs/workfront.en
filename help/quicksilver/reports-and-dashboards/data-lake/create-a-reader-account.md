@@ -70,6 +70,10 @@ For more detail about the information in this table, see [Access requirements in
 
 You must create a new Snowflake reader account for your organization before you can begin creating connections. 
 
+The reader account provides read-only access to your Data Connect data, which you can query from Snowflake or a third-party visualization or data processing tool. Data Connect shares your data through Snowflake views only. Database tables aren't included.
+
+For more information, see [Create a reader account](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create) in the Snowflake documentation.
+
 >[!IMPORTANT]
 >
 >This process must be completed only once per organization. If the **Create Reader Account** button is not present in the location described below, then your reader account has already been created.
