@@ -1,6 +1,6 @@
 ---
 title: Share an Ideation Space with Others
-description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to create and collaborate on ideas with others before they become planning records.
+description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. You can share the ideation space and its respective brief with other users for better collaboration. 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -35,15 +35,19 @@ role_v2:
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront Planning record permissions are transferred to the ideation space of a record. 
+You can use the Ideation Space from Adobe Workfront to create briefs for your campaigns and other record types before you launch them. This invites others to brainstorm and gather information to collaboratively create the brief before launching your work. 
 
-In addition, you can give other users permissions to use the ideation space and add ideas to it. 
+You can share the ideation space and its respective brief with other users for better collaboration. 
 
 Consider the following: 
 
+* Workfront Planning record permissions are transferred to the ideation space of a record. 
+
+* In addition, you can give other users permissions to use the ideation space and add ideas to it. 
+
 * Creators of ideations always have Editor permissions on their own ideations. 
 
-* You must have Editor permissions on an ideation space to create briefs and export them to other applications. 
+* You must have Editor permissions on an ideation space to create or contribute to briefs and export them to other applications. 
 
 ## Access requirements
 
@@ -67,8 +71,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
+<!--
+Not available right now: 
 Or
-<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -103,7 +111,7 @@ Or
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
       <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
-      <p>Editor permissions on the Ideation space to create briefs</p>
+      <p>Editor permissions on the Ideation space of a brief to create briefs</p>
    </td> 
   </tr>  
   <!--
@@ -125,15 +133,12 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Share an Ideation space
 
-1. Access the Ideation space of a Planning record. 
+1. Access the Ideation space.
 
-    For information, see one of the following articles:
+    For information, see [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md). 
 
-    * [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Click **Share** in the upper-right corner, then click the **Settings** icon ![Settings icon](assets/setting-icon.png) in the upper-right corner of the **Share document** box.
-1. In the Who has access list, choose from the following: 
+1. Click **Share** in the upper-right corner, then click the **Settings** icon ![Settings icon](assets/setting-icon.png) in the upper-right corner of the **Share document** box. <!--should this say "document"?-->
+1. In the **Who has access** list, choose from the following: 
 
     * **Only invited people can access**
 

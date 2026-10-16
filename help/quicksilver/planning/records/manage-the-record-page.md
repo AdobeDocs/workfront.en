@@ -270,6 +270,11 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word or a PDF file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
+      >[!TIP]
+      >
+      >Exporting is not available for custom details pages where fields are hidden.
+
+
 1. (Optional) Click the **Connections** tab next to the **Details** tab. You might have to click **More** before clicking the **Connections** tab.
 
    All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
