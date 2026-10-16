@@ -29,7 +29,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 14, 2026)</li></ul>|<ul><li>26.10 (October 22, 2026)</li></ul>|
+>|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 22, 2026)</li></ul>|<ul><li>26.10 (October 22, 2026)</li></ul>|
 >
 >* The 26.10 (October 2026) has been moved to October 22, 2026.
 >
