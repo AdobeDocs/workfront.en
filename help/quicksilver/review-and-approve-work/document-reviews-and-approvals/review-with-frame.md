@@ -133,7 +133,7 @@ Go to the Workfront Home page, find the My Approvals widget, then click **Open r
 
     ![Frame viewer and decision](assets/make-decision-frame.png)
 
-    ## Review a web link
+## Review a web link
 
 If the document is a live web URL, you can review the page in the Frame.io viewer and leave feedback directly on the page.
 
