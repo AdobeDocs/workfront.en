@@ -141,15 +141,15 @@ If the document is a live web URL, you can review the page in the Frame.io viewe
 or
 Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
-  >[!NOTE]
-  > 
-  >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+    >[!NOTE]
+    > 
+    >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, open the web link document. If prompted, install the [Frame.io Chrome extension](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) so you can view the page, capture a current state of the URL.
 
-1. Use the viewer to add comments, general comments, annotations, or anchored comments directly on the page.
+1. Use the viewer to add comments, annotations, and more directly on the page.
 
-1. Once you're satisfied with the web link, you can choose one of the following decisions in the Frame.io viewer:
+1. Once you're finished reviewing the web link document, you can choose one of the following decisions in the Frame.io viewer:
 
     * **Approve**: The asset does not need changes and is ready for use.
     * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
