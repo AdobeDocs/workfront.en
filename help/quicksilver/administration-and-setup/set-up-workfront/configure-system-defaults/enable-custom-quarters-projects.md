@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Enable Custom Quarters
-description: For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
+title: Enable Custom Quarters and Weeks
+description: For reporting purposes, you might want to configure custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days). If your organization purchase a Workfront Planning packages, you can also configure custom weeks. 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 ---
-# Enable custom quarters 
+# Enable custom quarters and weeks
 
 <!--Audited: 03/2026-->
 

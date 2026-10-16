@@ -352,7 +352,7 @@ To reuse an existing calculated custom field:
     <tbody> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>You can add Display logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple-choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Add logic rules to custom forms and fields</a>. <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip logic and other logic types are unavailable for calculated custom fields.</p> </td> 
+      <td>You can add Display logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple-choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Add logic rules to custom forms and fields</a>. <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip logic and other logic types are unavailable for calculated custom fields.</p> <p><b>Note:</b> Custom fields hidden by display logic keep their values, and they are still included in expressions such as CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Update previous calculations</td> 

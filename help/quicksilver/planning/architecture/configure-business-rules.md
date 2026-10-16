@@ -105,6 +105,19 @@ Or
 
    All the rules are checked together at the same time. <!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
+<!--
+<div class="preview">
+
+* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+
+   The warning is visible in all areas where you are editing records, including the table view or details page. 
+
+* If multiple rules are violated, each violation issues its own toast notification. The text in the toast notification comes from the rule's message.
+
+</div>
+
+-->
+
 ## Configure business rules
 
 1. Go to a record type page. 

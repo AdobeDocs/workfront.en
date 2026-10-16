@@ -221,7 +221,7 @@ To manage a timeline view:
     >
     >Without custom quarter properly saved, the timeline view displays the classic quarters.
     >After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.
-    >For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+    >For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 1. (Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.
 
@@ -484,7 +484,7 @@ To add a grouping in the timeline view:
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
 
-1.  In the **Layout** area of the **Group records by** box select one of the following options:
+1. In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
 
@@ -589,7 +589,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. (Conditional and optional) If you are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. 
 
-    For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+    For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
     ![Use custom quarters warning inside timeline view settings](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

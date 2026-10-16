@@ -143,7 +143,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 The Updates section displays information in the following tabs:
 
-* **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. 
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 * **System activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. Any replies that were made to system activity records in the legacy commenting experience are populated on the System activity tab as read-only. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 

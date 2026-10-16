@@ -619,6 +619,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
+<!--
+<div class="preview">
+
+## Pin comments
+
+You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+
+1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+
+   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+
+   The number of pinned threads is listed in parentheses to the right of the section name. 
+
+1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+
+</div>
+
+-->
+
 ## Delete a comment or a reply
 
 Depending on the access your Workfront administrator gives you, you might be able to delete comments you added in the Updates section of an object. 

@@ -15,6 +15,8 @@ role_v2:
 ---
 # Promote a Workfront Planning workspace to GenStudio
 
+<!-- add to TOC and mini TOC-->
+
 <!--
 Better metadata, at publishing:
 ---
