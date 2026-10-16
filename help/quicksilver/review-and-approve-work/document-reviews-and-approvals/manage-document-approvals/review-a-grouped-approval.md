@@ -9,7 +9,7 @@ feature: Work Management, Digital Content and Documents
 
 # Review a grouped approval
 
-{{highlighted-preview-article-level}}
+<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there. This functionality will be available in Production environments on October 22, 2026.</span>
 
 When you're assigned to a grouped approval, all the documents in the group appear together so you can make a decision on each one. You can approve or request changes on every document at once, or make a decision on each document individually.
 
