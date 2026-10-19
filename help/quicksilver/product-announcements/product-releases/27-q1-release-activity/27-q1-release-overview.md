@@ -53,8 +53,8 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Release notes for other areas
 
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
-* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Adobe Workfront Planning release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 There are no updates for the following at this point in the release:
 
