@@ -76,12 +76,15 @@ For more detail about the information in this table, see [Access requirements in
 
    * **Create** 
    * **Delete** 
-   * **View Built-In Reports**: This needs to be selected to see reports built by Workfront.
    * **Share** 
+
+   Options that are not enabled by default are:
+
+   * **View Built-In Reports**: This needs to be selected to see reports built by Workfront.
    * **Share Reports Publicly**: Reports can be shared publicly, by sharing a public link to the report with anyone that does not have a Workfront account. This option must be selected to allow for this level of sharing.
    * **Share System-wide**: Reports can be shared with everyone in the system who has a Workfront license. This option must be selected to allow for this level of sharing.
 
-     For information about sharing reports, dashboards, and calendars, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   For information about sharing reports, dashboards, and calendars, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click **Save**.
