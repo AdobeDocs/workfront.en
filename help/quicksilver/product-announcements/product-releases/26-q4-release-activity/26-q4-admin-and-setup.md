@@ -109,7 +109,6 @@ To make it easier for you to create and manage your organization's event subscri
 
 For information, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
-
 ## Add authorized redirect URLs for MCP integrations
 
 >[!NOTE]
