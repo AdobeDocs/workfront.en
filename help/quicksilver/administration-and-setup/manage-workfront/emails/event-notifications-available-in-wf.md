@@ -35,7 +35,10 @@ topic_v2:
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
 
 These notifications can be configured at the system and group level:
 
@@ -953,3 +956,156 @@ See also [Notifications: Delegation](../../../workfront-basics/using-notificatio
 | Tasks and issues | Stop task and issue delegation             | Assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active (Instant only) |
 | Tasks and issues | Task and issue delegation                  | Delegate  | Someone delegates their tasks and issues to me               | Active (Instant only) |
 | Tasks and issues | Stop tasks and issue delegation            | Delegate  | Someone stops the delegation of their tasks and issues to me | Active (Instant only) |
+
+<div class="preview">
+
+## Unified Approvals
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Object Type</th> 
+   <th>Event</th> 
+   <th>Recipient</th> 
+   <th>Description</th> 
+   <th>Default state</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Added as approver or reviewer</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>You're added as an approver or reviewer on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Removed as approver or reviewer</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>You're removed as an approver or reviewer from a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Role changed</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>Your approver or reviewer role changes on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Decision made – Approved</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>An approver makes a decision of Approved on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Decision made – Approved with changes</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>An approver makes a decision of Approved with changes on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Decision made – Needs work</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>An approver makes a decision of Needs work on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approval finished – Approved</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>A document approval finishes with a final decision of Approved.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approval finished – Approved with changes</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>A document approval finishes with a final decision of Approved with changes.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approval finished – Needs work</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>A document approval finishes with a final decision of Needs work.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Review completed</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>A reviewer completes their review on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>All reviews completed</p> </td> 
+   <td> <p>Document Owner</p> </td> 
+   <td> <p>Every reviewer completes their review on a document approval.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Deadline approaching</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>A document approval you're part of is approaching its deadline.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Deadline passed</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>A document approval you're part of passes its deadline without a final decision.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Reminder - 24 hours</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>You have 24 hours left to review and approve the document.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Reminder - 72 hours</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>You have 72 hours left to review and approve the document.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Documents added to or removed from a grouped approval</p> </td> 
+   <td> <p>Approver or Reviewer</p> </td> 
+   <td> <p>Documents are added to or removed from a grouped document approval you're part of.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Video approval limit approaching (80%)</p> </td> 
+   <td> <p>System/Group Administrator</p> </td> 
+   <td> <p>A video approval reaches 80% of its plan's video approval limit.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Video approval limit reached</p> </td> 
+   <td> <p>System/Group Administrator</p> </td> 
+   <td> <p>A video approval reaches its plan's video approval limit.</p> </td> 
+   <td> <p>Active</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>
