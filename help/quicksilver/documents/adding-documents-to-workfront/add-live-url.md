@@ -60,7 +60,7 @@ You can upload an html web page to Workfront as a web link. After you add it, yo
 >* URLs are supported if the site allows iFrame embeddings. 
 >* Private web URLs are supported but certain authentication flows may not work depending on server configuration.
 >* Youtube and Figma URLs are not currently supported.<br>
->For more information, see [What types of URLs are supported in Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+>For more information, see [HTML Review for Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 
 To add a web link:
