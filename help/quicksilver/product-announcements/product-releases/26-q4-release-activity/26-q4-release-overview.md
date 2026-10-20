@@ -779,6 +779,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Non-administrators can now create event subscriptions<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>Users can now receive webhook notifications for supported Workfront objects without system administrator access, using targeted subscriptions and IMS user access tokens.</p>
+            </td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Multiple screens updated to enhanced lists</a>
                 <p>Several lists in Setup, Projects, Templates, and Tasks now use the enhanced list format.</p>
             </td>

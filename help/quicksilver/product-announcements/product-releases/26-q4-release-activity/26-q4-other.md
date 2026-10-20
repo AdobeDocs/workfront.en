@@ -20,6 +20,22 @@ This page describes enhancements made with the Fourth Quarter 2026 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Non-administrators can now create event subscriptions
+
+>[!NOTE]
+>
+>Preview and Production for everyone: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+
+To make it easier to react to important Workfront object changes without system administrator access, we've added user event subscriptions. Now you can receive webhook notifications for supported Workfront objects using an IMS user access token and a targeted subscription for each object and event combination.
+
+User event subscriptions support Task, Project, Note or comment, and Assignment objects, with CREATE, UPDATE, and DELETE events. You can create separate subscriptions for each object and event combination you need, and you can use object IDs or filters to narrow delivery to the exact records you want.
+
+This release is especially useful for teams that need lightweight, event-driven integrations without granting broad admin permissions, such as when using Workfront Fusion.
+
+For more information, see [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+
 ## Updates to enhanced lists
 
 >[!NOTE]
