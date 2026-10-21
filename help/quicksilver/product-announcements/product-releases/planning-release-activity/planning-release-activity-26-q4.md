@@ -47,7 +47,7 @@ For information, see [Promote an Adobe Workfront Planning workspace to GenStudio
 >[!BADGE Off schedule]{type=Neutral}
 >Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-Workfront Planning now supports the Dynamic creative image and Dynamic creative video activation types for Meta Dynamic Creative Objects. These options are available in the Activations record's type field, unblocking Meta DCO activations.
+Workfront Planning now supports the Dynamic creative image and Dynamic creative video activation types for Meta Dynamic Creative Objects. These options are available in the Activations record's type field, unblocking Meta Dynamic Creative Objects activations.
 
 For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
