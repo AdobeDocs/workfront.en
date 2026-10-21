@@ -2711,6 +2711,7 @@ feature-set: Workfront
   * Event Subscriptions {#event-subscriptions}
     * [Event Subscriptions](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
+    * [Manage event subscriptions as a non-admin user](wf-api/general/event-subs-non-admin.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
