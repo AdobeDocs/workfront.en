@@ -79,7 +79,6 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
 | <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
 | List of translations | Setup > Localization |
@@ -100,6 +99,8 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
