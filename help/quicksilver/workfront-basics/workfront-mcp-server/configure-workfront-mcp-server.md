@@ -34,6 +34,16 @@ If you use a different MCP-compatible AI agentic platform (for example, [!DNL Ge
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+><span class="preview">To reduce the size of the MCP catalog for clients that load all tools up front, you can add the `toolsets` query parameter to the Workfront MCP server URL. For example: </span>
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+><span class="preview">For more information on toolsets, see [oolsets in the Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) in the article Adobe Workfront MCP server tools.</span>
+
 ## Prerequisites
 
 Before you can connect Workfront to an AI agentic platform, you must:
