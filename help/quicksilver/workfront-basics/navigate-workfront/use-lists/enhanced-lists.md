@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Use enhanced lists
 
+{{preview-fast-release-general}}
+
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -465,14 +467,18 @@ Workfront provides a limited number of predefined groupings and you cannot modif
 
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
+1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.<!--Delete this line at January release-->
 1. When the grouping is applied, you can open the Grouping options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    An indicator appears on the **Grouping** button when a grouping is applied to the list.
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">To collapse or expand all groupings in the list, click the arrow next to the first column heading.</span>
+
+   <span class="preview">![Collapse all groupings](assets/collapse-expand-all-groupings.png)</span>
 
 ### Sort in an enhanced list
 
