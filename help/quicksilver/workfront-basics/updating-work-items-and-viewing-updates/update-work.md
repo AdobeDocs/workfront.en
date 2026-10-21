@@ -36,11 +36,11 @@ topic_v2:
 <!-- Audited: 4/2025 -->
 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -619,7 +619,6 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
 ## Pin comments
@@ -636,11 +635,13 @@ You can pin top-level comments to the top of the Comments tab. You cannot pin re
 
    The number of pinned threads is listed in parentheses to the right of the section name. 
 
+   ![Pinned threads in Comments section](assets/pin-thread-comments-areas-and-link.png)
+
 1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
 
 </div>
 
--->
+
 
 ## Delete a comment or a reply
 

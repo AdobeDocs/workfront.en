@@ -41,7 +41,7 @@ Because event subscriptions send data to another service, they are manage throug
 
 >[!NOTE]
 >
->To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) and [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
@@ -114,12 +114,14 @@ The following Workfront objects are supported by event subscriptions.
 
 ## Event subscription authentication
 
-To create, query, or delete an event subscription, your Workfront user needs the following:
+To create, query, or delete an event subscription, your Workfront user must have the required access to the Event Subscriptions feature and the appropriate permissions for the action being performed.
 
-* An access level of "System Administrator" is required to use Event Subscriptions.
-* A `sessionID`  header is required to use the Event Subscriptions API
+* A user with the required access can manage event subscriptions in Workfront, but only within the scope allowed by their permissions and system configuration.
+* A `sessionID`  header is required to use the Event Subscriptions API.
 
    For more information, see [Authentication](api-basics.md#authentication) in [API Basics](api-basics.md).
+
+For information about managing event subscriptions in the Workfront application when you are not a Workfront administrator, see [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Avoid overloading event subscriptions
 

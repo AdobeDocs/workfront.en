@@ -30,18 +30,6 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -347,7 +335,6 @@ Consider the following when working with Activations:
 
 * You cannot create an activation record from Workfront Planning. 
 
-
 * A GenStudio Project maps 1:1 to a Workfront Planning workspace; activations are stored in and referenced from that workspace. 
 
 * Visibility and actions depend on your access to that GenStudio project and workspace.  
@@ -356,18 +343,11 @@ Consider the following when working with Activations:
 
 * When you activate from GenStudio, activation details are recorded and tracked in Workfront Planning. GenStudio and Planning keep shared records (Campaigns, Products, Personas, Activations, and more) aligned.  
 
-<!--
-
-<div class="preview">
-
 * Activations records include the following:
 
     * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
     * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
 
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

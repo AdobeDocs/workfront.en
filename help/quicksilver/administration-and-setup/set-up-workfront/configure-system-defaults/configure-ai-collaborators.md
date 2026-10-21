@@ -156,7 +156,7 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
    
    * <span class="preview">Send notification: The Agent makes a comment in the update stream, tagging the user that requested the work, assigned the Agent, or that owns the project. </span>
-   * <span class="preview">Upload a document</span>
+   * <span class="preview">Upload text-based documents</span>
    * <span class="preview">Mark task complete</span>
    * Write task fields: Select the forms and fields that the Agent can write to. 
 

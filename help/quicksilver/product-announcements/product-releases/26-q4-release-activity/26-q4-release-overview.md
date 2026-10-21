@@ -29,7 +29,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 14, 2026)</li></ul>|<ul><li>26.10 (October 22, 2026)</li></ul>|
+>|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 22, 2026)</li></ul>|<ul><li>26.10 (October 22, 2026)</li></ul>|
 >
 >* The 26.10 (October 2026) has been moved to October 22, 2026.
 >
@@ -378,12 +378,12 @@ Live webinars are held for each quarterly release - these highlight the new feat
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a>
                 <p>You can now group multiple documents under a single approval workflow, so they move through the same stages together.</p>
             </td>
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -776,6 +776,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Non-administrators can now create event subscriptions<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>Users can now receive webhook notifications for supported Workfront objects without system administrator access, using targeted subscriptions and IMS user access tokens.</p>
+            </td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
         <tr>
             <td>

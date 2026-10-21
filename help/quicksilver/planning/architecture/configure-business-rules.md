@@ -108,7 +108,7 @@ Or
 <!--
 <div class="preview">
 
-* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+* To ensure data integrity, when a business rule for editing a record is violated as you edit the record, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
 
    The warning is visible in all areas where you are editing records, including the table view or details page. 
 

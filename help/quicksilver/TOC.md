@@ -693,7 +693,9 @@ feature-set: Workfront
       * [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Manage Adobe Workfront {#manage-wf}
     * [Manage Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Configure event subscriptions in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * Manage event subscriptions {#manage-event-subscriptions}
+      * [Manage event subscriptions](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Configure event subscriptions in Workfront](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * Configure proofing functionality {#configure-proofing}
       * [Configure proofing](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1191,6 +1193,7 @@ feature-set: Workfront
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}
     * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+    * [Add a web link as a document](documents/adding-documents-to-workfront/add-live-url.md)
     * [Link documents from external applications](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [Remove links between Adobe Workfront and external document storage providers](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
     * [Request a Document](documents/adding-documents-to-workfront/request-a-document.md)
@@ -2708,6 +2711,7 @@ feature-set: Workfront
   * Event Subscriptions {#event-subscriptions}
     * [Event Subscriptions](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
+    * [Manage event subscriptions as a non-admin user](wf-api/general/event-subs-non-admin.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
