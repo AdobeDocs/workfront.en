@@ -28,11 +28,11 @@ This section includes the release notes for new functionality.
 >
 >Production release date: TBD
 
-You can now expand or collapse all groupings in an enhanced list using the arrow icon at the top of the column where the groupings are configured. This includes time-phased reports.
+You can now expand or collapse all groupings in an enhanced list using the arrow icon at the top of the first column. This includes time-phased reports.
 
 Previously, you could only expand or collapse all groups within the grouping settings.
 
-For more information about views and enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+For more information about enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ### View selection on time-phased reports
 
