@@ -30,8 +30,6 @@ topic_v2:
 ---
 # Schedule an automatic report delivery
 
-{{highlighted-preview}}
-
 <!-- Audited: 4/2025 -->
 
 <!--
@@ -148,7 +146,7 @@ To schedule a report for automatic delivery:​
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats</p> </td> 
-      <td> <p>Select whether the report should be delivered daily, weekly, monthly, or yearly. <span class="preview">In Preview, select whether the report should be delivered daily, weekly, or monthly.</span></p> </td> 
+      <td> <p>Select whether the report should be delivered daily, weekly, or monthly.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats Every</p> </td> 
@@ -172,15 +170,11 @@ To schedule a report for automatic delivery:​
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ends On</p> </td> 
-      <td><p>Select a date for the scheduled delivery to end.</p> <p class="preview">In Preview, select a date for the scheduled delivery to end.</p> <p class="preview">Note: The end date can be no more than 13 months from the day you create or update the delivery rule.</p></td> 
+      <td><p>Select a date for the scheduled delivery to end.</p> <p>Note: The end date can be no more than 13 months from the day you create or update the delivery rule.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Never</p> </td> 
-      <td><p>Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</p> <p class="preview">This option is no longer available in Preview or fast-release environments.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><div class="preview"><p>Active</p></div></td> 
-      <td><div class="preview"><p>Toggle on to keep this delivery active. New deliveries are Active by default.</p> <p>When the <strong>Ends On</strong> date passes, Workfront automatically turns this toggle off and disables it. To resume delivery, update the <strong>Ends On</strong> date to a date in the future, then turn the toggle back on.</p></div></td> 
+      <td role="rowheader"><p>Active</p></td> 
+      <td><p>Toggle on to keep this delivery active. New deliveries are Active by default.</p> <p>When the <strong>Ends On</strong> date passes, Workfront automatically turns this toggle off and disables it. To resume delivery, update the <strong>Ends On</strong> date to a date in the future, then turn the toggle back on.</p></td> 
      </tr> 
     </tbody> 
    </table>

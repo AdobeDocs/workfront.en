@@ -106,9 +106,9 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
-<div class="preview">
 
-### Drill down into pivot table data in Preview
+
+### Drill down into pivot table data
 
 You can click a value in a pivot table report to drill down and see the individual records that make up that aggregated value.
 
@@ -122,7 +122,7 @@ You can click a value in a pivot table report to drill down and see the individu
 
     The drilldown table displays the columns that the report creator configured in the Drilldown Column Settings. For more information, see [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

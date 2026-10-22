@@ -31,8 +31,6 @@ topic_v2:
 ---
 # Report delivery overview
 
-{{highlighted-preview}}
-
 <!-- Audited: 11/2024 -->
 
 <!--
@@ -198,17 +196,13 @@ When you send a report from Workfront to PDF or Excel format, any working links 
 
 The name of the report in the email message is also a link.
 
-<div class="preview">
-
 ### Report expiration notices {#report-expiration-notices}
 
-In Preview, delivered report emails include the report's expiration date.
+Delivered report emails include the report's expiration date.
 
 If the delivery repeats daily, the email includes an expiration warning on every delivery once the expiration date is within 45 days.
 
 If the delivery repeats weekly or monthly, the email includes an expiration warning during the last four scheduled deliveries before the expiration date.
-
-</div>
 
 ## Report on scheduled reports
 
