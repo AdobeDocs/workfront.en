@@ -19,11 +19,9 @@ role_v2:
 ---
 # Use Work Agents
 
-{{preview-fast-release-general}}
-
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-Work Agents connect to agents that you have configured in Copilot Studio, Claude,  <span class="preview">OpenAI or IBM. </span>
+Work Agents connect to agents that you have configured in Copilot Studio, Claude, OpenAI, or IBM. 
 
 >[!IMPORTANT]
 >
@@ -78,7 +76,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* The Workfront MCP server does not need to be added to the agent used as a Work Agent, and does not need to be connected for the Work Agent to work.
->* Work Agents currently support agents created in Copilot Studio, Claude, <span class="preview">OpenAI, and IBM. </span>
+>* Work Agents currently support agents created in Copilot Studio, Claude, OpenAI, and IBM. 
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
@@ -90,8 +88,8 @@ When a Work Agent begins work on a task, it automatically reads the following ta
 * Task description
 * Comments in the task's update stream
 * Information in any custom form attached to the task
-* <span class="preview">Attached text-based documents, such as DOC and PDF files</span>
-* <span class="preview">Project fields, if they are set up in the Work Agent configuration</span>
+* Attached text-based documents, such as DOC and PDF files
+* Project fields, if they are set up in the Work Agent configuration
 
 This information is always read and is not configurable as a Workfront setting.
 
@@ -112,7 +110,7 @@ Depending on how the Work Agent is configured in Workfront, it can take the foll
 
 ## Work Agent start triggers
 
-When a Work Agent is assigned to a task <span class="preview">or issue</span>, it begins work when any of the following situations are met:
+When a Work Agent is assigned to a task or issue, it begins work when any of the following situations are met:
 
 <!--update wording to include issues when this goes to production-->
 

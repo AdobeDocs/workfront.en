@@ -7,12 +7,10 @@ title: Configure event subscriptions in Workfront
 description: Workfront administrators can create, view, and delete event subscriptions from Setup. Users with the required access may also manage event subscriptions within the scope allowed by their permissions and system configuration.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
+author: Becky
 ---
 
 # Configure event subscriptions in Workfront
-
-{{highlighted-preview-article-level}}
 
 As an Adobe Workfront administrator, you can create, view, and delete event subscriptions from the Setup area. Event subscriptions send Workfront event information to an external endpoint when specified events occur.
 
