@@ -460,7 +460,8 @@ Update the calendar view settings to indicate what and how information displays 
     * **Record**: The color matches the records' colors.
 
     <!-- 
-    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span-->
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
     
 
