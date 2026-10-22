@@ -26,31 +26,8 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Adobe Workfront enhancements
 
-* [AI enhancements](#ai-enhancements)
 * [Project enhancements](#project-enhancements)
 
-### AI enhancements
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Feature</strong>
-            </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
-                <p>You can now limit the Workfront MCP catalog to specific toolsets and filter availability by product entitlement, so AI clients only access the capabilities they need.</p>
-            </td>
-            <td><p>October 21, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>January 21, 2027</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### Project enhancements
 

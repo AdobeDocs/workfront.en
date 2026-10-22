@@ -38,10 +38,6 @@ If your organization is not entitled to a product area, the related tools do not
 
 The following tables identify the product area each tool belongs to.
 
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
-
 ## Toolsets in the Workfront MCP server
 
 >[!IMPORTANT]
@@ -82,7 +78,6 @@ Toolsets do not change permissions. Your Workfront access level and object permi
 
 If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
 
-</div>
 
 ## Read and write actions
 

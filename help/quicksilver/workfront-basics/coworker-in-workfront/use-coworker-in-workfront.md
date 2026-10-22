@@ -70,7 +70,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    For example prompts, see the prompts in the article  [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 1. Use any of the actions in the chat input box:
 
-   * **+ (Attach)**: Open the attach menu to add a file or a data object to the message.
+   * **+ (Attach)**: Open the attach menu for the following functionality:
+      * Commands
+      * Attach file
+      * Reference an object
    * **Plan mode**: Ask Coworker Chat to propose a step-by-step plan and pause for your approval before it acts. Turn it off to let Coworker Chat act directly.
    * **Transcript view**: Control how much of Coworker Chat's internal activity is shown: Normal, Focus, or Verbose.
    * **Microphone**: Dictate your message with voice input. Select again to stop recording.
