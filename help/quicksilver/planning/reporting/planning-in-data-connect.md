@@ -23,6 +23,8 @@ role_v2:
 
 # Workfront Data Connect for Workfront Planning 
 
+{{planning-important-intro}}
+
 Workfront Data Connect delivers access to Workfront data, including from Adobe Workfront Planning, using Snowflake technology, allowing you to answer business-critical questions and measure the value of your processes. Enterprise customers can analyze their data using data visualization tools directly from a Workfront data lake, or export Workfront data to a customer-owned data warehouses.
 
 Subscribers will be able to connect their business intelligence tool of choice (Tableau, Power BI, Domo, Looker, etc.) to Data Connect to create data visualizations with the following types of data:

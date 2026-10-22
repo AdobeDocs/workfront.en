@@ -283,6 +283,6 @@ To delete a global record type from a secondary workspace:
    * The record type created from a global record type is removed from the selected secondary workspace. 
    * The original record type with its fields remain in their original workspace. 
    * The record type remains in all other workspaces where it's been added.
-   * The records <!--and fields--> added to the record type from the secondary workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
+   * The records <!--and fields--> added to the record type from the secondary workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.-->
    
 

@@ -24,9 +24,11 @@ role_v2:
 ---
 # Example of connecting record types and records
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -58,15 +60,11 @@ To do this:
     * **Record type**: Product <!--did they change the casing here?-->
     * **Name**: Give the new field a name. For example, "Product information." This is the name of the linked record field. 
     * **Description**: Add a description for the new field. For example, "These are the Products that I want my Campaigns associated with." The description of the field displays when hovering over the field in the column header. 
-    
-    <div class="preview">
 
     * **Make this connection dependent**: When enabled and the two connected records display on a third record at the same time, the choices for one record type are dependent on the choices for the other. 
         
         For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
     * **Create corresponding field on linked record type**: When enabled, a connection field is also created on the record type you are connected to (Product). 
-
-    </div>
 
     * **Connection type**: Select from the following options:
         * **Many to many**: Users can connect one campaign to several products and one product to several campaigns. 
@@ -83,13 +81,11 @@ To do this:
         * **Name**: Displays only the name of the connected records.
         * **Image**: Displays only the thumbnail or the icon of the connected records.
 
-        <div class="preview">
+        * **Color and name**: Displays only the color and the name of the connected records.
 
-        * **Color and name**: Displays only the color and the name of the connected records
-
-        </div>
-
-    * <span class="preview">**Lookup fields**: Expand this option to also connect lookup fields from the connected records. </span>The **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
+    * **Lookup fields**: Expand this option to also connect lookup fields from the connected records. 
+    
+        The **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
         ![New connection with product record type](assets/new-connection-with-product-record-type.png)
 

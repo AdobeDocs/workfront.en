@@ -31,9 +31,11 @@ topic_v2:
 ---
 # Manage the calendar view
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -196,9 +198,9 @@ To manage a calendar view:
             * Records that span over multiple days display at the top of the calendar. 
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
 
-                <span class="preview">The calendar displays up to 1,000 records across the previous, current, and next weeks for both areas in the weekly view.</span>
+                The calendar displays up to 1,000 records across the previous, current, and next weeks for both areas in the weekly view.
          
-1. <span class="preview">(Optional and conditional) Click **Load more** at the bottom of the calendar, if there are more than 1,000 records, and some of them do not display by default, when viewing the calendar by week.</span>    
+1. (Optional and conditional) Click **Load more** at the bottom of the calendar, if there are more than 1,000 records, and some of them do not display by default, when viewing the calendar by week.
          
 1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  
 
@@ -283,10 +285,10 @@ To add a filter to a calendar view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p> or <span class="preview"><p>Is any of</p></span>
+            <td><p>Is any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p> or <span class="preview"><p>Is any of</p></span>
+            <p>Is any of</p>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
@@ -454,8 +456,11 @@ Update the calendar view settings to indicate what and how information displays 
 1. In the **Set record color to** section, select from the following options to set a color for the records: 
 
     * **Record type**: The color of the record bars in the calendar matches the color of the record type you selected. This is the default option. 
-    * **Field values**: The color of the records matches the color of a field that you specify. 
-    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span>
+    * **Field values**: The color of the records matches the color of a field that you specify.
+    * **Record**: The color matches the records' colors.
+
+    <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span-->
 
     
 
@@ -473,9 +478,7 @@ Update the calendar view settings to indicate what and how information displays 
     >[!NOTE]
     >
     >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-    >    
-    >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        
+    >            
 
 1. Click **Save**.
 

@@ -34,7 +34,7 @@ role_v2:
 
 A workspace is a collection of record types used by an organizational unit and it represents the unit's work lifecycle and processes. You can fully customize workspaces in Adobe Workfront Planning. 
 
-<!--update screenshot with production, it was broken at Preview-->
+<!--update screenshot with production whe we can search for records, it was broken at Preview-->
 
 ![Workspaces landing page admin account](assets/workspaces-landing-page-admin-account.png)
 
