@@ -41,8 +41,6 @@ topic_v2:
 ---
 # Configure system preferences
 
-{{highlighted-preview}}
-
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -205,8 +203,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Authorized redirect URLs</span></td> 
-      <td><span class="preview">Controls which callback (redirect) URLs can complete login for your organization's MCP agents connecting through custom AI agentic platforms.<p>For instructions on adding redirect URLs for MCP servers, see <a href="#add-or-remove-an-authorized-redirect-url">Add or remove an authorized redirect URL</a> in this article.</p></span></td> 
+      <td role="rowheader">Authorized redirect URLs</td> 
+      <td>Controls which callback (redirect) URLs can complete login for your organization's MCP agents connecting through custom AI agentic platforms.<p>For instructions on adding redirect URLs for MCP servers, see <a href="#add-or-remove-an-authorized-redirect-url">Add or remove an authorized redirect URL</a> in this article.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 
@@ -219,8 +217,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    The changes that you saved here affect the experience of all the users in Workfront and anyone who interacts with the system as an external user.
 
 ## Add or remove an authorized redirect URL
-
-<div class="preview">
 
 Authorized redirect URLs let you connect a custom AI agentic platform whose OAuth callback URL is unique to your organization, such as  a URL that contains a connection or tenant ID. 
 
@@ -244,4 +240,3 @@ To add a URL:
 
 +++
 
-</div>
