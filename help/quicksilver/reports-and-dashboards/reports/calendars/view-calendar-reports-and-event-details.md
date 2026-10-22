@@ -104,20 +104,26 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) If you are viewing the calendar in the **Month** or **Week** views, you can change your calendar view with the following options:
 
-      <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-      * To quickly change the displayed dates:
-
-         1. On the **[!UICONTROL Calendar]** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.
-
-            ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)
-            
-            The displayed dates are adjusted by an interval based your current calendar view. For example, if you are viewing the calendar in the **Week** view, the calendar displays either one week forward or one week back, depending on the arrow you select.
-
-         1. (Optional) To return to the current day, click [!UICONTROL **Today**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Exclude weekends when viewing the calendar in the Month view</td> 
+      <td>In the top-right corner of the calendar, toggle <b>Show Weekends</b> on or off.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Show or hide the hours of the day when viewing the calendar in the <b>[!UICONTROL Week]</b> view</span></td> 
+      <td><span class="preview">In the top-right corner of the calendar, toggle <b>Show Hours</b> on or off.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">To quickly change the displayed dates</td> 
+      <td> <p>On the <b>[!UICONTROL Calendar]</b> toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Click arrow to change date"></p> <p>The displayed dates are adjusted by an interval based on your current calendar view. For example, if you are viewing the calendar in the <b>Week</b> view, the calendar displays either one week forward or one week back, depending on the arrow you select.</p> <p>(Optional) To return to the current day, click <b>[!UICONTROL Today]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Optional) To hide the events for a project or calendar grouping linked to the calendar, clear the project or calendar grouping in the project list.
    ![Hide events](assets/hide-events-for-project-or-cal-grouping.png)
