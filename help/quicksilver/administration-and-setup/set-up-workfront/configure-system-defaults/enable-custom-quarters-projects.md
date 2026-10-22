@@ -34,10 +34,12 @@ topic_v2:
 
 <!--remove Production and Preview references at release-->
 
+<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
 
@@ -46,11 +48,7 @@ Depending on what products your company has purchased, you can configure the fol
 * Customers who purchased [!DNL Workfront] only, can configure up to eight custom quarters for their [!DNL Adobe Workfront] system.
 * Customers who purchased [!DNL Workfront] and [!DNL Workfront Planning], can configure up to 100 quarters for their [!DNL Workfront] system which are also available in [!DNL Planning]. 
 
-<div class="preview">
-
 * Customers who purchased [!DNL Workfront] and [!DNL Workfront Planning], can configure custom weeks for each custom quarter. The custom weeks are visible in the [!DNL Planning] timeline views. 
-
-</div>
 
 ## Access requirements
 
@@ -130,6 +128,7 @@ When we release fiscal weeks, replace the table above with this:
 
 ## Set up custom quarters for your [!DNL Workfront] system
 
+<!--
 Setting up custom quarters differs depending on which environment you use. 
 
 ### Set up custom quarters for your [!DNL Workfront] system in the Production environment
@@ -170,6 +169,8 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 <div class="preview">
 
 ### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+-->
 
 >[!NOTE]
 >
@@ -229,6 +230,6 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
    For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 1. (Optional and conditional) To view custom quarters and weeks in Workfront Planning, go to a record type page and open a timeline view. The view displays the new custom quarters and weeks. 
 
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+    For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
-</div>
+

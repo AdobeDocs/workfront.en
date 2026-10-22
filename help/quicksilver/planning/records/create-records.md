@@ -33,10 +33,11 @@ topic_v2:
 ---
 # Create records
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,6 +54,7 @@ You can create records by doing one of the following:
 * [Connect them from other records](#create-records-as-you-connect-them)
 * [Submit a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Import information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Create records with CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Use automations](#create-records-by-using-automations)
 
 For information about managing records in the table or timeline views, see the following articles:
@@ -192,14 +194,9 @@ Old:
     >
     >A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records.
 
-<div class="preview">
-
 * All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
 
     For more information, see the section [Color coding records](#color-coding-records) in this article. 
-
-</div>
-
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -598,6 +595,16 @@ You can import records for existing record types when you import information fro
 
 For information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
 
+## Create records using CX Enterprise Coworker
+
+You can use the CX Enterprise Coworker to create records by prompting AI to create them for you. 
+
+You can also use the **Attach file** capability of the Workfront CX Enterprise Coworker to upload large numbers of records at a time. You can import 10,000 or more records using this method. 
+
+CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations.
+
+For information, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md). 
+
 ## Create records by using automations
 
 You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
@@ -609,8 +616,6 @@ For information, see [Create objects using Adobe Workfront Planning record autom
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## Color coding records
 
@@ -653,4 +658,3 @@ All records are automatically associated with a color when they are created.
 
         Once selected, the new color is applied immediately. 
 
-</div>

@@ -33,9 +33,11 @@ topic_v2:
 
 <!-- remove Production and Preview references at release-->
 
+<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -203,7 +205,7 @@ To manage a table view:
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
-    ![Table view example](assets/table-view-example-g-list.png)
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -329,9 +331,7 @@ You can add up to 500 fields (or columns) in a table view.
         * **MIN**: Displays the lowest value from all the cells in the column.
         * **MAX**: Displays the highest value from all the cells in the column.
         * **AVG**: Displays the average value of all the cells in the column.
-        * <span class="preview">**NONE**: The values of the column are not aggregated. This is the default option.</span> 
-   
-    <div class="preview">
+        * **NONE**: The values of the column are not aggregated. This is the default option.
 
     * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
@@ -346,8 +346,6 @@ You can add up to 500 fields (or columns) in a table view.
         * **NONE**: The values of the column are not aggregated. This is the default option.
         * **EMPTY**: Displays a count of the fields that have no values. 
         * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
         
     Consider the following when working with aggregators: 
     
@@ -355,9 +353,6 @@ You can add up to 500 fields (or columns) in a table view.
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
-
-    <div class="preview">
-
     * The following field types do not have an aggregator: 
 
         * Created by
@@ -365,7 +360,7 @@ You can add up to 500 fields (or columns) in a table view.
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div> 
+     
 
 <!--
 
@@ -405,11 +400,11 @@ You can have up to 50,000 records (or rows) for a record type.
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+    A default thumbnail image and color are also added to the new record.
 
     >[!TIP]
     >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.
     >
     >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
     
@@ -421,32 +416,20 @@ You can have up to 50,000 records (or rows) for a record type.
     >
     >The changes you make to the row order are visible to all users who access the record type in the same view. 
     >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+    >In the drag and drop line, a number indicator displays the number of records selected, if more than one. 
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
-
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+1. Hover over the primary field header, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+1. Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. 
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-
-<div class="preview">
+1. (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.
 
 ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
 For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Add filters {#add-filters-1}
 
@@ -510,10 +493,10 @@ To add a filter to a table view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p> or <span class="preview"><p>Is any of</p></span>
+            <td><p>Is any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p> or <span class="preview"><p>Is none of</p></span>
+            <p>Is none of</p>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>

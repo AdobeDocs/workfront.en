@@ -37,6 +37,8 @@ topic_v2:
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+{{planning-important-intro}}
+
 As a workspace manager, you can create multiple workspace hierarchies between record types in Adobe Workfront Planning. 
 
 After record types are connected within a workspace, you can create a hierarchy that organizes those connections. 

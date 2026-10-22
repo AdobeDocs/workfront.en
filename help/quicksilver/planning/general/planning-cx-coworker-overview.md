@@ -26,13 +26,10 @@ role_v2:
 <!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <!--
-
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 -->
-
 
 {{planning-important-intro}}
 
@@ -141,7 +138,7 @@ You can use Coworker to perform the following actions:
 * Delete, duplicate, or restore records
 * Link records to other records
 * View a record's change history
-
+* Import 10,000 or more records by attaching an Excel file to Coworker. 
 
 ## Locate Coworker in Workfront Planning
 

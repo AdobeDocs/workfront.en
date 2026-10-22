@@ -74,7 +74,7 @@ You can edit a workspace in the following ways:
 <tr> 
 </tr>   
 
-tr> 
+<tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 

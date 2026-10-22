@@ -36,10 +36,10 @@ topic_v2:
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 <!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 -->
 
@@ -55,7 +55,7 @@ topic_v2:
 
 You can use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. 
 
-Whether used directly, through the AI Assistant, or CX Enterprise Coworker, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information.
+Whether used directly, or if you want to access its capabilities through the AI Assistant, or CX Enterprise Coworker, the Planning Designer in Workfront Planning provide a flexible, powerful environment for building and maintaining structured, connected information.
 
 For information about Workfront Planning, see the following articles:
 
@@ -215,7 +215,8 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Your Workfront Administrator must turn on the Planning Designer for your organization. After this, the Planning Designer is available for all users, by default.
-* If your organization has signed an AI agreement, the actions performed by the Planning Designer can also be performed by the AI Assistant or Coworker, when you use it in the Planning area.
+* If your organization has signed an AI agreement, the actions performed by the Planning Designer can also be performed by the AI Assistant, when you use it in the Planning area.
+* You can also use the CX Enterprise Coworker to access similar capabilities.
 * The actions performed by the AI Assistant or Coworker in the Planning area or those performed by the Planning Designer are in the context of your Workfront Planning permissions and your Workfront access level.
 
     For information, see the following articles: 
@@ -293,7 +294,7 @@ You can create or update objects in Workfront Planning either by using the Plann
 
     ![Planning Designer window](assets/planning-designer-window.png)
 
-1. In the space provided, start typing prompts for the AI Assistant or Coworker, then click Enter when you are done. 
+1. In the space provided, start typing prompts for the Planning Designer AI Assistant, then click Enter when you are done. 
 
     <!--add screen shot-->
 

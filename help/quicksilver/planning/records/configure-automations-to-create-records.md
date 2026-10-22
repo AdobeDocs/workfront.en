@@ -45,6 +45,8 @@ topic_v2:
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
+{{planning-important-intro}}
+
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
 You can configure and activate the automation in the record type's page in Workfront Planning. 

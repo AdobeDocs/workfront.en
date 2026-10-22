@@ -24,6 +24,8 @@ role_v2:
 ---
 # Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index
 
+{{planning-important-intro}}
+
 The GenStudio workspace is available in Adobe Workfront Planning when your company has purchased both Adobe GenStudio for Performance Marketing and Adobe Workfront. 
 
 The articles in this section describe the functionality available for this integration.
