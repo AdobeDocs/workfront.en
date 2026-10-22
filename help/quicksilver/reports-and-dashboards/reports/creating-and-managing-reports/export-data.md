@@ -337,6 +337,8 @@ Links can point to any object in Workfront that supports linking. When you expor
 
 When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
 
+<!--
+
 ## Branding {#branding}
 
 >[!IMPORTANT]
@@ -350,3 +352,7 @@ If your Workfront administrator has added customized branding to your Workfront 
 Data that is exported in any other formats cannot be personalized with your logo.
 
 For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

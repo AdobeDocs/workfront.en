@@ -25,8 +25,8 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To help you track how a user's job role, agency, cost center, and billing rates have changed over time, we've added Employment History.
 
@@ -41,8 +41,8 @@ For more information, see [View user employment history](/help/quicksilver/admin
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To help you save time translating custom terms and field labels, we've added the ability to generate AI translations for custom localization. Now, Workfront administrators can use AI to generate translations for untranslated custom text, or fill in additional language translations for a previously localized term, then review and adjust the results before saving.
 
@@ -55,8 +55,8 @@ For more information, see [Configure custom localization](/help/quicksilver/admi
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
 
@@ -76,8 +76,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Several enhancements have been made to layout templates:
 
@@ -92,8 +92,8 @@ For more information, see [Customize the Main Menu using a layout template](/hel
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 When working with drop-down fields, radio buttons, and check boxes in the form designer, you can now add, edit, and delete field choices in a single dialog. Previously, you would add and edit choices in the right panel of the designer and there was not a lot of space if you created a long list of choices.
 
@@ -107,16 +107,15 @@ To make it easier for you to create and manage your organization's event subscri
 * Create new event subscriptions, including filtering by criteria you specify:
 * Delete event subscriptions.
 
-For information, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
-
+For information, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
 ## Add authorized redirect URLs for MCP integrations
 
 >[!NOTE]
 >
 >Preview: September 22, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make the Workfront MCP servers more flexible and customizable to your organization, we've added the ability to add custom OAuth callback URLs. Workfront administrators can now maintain their own organization's allowlist of trusted OAuth callback URLs for MCP integrations. This lets you connect custom AI agentic platforms whose OAuth callback URL is unique to your organization, beyond the platforms that Workfront supports natively.
 
@@ -130,7 +129,7 @@ For more information, see [Add or remove an authorized redirect URL](/help/quick
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
 
@@ -150,7 +149,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 You can now set a default access level for users who are provisioned in Workfront through the Adobe Admin Console. A Workfront administrator can configure this default in System Preferences.
 
@@ -164,7 +163,7 @@ For more information, see [Configure system preferences](/help/quicksilver/admin
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 If your organization has purchased a Planning package, in addition to a Workflow package, you can now configure custom weeks in the same way you configure custom quarters as a Workfront administrator.
 
@@ -178,7 +177,7 @@ For information, see [Enable custom quarters](/help/quicksilver/administration-a
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Custom document integrations now support chunked uploads for large files. When enabled, files over 25 MB are broken into smaller chunks and uploaded in parallel, making uploads of large files faster and more reliable. Admins can turn this on and set the maximum chunk size (up to 100 MB) per integration.
 
@@ -190,7 +189,7 @@ For more information, see [Configure document integrations](/help/quicksilver/ad
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access. This gives organizations more flexibility to delegate business profile management at the group level.
 
@@ -202,7 +201,7 @@ For more information, see [View and manage business profiles](/help/quicksilver/
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Views for enhanced lists are now supported at the system level via a layout template. You can hide existing system views, assign a specific view as a default view, and add a custom view to the list of system views.
 
@@ -216,7 +215,7 @@ For information, see [Customize Filters, Views, and Groupings using a layout tem
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Bulk edit dialogs now allow the editing of external lookup fields. This was not previously possible.
 
@@ -232,7 +231,7 @@ For information on external lookup fields, see [Create a custom form](/help/quic
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The custom form designer preview mode now supports advanced logic options including advanced display logic, default value logic, validation logic, formatting logic, and editability logic. You can test the logic formulas in the form preview and adjust them as needed in the logic builder. You can also select a test object (project, task, issue, etc.) to preview the form with real contextual data.
 
@@ -248,7 +247,7 @@ For more information, see [Add logic rules to custom forms and fields](/help/qui
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
 
@@ -268,7 +267,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 You can now set a custom application as the landing page in a layout template. Custom applications that have already been added to the Main Menu are available to use as a landing page.
 
@@ -282,7 +281,7 @@ For more information, see [Customize the landing page using a layout template](/
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 You can add fields you want to track for a particular type of object throughout Workfront. When users change information in that field, the system records information about the change as an entry in the change history.
 
@@ -296,10 +295,8 @@ For more information, see [Configure fields to track in change history](/help/qu
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 On the Standard access level, you can now define whether users with that level should have access to the Change History List. The **Change history** option is available in the **Allow administrative access for** section on the access level.
 
 For more information, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) and [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
-
-

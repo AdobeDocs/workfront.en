@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Coworker skills
+title: Workfront skills in CX Enterprise Coworker 
 content-type: reference
 description: Learn about the skills available for Coworker in Adobe Workfront.
 author: Becky
@@ -11,7 +11,7 @@ feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
 ---
-# CX Enterprise Coworker skills
+# Workfront skills in CX Enterprise Coworker 
 
 {{preview-fast-release-general}}
 
@@ -55,6 +55,9 @@ This skill queries and manages Workfront Planning objects such as:
 * Fields
 * Views
 * Records
+<!--
+* Business rules
+-->
 
 ### Manage Workfront Objects
 
@@ -71,13 +74,12 @@ This skill creates and updates Workfront projects, tasks, issues, portfolios, an
 
 Name: `query-workfront-data`
 
-This skill finds, lists, and reports on Workfront objects such as:
+This skill finds, lists, and reports on Workfront objects. The following are some examples of such Workfront objects, but the list is not complete: 
 
 * Projects
 * Tasks
 * Issues
 * Users
 * Portfolios
-* and more
 
 

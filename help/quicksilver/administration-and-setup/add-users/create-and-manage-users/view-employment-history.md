@@ -64,5 +64,3 @@ You can view employment history from the Users list, or you can view a single us
 1. To export employment history, click **Export**. You can export the employment history as a CSV or XLSX file.
 
 
-
-

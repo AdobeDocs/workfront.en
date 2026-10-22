@@ -66,8 +66,6 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-
-
 ## Install the Desktop Proofing Viewer on Mac
 
 If your Adobe Workfront administrator or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
@@ -77,7 +75,7 @@ If this is not the case, you can follow the steps below.
 1. Do one of the following to download the app:
 
    * If you are using the Production environment, click [Mac Production Download for the Desktop Proofing Viewer.](https://app.proofhq.com/desktopviewer/mac)
-   * If you are using the Preview environment, click [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * If you are using the Preview environment, click [Mac Preview Download for the Desktop Proofing Viewer.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Open the file you have just downloaded to start the installation.
 1. On the installation box that appears, click **Continue**, then click **Install**.

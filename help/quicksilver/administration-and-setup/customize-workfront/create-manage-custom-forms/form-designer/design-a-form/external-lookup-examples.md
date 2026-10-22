@@ -242,4 +242,3 @@ There are many other use cases for creating an External lookup.
 
 **Use case:** Integration with objects outside of Workfront. For example, accessing another system to get the name of every user, rather than being restricted in a typeahead field.
 **Solution:** Webhook/Fusion automation to connect to other systems.
-

@@ -1,5 +1,5 @@
 ---
-title: Create Planning Records from Ideation Space Briefs
+title: Create or Edit Planning Records from Ideation Space Briefs
 description: Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones. This article describes how you can create or edit exiting Planning records using the Ideation space.
 role: User, Admin
 author: Alina
@@ -13,7 +13,7 @@ role_v2:
     internal-label: Admin
 ---
 
-# Create Planning records from Ideation space briefs
+# Create or edit Planning records from Ideation space briefs
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -60,8 +60,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
+<!--
+Not available for beta:
 Or
-<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -116,13 +120,13 @@ For more information about Workfront access requirements, see [Access requiremen
 
 +++   
 
-## Considerations about using the Ideation space to create records
+## Considerations about using the Ideation space to create or edit Planning records
 
-* You can only launch the Ideation space from Workfront Planning or from the Main Menu of Workfront, as you create or edit records. The Ideation space does not exist outside of Workfront. 
-* To access the Ideation space, you must have a workspace and a record type in Workfront Planning.
+* You must launch the Ideation space from Workfront Planning to be able to create or edit a Planning record. Accessing the ideation space from the Workfront Main menu does not connect an ideation brief to a Planning record. 
+* To use the Ideation space to create or edit records, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
-* When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated canvas in the Ideation space is not deleted.
-* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. 
+* When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated space is not deleted.
+* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change?-->
 * The following scenarios exist when fields are created, edited or removed in Workfront Planning: 
 
     * New fields created on records linked to Ideation briefs are added daily to the brief. New fields appear empty in the Ideation brief. 
@@ -130,7 +134,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Renamed fields update their names in the brief. 
 * You can add documents as cards in the Ideation space. This also includes images.
 
-    The following file types are supported: PDF, Excel, CSV, PNG (and other image formats), Word, PowerPoint. Videos are not supported. 
+    You can add the following file types: PDF, Excel, CSV, PNG (and other image formats), Word, PowerPoint. Videos are not supported. 
 
     All uploaded documents are converted to PDF on the backend for processing.
 * You can drag and drop records directly from Workfront Planning onto the space, and they appear the same way as manually uploaded files.
@@ -150,54 +154,44 @@ For more information about Workfront access requirements, see [Access requiremen
 
     ![New record box with Open Ideation space button](assets/new-record-creation-picker-with-ideation.png)
 
-    The Ideation space opens in a new tab with an empty prompt. 
+    The Ideation space opens in a new tab.
 
-    The record is created immediately with placeholder text.
+    CX Coworker opens in the right panel. 
 
-1. (Optional) Click **Use existing brief** in the prompt box to browse and add an existing document which the Ideation space will use to create the brief and the future record. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+    The record is created immediately with a placeholder name. 
 
-    ![Empty ideation brief prompt](assets/empty-ideation-prompt.png)
+    <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (Optional) Click the **Open previous canvases** <!--accurate??--> icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
-
-1. In the **What are you working on?** prompt box, describe what kind of record you want to create.
+1. Add a prompt in the **CX Coworker** dialog box, then press Enter. 
 
     The more details you share, the more useful the information provided by the ideation space will be. For example, type a description of the campaign you're planning: "back to school campaign for a marketing agency". 
 
-1. Click **Start ideating**.
+1. Continue creating the ideation brief as described in the article [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-    The Ideation space works through the following steps while it builds your idea: <!--check some of these in the UI - there might have been UI text changes-->
+    <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-    1. Understand your goal and context
-    2. Review your space and selected materials
-    3. Gather evidence from documents, web, and data
-    4. Synthesize findings into a research summary
-    5. Create and refine cards with citations
-
-    During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
-    
-    For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. <!--check on this with Et-->    
-
-    When the ideation completes, the following things are added to the Ideation space: 
-    
-    * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
-
-    * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
-
-    ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
-
-1. Continue to add information to the ideation space to complete creating your brief. 
-
-1. (Conditional) When the brief is completed, click the preview image in the lower-left corner, then click one of the following: 
-
-    * **Export to file** to create a file
-    * **Export to Workfront Planning** to create a Planning record 
-
-    For information about adding items to the brief and exporting it, see [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md). 
+1. (Conditional) When the brief is completed, click the preview image in the lower-left corner, then click **Export to Workfront Planning** to create a Planning record.  
 
     This finishes creating the record with the additional information and it adds it to the record type you originally selected.
 
-## Edit existing records in Ideation space
+## Edit existing records using the Ideation space
 
 You can open the Ideation space from existing records to update them. 
 
@@ -205,7 +199,7 @@ You cannot bulk-edit records in the Ideation space.
 
 1. Go to an existing record in Workfront Planning and open its details page. 
 
-1. Click **Open in Ideation space**. This opens the Ideation space in a new tab.
+1. Click **Open in Ideation space** ![](assets/open-in-ideation-space.png). This opens the Ideation space in a new tab.
 
     If an ideation for the record already exists, it opens that space.
     
@@ -213,19 +207,14 @@ You cannot bulk-edit records in the Ideation space.
 
     >[!TIP]
     >
-    >Bulk-editing records using the Ideation space is not available.
+    >You cannot bulk-edit records using the Ideation space. 
+1. Continue editing the brief as described in the section [Create records using the ideation space](#create-records-using-the-ideation-space) in this article. 
 
     <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. Continue editing the brief as described in the section [Create records using the ideation space](#create-records-using-the-ideation-space) in this article. 
-
-
-
-
 
 
 <!--

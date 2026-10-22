@@ -81,7 +81,7 @@ To search Workfront for items that match what you're looking for, ask:
 * *Get me all tasks assigned to Joan Harris.*
 * *Show me all issues in the "Website Redesign" project under the "Technical" category.*
 
-### Create new items
+### Create items
 
 To create projects, tasks, or other Workfront items, ask:
 
@@ -130,9 +130,14 @@ To manage document and asset approvals, ask:
 
 To manage planning records, ask:
 
-* *Create a new planning record called "Q2 Marketing Plan" for the Brand Marketing team.*
-* *Add a new task called "Social Media Audit" to the planning record.*
-* *Update the "Social Media Audit" task so it finishes on April 18, and assign it to the creative team.*
+* *Create a planning record called "Q2 Marketing Plan" for the Brand Marketing team.*
+* *Add a new project called "Social Media Audit" to the planning record.*
+* *Update the "Social Media Audit" project so it finishes on April 18, and assign its tasks to the Creative team.*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### Work with workflow
 
@@ -257,31 +262,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### Why did the AI agentic platform return the wrong Workfront items?
 
-The AI agentic platform picks items based on the words you used. If your 
-request is ambiguous--for example, two projects have similar names--it 
-might pick the wrong one. Ask again with more specific names, IDs, dates, 
-or filters to narrow the results.
+The AI agentic platform picks items based on the words you used. If your request is ambiguous--for example, two projects have similar names--it might pick the wrong one. Ask again with more specific names, IDs, dates, or filters to narrow the results.
 
 
 ### What Workfront items can I work with through an AI agentic platform?
 
-Any items you have access to in Workfront through your access level and 
-object permissions. This includes projects, tasks, issues, documents, 
-approvals, Planning records, and more.
+Any items you have access to in Workfront through your access level and object permissions. This includes projects, tasks, issues, documents, approvals, Planning records, and more.
 
 ### Can other people see my conversations with the AI agentic platform?
 
 Workfront doesn't store your prompts or the AI agentic platform's responses. 
-Whoever provides your AI agentic platform controls how your conversations 
-are stored or shared. Check with your AI agentic platform provider for 
-details.
+Whoever provides your AI agentic platform controls how your conversations are stored or shared. Check with your AI agentic platform provider for details.
 
 ### Do I need to know the Workfront API or which MCP tool to use?
 
-No. The AI agentic platform translates your natural-language request into 
-the right Workfront actions and picks the right tools for you. If you're 
-already familiar with the Workfront API, the actions will feel familiar, 
-but it isn't a requirement.
+No. The AI agentic platform translates your natural-language request into the right Workfront actions and picks the right tools for you. If you're 
+already familiar with the Workfront API, the actions will feel familiar, but it isn't a requirement.
 
 ### Is my Workfront data sent to the AI agentic platform provider or stored by them?
 

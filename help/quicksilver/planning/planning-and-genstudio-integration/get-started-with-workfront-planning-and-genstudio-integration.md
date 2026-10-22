@@ -30,23 +30,13 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
 
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -333,6 +323,51 @@ The sections below describe the following:
 * You can edit record information on all records in the GenStudio workspace from Workfront Planning.
 
     For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+
+#### GenStudio Activations overview
+
+<!--
+Some commented out information here comes from glean
+-->
+
+Activations are GenStudio record types available in the GenStudio workspace in Workfront Planning. GenStudio uses Activations to track and manage ad activations (whether an add is drafted or published) as part of campaign execution. 
+
+Consider the following when working with Activations: 
+
+* You cannot create an activation record from Workfront Planning. 
+
+* A GenStudio Project maps 1:1 to a Workfront Planning workspace; activations are stored in and referenced from that workspace. 
+
+* Visibility and actions depend on your access to that GenStudio project and workspace.  
+
+* GenStudio adds an extra layer of protection so critical records (including Activations) can't be modified or deleted outside intended controls, even by system administrators.  
+
+* When you activate from GenStudio, activation details are recorded and tracked in Workfront Planning. GenStudio and Planning keep shared records (Campaigns, Products, Personas, Activations, and more) aligned.  
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A Dynamic creative image and Dynamic creative video Activation type to store Meta Dynamic Creative Objects information.
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### Record type fields in the GenStudio workspace
 

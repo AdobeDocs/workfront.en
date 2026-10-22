@@ -28,7 +28,7 @@ When using Coworker in Workfront, it can work with information and objects that:
 
 Because Coworker is part of the larger Adobe CX Enterprise ecosystem, you can use Coworker to work with information and objects in other Adobe products, either in the right rail in Workfront, or you can jump from Workfront into the Adobe Coworker interface. 
 
-For more information on Coworker and its capabilities outside of Workfront, see [Adobe CX Enterprise Coworker Chat overview](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+For more information on Coworker and its capabilities outside of Workfront, see [Adobe CX Enterprise Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 
 ## Access requirements
@@ -64,7 +64,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Use Coworker in Workfront
 
-1. At the top of any Workfront page, click the Coworker icon ![AI icon](assets/ai-icon.png).
+1. At the top of any Workfront page, click the Coworker icon ![Coworker icon](assets/coworker-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
 
 1. If Coworker does not provide the answer you need, refine your prompt and try again.

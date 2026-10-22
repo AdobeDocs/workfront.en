@@ -161,7 +161,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
        <ul> 
         <li><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes.</li> 
-        <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
+        <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) View access to the task to review the task, stay informed of its progress, and make comments on the Updates section of the task.</li> 
         <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p>
         <!--
           Screenshot when possible</p>

@@ -23,11 +23,11 @@ role_v2:
 
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-Work Agents connect to agents that you have configured in Copilot Studio, Claude, Writer,  <span class="preview">OpenAI or IBM. </span>
+Work Agents connect to agents that you have configured in Copilot Studio, Claude,  <span class="preview">OpenAI or IBM. </span>
 
 >[!IMPORTANT]
 >
->Writer is deprecating their use of agents. Work Agents configured using Writer agents will not work after October 9. 2026.
+>Writer has deprecated their use of agents. Work Agents configured using Writer agents no longer work after October 9. 2026.
 >
 >For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
 
@@ -62,15 +62,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, Writer.ai, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
+* You must configure an agent in Copilot, Claude, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
 
 ## Work Agent overview
 
-Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio, Claude, or Writer.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
+Work Agents are a way to assign agents to specific tasks in Workfront. You configure the agent in an app such as Copilot Studio or Claude.ai, then connect that agent to Workfront as a Work Agent. You can then assign it to tasks as you would assign a user. 
 
 Some example workflows may include:
 
-* Detecting images uploaded to a task, generating variations based on criteria given to the agent, and uploading the new images to the task.
+* Generating copy from task details and attached text-based documents, then posting the output to the update stream or uploading it as a text-based document.
 * Generating copy from a task description, reviewing the copy against guidelines configured in the agent, and posting copy to the update stream.
 * Reading details of an event, identifying missing details, and posting questions in the update stream about the missing details.
 
@@ -78,7 +78,7 @@ Some example workflows may include:
 >
 >* Specific details about an agent's responsibilities and abilities are configured in the application where the agent is created, not in Workfront. 
 >* The Workfront MCP server does not need to be added to the agent used as a Work Agent, and does not need to be connected for the Work Agent to work.
->* Work Agents currently support agents created in Copilot Studio, Claude, and Writer.ai, <span class="preview">OpenAI, and IBM. </span>
+>* Work Agents currently support agents created in Copilot Studio, Claude, <span class="preview">OpenAI, and IBM. </span>
 >* When configuring an agent in Copilot Studio, you must set security to **No authentication**.
 >* For information and instructions about creating a Work Agent in Workfront, see [Configure a Work Agent](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) in the article Configure AI Collaborators.
 
@@ -90,7 +90,8 @@ When a Work Agent begins work on a task, it automatically reads the following ta
 * Task description
 * Comments in the task's update stream
 * Information in any custom form attached to the task
-* <span class="preview"> Attached documents</span>
+* <span class="preview">Attached text-based documents, such as DOC and PDF files</span>
+* <span class="preview">Project fields, if they are set up in the Work Agent configuration</span>
 
 This information is always read and is not configurable as a Workfront setting.
 
@@ -100,6 +101,14 @@ This information is always read and is not configurable as a Workfront setting.
 >
 >* Including any background information you want the agent to use directly in the task description or a relevant custom form field.
 >* Making sure the task matches what your agent is instructed to do. For example, if your agent is instructed to translate text from English to French, include the text you want translated in the task description.
+
+## Actions a Work Agent can take
+
+Depending on how the Work Agent is configured in Workfront, it can take the following actions after it completes its work:
+
+* Write task fields, if configured
+* Upload text-based documents
+* Mark the task complete
 
 ## Work Agent start triggers
 

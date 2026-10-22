@@ -26,7 +26,7 @@ For a list of all changes available at this point in the Fourth Quarter 2026 rel
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 When a template contains financial data, those field values are preserved when a user creates a project from the template. The user must have View access to Financial Data to view the financial fields on the project details.
 

@@ -44,6 +44,8 @@ recommendations: noDisplay, noCatalog
 
 # Manage the GenStudio workspace in Adobe Workfront Planning
 
+{{planning-important-intro}}
+
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 

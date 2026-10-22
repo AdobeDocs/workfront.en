@@ -20,13 +20,29 @@ This page describes enhancements made with the Fourth Quarter 2026 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Non-administrators can now create event subscriptions
+
+>[!NOTE]
+>
+>Preview and Production for everyone: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+
+To make it easier to react to important Workfront object changes without system administrator access, we've added user event subscriptions. Now you can receive webhook notifications for supported Workfront objects using an IMS user access token and a targeted subscription for each object and event combination.
+
+User event subscriptions support Task, Project, Note or comment, and Assignment objects, with CREATE, UPDATE, and DELETE events. You can create separate subscriptions for each object and event combination you need, and you can use object IDs or filters to narrow delivery to the exact records you want.
+
+This release is especially useful for teams that need lightweight, event-driven integrations without granting broad admin permissions, such as when using Workfront Fusion.
+
+For more information, see [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+
 ## Updates to enhanced lists
 
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 The following changes have been made to enhanced list filters and groupings:
 
@@ -45,12 +61,12 @@ For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/nav
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 The following Workfront lists now use the enhanced list format:
 
-* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications
+* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications (This update was removed from the Preview environment on October 14 and will not be part of the quarterly release. These lists will be updated at a later date.)
 * Setup > Documents > Experience Manager Assets
 * Project or Template > Queue Topics
 * Project or Template > Topic Groups
@@ -79,7 +95,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 In all enhanced lists, the following updates are now available:
 
@@ -94,7 +110,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The following Workfront lists now use the enhanced list format:
 
@@ -155,7 +171,7 @@ For more information, see [Left navigation in Adobe Workfront](/help/quicksilver
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Multiple updates have been made to enhanced lists:
 
@@ -170,7 +186,7 @@ For more information, see [Use enhanced lists](/help/quicksilver/workfront-basic
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 When you hover over an object's breadcrumb, you can now copy its name and link together in one action. This makes it faster to share objects in Slack, email, or other tools, without copying the name and URL separately.
 

@@ -38,6 +38,51 @@ If your organization is not entitled to a product area, the related tools do not
 
 The following tables identify the product area each tool belongs to.
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Toolsets in the Workfront MCP server
+
+>[!IMPORTANT]
+>
+>Toolsets are selected when you configure your connection to the Workfront MCP server. 
+>For information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Toolsets let you select the Workfront capabilities your AI client needs instead of exposing the full MCP catalog. This is useful for clients that load all tool definitions up front, need to stay within tool-count limits, or benefit from a more focused tool list.
+
+You can specify toolsets by adding the `toolsets` query parameter to the Workfront MCP server URL.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+This example exposes the `core` and `comment-stream` capabilities. The `core` group is automatically included whenever a subset is selected.
+
+>[!ENDSHADEBOX]
+
+Available toolsets include:
+
+* `core` — the base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream` — tools for comment and discussion workflows.
+* `planning` — tools for Workfront Planning capabilities.
+* `approvals` — tools for approval workflows.
+
+To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
+
+You can Combine optional groups with commas, such as `toolsets=core,planning,approvals`.
+
+Selection applies to tools, resources and resource templates, prompts, and MCP apps that surface Workfront tools in their UI. Backend-specific server instructions follow the selected toolset configuration as well. 
+
+Toolsets do not change permissions. Your Workfront access level and object permissions continue to be enforced. 
+
+If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
+
+</div>
 
 ## Read and write actions
 
@@ -231,11 +276,11 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
+| Search objects | `workflow_search_any_object` | This tool has been deprecated. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
 | Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
-| Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Resolve field names | `workflow_resolve_field_names_any_object` | This tool has been deprecated. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
 
 ### Update object tool abilities
@@ -349,13 +394,20 @@ Reporting tools let you build and manage Canvas Dashboards through chat. Describ
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Read | `read` | Reads Reporting data in three modes selected by the IDs passed: lists the dashboards visible to you, fetches a single dashboard's structure, or fetches one widget's full configuration. | Read |
-| Create Dashboard | `create_dashboard` | Creates a new, empty Reporting dashboard and returns it, with a link to open it. | Write |
-| Update Dashboard | `update_dashboard` | Partially updates a dashboard's metadata, prompt, filter, and per-widget placement. Omitted fields are left unchanged. | Write |
-| Create Widget | `create_widget` | Creates a widget and its report configuration on a dashboard. One tool handles all three widget types: chart, KPI, and table. | Write |
-| Update Widget | `update_widget` | Partially updates an existing widget's configuration. The widget type is inferred automatically, so you only send the fields you want to change. | Write |
-| Copy Object | `copy_object` | Copies a whole dashboard, including its widgets, prompt, and filter, onto a new dashboard, or copies a single widget within or across dashboards. | Write |
-| Delete Object | `delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
+| List Dashboards | `reporting_relist_dashboards` | Lists the Reporting dashboards visible to you. Supports the `view` values `"my"`, `"shared"`, `"all"`, and `"favorites"`. Returns dashboard metadata only, including a URL to open each dashboard. | Read |
+| Get Dashboard | `reporting_get_dashboard` | Fetches a Canvas Dashboard by ID, including metadata, layout, prompts, filter, and widget IDs. Widget data is not hydrated. | Read |
+| Get Widget | `reporting_get_widget` | Fetches a widget shell and its flattened content configuration. Field references are returned as `{id, label, dataType}` so they can be reused directly in the `reporting_update_*_widget` tools. Supported content types are Table, KPI, and MultiSeries. | Read |
+| Create Dashboard | `reporting_create_dashboard` | Creates an empty Reporting dashboard. Returns the full created dashboard, including its ID, title, description, currency, creator ID, create date, and empty widget, prompt, and filter collections. | Write |
+| Update Dashboard | `reporting_update_dashboard` | Partially updates a dashboard's title, description, currency, prompt, filter, and per-widget `ignoreDashboardFilters` and layout settings. Omitted fields are left unchanged, and prompt and filter are fully replaced when provided. | Write |
+| Create Table Widget | `reporting_create_table_widget` | Creates a Table widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update Table Widget | `reporting_update_table_widget` | Updates an existing Table widget and its report configuration. Replaces the stored table configuration, including columns, buckets, row limit, caption, description, condition, and run-as-user settings. | Write |
+| Create KPI Widget | `reporting_create_kpi_widget` | Creates a KPI widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update KPI Widget | `reporting_update_kpi_widget` | Updates an existing KPI widget and its report configuration. `fieldId` and `aggregation` are required, and the underlying report is fully replaced. | Write |
+| Create Chart Widget | `reporting_create_chart_widget` | Creates a Chart widget and its report configuration. Supported chart types are BAR, COLUMN, LINE, and PIE, including SIMPLE, MULTI_SERIES, and STACKED variants where supported. | Write |
+| Update Chart Widget | `reporting_update_chart_widget` | Updates an existing Chart widget and its report configuration. `aggregationFieldId`, `aggregationType`, `groupByFields`, and `chartType` are required, and the underlying report is fully replaced. | Write |
+| Copy Widget | `reporting_copy_widget` | Copies an existing widget to the same dashboard or to a different dashboard, duplicating the widget and its report configuration. | Write |
+| Copy Dashboard | `reporting_copy_dashboard` | Copies a dashboard to a new dashboard, including its widgets and report configurations. You can optionally copy only a subset of widgets and choose whether to include the prompt and filter. | Write |
+| Delete Object | `reporting_delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 

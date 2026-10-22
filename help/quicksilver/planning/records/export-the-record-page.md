@@ -164,6 +164,8 @@ Old:
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
 
+* You cannot export a customized Details page, where several fields are hidden. 
+
 ## Export a record's details
 
 {{step1-to-planning}}

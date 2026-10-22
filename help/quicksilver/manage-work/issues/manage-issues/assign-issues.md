@@ -44,13 +44,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-You can assign issues to users, roles, teams, or Work Agents to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+You can assign issues to users, roles, teams, <span class="preview">or Work Agents</span> to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->You can assign multiple users, job roles, teams, or Work Agents. You can assign only active users, job roles, teams, and Work Agents.
+>You can assign multiple users, job roles, teams, <span class="preview">or Work Agents</span>. You can assign only active users, job roles, teams, <span class="preview">and Work Agents</span>.
 >
->If a user, job role, team, or Work Agent was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+>If a user, job role, team, <span class="preview">or Work Agent</span> was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
 >
 >* Reassign the work item to active resources.
 >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
@@ -145,7 +145,7 @@ Consider the following when assigning multiple resources to a work item:
 
 1. Do one of the following:
 
-   * Start typing the name of a user, role, team, or Work Agent that you want to assign, then click it when it appears on the list.
+   * Start typing the name of a user, role, team, <span class="preview">or Work Agent</span> that you want to assign, then click it when it appears on the list.
 
      ![Assignments search](assets/smart-assignments-issue-header.png)
 
@@ -194,7 +194,7 @@ To assign issues in a list:
 
      ![Assigned to field](assets/assigned-to-field-task-list-nwe.png)
 
-   * Click inside the **Assignments** field and start typing the name of an active user, job role, team, or Work Agent that you want to assign to the issue, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, job role, team, <span class="preview">or Work Agent</span> that you want to assign to the issue, then click it when it displays in the list.
    
      ![Assignments field](assets/assignments-field-0825.png)
 

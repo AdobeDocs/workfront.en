@@ -29,9 +29,9 @@ Live webinars are held for each quarterly release - these highlight the new feat
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 14, 2026)</li></ul>|<ul><li>26.10 (October 15, 2026)</li></ul>|
+>|<ul><li>26.8 (August 13, 2026)</li><li>26.9 (September 17, 2026)</li><li>26.10 (October 22, 2026)</li></ul>|<ul><li>26.10 (October 22, 2026)</li></ul>|
 >
->* Note that for the final release of each quarter (26.10 this quarter), users on the fast release schedule will receive the release one day early (October 14, 2026).
+>* The 26.10 (October 2026) has been moved to October 22, 2026.
 >
 >   For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 >* For the 26.10 release (October 2026), the last date that features may appear in the Preview environment is October 1.
@@ -65,8 +65,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Workfront administrators can now track changes to a user's job role, agency, cost center, and billing rates over time in a single, filterable Employment History view.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -74,8 +74,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Workfront administrators can now use AI to generate translations for custom localization text and review or adjust the results before saving.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -83,8 +83,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Several enhancements have been made to layout templates, including hiding or displaying items in the Main Menu, positioning custom application in the Main Menu, and hiding Details in the left navigation.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -93,8 +93,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
 <!--
@@ -104,8 +104,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -114,8 +114,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>To make it easier for you to create and manage your organization's event subscriptions, we've added the Event Subscriptions area to Setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -123,8 +123,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>When working with drop-down fields, radio buttons, and check boxes in the form designer, you can now add, edit, and delete field choices in a single dialog.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -132,8 +132,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Workfront administrators can now maintain an allowlist of trusted OAuth callback URLs, so custom AI agentic platforms can connect to Workfront MCP servers.</p>
             </td>
             <td><p>September 22, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -142,7 +142,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -151,7 +151,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -160,7 +160,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -170,7 +170,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -180,7 +180,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -189,7 +189,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -198,7 +198,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -207,7 +207,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -216,7 +216,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -225,7 +225,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -234,7 +234,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -243,7 +243,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -266,8 +266,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -276,8 +276,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>AI Collaborators can now work with agents on tasks and issues, use document context, and post updates in real time in the Updates area.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -286,7 +286,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>Phased rollout beginning on September 3, 2026</p></td>
             <td><p>Phased rollout beginning on September 17, 2026</p></td>
-            <td><p>Phased rollout beginning on October 15, 2026</p></td>
+            <td><p>Phased rollout beginning on October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -322,7 +322,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -331,7 +331,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -340,7 +340,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -372,18 +372,18 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Group multiple documents into a single approval workflow</a>
                 <p>You can now group multiple documents under a single approval workflow, so they move through the same stages together.</p>
             </td>
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -391,7 +391,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
             </td>
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
-            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
         <tr>
@@ -419,7 +419,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>N/A</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -428,7 +428,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>N/A</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add teams to approvals for objects using Adobe cloud storage</a>
@@ -436,7 +436,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -445,7 +445,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -455,7 +455,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -464,8 +464,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>A custom message set on a document approval now also appears in the subject line of the approval-request email.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -474,7 +474,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -483,7 +483,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -492,7 +492,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -510,7 +510,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -520,7 +520,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -543,8 +543,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>    
         <tr>
             <td>
@@ -553,7 +553,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -562,7 +562,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -585,7 +585,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -607,8 +607,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>Workfront instances on Google Cloud Platform (GCP) and Azure can now opt in to the Canvas Dashboards open beta.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -616,8 +616,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now share your Workfront Data Connect data directly with your organization's Snowflake account by registering a private listing. This connection method uses Snowflake's private listing capability to securely share data between organizations without exposing it publicly, and it works across regions and hosting platforms.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -625,8 +625,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now build and manage Canvas Dashboards through MCP clients like Claude and Cursor using natural-language prompts and structured dashboard actions.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -634,8 +634,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now copy a widget to the same dashboard, to another dashboard you have edit access to, or to a new dashboard. You can also move a widget to another dashboard you have edit access to or to a new dashboard. </p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -643,8 +643,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -653,7 +653,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -680,7 +680,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>August 27, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -689,7 +689,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>August 13, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -698,7 +698,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -707,7 +707,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -729,8 +729,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
             </td>
             <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -779,12 +779,21 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Non-administrators can now create event subscriptions<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>Users can now receive webhook notifications for supported Workfront objects without system administrator access, using targeted subscriptions and IMS user access tokens.</p>
+            </td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Multiple screens updated to enhanced lists</a>
                 <p>Several lists in Setup, Projects, Templates, and Tasks now use the enhanced list format.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -792,8 +801,8 @@ Live webinars are held for each quarterly release - these highlight the new feat
                 <p>We've made some enhancements to enhanced list filters and groupings: groups are collapsed by default, and the filter operators have been updated to clearer labels.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -802,7 +811,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -811,7 +820,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -838,7 +847,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -847,7 +856,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
     </tbody>
 </table>

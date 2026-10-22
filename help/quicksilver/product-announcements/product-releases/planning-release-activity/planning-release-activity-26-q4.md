@@ -25,6 +25,76 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Import large numbers of records using CX Enterprise Coworker
+
+>[!NOTE]
+>
+>Preview and production: October 22, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe
+
+CX Coworker can now import 10,000 or more records from Excel spreadsheets and use them to create or update Planning records, without requiring admins to manually map every column.
+
+You can use the existing functionality for attaching files in Coworker to preview and import records using the same structured output, so results stay consistent for files of any size.
+
+For information, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
+
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
+
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
+
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+## Meta dynamic creative activation types
+
+>[!NOTE]
+>
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
+
+Workfront Planning now supports the Dynamic creative image and Dynamic creative video activation types for Meta Dynamic Creative Objects. These options are available in the Activations record's type field, unblocking Meta Dynamic Creative Objects activations.
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+<!--
+
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Create and manage business rules with Coworker and the Workfront MCP server for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 12, 2026
+>Production for everyone: October 22, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+We have added skills to Coworker and the Workfront MCP server to manage Planning business rules.
+
+You can now create, list, view, update, and delete business rules for record types using either Coworker or the Workfront MCP. The new skills also help you generate business-rule formulas that the formula engine accepts, so you get fewer invalid formulas.
+
+For information, see [Workfront skills in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) or [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 <!--
 
 ## See the total record count in table views
@@ -32,8 +102,8 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
 
@@ -48,8 +118,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 The multi-value filter operators in all Planning views have been updated to "Is any of" and "Is none of" instead of "Has any of" and "Has none of," giving you clearer and more consistent wording across the Workfront filter builders.
 
@@ -62,8 +132,8 @@ The changes are visible in filters across all Planning views. For information, s
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 We have introduced aggregators for additional field types in the table view. Prior to this enhancement, only number-related fields displayed aggregators at the bottom of columns.
 
@@ -84,8 +154,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Workspace creators are currently assigned as the default owner. With this update, workspace managers can transfer ownership to another Standard-license user from the sharing dialog.
 
@@ -98,8 +168,8 @@ For information, see [Share workspaces](/help/quicksilver/planning/access/share-
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 You can now sort records and groupings in the timeline view. Prior to this enhancement, this functionality was not available.
 
@@ -110,8 +180,8 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Workspace managers can now control access to individual fields, allowing specific users and teams to view, edit, or be completely restricted from sensitive data within the same record type.
 
@@ -126,8 +196,8 @@ For information, see [Share Workfront Planning fields](/help/quicksilver/plannin
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 You can now share a Planning request with others from the Requests area in the new request experience.
 
@@ -140,8 +210,8 @@ For information, see [Share Planning records](/help/quicksilver/planning/request
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
 
@@ -152,8 +222,8 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
 
@@ -166,8 +236,8 @@ For information, see [Create request form](/help/quicksilver/planning/requests/c
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
 
@@ -192,7 +262,7 @@ For information, see [Use Form Fill powered by AI to fill in a request using pro
 >
 >Preview: Phased rollout beginning on September 3, 2026
 >Production fast release: Phased rollout beginning on September 17, 2026
->Production for everyone: Phased rollout beginning on October 15, 2026
+>Production for everyone: Phased rollout beginning on October 22, 2026
 
 CX Enterprise Coworker is now available inside Workfront Planning. Now, you can access CX Enterprise Coworker in a panel that is available throughout Workfront Planning.
 
@@ -206,7 +276,7 @@ Coworker is replacing the current AI Assistant as a more powerful way to get wor
 >
 >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is still available to these organizations.
 
-For more information, see [CX Enterprise Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+For more information, see [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## AI Assistant icon removed from the record Details preview box in preparation for the CX Enterprise Coworker launch
 
@@ -214,7 +284,7 @@ For more information, see [CX Enterprise Coworker overview](/help/quicksilver/wo
 >
 >Preview: Phased rollout beginning on September 16, 2026
 >Production fast release: Phased rollout beginning on September 17, 2026
->Production for everyone: Phased rollout beginning on October 15, 2026
+>Production for everyone: Phased rollout beginning on October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 This change is available for customers who have the CX Enterprise Coworker in Workfront.
@@ -232,8 +302,8 @@ For information, see [CX Enterprise Coworker in Workfront](/help/quicksilver/wor
 >[!NOTE]
 >
 >Preview: September 17, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 Records can now be duplicated even when One-to-one or One-to-many connected records exist. After duplication, users can choose to keep the connected record on the original record or connect it to the new record. Keep on the original is the default choice.
 
@@ -247,7 +317,7 @@ For information, see [Duplicate records](/help/quicksilver/planning/records/copy
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 You can now manage the visibility of the records' thumbnails and colors when editing the primary field column in the table view.
 
@@ -261,7 +331,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 As a workspace manager, you can now set business rules for record types that will later reflect on how records of that type are managed. You can define rules that allow users to edit or delete records only when certain conditions are met or certain fields are populated.
 
@@ -288,7 +358,7 @@ For more information, see [Configure record type business rules](/help/quicksilv
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 As a Workfront administrator, you can now configure custom weeks, in addition to custom quarters. Custom weeks, and quarters are visible from the Workfront Planning timeline view. Workfront generates sequential weeks starting from Week 1 at the beginning of Custom quarter 1.
 
@@ -296,7 +366,7 @@ You can customize week labels which are visible in the timeline view. You can ch
 
 Custom weeks are not visible in Workfront. They are only visible in the Workfront Planning timeline view.
 
-For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filters for connected record fields
 
@@ -304,7 +374,7 @@ For information, see [Enable custom quarters](/help/quicksilver/administration-a
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 You can now filter for certain record types that meet a filter criteria when you add connections in Planning.
 
@@ -320,7 +390,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >
 >Preview: August 27, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
 
@@ -332,7 +402,7 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 >
 >Preview: August 27, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 In the timeline view, hovering over a truncated group label now shows the full text in a tooltip, in both the Swimlane and Stacked grouping display. Non-truncated labels show no tooltip.
 
@@ -346,7 +416,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 >
 >Preview: August 27, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The calendar week view now displays only the first 1,000 records across the visible week period. If there are more records, the following message displays at the bottom of the calendar indicating that additional records are available: "There are more records. Load more."
 
@@ -358,7 +428,7 @@ For information, see [Manage the calendar view](/help/quicksilver/planning/views
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 We've made visual improvements to the column headers for a dependent connected record field in the table view.
 
@@ -370,7 +440,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >
 >Preview: August 13, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 There are new visual indicators when you drag and drop multiple rows in the table view. A more prominent plus sign and a number indicator now show how many rows are selected for the drag-and-drop action.
@@ -383,7 +453,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >Preview: August 13, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Records created for global record types by submitting a request form are now automatically routed to the workspace from which they were submitted.
 
@@ -417,7 +487,7 @@ For information, see [Skills available for direct install](/help/quicksilver/wor
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for all: October 15, 2026
+>Production for all: October 22, 2026
 
 The experience of dragging and dropping single rows in the table view has been improved visually.
 
@@ -430,7 +500,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Workspace Managers can now define dependencies between connected record types. For example, ensuring a Region field only shows values tied to the selected Geo. This is configured directly in the connection field setup: when adding a connection from a Geo record type to a dependent record type (like Region), a new setting allows workspace managers to mark it as dependent on the Geo record type, using the relationships already established between those record types.
 
@@ -451,7 +521,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 We have added a new indicator that shows when there are unread comments on a record. The indicator displays in the upper-right corner of the record's primary field in the table view.
 
@@ -463,7 +533,7 @@ For more information, see [Manage record comments](/help/quicksilver/planning/re
 > 
 >Preview: July 23, 2026 
 >Production fast release: August 13, 2026 
->Production for all: October 15, 2026 
+>Production for all: October 22, 2026 
 
 Records now support customizable color palettes which allow you to update the colors automatically assigned to new records to standard or custom colors. 
 
