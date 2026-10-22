@@ -32,8 +32,6 @@ topic_v2:
 ---
 # Create or edit a custom condition
 
-{{preview-fast-release-general}}
-
 As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.
 
 ## Access requirements
@@ -76,15 +74,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Or
 
-   To edit an existing condition:
+   To edit an existing condition, select the check box next to the condition name you want to delete, and click **Edit** in the action bar at the bottom of the screen.
    
-   * In the Production environment, click **Edit** next to the condition name.
-   * <span class="preview">In the Preview environment, select the check box next to the condition name you want to delete, and click **Edit** in the action bar at the bottom of the screen.</span>
-
-   Sample image in the Production environment:
-   ![Edit custom condition](assets/custom-conditions-0825.png)
-
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Edit custom condition](assets/edit-conditions-082526.png)
 
 1. Configure your custom condition using the following options:
