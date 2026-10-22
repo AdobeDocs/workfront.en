@@ -28,8 +28,6 @@ topic_v2:
 ---
 # Use enhanced lists
 
-{{preview-fast-release-general}}
-
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -79,27 +77,28 @@ Below are some types of Workfront object lists that use the enhanced list format
 | <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
 | <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
-| <span class="preview">List of locations</span> | <span class="preview">Setup > Locations</span> |
+| List of locations | Setup > Locations |
 | List of translations | Setup > Localization |
-| <span class="preview">Lists of integrations </span> | <ul><li><span class="preview">Setup > Documents > SharePoint Integration</span></li><li><span class="preview">Setup > Documents > Custom Integration</span></li><li><span class="preview">Setup > Documents > Experience Manager Assets</span></li></ul> |
+| Lists of integrations | <ul><li>Setup > Documents > SharePoint Integration</li><li>Setup > Documents > Custom Integration</li><li>Setup > Documents > Experience Manager Assets</li></ul> |
 | List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
-| <span class="preview">Lists of queue topics, topic groups, and routing rules</span> | <ul><li><span class="preview">Project or Template > Queue Topics</span></li><li><span class="preview">Project or Template > Topic Groups</span></li><li><span class="preview">Project or Template > Routing Rules</span></li></ul> |
+| Lists of queue topics, topic groups, and routing rules | <ul><li>Project or Template > Queue Topics</li><li>Project or Template > Topic Groups</li><li>Project or Template > Routing Rules</li></ul> |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
-| <span class="preview">List of predecessors</span> | <span class="preview">Setup > Task or Template Task > Predecessors</span> |
+| List of predecessors | Setup > Task or Template Task > Predecessors |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
-| <span class="preview">All versions view of a document</span> | <span class="preview">Project > Documents > Document Details > All Versions</span> |
+| All versions view of a document | Project > Documents > Document Details > All Versions |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
-| <span class="preview">Lists of scenario plans and initiatives</span> | <span class="preview">Main Menu > Scenarios</span> |
-| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
+| Lists of scenario plans and initiatives | Main Menu > Scenarios |
+| Lists of goals and progress indicators | <ul><li>Main Menu > Goals</li><li>Main Menu > Goals > Progress Indicators</li></ul> |
 
 <!--
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -185,15 +184,11 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
 
 1. Click **Columns** above the list.
 
-   Sample image in the Production environment:
-   ![Display columns example](assets/glist-display-move-columns.png)
-
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Display columns example](assets/display-columns-090126.png)
 
 1. Use the toggles to display or hide columns in the list.
 
-   <span class="preview">You can search for a column in the search box.</span>
+   You can search for a column in the search box.
 
 1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
@@ -237,7 +232,7 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.</span>
+1. (Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)

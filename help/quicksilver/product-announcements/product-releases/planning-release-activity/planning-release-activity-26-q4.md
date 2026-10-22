@@ -25,6 +25,32 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Enable Planning workspaces in GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
+
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
+
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
+
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+## Meta dynamic creative activation types
+
+>[!NOTE]
+>
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
+
+Workfront Planning now supports the Dynamic creative image and Dynamic creative video activation types for Meta Dynamic Creative Objects. These options are available in the Activations record's type field, unblocking Meta Dynamic Creative Objects activations.
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 <!--
 
 ## New Status field value and Tracking ID field for Activations records
@@ -62,7 +88,7 @@ For information, see [Workfront skills in CX Enterprise Coworker](/help/quicksil
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -78,7 +104,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The multi-value filter operators in all Planning views have been updated to "Is any of" and "Is none of" instead of "Has any of" and "Has none of," giving you clearer and more consistent wording across the Workfront filter builders.
@@ -92,7 +118,7 @@ The changes are visible in filters across all Planning views. For information, s
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 We have introduced aggregators for additional field types in the table view. Prior to this enhancement, only number-related fields displayed aggregators at the bottom of columns.
@@ -114,7 +140,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 Workspace creators are currently assigned as the default owner. With this update, workspace managers can transfer ownership to another Standard-license user from the sharing dialog.
@@ -128,7 +154,7 @@ For information, see [Share workspaces](/help/quicksilver/planning/access/share-
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 You can now sort records and groupings in the timeline view. Prior to this enhancement, this functionality was not available.
@@ -140,7 +166,7 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 Workspace managers can now control access to individual fields, allowing specific users and teams to view, edit, or be completely restricted from sensitive data within the same record type.
@@ -156,7 +182,7 @@ For information, see [Share Workfront Planning fields](/help/quicksilver/plannin
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 You can now share a Planning request with others from the Requests area in the new request experience.
@@ -170,7 +196,7 @@ For information, see [Share Planning records](/help/quicksilver/planning/request
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
@@ -182,7 +208,7 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
@@ -196,7 +222,7 @@ For information, see [Create request form](/help/quicksilver/planning/requests/c
 >[!NOTE]
 >
 >Preview: September 25, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
@@ -262,7 +288,7 @@ For information, see [CX Enterprise Coworker in Workfront](/help/quicksilver/wor
 >[!NOTE]
 >
 >Preview: September 17, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 Records can now be duplicated even when One-to-one or One-to-many connected records exist. After duplication, users can choose to keep the connected record on the original record or connect it to the new record. Keep on the original is the default choice.

@@ -30,8 +30,6 @@ topic_v2:
 ---
 # Customize Filters, Views, and Groupings using a layout template
 
-{{preview-fast-release-general}}
-
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
 ![Filter view grouping layout templates](assets/filter-view-grouping-layout-templates.png)
@@ -99,7 +97,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >   
    >  ![Disable filters button](assets/disable-filter-pills.png)
 
-   <span class="preview">Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
+   Some enhanced lists are available to choose from. These lists have a "New Experience" label next to the list controls. For information on enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 
@@ -142,3 +140,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    Or
 
    If you are finished customizing, click **Save and Close**.
+

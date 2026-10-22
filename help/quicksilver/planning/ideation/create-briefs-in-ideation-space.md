@@ -30,9 +30,20 @@ role_v2:
 
 {{planning-important-intro}}
 
-Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records. Exported briefs create new records or update existing ones.
+Using the Ideation Space, a new capability from Adobe Workfront Planning, you can turn briefs into Planning records or save it as an external file. Exported briefs create new records or update existing ones.
 
-This article describes how you can brainstorm and strategize in the Ideation space to create briefs. To create or update records, export finished Ideation briefs to a file or to Workfront Planning. 
+This article describes how you can brainstorm and strategize in the Ideation space to create briefs. 
+
+You can do the following: 
+
+* To create or update records, export finished Ideation briefs to Workfront Planning. 
+
+* To use a brief's information in another application, export it to one of the following file types:
+
+    * PDF
+    * Word
+    * PowerPoint
+    * PowerPoint template
 
 ## Access requirements
 
@@ -56,8 +67,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Any Workfront or Workflow with a Planning package</p></li>
+<!--
+Add this at GA - not available in beta:
 Or
-<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
 <!--
 <tr> 
@@ -78,7 +93,7 @@ Or
    <td role="rowheader"><p>Adobe Planning license</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
@@ -91,7 +106,10 @@ Or
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-      <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
@@ -114,14 +132,151 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Create Ideation space briefs
 
-1. Start in Workfront Planning and either create or edit a record using the Ideation space. 
+You can create briefs to either create or edit Planning records or to create files that you can export to other applications. 
 
-    For more information, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
-1. When the **Ideation space** opens, use the prompt provided to describe the kind of brief you want to create. 
+1. Log in to Workfront with Planning where Coworker has been turned on, and do one of the following: 
 
-    For example, type "Create a back-to-school campaign for K-12 students to run through the month of august, for parents and teachers in the US".  To make the brief as complete as possible, indicate as much information as you have available for what kind of campaign, the timeline, the stakeholders, and other details. 
+    * Go to the **Main Menu** > **Ideation space**
+    * Go to **Main Menu** > **Planning** > click a workspace > click a record type > **New record** > **Start Ideation space**
+    
+        For more information about creating records using the Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
+    * Go to **Main Menu** > **Planning** > click a workspace > click a record type > click an existing record > **Open in Ideation space**
 
-1. Click **Start ideating**.  
+    The Ideation space opens and a new ideation is titled by default following the following format: 
+
+    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+
+    If you open an ideation from an existing record, the ideation name matches the name of the record. 
+
+1. (Recommended) Click the name of the ideation to change the name. 
+    
+1. (Conditional and optional) To open another existing Ideation space, click the drop-down menu to the right of the ideation name, search for it by name, then click the ideation when it displays in the list. 
+    
+1. When the **Ideation space** opens, the CX Coworker opens on the right. Use the Coworker prompt to describe the kind of brief you want to create. 
+
+    For example, type "Create a back-to-school campaign for K-12 students to run through the month of August, for parents and teachers in the US".  To make the brief as complete as possible, indicate as much information as you have available for what kind of campaign, the timeline, the stakeholders, approvals checkpoints and other details. 
+
+1. Click Enter.  
+
+1. Answer the questions from Coworker to continue the ideation, then click **Submit**
+
+    Or
+
+    Click **Skip questionnaire** to skip additional questions. 
+
+1. (Conditional) When Coworker offers to the create cards for the ideation, answer **Yes**. 
+
+    Cards are added to the ideation space and you can see the sources for each card and decide which to add to your brief. 
+
+1. Click the **Search** icon ![Search icon](assets/search-icon.png) to search for items in the ideation space, then click when it displays in the list to navigate to it. 
+
+1. (Optional) Click **Sources** at the bottom of every card to understand where the information was collected from. 
+
+    Information can be imported either from Workfront Planning or the Web. 
+
+    You can also click the **Sources** icon ![Sources icon](assets/sources-icon.png) in the upper-right corner of the space to display a list of sources for all the cards in the space. 
+1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the space, and **@** tag others to start brainstorming inside the space.
+
+    Users will receive an email notification about the tag.
+1. (Optional) Click the **Filter** icon ![](assets/filter-comments-icon.png) inside the comment card to filter comments by the following criteria:
+
+    * Reviewers
+    * Time the comment was added
+    * Status (where the comment was resolved or it is outstanding)
+    * Unread (shows only unread comments)
+1. (Optional) Use the **Thumbs up** or **Thumbs down** icons on a card ![Thumbs up or down icons](assets/thumbs-up-and-down-icons.png) to give feedback on the accuracy of the information on the card. 
+1. Click a card or click the frame containing all the cards, then click **Add to brief** to add their information to the brief. 
+
+    Workfront matches each piece of information with the field it finds the most likely to store it. 
+
+    For example, timelines are added to date-type fields, descriptions to paragraph-type fields. 
+
+1. (Conditional) Click a card, then click **Ask AI to ...** to get ideas of the next step, before adding the information to the brief. The answers are in the context of each card's information. 
+1. Click the **Add documents** icon ![Add documents icon](assets/add-documents-in-ideation-space.png) in the upper-left corner of the Ideation space to upload documents to the space. You can add new documents or documents you have already added to the space before. 
+
+    >[!TIP]
+    >
+    >The Documents setting must be turned on to be able to access documents and upload them to the space.
+    >For information, see the section [Configure the Ideation space](#configure-the-ideation-space) in this article.
+    > 
+1. Click the **Add WF Taxonomy card** icon ![Add from Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> and select a connected record type, then a record from each type to add that record's information to the record type you selected. 
+
+    A card is created for the record you selected to add to the space. The record type displays in the upper-left corner of the record's card. 
+
+    >[!TIP]
+    >
+    >The **Add WF Taxonomy card** icon <!--check UI name--> is not available when you access the Ideation space from the Main menu and the brief is not connected to a Planning record.
+
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) on the connected record card and click **View in Workfront**. 
+
+    The record's details page opens in another browser tab in Workfront Planning. 
+1. (Optional) Select the ideation frame or a card, click the **Delete** icon, then click **Delete** to confirm. The card is removed from the Ideation space. 
+
+    When you delete cards corresponding to a stored document or a record, the items are removed from the Ideation space but they remain in their respective applications. 
+
+1. (Optional) Use the **Ask Coworker anything** box in the lower-right corner at any time to refine your ideation.
+
+    For example, type `regenerate` for a specific card to have AI redo that card using updated context. The ideation space reruns its reasoning steps (searching, synthesizing, citing) and updates the affected cards.
+
+1. (Optional) Click one of the purple connectors from any ideation card sets, then click the **Copy full prompt** icon to copy the prompt that generated the card to the clipboard, then paste it in the Coworker prompt box.  
+
+    ![Copy to prompt bar icon](assets/copy-to-prompt-bar-icon-highlighted.png)
+
+1. (Optional) Click the **Undo** or **Redo** icons ![Undo and redo icons](assets/undo-redo-icons.png) at the top of the ideation space to cancel or reverse an action. 
+1. Zoom out to see the complete picture: your original campaign goal, all AI-generated concept cards with citations, additional documents, the real Workfront Planning records you've pulled in (Products, Personas, etc.). The **Brief** summary card in the lower-left corner pulls it all together.
+
+1. Click the brief preview image in the lower-left corner and review the brief, then click one of the following options: 
+
+    * **Export to file**. You can export the brief to the following file types:
+
+        * PDF
+        * Word
+        * PowerPoint (with or without a template)
+    * **Export to Workfront Planning**. The export overwrites all existing field data in the Planning record corresponding to the ideation.
+
+    >[!TIP]
+    >
+    >**Export to Workfront Planning**  is dimmed when you access the Ideation space from the Main menu and the brief is not connected to a Planning record. 
+
+    This finishes creating the record or the file with the additional information. If you started from an existing record, the information from the brief is added to the record. If you started with a new record, the record is created with the information in the brief. 
+
+    For more information about updating Planning records using briefs, see the "ConsiderationsConsiderations about using the Ideation space to create records" section in the article [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
+
+
+## Configure the Ideation space
+
+There are controls for the Ideation space that configure what you see on the screen as well as help you navigate the space. 
+
+1. Click the **Settings** icon ![Settings](assets/setting-icon.png) to control where AI pulls information from, then choose from the following **Source Types**:
+
+    * **Documents** — documents uploaded to the selected space
+    * **Web Search** — external web research
+    <!--
+     **CJA** — Adobe Customer Journey Analytics
+    -->
+1. Click **Save**. 
+
+1. Click the the **zoom level** drop-down icon to the left of the **Help** icon or the **Help** icon ![Help icon](assets/more-information-icon.png) to select an option or review the keyboard shortcuts that you can use to navigate the ideation space or select a different zoom value. 
+
+    Choose from the following zoom levels:
+    
+    * Zoom to 100%
+    * Zoom to 200%
+    * Zoom to fit
+
+    Or use one of the following shortcuts to navigate on the page: 
+
+    | Action | Shortcut |
+    | --- | --- |
+    | Zoom in / out | Ctrl/⌘ + / − |
+    | Zoom to fit / fit selection | — |
+    | Zoom to cursor | Ctrl/⌘ + scroll |
+    | Pan the canvas | Hold Space + drag |
+    | Show/hide dot grid | G |
+
+
+
+<!--
 
     Once opened, the Ideation space agent goes through the following steps:
 
@@ -159,101 +314,10 @@ For more information about Workfront access requirements, see [Access requiremen
 
         * The cards are placed inside the same frame indicating this is the result of one ideation. 
 
-        * A brief is created and displays in a preview image in the lower-left corner of the Ideation space. <!--add screen shot??-->
+        * A brief is created and displays in a preview image in the lower-left corner of the Ideation space. <!
     
         The brief contains suggested fields that the system considers pertinent to the ideas you are exploring. 
-
-1. (Optional) Click the **Help** icon ![](assets/more-information-icon.png) in the upper-right corner for a list of keyboard shortcuts to help you navigate through the Ideation space. 
-
-1. (Optional) Click **Sources** at the bottom of every card to understand where the information was collected from. 
-
-    Information can be imported either from Workfront Planning or the Web. 
-1. (Optional) Use the thumbs up or thumbs down icons on a card to give feedback.<!--is this still available??-->
-1. Click a card or click the frame containing all the cards, then click **Add to brief** to add their information to the brief. 
-
-    Workfront matches each piece of information with the field it finds the most likely to store it. 
-
-    For example, timelines are added to date-type fields, descriptions to paragraph-type fields. 
-    1. (Conditional) Click a card, then click **Ask AI to ...** to get ideas of the next step, before adding the information to the brief. The answers are in the context of each card's information. 
-    1. Click the **Add documents** icon ![Add documents icon](assets/add-documents-in-ideation-space.png) in the upper-left corner of the Ideation space to upload documents to the space. You can add new documents or documents you have already added to the space before. 
-
-        >[!TIP]
-        >
-        >The Documents setting must be turned on to be able to access documents and upload them to the space.
-        >For information, see the section [Configure the Ideation space](#configure-the-ideation-space) in this article.
-        > 
-    1. Click the **Add WF Taxonomy card** icon ![Add from Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--send this tooltip to be revised--> and select a connected record type, then a record from each type to add that record's information to the record type you selected. 
-
-        A card is created for the record you selected to add to the space. The record type displays in the upper-left corner of the record's card. 
-    1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) and click **View in Workfront**. 
-
-        The record's details page opens in another browser tab in Workfront Planning. 
-    1. (Optional) Select the ideation frame or a card, click the Delete icon, then click Delete to confirm. The card is removed from the Ideation space. 
-
-        When you delete cards corresponding to a stored document or a record, the items are removed from the Ideation space but they remain in their respective applications. 
-
-1. (Optional) Use the **Ask anything** box in the lower-right corner at any time to refine your ideation.
-
-    For example, type `regenerate` for a specific card to have AI redo that card using updated context. The ideation space reruns its reasoning steps (searching, synthesizing, citing) and updates the affected cards.
-
-1. (Optional) In the **Ask anything** box, ask a new question to start a new ideation. 
-
-    A new set of cards is generated, after the space reruns its reasoning steps.
-    
-1. (Optional) Click one of the purple connectors from any ideation card sets, then click the **Copy to prompt bar** icon to rerun the ideation reasoning. 
-
-    ![Copy to prompt bar icon](assets/copy-to-prompt-bar-icon-highlighted.png)
-
-1. (Optional) Click the **Undo** or **Redo** icons ![Undo and redo icons](assets/undo-redo-icons.png) at the top of the page to cancel or reverse an action. 
-1. Zoom out to see the complete picture: your original campaign goal, all AI-generated concept cards with citations, additional documents, the real Workfront Planning records you've pulled in (Products, Personas, etc.). The **Brief** summary card in the lower-left corner pulls it all together.
-
-1. Click the brief preview image in the lower-left corner and review the brief, then click one of the following options: 
-
-    * **Export to file**. You can export the brief to the following file types:
-
-        * PDF
-        * Word
-        * PowerPoint (with or without a template)
-    * **Export to Workfront Planning**. The export overwrites all existing field data in the record in Workfront Planning.
-
-    This finishes creating the record with the additional information and it adds it to the record type you originally selected.
-
-    For more information about updating Planning records using briefs, see the "ConsiderationsConsiderations about using the Ideation space to create records" section in the article [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
-
-
-## Configure the Ideation space
-
-There are controls for the Ideation space that configure what you see on the screen as well as help you navigate the space. 
-
-1. Click the **Settings** icon ![Settings](assets/setting-icon.png) to control where AI pulls information from, then choose from the following **Source Types**:
-
-    * **Documents** — documents uploaded to the selected space
-    * **Web Search** — external web research
-    * **CJA** — Adobe Customer Journey Analytics
-
-1. Click **Save**. 
-
-1. Click the **Help** icon ![Help icon](assets/more-information-icon.png) to review the keyboard shortcuts you can use to navigate the ideation space or select a different zoom value. 
-
-    Choose from the following zoom levels:
-    
-    * Zoom to 100%
-    * Zoom to 200%
-    * Zoom to fit
-
-    Or use one of the following shortcuts to navigate on the page: 
-
-    | Action | Shortcut |
-    |---|---|
-    | Zoom in / out | Ctrl/⌘ + / − |
-    | Zoom to fit / fit selection | — |
-    | Zoom to cursor | Ctrl/⌘ + scroll |
-    | Pan the canvas | Hold Space + drag |
-    | Show/hide dot grid | G |
-
-1. Click the Search icon to search for items in the ideation space, then click when it displays in the list to navigate to it. 
-
-
+-->
 
 
 

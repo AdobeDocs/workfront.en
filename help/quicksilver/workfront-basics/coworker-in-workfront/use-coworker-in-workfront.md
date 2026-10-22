@@ -64,7 +64,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Use Coworker in Workfront
 
-1. At the top of any Workfront page, click the Coworker icon ![AI icon](assets/ai-icon.png).
+1. At the top of any Workfront page, click the Coworker icon ![Coworker icon](assets/coworker-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
 
 1. If Coworker does not provide the answer you need, refine your prompt and try again.
