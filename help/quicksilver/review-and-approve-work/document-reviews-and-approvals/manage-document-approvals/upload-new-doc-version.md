@@ -33,6 +33,7 @@ topic_v2:
 ---
 # Upload a new document version and request an approval
 
+{{highlighted-preview}}
 
 If a document is marked "Needs work" in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked.
 

@@ -9,6 +9,8 @@ feature: Work Management, Digital Content and Documents
 
 # Manage grouped approvals
 
+<span class="preview">The information on this page is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there. This functionality will be available in Production environments on October 22, 2026.</span>
+
 A grouped approval bundles multiple documents under a single approval workflow, so all the documents move through the same stages together instead of requiring a separate approval per document. You can add or remove participants and documents in an active grouped approval without recreating the workflow.
 
 Grouped approvals support Basic and Advanced mode, multiple stages, and parallel paths the same way as single-asset approvals. For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).

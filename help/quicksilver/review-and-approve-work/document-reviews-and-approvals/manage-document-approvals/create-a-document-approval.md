@@ -35,7 +35,7 @@ topic_v2:
 
 {{highlighted-preview}}
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
+You can request approval from other users or teams for a document or a live website in Adobe Workfront, or request they review it without needing to approve it.  
 
 By default, an approval template is visible only to its creator. Throughout this article, you can only select templates you created or that were shared with you. For more information, see [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates.
 
@@ -355,6 +355,7 @@ preview screen
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
+
 
 <div class="preview">
 
