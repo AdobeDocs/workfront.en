@@ -32,6 +32,8 @@ role_v2:
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+{{planning-important-intro}}
+
 You can create a request form for each record type, share it with users and they can add new records by completing and submitting the form. 
 
 This section contains the following articles:
