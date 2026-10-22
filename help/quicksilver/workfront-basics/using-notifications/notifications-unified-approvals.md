@@ -27,8 +27,6 @@ Use the following notifications to stay informed about activity for Unified revi
 >[!NOTE]
 >
 >These notifications are available only as instant notifications and are not available in a daily digest.
->
->In the Fields included column, an asterisk (*) indicates a field that appears only when it applies.
 
 
 <table style="table-layout:auto"> 
@@ -45,32 +43,32 @@ Use the following notifications to stay informed about activity for Unified revi
  <tbody> 
   <tr> 
    <td> <p><strong>Approval finished – Approved</strong> </p> <p>A document approval finishes with a final decision of Approved.</p> <p>The subject of the instant notification email is: <em>Final decision: (Document) is approved</em></p> </td> 
-   <td> Final decision<br>Document<br>Approval requested date<br>Due date<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Final decision<br>Document<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Approval finished – Approved with changes</strong> </p> <p>A document approval finishes with a final decision of Approved with changes.</p> <p>The subject of the instant notification email is: <em>Final decision: (Document) is approved with changes</em></p> </td> 
-   <td> Final decision<br>Document<br>Approval requested date<br>Due date<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Final decision<br>Document<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Approval finished – Needs work</strong> </p> <p>A document approval finishes with a final decision of Needs work.</p> <p>The subject of the instant notification email is: <em>Final decision: (Document) needs work</em></p> </td> 
-   <td> Final decision<br>Document<br>Approval requested date<br>Due date<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Final decision<br>Document<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Deadline approaching</strong> </p> <p>A document approval you are part of is approaching its deadline.</p> <p>The subject of the instant notification email is: <em>Approval deadline approaching for (Document)</em></p> </td> 
-   <td> Requester<br>Your role<br>Team<br>Document preview*<br>Custom message*<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Requester<br>Your role<br>Team<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Deadline passed</strong> </p> <p>A document approval you are part of passes its deadline without a final decision.</p> <p>The subject of the instant notification email is: <em>Approval deadline passed for (Document)</em></p> </td> 
-   <td> Fixed headline<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, All recipients (no Project) </td> 
+   <td> <p>Fixed headline<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Stage</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Review completed</strong> </p> <p>A reviewer completes their review on a document approval.</p> <p>The subject of the instant notification email is: <em>(Document) has been reviewed</em></p> </td> 
-   <td> Reviewer<br>Document<br>Document preview*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Reviewer<br>Document<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
@@ -85,52 +83,52 @@ Use the following notifications to stay informed about activity for Unified revi
   </tr> 
   <tr> 
    <td> <p><strong>Decision made – Approved</strong> </p> <p>An approver makes a decision of Approved on a document approval.</p> <p>The subject of the instant notification email is: <em>(Document) approved by (Name)</em></p> </td> 
-   <td> Decision maker<br>Decision<br>Document and version<br>Document preview*<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Decision maker<br>Decision<br>Document and version<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Decision made – Approved with changes</strong> </p> <p>An approver makes a decision of Approved with changes on a document approval.</p> <p>The subject of the instant notification email is: <em>(Document) approved with changes by (Name)</em></p> </td> 
-   <td> Decision maker<br>Decision<br>Document and version<br>Document preview*<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Decision maker<br>Decision<br>Document and version<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Decision made – Needs work</strong> </p> <p>An approver makes a decision of Needs work on a document approval.</p> <p>The subject of the instant notification email is: <em>(Document) needs work by (Name)</em></p> </td> 
-   <td> Decision maker<br>Decision<br>Document and version<br>Document preview*<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Decision maker<br>Decision<br>Document and version<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Documents added to or removed from a grouped approval</strong> </p> <p>Documents are added to or removed from a grouped document approval you are part of.</p> <p>The subject of the instant notification email is: <em>A document was added to or removed from an approval you are part of</em></p> </td> 
-   <td> <p><strong>Added:</strong> Requester, Group name, Thumbnail preview, Custom message*, Dates, "Go to review" button, Details block: Group name, Number of assets, Project*, All recipients</p> <p><strong>Removed:</strong> Requester, Group name, Thumbnail preview (no button or Details block)</p> </td> 
+   <td> <p><strong>Added:</strong><br>Requester<br>Group name<br>Thumbnail preview<br>Dates<br>"Go to review" button<br>Details block: Group name, Number of assets, All recipients</p> <p><em>Included when part of the approval:</em><br>Custom message<br>Project</p> <p><strong>Removed:</strong><br>Requester<br>Group name<br>Thumbnail preview (no button or Details block)</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>All reviews completed</strong> </p> <p>Every reviewer completes their review on a document approval.</p> <p>The subject of the instant notification email is: <em>All reviews are complete on (Document)</em></p> </td> 
-   <td> Document<br>Approval requested date<br>Due date<br>Custom message*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Document<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Reminder - 24 hours</strong> </p> <p>You have 24 hours left to review and approve the document.</p> <p>The subject of the instant notification email is: <em>Reminder: Your approval is needed on (Document)</em></p> </td> 
-   <td> Requester<br>Your role<br>Team<br>Document preview*<br>Custom message*<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Requester<br>Your role<br>Team<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Reminder - 72 hours</strong> </p> <p>You have 72 hours left to review and approve the document.</p> <p>The subject of the instant notification email is: <em>Reminder: Your approval is needed on (Document)</em></p> </td> 
-   <td> Requester<br>Your role<br>Team<br>Document preview*<br>Custom message*<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Requester<br>Your role<br>Team<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Added as approver or reviewer</strong> </p> <p>You are added as an approver or reviewer on a document approval.</p> <p>The subject of the instant notification email is: <em>Your approval is needed on (Document)</em></p> </td> 
-   <td> Requester<br>Your role<br>Team<br>Document preview*<br>Custom message*<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Requester<br>Your role<br>Team<br>Approval requested date<br>Due date<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Removed as approver or reviewer</strong> </p> <p>You are removed as an approver or reviewer from a document approval.</p> <p>The subject of the instant notification email is: <em>Your approval is no longer needed on (Document)</em></p> </td> 
-   <td> Requester<br>Document and version<br>Role<br>Team<br>Document preview*<br>Custom message* (no button or Details block) </td> 
+   <td> <p>Requester<br>Document and version<br>Role<br>Team (no button or Details block)</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Custom message</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Role changed</strong> </p> <p>Your approver or reviewer role changes on a document approval.</p> <p>The subject of the instant notification email is: <em>Your role on (Document) has changed</em></p> </td> 
-   <td> Requester<br>Document and version<br>Direction of the role change<br>Document preview*<br>"Go to review" button<br>Details block: Document name, Document details, Stage*, Project*, All recipients </td> 
+   <td> <p>Requester<br>Document and version<br>Direction of the role change<br>"Go to review" button<br>Details block: Document name, Document details, All recipients</p> <p><em>Included when part of the approval:</em><br>Document preview<br>Stage<br>Project</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
  </tbody> 
