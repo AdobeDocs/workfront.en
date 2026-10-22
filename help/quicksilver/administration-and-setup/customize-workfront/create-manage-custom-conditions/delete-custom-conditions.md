@@ -61,10 +61,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 {{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Conditions**.
-
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
-1. Select the check box next to the condition name you want to delete, and click **Delete** in the action bar at the bottom of the screen.</span>
-
+1. Select the check box next to the condition name you want to delete, and click **Delete** in the action bar at the bottom of the screen.
 1. In the **Delete condition** box that appears, select a new condition in the drop-down list for all projects, tasks, or issues that were using the condition you are deleting.
 
    Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.

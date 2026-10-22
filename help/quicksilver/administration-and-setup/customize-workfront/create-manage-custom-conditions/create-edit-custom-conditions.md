@@ -76,6 +76,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    To edit an existing condition, select the check box next to the condition name you want to delete, and click **Edit** in the action bar at the bottom of the screen.
    
+
    ![Edit custom condition](assets/edit-conditions-082526.png)
 
 1. Configure your custom condition using the following options:
