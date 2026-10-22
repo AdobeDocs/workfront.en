@@ -41,6 +41,8 @@ topic_v2:
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+-->
+
 >[!IMPORTANT]
 >
 >The Planning Designer is currently available to all customers in a Beta state. 

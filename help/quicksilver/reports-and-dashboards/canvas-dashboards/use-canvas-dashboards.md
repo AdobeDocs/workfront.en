@@ -30,12 +30,7 @@ topic_v2:
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.
 >
 >If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Please note that this beta is not available on the following cloud providers:
->
->* Bring Your Own Key for Amazon Web Services
->* Azure
->* Google Cloud Platform 
+
 
 Canvas Dashboards allow you to visualize your Adobe Workfront data by adding different report types onto a flexible canvas layout. This article provides an overview of how to use Canvas Dashboards effectively.
 
@@ -106,9 +101,9 @@ You can temporarily customize table reports on dashboards. These changes only ap
     >
     >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
-<div class="preview">
 
-### Drill down into pivot table data in Preview
+
+### Drill down into pivot table data
 
 You can click a value in a pivot table report to drill down and see the individual records that make up that aggregated value.
 
@@ -122,7 +117,7 @@ You can click a value in a pivot table report to drill down and see the individu
 
     The drilldown table displays the columns that the report creator configured in the Drilldown Column Settings. For more information, see [Build a pivot table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

@@ -33,9 +33,7 @@ topic_v2:
 ---
 # Create a document approval workflow
 
-{{highlighted-preview}}
-
-You can request approval from other users or teams for a document or a live website in Adobe Workfront, or request they review it without needing to approve it.  
+You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
 
 By default, an approval template is visible only to its creator. Throughout this article, you can only select templates you created or that were shared with you. For more information, see [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates.
 
@@ -174,13 +172,9 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Add people or teams in preview</span></strong></td>
-   <td><p><span class="preview">Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</span></p>
-   <p><span class="preview">Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</span></p></td>
+   <td><strong>Add people or teams in preview</strong></td>
+   <td><p>Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -240,13 +234,9 @@ To create a single-stage approval workflow:
    <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Add people or teams in preview</span></strong></td>
-   <td><p><span class="preview">Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</span></p>
-   <p><span class="preview">Note: If a user is already added, or belongs to more than one team you add, they're included once.</span></p></td>
+   <td><strong>Add people or teams in preview</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -316,13 +306,9 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user name or email to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
-   </tr>
-   <tr>>
-   <td><strong><span class="preview">Add people or teams in preview</span></strong></td>
-   <td><p><span class="preview">Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</span></p>
-   <p><span class="preview">Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</span></p></td>
+   <td><strong>Add people or teams in preview</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -356,10 +342,7 @@ preview screen
 
 1. Click **Request approval**.
 
-
-<div class="preview">
-
-## View approval workflows for previous versions in the new Documents area in Preview
+## View approval workflows for previous versions in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -379,7 +362,6 @@ To view approval workflows for previous versions:
    >
    >If a version's approval workflow was withdrawn because a newer version's approval was requested, it stays in the list, collapsed, so you can still review its prior decisions.
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version

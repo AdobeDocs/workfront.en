@@ -25,6 +25,20 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Import large numbers of records using CX Enterprise Coworker
+
+>[!NOTE]
+>
+>Preview and production: October 22, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe
+
+CX Coworker can now import 10,000 or more records from Excel spreadsheets and use them to create or update Planning records, without requiring admins to manually map every column.
+
+You can use the existing functionality for attaching files in Coworker to preview and import records using the same structured output, so results stay consistent for files of any size.
+
+For information, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 ## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
