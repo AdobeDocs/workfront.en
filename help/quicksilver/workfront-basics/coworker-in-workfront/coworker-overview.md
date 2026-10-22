@@ -35,3 +35,4 @@ For skills available in Coworker in Workfront, see [Workfront skills in CX Enter
 
 For example prompts, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
+
