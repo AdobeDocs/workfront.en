@@ -31,8 +31,6 @@ topic_v2:
 ---
 # Add logic rules to custom forms and fields
 
-{{preview-fast-release-general}}
-
 Logic rules allow you to further customize the fields on your form.
 
 For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
@@ -205,12 +203,6 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >In the Production environment, advanced display logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
-
 ## Add skip logic to a custom form
 
 Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
@@ -285,12 +277,6 @@ When the custom form is attached to a project and the project status is Planning
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >In the Production environment, default value logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
-
 ## Add validation logic to a custom form
 
 Validation logic is built using formulas, and you can make the logic as simple or as complex as you need. The validation can be based on the values of other fields or the status of objects, and you can provide an error message for when the validation fails.
@@ -335,12 +321,6 @@ For additional examples of validation logic, see [Examples of advanced logic in 
 1. Click **Apply**.
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
-
-   >[!NOTE]
-   >
-   >In the Production environment, validation logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
 ## Add formatting logic to a custom form
 
@@ -401,12 +381,6 @@ IF(
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >In the Production environment, formatting logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
-
 ## Add editability logic to a custom form
 
 Editability logic determines whether a custom form field can be edited or whether it is read-only. This logic is built using formulas, and when the field meets the defined conditions it can be set as editable or read-only.
@@ -452,10 +426,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Click **Apply**.
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
-
-   >[!NOTE]
-   >
-   >In the Production environment, editability logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
 
