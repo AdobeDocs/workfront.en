@@ -35,13 +35,13 @@ topic_v2:
 ---
 # Adobe Workfront Planning AI Assistant overview
 
-
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-
+-->
 
 {{planning-important-intro}}
 
@@ -51,7 +51,7 @@ The user's commands and the AI's execution of those commands work together to en
 
 >[!IMPORTANT]
 >
-><span class="preview">In some organizations, the AI Assistant was replaced by CX Enterprise Coworker. For information, see [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>In some organizations, the AI Assistant has been replaced by CX Enterprise Coworker. For information, see [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 ## Access requirements
 
@@ -156,7 +156,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 >[!NOTE]
 >
-><span class="preview">If your organization has received access to CX Enterprise Coworker, locating Coworker is similar to locating the AI Assistant. For information, see [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+>If your organization has received access to CX Enterprise Coworker, locating Coworker is similar to locating the AI Assistant. For information, see [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).
 
 
 You can locate the AI Assistant in the following areas of Workfront Planning:
