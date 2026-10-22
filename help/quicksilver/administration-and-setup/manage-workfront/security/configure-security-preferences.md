@@ -160,8 +160,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td><p>Lets you choose whether to force users to enter information in required fields when bulk editing objects.</p> <p>When this option is selected, required fields must have values before saving in bulk edit mode. If the required field is missing a value for at least one bulk selected object, saving is not permitted.</p> <p>When this option is not selected, required fields are only enforced when a user modifies the field. If a field is not modified, it is treated as optional and not validated.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Access Level for Users Created in Admin Console</span></td>
-      <td><span class="preview">Lets you choose a default access level to automatically assign to users who are created in Workfront through the Adobe Admin Console. If you don't set a default, these users continue to receive a Contributor or Requester access level. System Administrator and External User access levels aren't available as a default, and this setting isn't available for organizations that have Workfront Planning as a standalone product.<p><b>NOTE</b>: You can't delete an access level while it's set as this default. To delete the default access level, select a different default access level first.</p></span></td>
+      <td role="rowheader">Access Level for Users Created in Admin Console</td>
+      <td>Lets you choose a default access level to automatically assign to users who are created in Workfront through the Adobe Admin Console. If you don't set a default, these users continue to receive a Contributor or Requester access level. System Administrator and External User access levels aren't available as a default, and this setting isn't available for organizations that have Workfront Planning as a standalone product.<p><b>NOTE</b>: You can't delete an access level while it's set as this default. To delete the default access level, select a different default access level first.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Storage Preferences </td> 
@@ -197,12 +197,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Read-only MCP tools</span></td> 
-      <td><span class="preview">Lets the Workfront MCP server perform read actions on Workfront data, such as finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+      <td role="rowheader">Read-only MCP tools</td> 
+      <td>Lets the Workfront MCP server perform read actions on Workfront data, such as finding or listing projects, tasks, or other items. This option is enabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Write MCP tools</span></td> 
-      <td><span class="preview">Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></span></td> 
+      <td role="rowheader">Write MCP tools</td> 
+      <td>Lets the Workfront MCP server perform create, update, and delete actions on Workfront data. This option is disabled by default.<p>For more information about the Workfront MCP server, see <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configure the Adobe Workfront MCP server</a>.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Authorized redirect URLs</span></td> 
