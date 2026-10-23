@@ -39,6 +39,8 @@ You can use the existing functionality for attaching files in Coworker to previe
 
 For information, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
+<!--
+
 ## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
@@ -52,6 +54,8 @@ You can now enable an existing Workfront Planning workspace for use in a GenStud
 Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
 For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Meta dynamic creative activation types
 
