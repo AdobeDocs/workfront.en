@@ -63,10 +63,11 @@ This example exposes the `core` and `comment-stream` capabilities. The `core` gr
 
 Available toolsets include:
 
-* `core` — the base Workfront toolset that is included automatically when you select a subset of toolsets.
-* `comment-stream` — tools for comment and discussion workflows.
-* `planning` — tools for Workfront Planning capabilities.
-* `approvals` — tools for approval workflows.
+* `core`: The base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream`: Tools for comment and discussion workflows.
+* `planning`: Tools for Workfront Planning capabilities.
+* `approvals`: Tools for approval workflows.
+* `reporting`: Tools for reporting.
 
 To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
 
