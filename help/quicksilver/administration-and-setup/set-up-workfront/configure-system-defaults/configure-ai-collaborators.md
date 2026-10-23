@@ -119,16 +119,14 @@ Because Work Agents are agents, their actions and abilities are configured where
 
 Work Agents can be assigned to tasks or issues.
 
+Licenses used by work agents are not billed. If your organization has 200 Workfront licenses and creates a Work Agent, 201 licenses are then in use, but only 200 are billed.
+
 For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configure a Work Agent in Workfront](#configure-a-work-agent-in-workfront)
 * [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configure a Work Agent in Workfront
-
->[!NOTE]
->
->Licenses used by work agents are not billed. If your organization has 200 Workfront licenses and creates a Work Agent, 201 licenses are then in use, but only 200 are billed.
 
 {{step-1-to-setup}}
 
