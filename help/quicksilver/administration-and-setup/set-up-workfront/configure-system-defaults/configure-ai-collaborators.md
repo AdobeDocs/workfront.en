@@ -34,6 +34,8 @@ Available AI Collaborator types include:
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
+Licenses used by AI Collaborators are not billed. If your organization has 200 Workfront licenses and creates an AI Collaborator, 201 licenses are then in use, but only 200 are billed.
+
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
 
