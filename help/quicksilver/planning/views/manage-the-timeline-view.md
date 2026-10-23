@@ -480,7 +480,6 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
-
 1. In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
@@ -520,6 +519,11 @@ To add a grouping in the timeline view:
     >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Add sort
 
@@ -545,7 +549,17 @@ To add a sort in the timeline view:
 
     ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
 1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the direction you want the record sorting to be applied (alphabetical, reverse descendent etc). The direction a sorting is applied depends on the format of the field you selected. 
+1. Select the direction you want the record sorting to be applied (alphabetical, reverse descendent etc). 
+
+    For example, the sorting of a text field could be A -> Z or Z -> A. 
+
+    <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+    The direction a sorting is applied depends on the format of the field you selected. 
 1. (Optional) Click **Add condition** to add up to 10 conditions. 
 1. (Optional) Click **Clear all** to remove all conditions.
 1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 

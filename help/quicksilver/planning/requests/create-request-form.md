@@ -292,14 +292,14 @@ To configure form settings:
   
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and the value that indicates when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
 
-1. Click **Permissions** on the left panel.
-1. Select the permission level for the users submitting requests through this form:
+1. Click **Permissions** on the left panel to configure the permissions users will have on requests submitted using this form by default. The permissions you grant here will take effect right away for future requests and they do not affect existing requests. 
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Select the permission level to the requests submitted to this form for the users submitting requests using this form:
 
    * **View**: All requesters can comment on and share the form.
    * **Contribute**: All requesters can comment on, share, and edit the form.
-   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form. This is the default permission. 
 
-1. (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:
+1. (Optional) <!--<span class="preview">In the **Requestor access** section,</span>--> Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:
 
    * Comment
    * Share
@@ -309,6 +309,28 @@ To configure form settings:
    >[!TIP]
    >
    >The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. 
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Click **AI form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
 
