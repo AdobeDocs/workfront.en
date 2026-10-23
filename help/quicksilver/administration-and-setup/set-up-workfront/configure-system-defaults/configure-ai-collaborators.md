@@ -126,6 +126,10 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 
 ### Configure a Work Agent in Workfront
 
+>[!NOTE]
+>
+>Licenses used by work agents are not billed. If your organization has 200 Workfront licenses and creates a Work Agent, 201 licenses are then in use, but only 200 are billed.
+
 {{step-1-to-setup}}
 
 1. In the left navigation, click **AI Collaborators**.
