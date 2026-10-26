@@ -32,7 +32,7 @@ topic_v2:
 ---
 # Administration differences between Adobe Workfront and Adobe Business Platform
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 All Workfront Organizations have now been onboarded to the Adobe Business Platform. As an Adobe Workfront administrator, your administration responsibilities and procedures may be different now that your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are now handled differently.
 
@@ -178,7 +178,7 @@ For instruction on creating Workfront system administrators, see [Manage users i
 
 ## Renew the SAML certificate
 
-For instructions on renewing the SAML certificate on the Adobe Admin Console, see the section "The digital signature in the SAML response did not validate..." in [Troubleshooting Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+For instructions on renewing the SAML certificate on the Adobe Admin Console, see the section "The digital signature in the SAML response did not validate..." in [Troubleshooting Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -202,10 +202,12 @@ For instructions on renewing the SAML certificate on the Adobe Admin Console, se
 Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. Therefore, the following actions are no longer available.
 
 
-* [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) 
-* [Configure Adobe Workfront with SAML 2.0 using ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
-* [Deactivate single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md) 
-* [Update SAML 2.0 metadata in your identity provider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 
-* [Update users for single sign-on](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md) 
-* [Configure password policies for authentication](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
-* [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
+* Configure Adobe Workfront with SAML 2.0 
+* Configure Adobe Workfront with SAML 2.0 using ADFS
+* Deactivate single sign-on in Adobe Workfront
+* Update SAML 2.0 metadata in your identity provider
+* Update users for single sign-on
+* Configure password policies for authentication
+* Configure system security preferences
+
+

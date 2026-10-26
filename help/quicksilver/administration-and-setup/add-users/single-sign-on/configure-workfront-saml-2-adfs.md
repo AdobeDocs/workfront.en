@@ -30,6 +30,11 @@ topic_v2:
 ---
 # Configure Adobe Workfront with SAML 2.0 using ADFS
 
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
+
+<!--
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
@@ -188,3 +193,5 @@ As a Workfront administrator, you can also manually assign a Federation ID editi
 >[!NOTE]
 >
 >When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).
+
+-->

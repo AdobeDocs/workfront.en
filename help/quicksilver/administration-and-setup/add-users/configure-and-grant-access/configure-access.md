@@ -38,7 +38,6 @@ topic_v2:
 These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 
 * [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 
-* [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 
 * [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
 * [Grant access to projects](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) 
 * [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 
