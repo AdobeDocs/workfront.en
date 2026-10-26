@@ -63,12 +63,7 @@ Deleting a user must be performed through the Adobe Admin Console. For instructi
   <tr> 
    <td>Access level configurations</td> 
    <td> <p>You must be an administrator on the Adobe Admin Console.</p> 
-   <!--
-    <ul> 
-     <li> <p>The System Administrator access level. </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
-    </ul>
-    --> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
