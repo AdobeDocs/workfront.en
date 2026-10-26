@@ -74,7 +74,12 @@ For information about unlocking an event notification so that group administrato
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
-## Configure event notifications for all users
+
+
+
+
+<div class="preview">
+## Configure event notifications for all users in Preview
 
 You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
 
@@ -108,3 +113,4 @@ You must enable notifications in the Setup area of Workfront before users can en
    For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 Users can customize the frequency of these notifications in their user profile. 
+</div >
