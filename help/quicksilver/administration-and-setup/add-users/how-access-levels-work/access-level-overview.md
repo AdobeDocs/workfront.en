@@ -89,7 +89,7 @@ Users with the System Administrator access level can do everything within Workfr
 
 They also have access to the complete Setup area, where they can change any setting at the system level, and they can access all areas in the  Main Menu.
 
-For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Granting a user Administrator access is done through the Adobe Admin Console. For instructions, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console..
 
 ### Standard access level
 

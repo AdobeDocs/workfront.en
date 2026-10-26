@@ -59,6 +59,8 @@ In order to receive event subscriptions payloads through your firewall, you must
 To create, query, or delete an Event Subscription, your Workfront user needs:
 
 * An access level of **System Administrator** 
-  To learn more, see [Grant a user full administrative access](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) or [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  
+  System administrators are created in the Adobe Admin Console.
+  To learn more, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console. or [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * If your organization uses Adobe IMS (Identity Management System), include an IMS user token passed in the `X-User-Token` header.

@@ -36,7 +36,8 @@ As an Adobe Workfront administrator, you can use an access level to grant users 
 
 >[!NOTE]
 >
->This is different from giving a user full administrative access to Workfront, which is explained in [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).​
+>This is different from giving a user full administrative access to Workfront. Granting a user Administrator access is done through the Adobe Admin Console. For instructions on granting full administrator access in the Adobe Admin Console, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console..
+
 
 ## Access requirements
 

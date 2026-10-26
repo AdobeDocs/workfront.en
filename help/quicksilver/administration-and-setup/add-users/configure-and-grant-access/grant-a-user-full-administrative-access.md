@@ -42,7 +42,7 @@ topic_v2:
 >
 >The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. Because your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>For instructions on granting full administrator access in the Adobe Admin Console, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console..
 
 <!--
 
