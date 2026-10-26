@@ -216,7 +216,7 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 <!--
 
-Remove me October 2026
+Remove me January 2026
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
 

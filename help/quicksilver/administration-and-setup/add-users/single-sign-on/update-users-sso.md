@@ -30,6 +30,14 @@ topic_v2:
 
 <!-- Audited: 1/2024 -->
 
+
+
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
+
+<!--
+
 {{important-admin-console-onboard}}
 
 When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
@@ -157,3 +165,7 @@ For instructions on building a user report containing SSO Username information, 
    ![Users with SSO field](assets/users-with-sso-field-updated.png)
 
    For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
+
+   -->
+
+
