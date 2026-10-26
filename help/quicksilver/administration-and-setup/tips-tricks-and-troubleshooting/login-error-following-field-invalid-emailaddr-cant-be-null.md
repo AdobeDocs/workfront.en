@@ -29,6 +29,12 @@ topic_v2:
 ---
 # Login Error: The following fields are invalid: emailAddr cannot be null
 
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
+
+<!--
+
 ## Problem
 
 When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
@@ -42,3 +48,5 @@ This error is caused by an incorrect item in the Map User Attributes area of the
 ## Solution
 
 Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

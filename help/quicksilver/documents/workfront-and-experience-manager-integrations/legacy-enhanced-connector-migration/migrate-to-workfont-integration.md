@@ -37,6 +37,8 @@ The information on this page explains the best practices for moving from the Wor
 >
 >This information does not apply to customers using Adobe Experience Manager Assets On-Premise or Managed Services environments.
 
+<!--
+
 ## Move your Workfront instance to the Admin Console
 
 Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
@@ -45,6 +47,8 @@ Customers that intend to use the new native integration between Workfront and Ad
 
 * If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
 * If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+
+-->
 
 ## Configure your new Workfront for Adobe Experience Manager assets as a Cloud Service integration
 
