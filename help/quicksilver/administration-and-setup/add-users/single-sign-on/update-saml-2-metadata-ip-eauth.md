@@ -31,6 +31,12 @@ topic_v2:
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), The information in this article has been removed.
+
+<!--
+
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.
@@ -169,3 +175,5 @@ This procedure provides essential information for configuring Okta as an identit
 ## Using other identity providers
 
 When using identity providers other than Okta (such as Ping or Centrify), you must re-upload the Workfront metadata to your identity provider.
+
+-->

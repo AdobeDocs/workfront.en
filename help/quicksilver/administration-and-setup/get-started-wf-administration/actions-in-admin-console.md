@@ -202,7 +202,7 @@ For instructions on renewing the SAML certificate on the Adobe Admin Console, se
 Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. Therefore, the following actions are no longer available.
 
 
-* [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) 
+* Configure Adobe Workfront with SAML 2.0 
 * [Configure Adobe Workfront with SAML 2.0 using ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
 * [Deactivate single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md) 
 * [Update SAML 2.0 metadata in your identity provider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 

@@ -29,6 +29,12 @@ topic_v2:
 
 <!--Audited: 12/2023-->
 
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), The information in this article has been removed.
+
+<!--
+
 {{important-admin-console-onboard}}
 
 
@@ -58,3 +64,5 @@ Workfront integrates with the following SSO solutions:
 * Federated solutions that support SAML 2.0 using ADFS
 
   For information about integrating Workfront with SAML 2.0 using ADFS, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+
+  -->
