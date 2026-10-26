@@ -37,13 +37,13 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >Because all organizations have now been onboarded to the Adobe Admin Console, this functionality has been deprecated.
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 

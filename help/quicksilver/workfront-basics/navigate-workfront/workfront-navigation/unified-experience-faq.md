@@ -28,11 +28,13 @@ topic_v2:
 ---
 # [!DNL Adobe Unified Experience] FAQ
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!NOTE]
 >
->All Workfront organizations now use the Adobe Unified Experience to access Workfront.
+>Because all Workfront organizations now use the Adobe Unified Experience to access Workfront, this article has been removed.
+
+<!--
 
 The [!DNL Adobe Unified Experience] for [!DNL Workfront] allows you to manage all of your [!DNL Adobe] applications in one place with a single login. The [!DNL Adobe] navigation area is integrated seamlessly with [!DNL Workfront]. A few features are different, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
 
@@ -163,3 +165,5 @@ There is no impact to [!DNL Creative Cloud] users with the migration to [!DNL Ad
 ### JumpSeat is not working with the [!DNL Adobe Unified Experience], how can I resolve this? 
 
 JumpSeat works with the [!DNL Adobe Unified Experience], but requires a configuration update. Using the JumpSeat admin panel, change the application URL from `workfront.com` to end with `.workfront.adobe.com`
+
+-->

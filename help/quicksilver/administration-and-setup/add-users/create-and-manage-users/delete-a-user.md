@@ -30,7 +30,13 @@ topic_v2:
 ---
 # Delete users
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. Because your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+
+<!--
 
 >[!IMPORTANT]
 >
@@ -45,6 +51,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 >[!IMPORTANT]
 >
 >Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+-->
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
@@ -55,7 +62,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
-
+<!--
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -123,8 +130,9 @@ Deleting a user causes the following things to happen:
 
    * Tasks, issues, projects, portfolio
    * Dashboards
+-->
 
-   <!--
+<!--
 
      >[!NOTE]
      >
@@ -132,8 +140,8 @@ Deleting a user causes the following things to happen:
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
-
+-->
+<!--
    * Updates
    * Hours
 
@@ -162,3 +170,5 @@ You can permanently delete users one at a time, or you can permanently delete mu
    After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
    At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->
