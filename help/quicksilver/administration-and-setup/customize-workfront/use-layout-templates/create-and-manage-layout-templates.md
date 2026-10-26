@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Create and manage layout templates
 
+{{preview-fast-release-general}}
+
 <!--Audited: 12/2023-->
 
 <!--
@@ -96,9 +98,10 @@ For more information about layout templates, see [Layout templates](../../../adm
 
 1. Click **New Layout Template**.
 
-   Or
+   To edit a layout template:
 
-   Click the name of the layout template you want to modify.
+   * Click the name of the layout template you want to modify, or
+   * <span class="preview">Select the check box next to the layout template in the list, and click **Edit** in the action bar at the bottom of the screen.</span>
 
 1. If you are creating a new layout template, type a **Layout template name** and (optional) a **Description** for it.
 
