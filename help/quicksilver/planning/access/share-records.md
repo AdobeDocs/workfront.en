@@ -230,8 +230,16 @@ As a workspace manager, you can adjust permissions to individual records.
       >
       >You cannot share permissions to records that are added in different workspaces. When you share records in bulk, the records must all be created in the same workspace. 
 
-1. (Optional) In the **Who has access** area, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. 
+1. (Optional) The **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace. 
 
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
+   
 1. (Optional) Click the avatars of users under the **Inherited permissions from** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace. <!--logged bug to move "Permissions" to lowercase-->
 
    The user's permissions to the record type displays when you expand the inherited permissions. 
@@ -273,6 +281,7 @@ As a workspace manager, you can adjust permissions to individual records.
       >* You cannot give users a lesser permission to the record if they have Contribute or higher to the record type. 
       >For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
       >* You cannot grant permissions to users who are not in the workspace. Users who do not have permissions to the workspace and record type cannot access any of the records. 
+      >* You must have Manage permissions to a record to share it with others. 
       
    <!--   
    Not possible:

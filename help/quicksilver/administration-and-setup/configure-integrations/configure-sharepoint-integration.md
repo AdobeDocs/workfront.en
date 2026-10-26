@@ -43,8 +43,6 @@ topic_v2:
 ---
 # Configure the [!DNL SharePoint] integration
 
-{{highlighted-preview}}
-
 <!--Audited: 12/2023-->
 
 <!--
@@ -149,8 +147,8 @@ To view and manage your organization's [!DNL SharePoint] integrations:
 
    A list of your organization's [!DNL SharePoint] integrations appears.
 
-1. (Optional) To edit a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Edit]** <span class="preview">in the blue bar at the bottom of the screen</span>.
-1. <span class="preview">(Optional) To disable a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Disable]** in the blue bar at the bottom of the screen.</span>
+1. (Optional) To edit a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Edit]** in the blue bar at the bottom of the screen.
+1. (Optional) To disable a [!DNL SharePoint] integration, select the checkbox next to it, then click **[!UICONTROL Disable]** in the blue bar at the bottom of the screen.
 
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 

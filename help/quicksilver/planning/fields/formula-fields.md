@@ -186,7 +186,7 @@ Old:
    * When a field used in an aggregated lookup field displays as `#ERROR!`. 
    
       For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
+   * When a formula value cannot be displayed in the selected format. 
    
       For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
 
@@ -199,13 +199,7 @@ Adobe Workfront Planning formula fields support most of the expressions from the
 >
 >The following Workfront expressions are not supported for Workfront Planning formula fields: 
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* ADDHOUR
->* SWITCH
 >* FORMAT
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 For a complete list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 

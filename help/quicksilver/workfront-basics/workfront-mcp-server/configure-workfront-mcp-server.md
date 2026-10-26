@@ -34,6 +34,16 @@ If you use a different MCP-compatible AI agentic platform (for example, [!DNL Ge
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+>To reduce the size of the MCP catalog for clients that load all tools up front, you can add the `toolsets` query parameter to the Workfront MCP server URL. For example: 
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+>For more information on toolsets, see [oolsets in the Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) in the article Adobe Workfront MCP server tools.
+
 ## Prerequisites
 
 Before you can connect Workfront to an AI agentic platform, you must:
@@ -54,7 +64,7 @@ MCP server access is gated by two separate administrators.
 
 * If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization or give you custom URL access to connect to the Workfront MCP server.
 
-* <span class="preview">If you're connecting a custom application or agentic platform with a unique, per-customer OAuth callback URL, your Workfront administrator must add that URL to the **Authorized redirect URLs** list in **System Preferences > MCP preferences**. Without this, authentication is rejected. For more information, see [Connect with OAuth](#connect-with-oauth) in this article.</span>
+* If you're connecting a custom application or agentic platform with a unique, per-customer OAuth callback URL, your Workfront administrator must add that URL to the **Authorized redirect URLs** list in **System Preferences > MCP preferences**. Without this, authentication is rejected. For more information, see [Connect with OAuth](#connect-with-oauth) in this article.
 
 
 ## Connect Workfront to Claude
@@ -240,8 +250,6 @@ There are two ways to connect:
 
 ### Connect with OAuth
 
-<div class="preview">
-
 If the AI agentic platform or custom application you're connecting has a unique OAuth callback (redirect) URL per customer, such as a URL that contains a connection or tenant ID, your Workfront administrator must add that URL to your organization's list of authorized redirect URLs before you can authenticate.
 
 >[!NOTE]
@@ -266,7 +274,6 @@ When connecting, you will be asked to authenticate using your Adobe ID credentia
 
 If your callback URL isn't on the list, the authentication request is rejected. Ask your Workfront administrator to confirm the URL is entered exactly as your integration provides it.
 
-</div>
 
 ## Verify your connection
 

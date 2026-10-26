@@ -23,6 +23,8 @@ role_v2:
 
 # View Workfront Planning information in reports
 
+{{planning-important-intro}}
+
 You can view Adobe Workfront Planning information in reports when you use the Canvas Dashboard. 
 
 >[!IMPORTANT]

@@ -37,8 +37,6 @@ topic_v2:
 ---
 # Create a custom form
 
-{{highlighted-preview}}
-
 <!-- Audited: 6/2025 -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
@@ -483,33 +481,8 @@ To add radio buttons, checkbox groups, and drop-downs:
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">Choices </td> 
-    <td> 
-    <p>Select any of the following options:</p> 
-    <ul> 
-    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
-   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
-    </ul>
-     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
-    <ul> 
-    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
-    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
-    </ul>   
-    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
-    </td> 
-    <td><ul>
-    <li>Radio buttons</li>
-    <li>Checkbox group</li>
-    <li>Single-select dropdown</li>
-    <li>Multi-select dropdown</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">Choices</span></td> 
+    <td role="rowheader">Choices</td> 
     <td>
-    <div class="preview">
     <p>Click <strong>Edit choices</strong> to add or edit choices for the field.</p>
     <p>To add a new choice in the Edit choices dialog:</p>
     <ol>
@@ -526,13 +499,12 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Click <strong>Sort Choices A-Z</strong> to sorts the choices alphabetically in the field.</li>
     </ul>
     <p>Click <strong>Save</strong> when you are finished editing choices.</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">Radio buttons</span></li>
-    <li><span class="preview">Checkbox group</span></li>
-    <li><span class="preview">Single-select dropdown</span></li>
-    <li><span class="preview">Multi-select dropdown</span></li>
+    <li>Radio buttons</span></li>
+    <li>Checkbox group</span></li>
+    <li>Single-select dropdown</span></li>
+    <li>Multi-select dropdown</span></li>
     </ul>
     </td>
     </tr> 
@@ -572,6 +544,37 @@ To add radio buttons, checkbox groups, and drop-downs:
     Or
 
     Click **Save and Close**.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

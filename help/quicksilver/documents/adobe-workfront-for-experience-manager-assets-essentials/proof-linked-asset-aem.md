@@ -97,7 +97,7 @@ To create a proof:
 
    >[!NOTE]
    >
-   >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
+   >The **Automatically generate proofs when uploading documents** setting doesn't apply to documents in linked folders. You must create proofs for those documents manually.
 
 1. Choose one of the following from the drop-down:  
 

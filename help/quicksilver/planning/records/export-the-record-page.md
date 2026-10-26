@@ -35,9 +35,12 @@ topic_v2:
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
+
+{{planning-important-intro}}
 
 To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
--->
+
 
 ## Access requirements
 
@@ -163,6 +166,8 @@ Old:
 * You can export only the Details tab of a record's page or preview area. 
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
+
+* You cannot export a customized Details page, where several fields are hidden. 
 
 ## Export a record's details
 

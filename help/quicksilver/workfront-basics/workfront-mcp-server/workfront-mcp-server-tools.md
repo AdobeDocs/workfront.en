@@ -38,6 +38,47 @@ If your organization is not entitled to a product area, the related tools do not
 
 The following tables identify the product area each tool belongs to.
 
+## Toolsets in the Workfront MCP server
+
+>[!IMPORTANT]
+>
+>Toolsets are selected when you configure your connection to the Workfront MCP server. 
+>For information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Toolsets let you select the Workfront capabilities your AI client needs instead of exposing the full MCP catalog. This is useful for clients that load all tool definitions up front, need to stay within tool-count limits, or benefit from a more focused tool list.
+
+You can specify toolsets by adding the `toolsets` query parameter to the Workfront MCP server URL.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+This example exposes the `core` and `comment-stream` capabilities. The `core` group is automatically included whenever a subset is selected.
+
+>[!ENDSHADEBOX]
+
+Available toolsets include:
+
+* `core`: The base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream`: Tools for comment and discussion workflows.
+* `planning`: Tools for Workfront Planning capabilities.
+* `approvals`: Tools for approval workflows.
+* `reporting`: Tools for reporting.
+
+To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
+
+You can Combine optional groups with commas, such as `toolsets=core,planning,approvals`.
+
+Selection applies to tools, resources and resource templates, prompts, and MCP apps that surface Workfront tools in their UI. Backend-specific server instructions follow the selected toolset configuration as well. 
+
+Toolsets do not change permissions. Your Workfront access level and object permissions continue to be enforced. 
+
+If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
+
 
 ## Read and write actions
 
@@ -231,11 +272,11 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
+| Search objects | `workflow_search_any_object` | This tool has been deprecated. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
 | Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
-| Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Resolve field names | `workflow_resolve_field_names_any_object` | This tool has been deprecated. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
 
 ### Update object tool abilities

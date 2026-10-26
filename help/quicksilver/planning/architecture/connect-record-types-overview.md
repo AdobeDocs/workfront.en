@@ -37,10 +37,11 @@ topic_v2:
 
 # Connected record types overview
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -206,18 +207,12 @@ For information about you connect record types, see [Connect record types](/help
         * You can connect GenStudio Brands from GenStudio record types and from Planning record types. 
         * You cannot include GenStudio Brands in a hierarchy. 
 
-    <div class="preview">
-
     * You can make a connection field dependent on the corresponding connected field from the connected record type. When the two fields display on a third record type, the selections available for one field depend on the selections from the other field. 
 
         For more information and additional considerations, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
     
-    </div>
 
-* The following scenarios exist when duplicating records with a connected record in a One to one or One to many connection type: 
-
-    * In the Production environment, the connected record moves to the duplicated record, or you must manually remove it from the original before you duplicate the record, and then add it back.
-    * <span class="preview">In the Preview environment, you can select whether the connected record stays on the original or moves to the duplicated record.</span> 
+* When duplicating records with a connected record in a One to one or One to many connection type, you can select whether the connected record stays on the original or moves to the duplicated record.
 
     For more information, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md). 
 

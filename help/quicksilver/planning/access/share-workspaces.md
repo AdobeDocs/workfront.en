@@ -33,11 +33,13 @@ topic_v2:
 ---
 # Share workspaces
 
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -167,13 +169,9 @@ Old:
 * You cannot share workspaces with users outside of your organization. 
 * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared.
 * When you share a workspace, views are not shared. You must share views separately.
-* Workspace permissions display as Inherited permissions on record types. 
-
-<div class="preview">
+* Workspace permissions display as Inherited permissions on record types.
 
 * You can change the owner of a workspace to an active, Standard-licensed user. You cannot make a group, team, company, or job role the owner of a workspace.
-
-</div>
 
 
 <!--check on the above at production: do you HAVE TO replace it with an ACTIVE user?? Or inactive is also OK -- did not have an environment-->
@@ -228,16 +226,11 @@ To share a workspace with others:
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-   <div class="preview">
-
    * Owner
 
       You can only make another active, Standard-license user the owner of a workspace. The original owner remains on the workspace with Manage permissions. 
 
-   </div>
-
-1. <span class="preview">(Conditional) If you chose to change the workspace Owner, click **Change owner** to confirm.</span>
-   
+1. (Conditional) If you chose to change the workspace Owner, click **Change owner** to confirm.   
 
 1. Click **Copy link** to copy a link to the workspace to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 

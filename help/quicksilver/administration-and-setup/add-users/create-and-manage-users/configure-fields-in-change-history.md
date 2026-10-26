@@ -18,8 +18,6 @@ role_v2:
 ---
 # Configure fields to track in change history
 
-{{highlighted-preview-article-level}}
-
 Adobe Workfront generates automatic system updates to record the following events:
 
 * Changes users make in an object field
@@ -66,8 +64,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 The limits for the number of fields you can track are defined by your Workfront package.
 
-|Workfront package | Maximum number of tracked fields |
-|---------|----------|
+| Workfront package | Maximum number of tracked fields |
+| --------- | ---------- |
 | Select | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |

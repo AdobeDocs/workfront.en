@@ -25,9 +25,11 @@ role_v2:
 
 {{planning-important-intro}}
 
+<!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 You can configure business rules for Adobe Workfront Planning record types to indicate that certain fields are required before an action on a record of that type is allowed or prevented. 
 
@@ -95,7 +97,19 @@ Or
 * Rules don't block record creation. Users can still create  records but they must ensure that the required fields are not empty or contain the specified value. 
 * Rules don't automatically edit or delete records. The change must be deliberate and triggered by a user. 
 * Rules are not apply retroactively: old records are not affected. The rule check only runs the next time someone tries to edit or delete a record. 
-* You cannot add business rules to global record types in their primary or secondary workspaces. 
+* <!--In the Production environment,--> You cannot add business rules to global record types in their primary or secondary workspaces. 
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * You can create a condition for your business rule that references all field types except for the following:  
     * Formula fields 
     * Lookup fields 
@@ -108,7 +122,7 @@ Or
 <!--
 <div class="preview">
 
-* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+* To ensure data integrity, when a business rule for editing a record is violated as you edit the record, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
 
    The warning is visible in all areas where you are editing records, including the table view or details page. 
 

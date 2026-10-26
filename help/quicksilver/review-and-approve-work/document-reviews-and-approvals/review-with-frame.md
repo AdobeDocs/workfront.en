@@ -29,15 +29,11 @@ role_v2:
 ---
 # Review and approve with the Frame.io viewer
 
-{{highlighted-preview}}
-
 You can review and approve documents in Workfront using the Frame.io viewer.
 
 Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
 
 For more information on the Frame.io integration with Workfront, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
-
-
 
 ## Access requirements
 
@@ -78,6 +74,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 * You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* To review a web link document, you need the [Frame.io Chrome extension](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) installed. If it isn't installed, you're prompted to download it the first time you open the Frame.io viewer for a web link document in Workfront.
+
 
 ## Review a document
 
@@ -85,14 +83,14 @@ As a reviewer, you can add comments to and mark up assets. Once finished, you ca
 
 1. Go to your review email notification, and click **Go to review**.
 or
-Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
     >[!NOTE]
     > 
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. <span class="preview">However, the comments panel for the document in Workfront shows a callout with a count of those comments, when a count is available, and a link to open the Frame.io viewer and read them.</span> For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. However, the comments panel for the document in Workfront shows a callout with a count of those comments, when a count is available, and a link to open the Frame.io viewer and read them. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
    ![Mark review complete](assets/mark-review-complete.png)
@@ -107,18 +105,17 @@ To make a decision on a document:
 
 1. Go to your review email notification, and click **Go to review**.
 or
-Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
     >[!NOTE]
     > 
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-
 1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
     >[!NOTE]
     >
-    > <span class="preview">In preview, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.</span> 
+    >The Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.</span> 
 
 
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
@@ -132,6 +129,27 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
 
     ![Frame viewer and decision](assets/make-decision-frame.png)
 
+## Review a web link
 
+If the document is a live web URL, you can review the page in the Frame.io viewer and leave feedback directly on the page.
 
-<!--is document owner the correct term?-->
+1. Go to your review email notification, and click **Go to review**.
+or
+Go to the Workfront Home page, find the My Approvals widget, then click **Open review**.
+
+    >[!NOTE]
+    > 
+    >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. In Frame.io, open the web link document. If prompted, install the [Frame.io Chrome extension](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) so you can view the page, capture a current state of the URL.
+
+1. Use the viewer to add comments, annotations, and more directly on the page.
+
+1. Once you're finished reviewing the web link document, you can choose one of the following decisions in the Frame.io viewer:
+
+    * **Approve**: The asset does not need changes and is ready for use.
+    * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+    Once you make a decision, the document owner is notified via email.
+
+For detailed instructions on viewing and reviewing live web URLs, including supported URLs, browser extension requirements, and commenting options, see [HTML review for Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).

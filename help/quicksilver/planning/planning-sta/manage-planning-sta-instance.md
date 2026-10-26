@@ -3,6 +3,7 @@ title: Manage Your Instance of Adobe Workfront Planning as a Standalone Product
 description: This article describes how you can manage preferences and your customer's information for Adobe Workfront Planning when your organization has purchased is as a standalone product.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9

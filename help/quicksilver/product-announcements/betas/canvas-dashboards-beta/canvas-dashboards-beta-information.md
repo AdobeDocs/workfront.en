@@ -33,11 +33,7 @@ topic_v2:
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](#provide-feedback) section below.<br>
 >If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Please note that this beta is not available on the following cloud providers:
->
->* Bring Your Own Key for Amazon Web Services
->* Azure
->* Google Cloud Platform 
+
 
 Canvas Dashboards is a feature currently in development that allows you to easily visualize your Adobe Workfront data by adding various report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.
 

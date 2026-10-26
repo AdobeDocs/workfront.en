@@ -20,8 +20,6 @@ role_v2:
 ---
 # Configure AI Collaborators
 
-{{preview-fast-release-general}}
-
 AI Collaborators are a way to onboard AI agents into your projects, tasks, and issues. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
@@ -35,6 +33,8 @@ Available AI Collaborator types include:
 * Work Agent: Create a collaborator using a standard AI platform like Claude, OpenAI, or Copilot, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Licenses used by AI Collaborators are not billed. If your organization has 200 Workfront licenses and creates an AI Collaborator, 201 licenses are then in use, but only 200 are billed.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -61,7 +61,7 @@ Available AI Collaborator types include:
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td>[!UICONTROL System Administrator] <span class="preview">or Group Administrator</span></td> 
+   <td>[!UICONTROL System Administrator] or Group Administrator</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -121,6 +121,8 @@ Because Work Agents are agents, their actions and abilities are configured where
 
 Work Agents can be assigned to tasks or issues.
 
+Licenses used by work agents are not billed. If your organization has 200 Workfront licenses and creates a Work Agent, 201 licenses are then in use, but only 200 are billed.
+
 For a list of best practices when creating an agent to work as a Work Agent, see [Best practices for creating an agent for a Work Agent](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configure a Work Agent in Workfront](#configure-a-work-agent-in-workfront)
@@ -140,7 +142,7 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 
    >[!NOTE]
    >
-   ><span class="preview">If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.</span>
+   >If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.
 
 1. In the **Choose agent's origin** area, select whether you want to connect an agent created in an common platform such as Copilot, or use a custom agent.
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
@@ -149,16 +151,17 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    |---|---|
    |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |<span class="preview">OpenAI Agents</span>|<span class="preview">API key <br>Agent ID</span>|
-   |<span class="preview">IBM watsonx Orchestrate</span>|<span class="preview">Service URL<br>API Key<br> Agent ID</span>|
+   |OpenAI Agents|API key <br>Agent ID|
+   |IBM watsonx Orchestrate|Service URL<br>API Key<br> Agent ID|
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
    
-   * <span class="preview">Send notification: The Agent makes a comment in the update stream, tagging the user that requested the work, assigned the Agent, or that owns the project. </span>
-   * <span class="preview">Upload a document</span>
-   * <span class="preview">Mark task complete</span>
+   * Send notification: The Agent makes a comment in the update stream, tagging the user that requested the work, assigned the Agent, or that owns the project. 
+   * Upload text-based documents
+   * Mark task complete
    * Write task fields: Select the forms and fields that the Agent can write to. 
+   * Write project fields: Select the forms and fields that the Agent can write to. 
 
 1. Click **Save**.
 
@@ -197,7 +200,6 @@ You may find the following best practices helpful when creating an agent to use 
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
@@ -278,7 +280,7 @@ You can edit, copy, and delete existing AI Collaborators.
 
 >[!NOTE]
 >
-><span class="preview">Group administrators can view and interact with only AI Collaborators associated with groups that they are administrators for. If other groups are also associated with a given AI Collaborator, a group administrator can view but not edit it.</span>
+>Group administrators can view and interact with only AI Collaborators associated with groups that they are administrators for. If other groups are also associated with a given AI Collaborator, a group administrator can view but not edit it.
 
 {{step-1-to-setup}}
 
