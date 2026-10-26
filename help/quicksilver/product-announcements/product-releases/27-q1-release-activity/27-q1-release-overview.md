@@ -63,6 +63,23 @@ There are no updates for the following at this point in the release:
 * Proof
 * Goals
 
+## Desktop proofing viewer updates
+
+### Version 2.3.0
+
+>[!NOTE]
+>
+>Preview: October 27, 2026
+>Production release for all customers: October 28, 2026
+
+The Desktop Proofing Viewer has been updated to version 2.3.0. This update includes the following changes:
+
+* Resolved an issue with interactive proofs where clicking the link under the screenshot while moving through multiple versions opened the page in multiple tabs. The link now opens the page in a single tab.
+
+* Updated the underlying framework (Electron) to the latest version, which runs on Chrome version 156, for performance and security improvements.
+
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+
 ## Announcements
 
 ### Deprecation of legacy billing and cost rate fields in job role list views
