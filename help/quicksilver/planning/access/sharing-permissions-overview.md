@@ -30,11 +30,11 @@ role_v2:
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -169,7 +169,7 @@ The following are the levels of permissions for workspaces:
 | View   | ✓      | ✓          | ✓     |
 
 
-<span class="preview">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+In addition to the permissions described in the table above, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Permissions to record types
@@ -259,6 +259,7 @@ The following scenarios exist:
 
 ### Permissions to record fields
 
+<!--
 
 #### Permissions to record fields in the Production environment
 
@@ -273,11 +274,7 @@ The following permissions refer to the fields settings and not to the values ass
 | Delete | ✓      |            |       |
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
-
-
-<div class="preview">
-
-#### Permissions to record fields in the Preview environment
+-->
 
 Permissions to field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
@@ -304,8 +301,6 @@ You can grant the following permissions to the field values by sharing a field:
 | View   | ✓      | ✓    |
 
 Users must have at least View permissions to the record type to access the fields. 
-
-</div>
 
 ### Permissions to views
 

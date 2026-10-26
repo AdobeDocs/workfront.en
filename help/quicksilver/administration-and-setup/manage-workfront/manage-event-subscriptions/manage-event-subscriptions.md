@@ -16,4 +16,3 @@ recommendations: noDisplay, noCatalog
 This section contains the following articles:
 
 * [Configure event subscriptions in Workfront](configure-event-subscriptions-in-workfront.md)
-* [Manage event subscriptions as a non-admin user](../../../wf-api/general/event-subs-non-admin.md)

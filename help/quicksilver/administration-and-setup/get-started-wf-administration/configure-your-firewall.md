@@ -37,7 +37,7 @@ topic_v2:
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -402,12 +402,7 @@ Because your organization is on the Adobe Unified Experience, it uses the follow
 
 For Workfront Fusion, add the following domains:
 
-<!--Remove me October 2026-->
-
-* For organization not on the Adobe Unified Experience:
-   * app.workfrontfusion.com (US AWS)
-   * app-eu.workfrontfusion.com (EU AWS)
-   * app-az.workfrontfusion.com (US Azure)
+<!--Remove me January 2027-->
    
 * For organization on the Adobe Unified Experience 
 (These domains are covered under `*.adobe.com`, but can be added if desired.)
@@ -415,6 +410,14 @@ For Workfront Fusion, add the following domains:
    * fusion.adobe.com
    * app-eu.fusion.adobe.com
    * app-az.fusion.adobe.com
+
+   >[!NOTE]
+   >
+   >Because all organization are now on the Adobe Unified Experience, the following domains are no longer necessary.
+   >
+   >* app.workfrontfusion.com (US AWS)
+   >* app-eu.workfrontfusion.com (EU AWS)
+   >* app-az.workfrontfusion.com (US Azure)
 
 
 

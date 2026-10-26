@@ -74,6 +74,7 @@ For information about unlocking an event notification so that group administrato
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
+
 ## Configure event notifications for all users
 
 You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
@@ -88,8 +89,44 @@ You must enable notifications in the Setup area of Workfront before users can en
 
     ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
    
+
 1. Make sure the **Event Notifications** tab is open.
-1. Toggle the switch to the left of the event name to turn it on or off. <!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
+1. Toggle the switch to the left of the event name to turn it on or off.
+
+   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
+1. (Optional) Click the name of an event notification to customize the subject line of the email notification.
+
+   For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+
+1. (Optional) If you want to unlock configuration for an email notification so that group administrators can configure it separately for their groups, click the button ![Lock toggle](assets/lock-toggle-button.png) to the right of the notification to switch it to the unlocked position ![Unlock toggle](assets/unlock-toggle-button.png).
+
+   For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Users can customize the frequency of these notifications in their user profile. 
+
+
+<!--
+<div class="preview">
+## Configure event notifications for all users in Preview
+
+You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
+
+>[!TIP]
+>
+>You cannot activate notifications for Workfront Goals from the Setup area. Users can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+
+{{step-1-to-setup}}
+
+1. Click **Email** > **Notifications**.
+
+    ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
+   
+1. Make sure the **Event Notifications** tab is open.
+1. Toggle the switch to the left of the event name to turn it on or off. 
+
+Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -108,3 +145,6 @@ You must enable notifications in the Setup area of Workfront before users can en
    For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 Users can customize the frequency of these notifications in their user profile. 
+</div >
+
+-->

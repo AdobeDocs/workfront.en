@@ -59,7 +59,7 @@ You can manage what information users can view and edit for other users using a 
 
 * A Workfront administrator.
 
-  For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Workfront administrators are configured in the Adobe Admin Console. For instructions, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console.
 
 * A user with a default Standard or Plan license who also has access to users, as explained in this article.
 

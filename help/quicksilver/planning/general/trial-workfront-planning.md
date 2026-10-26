@@ -3,6 +3,7 @@ title: Get Started with the Adobe Workfront Planning Free Trial
 description: Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning. This trial is your opportunity to see how Planning connects big-picture strategy with the day-to-day work that makes it happen. Planning provides centralized visibility into your marketing lifecycle, enabling better collaboration across teams, real-time tracking of campaigns, and automated workflows. You can create custom workspaces and visualize work with interactive timelines and calendars. With this trial, you will see firsthand how Planning helps align daily work with strategic objectives, streamline execution, and drive measurable results for your organization.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z

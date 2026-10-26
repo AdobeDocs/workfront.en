@@ -39,8 +39,6 @@ topic_v2:
 >
 >   Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
 >
->   For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
 >* **If your organization uses Single Sign-on (SSO)**, we recommend creating users and assigning them to Workfront in the Adobe Admin Console. Creating these users in Workfront is possible, but there may be issues transferring that information to the Adobe Admin Console, based on how your organization's Admin Console is configured.
 >   After creating the user in the Adobe Admin Console, you can configure the user's information in Workfront, such as assigning roles, groups, teams, and access levels.
 >* **If your organization does not use Single Sign-on (SSO)**, you can add non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.

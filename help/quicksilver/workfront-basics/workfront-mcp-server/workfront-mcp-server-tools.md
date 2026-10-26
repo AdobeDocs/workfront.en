@@ -38,10 +38,6 @@ If your organization is not entitled to a product area, the related tools do not
 
 The following tables identify the product area each tool belongs to.
 
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
-
 ## Toolsets in the Workfront MCP server
 
 >[!IMPORTANT]
@@ -67,10 +63,11 @@ This example exposes the `core` and `comment-stream` capabilities. The `core` gr
 
 Available toolsets include:
 
-* `core` — the base Workfront toolset that is included automatically when you select a subset of toolsets.
-* `comment-stream` — tools for comment and discussion workflows.
-* `planning` — tools for Workfront Planning capabilities.
-* `approvals` — tools for approval workflows.
+* `core`: The base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream`: Tools for comment and discussion workflows.
+* `planning`: Tools for Workfront Planning capabilities.
+* `approvals`: Tools for approval workflows.
+* `reporting`: Tools for reporting.
 
 To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
 
@@ -82,7 +79,6 @@ Toolsets do not change permissions. Your Workfront access level and object permi
 
 If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
 
-</div>
 
 ## Read and write actions
 

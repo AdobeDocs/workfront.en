@@ -38,7 +38,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-You can view objects in the list view in the following areas of Workfront Planning:
+You can view objects in the list view in Adobe Workfront Planning in the following areas:
 
 * A connected records page for projects in a record's details area 
 
@@ -49,6 +49,8 @@ You can view objects in the list view in the following areas of Workfront Planni
     ![Request forms in list view](assets/request-forms-in-list-view.png)
 
 This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
+
+For information on all other views available in Workfront Planning, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Access requirements
 

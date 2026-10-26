@@ -25,8 +25,6 @@ topic_v2:
 ---
 # Manage users in the Adobe Admin Console
 
-{{highlighted-preview}}
-
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -188,7 +186,7 @@ You must add a user to your Production instance of Workfront before you can make
 
    The user is created in Workfront with the Requestor or Contributor access level, depending on your organization's Workfront package.
 
-   <span class="preview">If your Workfront administrator has set a default access level for users created in the Admin Console, the user is created with that access level instead. For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
+   If your Workfront administrator has set a default access level for users created in the Admin Console, the user is created with that access level instead. For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
    >[!IMPORTANT]
    >

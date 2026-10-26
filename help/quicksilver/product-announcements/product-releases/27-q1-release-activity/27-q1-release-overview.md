@@ -26,31 +26,8 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Adobe Workfront enhancements
 
-* [AI enhancements](#ai-enhancements)
 * [Project enhancements](#project-enhancements)
 
-### AI enhancements
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Feature</strong>
-            </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
-                <p>You can now limit the Workfront MCP catalog to specific toolsets and filter availability by product entitlement, so AI clients only access the capabilities they need.</p>
-            </td>
-            <td><p>October 21, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>January 21, 2027</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### Project enhancements
 
@@ -85,6 +62,23 @@ There are no updates for the following at this point in the release:
 * Scenario Planner
 * Proof
 * Goals
+
+## Desktop proofing viewer updates
+
+### Version 2.3.0
+
+>[!NOTE]
+>
+>Preview: October 27, 2026
+>Production release for all customers: October 28, 2026
+
+The Desktop Proofing Viewer has been updated to version 2.3.0. This update includes the following changes:
+
+* Resolved an issue with interactive proofs where clicking the link under the screenshot while moving through multiple versions opened the page in multiple tabs. The link now opens the page in a single tab.
+
+* Updated the underlying framework (Electron) to the latest version, which runs on Chrome version 156, for performance and security improvements.
+
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Announcements
 

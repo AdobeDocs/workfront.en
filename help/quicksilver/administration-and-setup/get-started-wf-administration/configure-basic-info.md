@@ -83,7 +83,7 @@ To access the Customer Info page:
    The sections available in the Customer Info area are:
 
    | Section | More information |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **Basic Info** | For information about configuring basic information in Workfront, see [Configure Basic Info](#configure-basic-info). |
    | **Storage Overview** | For information about checking document storage usage and quota, see [Check document storage limits](../../documents/managing-documents/check-document-storage.md). |
    | **API Key Settings** | For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
