@@ -36,6 +36,8 @@ role_v2:
 
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
+{{planning-important-intro}}
+
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
@@ -346,6 +348,7 @@ Consider the following when working with Activations:
 * Activations records include the following:
 
     * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A Dynamic creative image and Dynamic creative video Activation type to store Meta Dynamic Creative Objects information.
     * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
 
 

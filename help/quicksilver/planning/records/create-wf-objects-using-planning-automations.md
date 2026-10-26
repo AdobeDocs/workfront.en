@@ -41,6 +41,8 @@ topic_v2:
 
 -->
 
+{{planning-important-intro}}
+
 After you configured and activated automations in Adobe Workfront Planning, you can use them to create objects in Adobe Workfront or records in Adobe Workfront Planning. 
 
 For example, you could use an existing automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.

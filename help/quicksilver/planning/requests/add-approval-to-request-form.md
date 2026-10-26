@@ -39,17 +39,17 @@ topic_v2:
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
 You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.
 
 This article describes how a workspace manager can add an approval to a request form associated with a record type. 
 
@@ -112,7 +112,7 @@ For more information about Workfront access requirements, see [Access requiremen
 * When multiple approvers are required, all of them must make a decision before the request is approved or rejected — unless the Only one decision is required option is enabled.
 * If a team is set as an approver, only one decision is needed from one member of that team.
 * Approvals are optional — if a request form has no approval attached, Workfront Planning creates the record immediately on submission.
-* <span class="preview">You can add one or more stages to approvals.</span>
+* You can add one or more stages to approvals.
 
 ## Add approval rules to a request form 
 
@@ -152,29 +152,29 @@ To set approval rules for a request form:
    >   * If a custom rule is met, the default is not applied to the request approval workflow. Only the matched custom rules apply for approvals and the default rule is ignored.
    >   * If multiple custom rules are met, the first one in the order applies. In this case, the default approval does not apply, if there is one.
 
-1. <span class="preview">(Optional) Click **Add stage** to add another stage to the approval.</span>
+1. (Optional) Click **Add stage** to add another stage to the approval.
 
 1. Click **Save** to save the approval rules.
 
-1. <span class="preview">(Optional) To add more stages to the approval, do the following:</span>
+1. (Optional) To add more stages to the approval, do the following:
 
-   1. <span class="preview">Click **Add stage**.</span>
+   1. Click **Add stage**.
    
-      <span class="preview">The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.</span>
+      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
 
-   1. <span class="preview">In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.</span>
-   1. <span class="preview">(Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.</span>
-   1. <span class="preview">Click **Add stage** and repeat from step B to add more stages to the approval.</span>
+   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
+   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
+   1. Click **Add stage** and repeat from step B to add more stages to the approval.
 
-      <span class="preview">When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.</span>
+      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
 
-      <span class="preview">Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.</span>
+      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
 
       ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">When you are finished building the approval workflow, click **Save**.</span>
+   1. When you are finished building the approval workflow, click **Save**.
 
-      <span class="preview">You can edit or delete the multi-stage approval from the Approvals page.</span>
+      You can edit or delete the multi-stage approval from the Approvals page.
 
 1. (Optional) Click **Publish** if you have never shared the request form before.
 

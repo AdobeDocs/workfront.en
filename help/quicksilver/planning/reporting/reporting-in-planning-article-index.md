@@ -22,6 +22,8 @@ role_v2:
 ---
 # Adobe Workfront Planning reporting: article index
 
+{{planning-important-intro}}
+
 You can create reports from Adobe Workfront Planning using the Workfront Canvas Dashboard or Workfront Data Connect which uses Snowflake technology. 
 
 * [View Workfront Planning information in reports](/help/quicksilver/planning/reporting/planning-information-in-reports.md)

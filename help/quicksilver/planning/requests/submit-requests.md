@@ -152,31 +152,25 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 * When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+   <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+   The following scenarios exist when you submit forms for request forms associated with global record types: 
+
+   * When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. 
+   * When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.
+   * If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.
   
+  <!--
    * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      <div class="preview">
-
-      * When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. 
-      * When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.
-      * If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.
-
-      </div>
- 
    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
-
-<div class="preview">
 
 * You can share a request with others after it's been submitted. 
 
    For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
-
-</div>
 
 
 <!--
@@ -219,15 +213,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   ><span class="preview">The values for dependent connected record fields are limited by the dependency rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   >The values for dependent connected record fields are limited by the dependency rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
    
-1. (Optional and conditional) Click **Fill form** to have AI fill out the form for you. Workfront fills in the fields on the form based on information from previous requests. 
+1. (Optional and conditional) Click **Fill form** to attach a file and have AI fill out the form for you with information inside the file. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
       >[!TIP]
       >
-      >Your organization must allow **AI Form Fill** in the System Preferences area, to be able to use the Fill form capability. 
+      >* Your organization must allow **AI Form Fill** in the System Preferences area, to be able to use the Fill form capability. 
       >
-      >For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+      >     For instructions, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+      >
+      >* <span class="preview">If the workspace manager added a default prompt to the request form, AI fills the form with information based on the rules established in the default prompt. 
+      >
+      >     For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 
 
 

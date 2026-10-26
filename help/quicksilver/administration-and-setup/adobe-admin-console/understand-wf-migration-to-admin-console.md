@@ -102,7 +102,7 @@ As a Workfront Product Profile administrator (Workfront System administrator), a
 
 * **As users are migrated, they will receive an email from Adobe notifying them of the change to the way they sign in to Workfront.** Users will be invited to accept an invitation to sign in using Adobe Identity for the first time, either by signing in with an existing Adobe ID or by setting up a new Adobe ID using the same email address.
 
-  For information on how to log into Workfront with an Adobe ID, see [Log in to Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud). 
+  For information on how to log into Workfront with an Adobe ID, see [Log in to Adobe CX Enterprise](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise).
 
 ### User Migration Complete 
 

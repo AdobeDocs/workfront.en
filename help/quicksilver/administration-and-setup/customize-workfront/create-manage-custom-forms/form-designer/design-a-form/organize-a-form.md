@@ -35,8 +35,6 @@ topic_v2:
 ---
 # Organize and preview a form
 
-{{preview-fast-release-general}}
-
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
@@ -193,11 +191,4 @@ In a custom form with a section break configured with the Limited Edit permissio
 1. Begin creating or editing a custom form and adding fields, as described in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
-
-   >[!NOTE]
-   >
-   >In the Production environment, advanced logic is not supported in the form designer preview mode.
-   >
-   ><span class="preview">In the Preview environment, all logic types are available in preview mode.</span>
-
 

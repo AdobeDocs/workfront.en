@@ -13,7 +13,10 @@ role: Admin
 
 Adobe cloud storage is a unified, cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. This article describes how to enable Adobe cloud storage as the default storage option for your entire organization or for specific groups. 
 
-This is the single action that turns on the new experience: once you enable it, new projects use Adobe cloud storage, which includes the Frame.io viewer and Unified Approvals. Nothing changes until you choose to enable Adobe cloud storage.
+>[!IMPORTANT]
+>
+>Nothing changes in your environment until you enable Adobe cloud storage in the Setup area of workfront.<br>
+>Once you enable Adobe cloud storage, only new projects use Adobe cloud storage, which includes the Frame.io viewer and Unified Approvals. Your existing projects continue to use their current storage and remain untouched.
 
 Because you control the timing, you can test the experience, update your Workfront Fusion scenarios, and plan for reporting changes before anyone works in it. For more information about what's different and how to plan your rollout, see [Move to Workfront on Adobe cloud storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 

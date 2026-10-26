@@ -23,11 +23,9 @@ role_v2:
 ---
 # View and manage business profiles
 
-{{highlighted-preview}}
-
 To assign a business profile to a user, you must assign a group and an associated access level.
 
-As a Workfront administrator, you can set a user's business profile by assigning combinations of access levels and groups. This is managed from the user's User page in Workfront. <span class="preview">Group administrators can also create, edit, and delete business profiles, but only for groups they administer.</span>
+As a Workfront administrator, you can set a user's business profile by assigning combinations of access levels and groups. This is managed from the user's User page in Workfront. Group administrators can also create, edit, and delete business profiles, but only for groups they administer.
 
 For more information on Business Profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -52,7 +50,7 @@ For more information on Business Profiles, see [Business profiles overview](/hel
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td><p>System Administrator</p><p><span class="preview">Group Administrator (for groups they administer)</span></p></td>
+   <td><p>System Administrator</p><p>Group Administrator (for groups they administer)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +73,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Edit a business profile
 
-<div class="preview">
-
 Editing a business profile opens the same window used to create one.
 
 {{step-1-to-users}}
@@ -91,11 +87,7 @@ Editing a business profile opens the same window used to create one.
 >
 >Group administrators can only edit business profiles for groups they administer.
 
-</div>
-
 ## Delete a business profile
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -107,5 +99,3 @@ Editing a business profile opens the same window used to create one.
 >[!NOTE]
 >
 >Group administrators can only delete business profiles for groups they administer.
-
-</div>

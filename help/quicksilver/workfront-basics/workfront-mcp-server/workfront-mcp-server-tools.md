@@ -38,6 +38,47 @@ If your organization is not entitled to a product area, the related tools do not
 
 The following tables identify the product area each tool belongs to.
 
+## Toolsets in the Workfront MCP server
+
+>[!IMPORTANT]
+>
+>Toolsets are selected when you configure your connection to the Workfront MCP server. 
+>For information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Toolsets let you select the Workfront capabilities your AI client needs instead of exposing the full MCP catalog. This is useful for clients that load all tool definitions up front, need to stay within tool-count limits, or benefit from a more focused tool list.
+
+You can specify toolsets by adding the `toolsets` query parameter to the Workfront MCP server URL.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+This example exposes the `core` and `comment-stream` capabilities. The `core` group is automatically included whenever a subset is selected.
+
+>[!ENDSHADEBOX]
+
+Available toolsets include:
+
+* `core`: The base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream`: Tools for comment and discussion workflows.
+* `planning`: Tools for Workfront Planning capabilities.
+* `approvals`: Tools for approval workflows.
+* `reporting`: Tools for reporting.
+
+To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
+
+You can Combine optional groups with commas, such as `toolsets=core,planning,approvals`.
+
+Selection applies to tools, resources and resource templates, prompts, and MCP apps that surface Workfront tools in their UI. Backend-specific server instructions follow the selected toolset configuration as well. 
+
+Toolsets do not change permissions. Your Workfront access level and object permissions continue to be enforced. 
+
+If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
+
 
 ## Read and write actions
 
