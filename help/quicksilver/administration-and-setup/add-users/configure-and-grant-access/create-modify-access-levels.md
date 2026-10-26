@@ -261,7 +261,7 @@ For more detail about the information in this table, see [Access requirements in
    
    For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
    
-   For information about how an Adobe administrator assigns a System Administrator access level to a users, see the section[ Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console.
+   For information about how an Adobe administrator assigns a System Administrator access level to a users, see the section [Create system administrators in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). in the article Manage users in the Adobe Admin Console.
    
 
 <!--
