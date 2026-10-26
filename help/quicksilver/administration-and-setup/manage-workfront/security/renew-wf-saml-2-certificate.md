@@ -40,6 +40,8 @@ topic_v2:
 >The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >Because all organizations have now been onboarded to the Adobe Admin Console, this functionality has been deprecated.
+>
+>For instructions on renewing the SAML certificate on the Adobe Admin Console, see the section "The digital signature in the SAML response did not validate..." in [Troubleshooting Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 

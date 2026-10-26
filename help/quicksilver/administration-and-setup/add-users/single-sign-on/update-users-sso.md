@@ -34,7 +34,7 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->Because sign-on is now handled through Adobe IMS (Identity Management System), The information in this article has been removed.
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
 
 <!--
 
@@ -168,4 +168,4 @@ For instructions on building a user report containing SSO Username information, 
 
    -->
 
-   
+

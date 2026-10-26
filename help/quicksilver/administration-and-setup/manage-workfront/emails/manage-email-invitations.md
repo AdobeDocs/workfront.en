@@ -34,9 +34,11 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. Because all organizations have been onboarded to the Adobe Admin Console, users are added through the Adobe Admin Console.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For information and instructions, see [Create users in Workfront with the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) in the article Manage users in the Adobe Admin Console.
+
+<!--
 
 As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
@@ -151,3 +153,5 @@ As a Workfront administrator, you can configure the message you include with the
    </table>
 
 1. Click **Save**.
+-->
+

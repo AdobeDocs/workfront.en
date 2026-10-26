@@ -37,8 +37,6 @@ topic_v2:
 >[!IMPORTANT]
 >
 >The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. Because all organizations have now been onboarded to the Adobe Admin Console, **it is not possible to change your Workfront domain**.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 <!--
 
