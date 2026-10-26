@@ -75,14 +75,15 @@ Below are some types of Workfront object lists that use the enhanced list format
 | --- | --- |
 | Priorities | <ul><li>Home > select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
 | List of requests | <ul><li>Main Menu > Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
-| <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
-| <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
-| <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
+| Lists of statuses, priorities, severities, conditions, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li>Setup > Project Preferences > Conditions</li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
+| Lists of actions and tracked fields in the Update Feeds | <ul><li>Setup > Interface > Update Feeds > Tracked fields tab</li> <li>Setup > Interface > Update Feeds > Actions tab</li></ul> |
+| List of scorecards | Setup > Scorecards |
+| List of risk types | Setup > Risk Types |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | List of locations | Setup > Locations |
 | List of translations | Setup > Localization |
 | Lists of integrations | <ul><li>Setup > Documents > SharePoint Integration</li><li>Setup > Documents > Custom Integration</li><li>Setup > Documents > Experience Manager Assets</li></ul> |
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 | List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
 | Lists of queue topics, topic groups, and routing rules | <ul><li>Project or Template > Queue Topics</li><li>Project or Template > Topic Groups</li><li>Project or Template > Routing Rules</li></ul> |
 | List of snapshots | Project > Snapshots |
@@ -98,7 +99,6 @@ Below are some types of Workfront object lists that use the enhanced list format
 <!--
 
 Under integrations?
-| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 | <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
