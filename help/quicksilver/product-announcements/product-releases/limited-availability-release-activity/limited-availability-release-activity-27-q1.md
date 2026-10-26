@@ -42,6 +42,16 @@ For more information about enhanced lists, see [Use enhanced lists](/help/quicks
 
 The experience of creating a new view in a time-phased report has been streamlined, so that you no longer have to select a view type if only one view type is available.
 
+### Pin totals column on time-phased reports
+
+>[!NOTE]
+>
+>Production release date: TBD
+
+You can now pin the **Total** column so that it remains visible on the right of a time-phased report.
+
+This feature may also be available on other screens that use a Matrix view, such as Staffing Plans.
+
 
 <!--
 
