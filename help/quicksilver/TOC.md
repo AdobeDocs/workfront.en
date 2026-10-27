@@ -267,9 +267,10 @@ feature-set: Workfront
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront limited availability release activity{#limited-availability-release-activity}
       * {hide-from-toc} [Adobe Workfront limited availability features release activity](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-      * {hide-from-toc} [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-      * {hide-from-toc} [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc} [First Quarter 2027 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
       * {hide-from-toc} [Fourth Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+      * {hide-from-toc} [Second Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc} [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -595,14 +596,14 @@ feature-set: Workfront
       * [Grant access to Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [Grant access to brand permissions](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Single sign-on in Workfront {#sso}
-      * [Single sign-on: article index](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Enable Outlook for Workfront and SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [Deactivate single sign-on](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc} [Single sign-on: article index](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc} [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc} [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc} [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc} [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc} [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc} [Enable Outlook for Workfront and SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc} [Deactivate single sign-on](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * Create and manage teams {#create-manage-teams}
       * [Manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -855,9 +856,9 @@ feature-set: Workfront
     * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [List of available blueprints](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
-    * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
-    * [Understanding the Workfront Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
+    * {hide-from-toc} [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc} [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
+    * {hide-from-toc} [Understanding the Workfront Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)

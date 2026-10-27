@@ -34,7 +34,6 @@ This section contains the following articles:
 
 * [Group admins must have higher access than those they manage](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [Active and deactivated objects](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md) 
-* [ADFS logout URL doesn't work](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md) 
 * [Administration and setup FAQs](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md) 
 * [[!DNL Adobe Workfront] user credentials vs. SAML user credentials](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [Automatic reminders vs. reminder notifications](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md) 

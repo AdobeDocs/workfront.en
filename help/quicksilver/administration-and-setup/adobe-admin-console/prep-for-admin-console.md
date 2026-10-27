@@ -36,11 +36,13 @@ topic_v2:
 
 <!-- Audited: 12/2023 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->Because all organizations have now been moved to the Adobe Admin Console, this article will be removed in the near future.
+>Because all organizations have now been moved to the Adobe Admin Console, this article has been removed.
+
+<!--
 
 Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
 
@@ -111,3 +113,5 @@ After your Adobe Admin Console is configured with Workfront, you can use it to c
 For more information, see [Manage users in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 For a list of other actions that are different based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+-->

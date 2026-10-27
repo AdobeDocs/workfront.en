@@ -29,7 +29,7 @@ This section contains the following subsections and articles:
 * [Understand objects in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [Glossary of [!DNL Adobe Workfront] terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+<!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront] Search](../../workfront-basics/navigate-workfront/search/search.md)
 * [Recents and favorites in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Top navigation bar overview](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

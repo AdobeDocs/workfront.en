@@ -38,7 +38,7 @@ topic_v2:
 >
 >To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 <!--
 
