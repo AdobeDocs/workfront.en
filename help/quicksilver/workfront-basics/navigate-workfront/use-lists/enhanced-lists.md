@@ -84,6 +84,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | List of translations | Setup > Localization |
 | Lists of integrations | <ul><li>Setup > Documents > SharePoint Integration</li><li>Setup > Documents > Custom Integration</li><li>Setup > Documents > Experience Manager Assets</li></ul> |
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
 | Lists of queue topics, topic groups, and routing rules | <ul><li>Project or Template > Queue Topics</li><li>Project or Template > Topic Groups</li><li>Project or Template > Routing Rules</li></ul> |
 | List of snapshots | Project > Snapshots |
@@ -97,10 +98,6 @@ Below are some types of Workfront object lists that use the enhanced list format
 | Lists of goals and progress indicators | <ul><li>Main Menu > Goals</li><li>Main Menu > Goals > Progress Indicators</li></ul> |
 
 <!--
-
-Under integrations?
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
