@@ -84,9 +84,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. To view and manage previous chats, click the Chats icon ![Chats icon](assets/ai-icon.png) in the Coworker panel.
 
    For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Enterprise Coworker documentation.
-1. To view and manage chat artifacts, such as output lists, click the Artifacts icon ![Artifacts icon](assets/artifacts-icon.png).
-
-   For more information on artifacts in Coworker, see [Artifacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in the Adobe CX Enterprise Coworker documentation.
-1. To manage settings for Coworker, click the Settings icon ![Settings](assets/coworker-settings-icon.png).
 1. To expand the Coworker panel, click the Expand icon ![Expand icon](assets/coworker-expand-icon.png).
 1. To go into the Adobe CX Enterprise Coworker interface, click the Apps icon ![Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.
