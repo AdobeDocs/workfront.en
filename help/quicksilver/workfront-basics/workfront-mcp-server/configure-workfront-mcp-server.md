@@ -193,7 +193,13 @@ To learn more about Custom GPTs, see the [ChatGPT user documentation](https://he
 
 ## Connect Workfront to Copilot
 
-+++ Expand to view step-by-step instructions for connecting Workfront to Copilot.
+
+* [Connect Workfront to Copilot with Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
+* [Connect Workfront to GitHub Copilot](#connect-workfront-to-github-copilot)
+
+### Connect Workfront to Copilot with Copilot Studio
+
++++ Expand to view step-by-step instructions for connecting Workfront to Copilot with Copilot Studio.
 
 To build a custom Copilot agent that the Workfront MCP can connect to, use Copilot Studio.
 
@@ -225,6 +231,20 @@ To build a custom Copilot agent that the Workfront MCP can connect to, use Copil
 1. When a tool is configured and tested, click **Publish**. 
 
    You may not have permissions to publish. If this is the case, contact your Copilot administrator.
+
++++
+
+
+### Connect Workfront to GitHub Copilot
+
++++ Expand to view step-by-step instructions for connecting Workfront to GitHub Copilot.
+
+
+1. In GitHub Copilot, go to **Customize**.
+1. Click **Add** > **MCP Server**.
+1. Set the name to something like "Workfront".
+1. Set the **Server Type** to `HTTP`.
+1. Set the URL to `https://mcp.workfront.adobe.com/mcp/v1/workfront`.
 
 +++
 

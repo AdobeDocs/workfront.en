@@ -117,6 +117,12 @@ If a name conflicts with these rules, Workfront automatically renames the object
 
 In most scenarios, you can move, copy, and convert Workfront objects only between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project. In three specific cases, you can convert a legacy Workfront storage object to Adobe cloud storage.
 
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
+
 For more information, see [Convert legacy objects to Adobe cloud storage](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md).
 
 ## Capabilities not available on Adobe cloud storage objects

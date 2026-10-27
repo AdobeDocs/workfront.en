@@ -82,8 +82,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
     ![Email templates tab](assets/email-templates-tab-under-setup-email-notifications-area.png)
   
-1. Click **New Email Template**.  
-
+1. Click **New Email Template**. 
+<!--
+new screen for monthly. delete screen in previous step.
+    ![add new email template](assets/email-template-add-new.png)
+-->
 1. In the **New Email Template** box, specify the following information:
 
    <table style="table-layout:auto"> 
