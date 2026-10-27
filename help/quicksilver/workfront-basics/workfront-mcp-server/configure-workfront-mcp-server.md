@@ -39,10 +39,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >To reduce the size of the MCP catalog for clients that load all tools up front, you can add the `toolsets` query parameter to the Workfront MCP server URL. For example: 
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->For more information on toolsets, see [oolsets in the Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) in the article Adobe Workfront MCP server tools.
+>For more information on toolsets, see [Toolsets in the Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) in the article Adobe Workfront MCP server tools.
 
 ## Prerequisites
 
