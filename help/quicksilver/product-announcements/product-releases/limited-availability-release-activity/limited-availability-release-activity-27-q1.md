@@ -26,7 +26,7 @@ This section includes the release notes for new functionality.
 
 >[!NOTE]
 >
->Production release date: TBD
+>Production release date: October 27, 2026
 
 You can now expand or collapse all groupings in an enhanced list using the arrow icon at the top of the first column. This includes time-phased reports.
 
@@ -38,7 +38,7 @@ For more information about enhanced lists, see [Use enhanced lists](/help/quicks
 
 >[!NOTE]
 >
->Production release date: TBD
+>Production release date: October 27, 2026
 
 The experience of creating a new view in a time-phased report has been streamlined, so that you no longer have to select a view type if only one view type is available.
 
@@ -46,7 +46,7 @@ The experience of creating a new view in a time-phased report has been streamlin
 
 >[!NOTE]
 >
->Production release date: TBD
+>Production release date: October 27, 2026
 
 You can now pin the **Total** column so that it remains visible on the right of a time-phased report.
 
