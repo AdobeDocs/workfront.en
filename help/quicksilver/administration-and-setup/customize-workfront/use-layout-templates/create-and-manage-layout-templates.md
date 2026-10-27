@@ -103,6 +103,8 @@ For more information about layout templates, see [Layout templates](../../../adm
    * Click the name of the layout template you want to modify, or
    * <span class="preview">Select the check box next to the layout template in the list, and click **Edit** in the action bar at the bottom of the screen.</span>
 
+     For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 1. If you are creating a new layout template, type a **Layout template name** and (optional) a **Description** for it.
 
 1. Customize areas of the user interface, as described in the following articles:

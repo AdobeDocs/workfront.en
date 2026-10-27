@@ -73,9 +73,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. In the left panel, click **Interface** > **Layout Templates**.
 
 1. Select the check box next to the layout template you want to modify.
-1. Click the **Copy** icon ![Copy icon](assets/copy-icon.png), <span class="preview">>or click **Copy** in the action bar at the bottom of the screen.</span>
+1. Click the **Copy** icon ![Copy icon](assets/copy-icon.png), <span class="preview">or click **Copy** in the action bar at the bottom of the screen.</span>
 
    All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.
+
+   For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. On the screen that appears, type a new **Layout template name** and (optional) a **Description** for it.
 
