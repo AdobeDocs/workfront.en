@@ -120,7 +120,7 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
 * **1fse -** The predecessor task number is 1. The dependency type is Finish-Start-Enforced. In the project timeline, this task shows as starting immediately after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until task 1 is complete. Workfront does, however, allow hours to be reported on the task. 
 * **1fs+3d -** The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. 
-* **1fs-3d -** The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays before the predecessor task is finished.
+* **1fs-3d -** The predecessor task number is 1. The dependency type is Finish-Start with a lead time of 3 days. In the project timeline, this task shows as starting 3 workdays before the predecessor task is finished.
 * **1fs+3de** -The predecessor task number is 1. The dependency type is Finish-Start-Enforced with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until Task 1 is complete. Workfront does, however, allow hours to be reported on the task.
 
   >[!NOTE]
