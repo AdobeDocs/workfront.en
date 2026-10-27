@@ -239,6 +239,30 @@ To build a custom Copilot agent that the Workfront MCP can connect to, use Copil
 
 +++ Expand to view step-by-step instructions for connecting Workfront to GitHub Copilot.
 
+>[!NOTE]
+>
+>If GitHub Copilot says that Dynamic Client Registration is not supported or asks for an OAuth Client ID, use the workaround below instead of the standard HTTP configuration. Some GitHub Copilot MCP clients do not support the Dynamic discovery flow used in the default setup.
+>
+>To work around this, configure GitHub Copilot to launch the Workfront MCP server through `mcp-remote` and set `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>  "servers": {
+>    "wf-mcp": {
+>      "command": "npx.cmd",
+>      "args": [
+>        "-y",
+>        "mcp-remote",
+>        "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>      ],
+>      "env": {
+>        "NODE_OPTIONS": "--use-system-ca"
+>      }
+>    }
+>  }
+>}
+>```
+>
 
 1. In GitHub Copilot, go to **Customize**.
 1. Click **Add** > **MCP Server**.
