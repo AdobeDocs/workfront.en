@@ -29,8 +29,6 @@ topic_v2:
 ---
 # Create and modify a group's layout templates
 
-{{preview-fast-release-general}}
-
 When you are viewing a group that you manage in the Groups area, you can view and work with the Layout Template for which the administrators of the group, or one of its subgroups, have administrative access.
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -80,7 +78,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      Or
 
-     To create a new template for the group that is based on an existing one, select the existing template, then click the **Copy** icon ![Copy icon](assets/copy-icon.png) <span class="preview">or click **Copy** in the action bar at the bottom of the screen.</span>
+     To create a new template for the group that is based on an existing one, select the existing template, then click the **Copy** icon ![Copy icon](assets/copy-icon.png).
 
      For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -88,10 +86,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
    
-   * To edit an existing group layout template, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) <span class="preview">or click **Edit** in the action bar at the bottom of the screen.</span>
+   * To edit an existing group layout template, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
      For information on editing a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
    
-   * To delete one or more layout templates, select them, then click the **Delete** icon ![Delete icon](assets/delete.png) <span class="preview">or click **Delete** in the action bar at the bottom of the screen.</span>
-   * To export the list of layout templates, click the **Export** icon ![Export icon](assets/export-icon.png) <span class="preview">or click **Export**.</span>
+   * To delete one or more layout templates, select them, then click the **Delete** icon ![Delete icon](assets/delete.png).
+   * To export the list of layout templates, click the **Export** icon ![Export icon](assets/export-icon.png).
 
