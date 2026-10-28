@@ -33,6 +33,8 @@ topic_v2:
 
 The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
 
+
+
 >[!NOTE]
 >
 >This is different from the Preview Sandbox, which is also a testing environment that replicates your [!DNL Workfront] production environment.
@@ -128,6 +130,10 @@ To access your Custom Refresh Sandbox:
    Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since you last refreshed your Custom Refresh Sandbox. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
    The Custom Refresh Sandbox shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a refresh completes.
+
+>[!IMPORTANT]
+>
+>Only [!DNL Workfront] administrators can view Planning data in sandbox environments.
 
 ## Access the Custom Refresh Sandbox using a URL {#access-the-custom-refresh-sandbox-using-a-url}
 
