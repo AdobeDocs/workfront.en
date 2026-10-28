@@ -377,8 +377,8 @@ OLD:
 
 **Latest version**: 
 
-* Mac: 2.2.2 as of 09/17/2026
-* Windows: 2.2.2 as of 09/17/2026
+* Mac: 2.3.0 as of 10/28/2026
+* Windows: 2.3.0 as of 10/28/2026
 
 <!-- Release -->
 
