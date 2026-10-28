@@ -75,6 +75,8 @@ You can now create sections in the Workfront Planning View dropdown menu to orga
 
 For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
+<!--
+
 ## Filters for Workfront objects connected record fields
 
 >[!NOTE]
@@ -90,6 +92,8 @@ Only those Workfront objects that meet your filtering criteria will display as o
 For this feature, we added a new Record filtering rules option in the New connection tab when connecting the following Workfront object types: projects, portfolios, programs, groups, companies. Prior to this enhancement, filters were available only when connecting two record types.
 
 For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+-->
 
 ## Lookup field number limitations
 
@@ -137,6 +141,8 @@ Previously, the export option was available only when the All fields view was se
 
 For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 
+<!--
+
 ## Cancel and revert changes when editing records when business rules are violated
 
 >[!NOTE]
@@ -150,6 +156,8 @@ To ensure data integrity, when a business rule is violated while you edit a reco
 If multiple rules are violated, each violation issues its own toast notification.
 
 For more information, see [Configure business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+-->
 
 ## Improved performance with incremental data loading in the table and timeline views
 
@@ -172,7 +180,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 
 >[!NOTE]
 >
->Preview: October 29, 2026
+>Preview: October 28, 2026
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
@@ -204,7 +212,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 
 >[!NOTE]
 >
->Preview: October 29, 2026
+>Preview: October 28, 2026
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 

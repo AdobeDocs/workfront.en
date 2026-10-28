@@ -12,6 +12,8 @@ This page describes Documents enhancements made with the First Quarter 2027 rele
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+<!--
+
 ## Delegate unified document approvals
 
 >[!NOTE]
@@ -26,6 +28,8 @@ Legacy document and proof approvals remain unsupported.
 
 For more information, see [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
+-->
+
 ## Configure unified review and approval email notifications
 
 >[!NOTE]
@@ -34,7 +38,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
-You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them.
+You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them. There are now 18 notifications are grouped as Unified Approvals and are active by default.
 
 There are now 18 notifications grouped as Unified Approvals that are active by default. Workfront administrators can activate or deactivate them for everyone in Setup, and users can manage them in their profiles.
 
