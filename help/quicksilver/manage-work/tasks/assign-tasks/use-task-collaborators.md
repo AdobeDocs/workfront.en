@@ -19,9 +19,13 @@ role_v2:
 ---
 # Use Work Agents
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
+
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-Work Agents connect to agents that you have configured in Copilot Studio, Claude, OpenAI, or IBM. 
+<span class="preview">You can use a ready-to-use Adobe Native Work Agent powered by Adobe CX Coworker,</span> or a Work Agent connected to an external platform. The available capabilities and setup requirements depend on the agent's origin.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -60,7 +64,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must configure an agent in Copilot, Claude, OpenAI, or IBM before you can use it as a Work Agent in Workfront.
+* An administrator must configure the Work Agent in Workfront before you can use it.
+* For an Adobe Native Work Agent, your organization must have Adobe CX Coworker enabled.
+* For a Work Agent connected to an external platform, the agent must also be configured in that platform.
 
 ## Work Agent overview
 
@@ -112,21 +118,22 @@ Depending on how the Work Agent is configured in Workfront, it can take the foll
 
 When a Work Agent is assigned to a task or issue, it begins work when any of the following situations are met:
 
-<!--update wording to include issues when this goes to production-->
-
 * The Work Agent is assigned to a task that is ready to start. (For example, if the task has predecessors, the predecessors are complete.)
 * The Work Agent and a user are assigned to a task, and the Work Agent is assigned first.
 * A task to which a Work Agent is already assigned as becomes ready to start, and the Work Agent is the only or primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
 * A task to which a Work Agent and a user are already assigned becomes ready to start, and the Work Agent was assigned first or is the primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
 * A user and a Work Agent are assigned to a task, and the user is removed.
 * A user and a Work Agent are assigned to a task, and the Work Agent is set as the Primary Assignee for the task.
+* <span class="preview">A Workfront native Work Agents is @mentioned in a task.
 
 The following situations do not cause the Work Agent to begin work on the task:
 
 * A Work Agent is assigned to a task that already has a user assigned.
-* A Work Agent is @mentioned in a task.
+* <span class="preview">A Work Agent is @mentioned in a task for a provider that does not support start triggers.</span>
 * A Work Agent is assigned to a task that already has a Work Agent assigned. In this case, the first Work Agent assigned will have already begun the work, and the second Work Agent will do nothing.
 * A Work Agent is assigned to a task that is not ready to start. (For example, if the task has predecessors, the predecessors are not yet complete.)
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## Assign a Work Agent to a task, issue, or request
 
