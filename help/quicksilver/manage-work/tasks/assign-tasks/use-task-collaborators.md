@@ -124,7 +124,7 @@ When a Work Agent is assigned to a task or issue, it begins work when any of the
 * A task to which a Work Agent and a user are already assigned becomes ready to start, and the Work Agent was assigned first or is the primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
 * A user and a Work Agent are assigned to a task, and the user is removed.
 * A user and a Work Agent are assigned to a task, and the Work Agent is set as the Primary Assignee for the task.
-* <span class="preview">A Workfront native Work Agents is @mentioned in a task.
+* <span class="preview">A Workfront native Work Agent is @mentioned in a task.
 
 The following situations do not cause the Work Agent to begin work on the task:
 
