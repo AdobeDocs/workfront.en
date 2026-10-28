@@ -90,7 +90,7 @@ The Frame.io viewer provides:
 * Markup and commenting tools, including freehand drawing and standard shapes such as circles, arrows, and squares
 * Time-stamped comments with frame-accurate precision for video reviews
 * Version history and version comparison
-* Mobile access for on-the-go reviews and approvals
+* Mobile access for on-the-go review and approval with the [Frame.io iOS app](https://help.frame.io/en/collections/9679120-ios-app)
 * Support for over 40 file formats, including all common video, image, audio, PDF, and Microsoft Office types, with native playback for professional video formats such as ProRes, H.265, and DNxHD, and support for files up to 500 GB
 
 ## Object naming rules
