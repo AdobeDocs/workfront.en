@@ -220,6 +220,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>November 12, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
+<!--
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
@@ -229,6 +230,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>November 12, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Updates to enhanced lists</a></p>

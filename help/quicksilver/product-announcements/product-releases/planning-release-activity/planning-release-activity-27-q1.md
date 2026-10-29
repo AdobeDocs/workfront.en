@@ -79,6 +79,8 @@ The table view now shows the total number of records, and the count updates auto
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+<!--
+
 ## Field aggregators available for groupings in the table view
 
 >[!NOTE]
@@ -102,6 +104,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 You can now create sections in the Workfront Planning View dropdown menu to organize related views as your list grows. You can name each section when you create it, then move views from My Views and Shared with Me into your custom sections. System views stay fixed in the System section.
 
 For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+
+-->
 
 <!--
 

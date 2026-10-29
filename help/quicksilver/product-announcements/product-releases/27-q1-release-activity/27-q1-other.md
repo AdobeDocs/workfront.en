@@ -38,9 +38,11 @@ Prior to this enhancement, all items were displayed with the ones that match the
 
 For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
+<!--
+
 ## Add sections to organize enhanced views
 
-<!-- NOTE FROM CSV: Check whether the areas affected listed below are complete or if there are others. Confirm whether this belongs in the general Workfront release notes. -->
+NOTE FROM CSV: Check whether the areas affected listed below are complete or if there are others. Confirm whether this belongs in the general Workfront release notes.
 
 >[!NOTE]
 >
@@ -53,6 +55,8 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
 For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+
+-->
 
 ## Updates to enhanced lists
 
