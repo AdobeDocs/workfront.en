@@ -93,6 +93,16 @@ You can use any authentication that uses a bearer token. The **authToken** field
 
 In general, you can expect to receive Event Subscription event delivery requests in less than 5 seconds from the data change being logged. On average, webhook notifications are received in less than 1 second from the time the data change is made. However, the service can receive messages in such large quantities that it might also take longer.
 
+## Can I receive the same event more than once?
+
+Yes. Workfront uses deduplication to reduce duplicate event deliveries, but it does not guarantee exactly-once delivery.
+
+After an endpoint returns a successful HTTP response (2xx), Workfront temporarily records that delivery and uses this record to suppress subsequent deliveries of the same event for the same subscription. Deliveries for separate subscriptions are tracked independently.
+
+Duplicates can still occur&mdash;for example, when delivery attempts overlap, an endpoint processes an event but its response does not reach Workfront, or the delivery record expires or is unavailable.
+
+Design your endpoint to process repeated deliveries safely (idempotently). Use the `X-Event-ID` request header together with the payload's `subscriptionId` to identify repeated deliveries for a subscription.
+
 ## Additional resources
 
 * **API Documentation**: [Event Subscription API](../../wf-api/general/event-subs-api.md)
