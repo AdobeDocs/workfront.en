@@ -69,7 +69,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## View and configure a group's event notifications
+## View and configure a group's event notifications in Production
 
 >[!TIP]
 >
@@ -104,3 +104,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
     
+
+
+
+<div class="preview">
+
+## View and configure a group's event notifications in Preview
+
+>[!TIP]
+>
+>If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list, start typing the group's name in the box, then click it when it appears.
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
+
+1. Click the name of the top-level group.
+1. In the left menu, click **Event notifications**.
+1. Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+   
+    >[!IMPORTANT]
+    >
+    >Items with a lock icon cannot be edited or configured for groups.
+
+    ![Notifications area under setup emails](assets/group-event-notifications-g.png)
+
+   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
+</div>
