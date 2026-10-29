@@ -29,7 +29,7 @@ The enhancements on this page are available in the Preview environment. This pag
 * [Administrator enhancements](#administrator-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
-* [Financial Management enhancements](#financial-management-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -66,10 +66,11 @@ The enhancements on this page are available in the Preview environment. This pag
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Change History now tracks Canvas Dashboard objects</a></p>
                 <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
             </td>
             <td><p>October 29, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>January 21, 2027</p></td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>October 29, 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -117,6 +118,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
@@ -126,6 +128,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>November 12, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configure unified review and approval email notifications</a></p>
@@ -137,6 +140,8 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
     </tbody>
 </table>
+
+<!--
 
 ### Financial Management enhancements
 
@@ -160,6 +165,8 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
     </tbody>
 </table>
+
+-->
 
 ### Project enhancements
 

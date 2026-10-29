@@ -43,8 +43,9 @@ For more information, see [Create a custom form](/help/quicksilver/administratio
 >[!NOTE]
 >
 >Preview: October 29, 2026
->Production fast release: November 12, 2026
->Production for everyone: January 21, 2027
+>Production fast release: October 29, 2026
+>Production for everyone: October 29, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
 Change History now records changes to Canvas Dashboards. You can see who created, updated, or deleted a dashboard or report, when they did it, and what changed.
 

@@ -38,9 +38,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
-You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them. There are now 18 notifications are grouped as Unified Approvals and are active by default.
-
-There are now 18 notifications grouped as Unified Approvals that are active by default. Workfront administrators can activate or deactivate them for everyone in Setup, and users can manage them in their profiles.
+You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them. There are now 18 notifications that are grouped as Unified Approvals and are active by default. Workfront administrators can activate or deactivate them for everyone in Setup, and users can manage them in their profiles.
 
 As part of this update, the email subject lines for these notifications are changing slightly. Subject lines now lead with the outcome, such as "Your approval is needed on {Document}." Notifications about the overall result of an approval start with "Final decision:" so you can tell them apart from an individual approver's decision.
 

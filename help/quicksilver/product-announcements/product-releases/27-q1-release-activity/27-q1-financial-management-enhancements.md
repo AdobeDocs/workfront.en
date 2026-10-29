@@ -6,6 +6,8 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 ---
 
+<!--
+
 # First Quarter 2027 Financial Management enhancements
 
 This page describes Financial Management enhancements made with the First Quarter 2027 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
@@ -27,3 +29,5 @@ Deactivating a currency instead of deleting it allows you to activate it again l
 Deactivated currencies are not shown as list options. For example, a deactivated currency cannot be set as the default currency on a project. If a project is set with that currency and exchange rate before the deactivation, the currency remains on the project.
 
 For information, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+-->
