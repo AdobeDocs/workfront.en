@@ -44,6 +44,12 @@ Every Workfront environment is different. Before you set Adobe cloud storage as 
 
 A group-scoped rollout lets you put Adobe cloud storage in front of a smaller team first, gather feedback, and adjust before a broader rollout. Pick a group whose work patterns are representative enough to surface issues you want to know about early.
 
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
+
 ### Test before you go live
 
 Adobe cloud storage is available in Workfront sandbox environments, so you can validate much of the experience before production. The Frame.io viewer isn't available in sandbox, so you validate the full review and approval experience in production with your pilot group. For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).

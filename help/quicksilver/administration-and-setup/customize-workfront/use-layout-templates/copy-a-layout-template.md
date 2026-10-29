@@ -26,6 +26,8 @@ topic_v2:
 ---
 # Copy a layout template
 
+{{preview-fast-release-general}}
+
 <!--Audited: 09/2024-->
 
 You can copy an existing layout template. This is helpful when your organization needs multiple layout templates that share many of the same settings.
@@ -70,12 +72,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the left panel, click **Interface** > **Layout Templates**.
 
-1. Click the name of the layout template you want to modify.
-1. Click the **Copy** icon ![Copy icon](assets/copy-icon.png).
+1. Select the check box next to the layout template you want to modify.
+1. Click the **Copy** icon ![Copy icon](assets/copy-icon.png), <span class="preview">or click **Copy** in the action bar at the bottom of the screen.</span>
 
    All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.
 
-1. In the screen that appears, type a new **Layout template name** and (optional) a **Description** for it.
+   For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+1. On the screen that appears, type a new **Layout template name** and (optional) a **Description** for it.
 
 1. Assign the template to the users who need it, as described in [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 1. (Optional) Customize the template, as described in the following articles:
@@ -88,3 +92,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
    * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Click **Create**.
+

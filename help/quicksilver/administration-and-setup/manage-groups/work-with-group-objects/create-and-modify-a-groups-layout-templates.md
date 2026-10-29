@@ -83,6 +83,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+
+     For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
    
    * To edit an existing group layout template, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
@@ -90,3 +92,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    
    * To delete one or more layout templates, select them, then click the **Delete** icon ![Delete icon](assets/delete.png).
    * To export the list of layout templates, click the **Export** icon ![Export icon](assets/export-icon.png).
+

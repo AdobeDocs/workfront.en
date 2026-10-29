@@ -37,6 +37,8 @@ topic_v2:
 ---
 # Create a custom form
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
@@ -137,6 +139,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 ### Reuse an existing field or widget already used in another custom form
 
 1. In the upper-left side of the screen, click **Field library**.
+1. Search for the field you want to add to the form.
+
+   >[!TIP]
+   >
+   ><span class="preview">Fields marked as favorites appear in the **Suggested** section at the top of the field library.</span>
 
 1. Drag and drop the desired field or widget onto the canvas. Repeat this step to add any other fields or widgets.
 
@@ -328,6 +335,15 @@ To add a text field:
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
     <tr>
+     <td>Mark as favorite</td>
+     <td><p><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     <td><ul>
+     <li>Single line text</li>
+     <li>Paragraph</li>
+     <li>Rich text</li>
+     <li>Descriptive text</li></ul></td>
+    </tr>
+    <tr>
      <td>Active</td>
      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      <td><ul>
@@ -507,6 +523,15 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Mark as favorite</td>
+     <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     <td><ul>
+     <li>Radio buttons</li>
+     <li>Checkbox group</li>
+     <li>Single-select dropdown</li>
+     <li>Multi-select dropdown</li></ul></td>
     </tr> 
     <tr>
      <td>Active</td>
@@ -750,6 +775,10 @@ To add date fields:
       <td><p>Select this option if you want to show the time of day along with the date in the field.</p></td>
      </tr> 
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -866,6 +895,10 @@ To add an external lookup:
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -967,6 +1000,10 @@ To add an internal lookup:
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -1050,7 +1087,11 @@ The Workfront Mobile app
      <tr> 
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
      <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
@@ -1214,6 +1255,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -1269,6 +1314,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>
@@ -1365,6 +1414,10 @@ To add a Planning connection field:
       <td role="rowheader">Record type fields</td> 
       <td><p>(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </p> <p> The connected record's fields that you select display in a table view on the custom form. When the form is attached to a Workfront object, the table view is read-only. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>

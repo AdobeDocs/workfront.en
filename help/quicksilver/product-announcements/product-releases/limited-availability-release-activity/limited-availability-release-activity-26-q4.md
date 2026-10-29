@@ -22,7 +22,7 @@ role_v2:
 ---
 # Fourth Quarter 2026 release activity for Adobe Workfront limited availability features
 
-This article describes the limited availability Workfront features that are releasing during the Third Quarter of 2026.
+This article describes the limited availability Workfront features that are releasing during the Fourth Quarter of 2026.
 
 <!--keep the sentence below for all future quarterly release pages-->
 

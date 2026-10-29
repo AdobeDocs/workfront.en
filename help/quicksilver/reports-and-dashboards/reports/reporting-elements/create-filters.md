@@ -31,6 +31,8 @@ topic_v2:
 ---
 # Create or edit filters in Adobe Workfront
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 11/2024 -->
 
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
@@ -246,6 +248,10 @@ Create a filter using the standard builder interface:
 
 1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list that you are filtering.
 
+   >[!TIP]
+   >
+   ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
+
    You can also select **Browse fields** to view a list of all fields you can filter by. The fields in the advanced search are grouped by object category.
 
    ![Locate a field to filter by](assets/new-filter-search-for-field.png)
@@ -385,7 +391,11 @@ Regardless of the method you use to create filters, creating a filter from scrat
    * Modify existing filter rules by clicking the existing rule and selecting a new option.
    * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
 
-     Fields associated with the object of your filter are listed in the **Start typing field name** box. 
+     Fields associated with the object of your filter are listed in the **Start typing field name** box.
+
+     >[!TIP]
+     >
+     ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
    
    * Click **AND** or **OR** when adding a filter rule.  
      When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

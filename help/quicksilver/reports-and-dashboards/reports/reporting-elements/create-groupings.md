@@ -31,6 +31,8 @@ topic_v2:
 ---
 # Create groupings in Adobe Workfront
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 11/2024 -->
 
 <!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
@@ -88,6 +90,11 @@ For more detail about the information in this table, see [Access requirements in
 1. In the **Grouping Preview** area, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
+
+   >[!TIP]
+   >
+   ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
+
 1. (Optional and conditional) When building a grouping in an updated list, select **Collapse this grouping by default** if you want the results in the grouping to display collapsed rather than expanded.&nbsp;This setting is disabled by default and the results of the grouping always display in the expanded list.
 
    For information about updated and legacy lists, see the section [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)&nbsp;in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
