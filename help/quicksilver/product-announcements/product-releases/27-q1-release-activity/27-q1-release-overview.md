@@ -134,7 +134,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configure unified review and approval email notifications</a></p>
                 <p>You can now configure the 18 unified review and approval email notifications, and their subject lines are changing slightly.</p>
             </td>
-            <td><p>October 29, 2026</p></td>
+            <td> <p>This feature is temporarily unavailable in the Preview environment.</p></td>
             <td><p>November 12, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
