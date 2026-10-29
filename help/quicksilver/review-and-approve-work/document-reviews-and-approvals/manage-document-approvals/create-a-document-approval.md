@@ -102,13 +102,9 @@ To create a single-stage approval workflow:
    <td>Select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Add people or teams in preview</span></strong></td>
-   <td><p><span class="preview">Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</span></p>
-   <p><span class="preview">Note: If a user is already added, or belongs to more than one team you add, they're included once.</span></p></td>
+   <td><strong>Add people or teams</strong></td>
+   <td><p>Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -172,7 +168,7 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add people or teams in preview</strong></td>
+   <td><strong>Add people or teams</strong></td>
    <td><p>Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</p>
    <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
@@ -196,12 +192,7 @@ To create an advanced approval workflow:
 
 1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
-   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
@@ -234,7 +225,7 @@ To create a single-stage approval workflow:
    <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add people or teams in preview</strong></td>
+   <td><strong>Add people or teams</strong></td>
    <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
    <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
@@ -254,11 +245,10 @@ To create a single-stage approval workflow:
 
 1. Click **Request approval**.
 
-   ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
+   ![Request approval in Basic mode](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
    
 
@@ -306,7 +296,7 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add people or teams in preview</strong></td>
+   <td><strong>Add people or teams</strong></td>
    <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
    <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
@@ -331,12 +321,11 @@ To create an advanced approval workflow:
 
 1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
-   ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 

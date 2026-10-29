@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Configure event notifications for everyone in the system
 
+{{highlighted-preview}}
+
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
@@ -75,7 +77,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 
-## Configure event notifications for all users
+## Configure event notifications for all users in Production 
 
 You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
 
@@ -106,8 +108,9 @@ You must enable notifications in the Setup area of Workfront before users can en
 Users can customize the frequency of these notifications in their user profile. 
 
 
-<!--
+
 <div class="preview">
+
 ## Configure event notifications for all users in Preview
 
 You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
@@ -123,9 +126,7 @@ You must enable notifications in the Setup area of Workfront before users can en
     ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
    
 1. Make sure the **Event Notifications** tab is open.
-1. Toggle the switch to the left of the event name to turn it on or off. 
-
-Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+1. Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
 
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
@@ -147,4 +148,3 @@ Click in the **Active** column for the event and select **Active** to turn it on
 Users can customize the frequency of these notifications in their user profile. 
 </div >
 
--->

@@ -19,9 +19,15 @@ role_v2:
 ---
 # AI Collaborators
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
+
 AI Collaborators are AI agents that you can assign to tasks the same way you'd assign a person. You can fit AI Collaborators into your existing workflows, freeing up your team to focus on what matters most. 
 
-Available AI Collaborator types include AI Reviwers and Work Agents.<!--<span class="preview">and Project Coordinators.</span>-->
+Available AI Collaborator types include AI Reviewer and Work Agents.<!--<span class="preview">and Project Coordinators.</span>-->
+
+<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+
+For Work Agents, you can connect an agent from a supported external platform <span class="preview">or, if your organization has Adobe CX Coworker enabled, select Adobe Native to use a ready-to-use agent powered by Adobe CX Coworker. The Adobe Native option does not require external-platform credentials.</span>
 
 ## AI Collaborators at work
 
