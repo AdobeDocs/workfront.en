@@ -18,8 +18,6 @@ role_v2:
 ---
 # View and manage change history
 
-{#preview-fast-release-general}
-
 Change history allows the system administrator to configure and track changes to objects and specific fields in Adobe Workfront. The flexible configuration lets the administrator set up which exactly which objects and fields are tracked.
 
 Change history can track the following types of defined data:
@@ -28,7 +26,7 @@ Change history can track the following types of defined data:
 * Field-level updates such as editing a project description or changing a user's layout template
 * Object updates such as updating a project status or attaching a custom form to a task
 * Unified review and approval workflow activity, including participants and decisions
-* <span class="preview">Canvas Dashboards activity, such as who created, updated, or deleted a dashboard or report, when they did it, and what changed</span>
+* Canvas Dashboards activity, such as who created, updated, or deleted a dashboard or report, when the updates were made, and what changed
 
 For information about defining which objects and fields are tracked, see [Configure fields to track in change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
