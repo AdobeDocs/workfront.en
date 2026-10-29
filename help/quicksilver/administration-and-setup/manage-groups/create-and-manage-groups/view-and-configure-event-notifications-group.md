@@ -29,6 +29,8 @@ topic_v2:
 ---
 # View and configure event notifications for a group
 
+{{highlighted-preview}}
+
 As an group administrator, you can view the event notifications that are activated for a group you manage.
 
 Also, if a Adobe Workfront administrator unlocks an event notification, you can configure it for a top-level group that you manage. Configuration of an event notification consists of activating or deactivating it.
