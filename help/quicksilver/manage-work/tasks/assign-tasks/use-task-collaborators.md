@@ -65,7 +65,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 * An administrator must configure the Work Agent in Workfront before you can use it.
-* For an Adobe Native Work Agent, your organization must have Adobe CX Coworker enabled.
+* <span class="preview">For an Adobe Native Work Agent, your organization must have Adobe CX Coworker enabled.</span>
 * For a Work Agent connected to an external platform, the agent must also be configured in that platform.
 
 ## Work Agent overview

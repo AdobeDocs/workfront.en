@@ -32,7 +32,7 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* <span class="preview">Work Agent: Create a collaborator using Adobe Native, powered by Adobe CX Coworker, </span>or connect an agent from a supported external platform, then assign the collaborator to a task or issue to complete work items.
+* Work Agent: Create a collaborator <span class="preview">powered by Adobe CX Coworker,</span> or connect an agent from a supported external platform, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -130,9 +130,9 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 Work Agents are agents that you can assign to tasks or issues in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Work Agents can come from Adobe Native or from a supported external platform such as Copilot Studio, Claude, OpenAI, and IBM.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Work Agents can be <span class="preview">Native Work Agents that use Coworker,</span> or can be from a supported external platform such as Copilot Studio, Claude, OpenAI, and IBM.
 
-Work Agents can be assigned to tasks or issues.
+>Work Agents can be assigned to tasks or issues.
 
 <!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
@@ -159,8 +159,8 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    >
    >If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.
 
-1. In the **Choose agent's origin** area, select whether you want to use Adobe Native, connect an agent created in a common platform such as Copilot, or use a custom agent.
-1. (Conditional) If you select Adobe Native, confirm that Adobe CX Coworker is enabled for your organization and that you want to use the ready-to-use Adobe Native agent.
+1. In the **Choose agent's origin** area, select whether you want to <span class="preview">use Adobe Native</span>, connect an agent created in a common platform such as Copilot, or use a custom agent.
+1. <span class="preview">(Conditional) If you select Adobe Native, confirm that Adobe CX Coworker is enabled for your organization and that you want to use the ready-to-use Adobe Native agent.</span>
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
    |Platform|Required authentication|
