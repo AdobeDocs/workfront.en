@@ -90,7 +90,7 @@ The Frame.io viewer provides:
 * Markup and commenting tools, including freehand drawing and standard shapes such as circles, arrows, and squares
 * Time-stamped comments with frame-accurate precision for video reviews
 * Version history and version comparison
-* Mobile access for on-the-go reviews and approvals
+* Mobile access for on-the-go review and approval with the [Frame.io iOS app](https://help.frame.io/en/collections/9679120-ios-app)
 * Support for over 40 file formats, including all common video, image, audio, PDF, and Microsoft Office types, with native playback for professional video formats such as ProRes, H.265, and DNxHD, and support for files up to 500 GB
 
 ## Object naming rules
@@ -116,6 +116,12 @@ If a name conflicts with these rules, Workfront automatically renames the object
 ## Object portability
 
 In most scenarios, you can move, copy, and convert Workfront objects only between like storage models. For example, you can move a task from one Adobe cloud storage project to another Adobe cloud storage project. In three specific cases, you can convert a legacy Workfront storage object to Adobe cloud storage.
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 For more information, see [Convert legacy objects to Adobe cloud storage](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md).
 

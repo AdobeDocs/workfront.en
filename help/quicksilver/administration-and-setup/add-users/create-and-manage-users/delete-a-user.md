@@ -30,31 +30,19 @@ topic_v2:
 ---
 # Delete users
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->The procedure described on this page applied only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. Because your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->**Because all organizations have now been onboarded to the Adobe Admin Console, the information on this page will be removed in the near future.**
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console administrator.
 
 When a user leaves your organization, you can remove that user from Adobe Workfront.
+
+Deleting a user must be performed through the Adobe Admin Console. For instructions, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 
 >[!IMPORTANT]
 >
 >Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## Access requirements
 
@@ -74,11 +62,8 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
   </tr> 
   <tr> 
    <td>Access level configurations</td> 
-   <td> <p>You must have one of the following:</p> 
-    <ul> 
-     <li> <p>The System Administrator access level. </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
-    </ul> </td> 
+   <td> <p>You must be an administrator on the Adobe Admin Console.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +109,7 @@ Deleting a user causes the following things to happen:
    * Tasks, issues, projects, portfolio
    * Dashboards
 
-   <!--
+<!--
 
      >[!NOTE]
      >
@@ -132,8 +117,7 @@ Deleting a user causes the following things to happen:
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
-
+-->
    * Updates
    * Hours
 
@@ -146,7 +130,8 @@ Deleting a user causes the following things to happen:
 
 For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
+
+<!--
 
 ## Delete one or more users
 
@@ -162,3 +147,5 @@ You can permanently delete users one at a time, or you can permanently delete mu
    After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
    At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->

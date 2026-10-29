@@ -13,8 +13,6 @@ feature_v2:
 ---
 # Workfront skills in CX Enterprise Coworker 
 
-{{preview-fast-release-general}}
-
 >[!IMPORTANT]
 >
 >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).

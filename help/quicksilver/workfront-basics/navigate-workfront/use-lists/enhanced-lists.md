@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Use enhanced lists
 
+{{preview-fast-release-general}}
+
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -73,14 +75,16 @@ Below are some types of Workfront object lists that use the enhanced list format
 | --- | --- |
 | Priorities | <ul><li>Home > select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
 | List of requests | <ul><li>Main Menu > Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| Lists of statuses, priorities, severities, <span class="preview">conditions</span>, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li><span class="preview">Setup > Project Preferences > Conditions</span></li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
-| <span class="preview">Lists of actions and tracked fields in the Update Feeds</span> | <ul><li><span class="preview">Setup > Interface > Update Feeds > Tracked fields tab</span></li> <li><span class="preview">Setup > Interface > Update Feeds > Actions tab</span></li></ul> |
-| <span class="preview">List of scorecards</span> | <span class="preview">Setup > Scorecards</span> |
-| <span class="preview">List of risk types</span> | <span class="preview">Setup > Risk Types</span> |
+| Lists of statuses, priorities, severities, conditions, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li>Setup > Project Preferences > Conditions</li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
+| Lists of actions and tracked fields in the Update Feeds | <ul><li>Setup > Interface > Update Feeds > Tracked fields tab</li> <li>Setup > Interface > Update Feeds > Actions tab</li></ul> |
+| List of scorecards | Setup > Scorecards |
+| List of risk types | Setup > Risk Types |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
 | List of locations | Setup > Locations |
 | List of translations | Setup > Localization |
 | Lists of integrations | <ul><li>Setup > Documents > SharePoint Integration</li><li>Setup > Documents > Custom Integration</li><li>Setup > Documents > Experience Manager Assets</li></ul> |
+| <span class="preview">List of layout templates</span> | <span class="preview">Setup > Interface > Layout Templates</span> |
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 | List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
 | Lists of queue topics, topic groups, and routing rules | <ul><li>Project or Template > Queue Topics</li><li>Project or Template > Topic Groups</li><li>Project or Template > Routing Rules</li></ul> |
 | List of snapshots | Project > Snapshots |
@@ -95,10 +99,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -466,14 +467,18 @@ Workfront provides a limited number of predefined groupings and you cannot modif
 
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
+1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.<!--Delete this line at January release-->
 1. When the grouping is applied, you can open the Grouping options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    An indicator appears on the **Grouping** button when a grouping is applied to the list.
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">To collapse or expand all groupings in the list, click the arrow next to the first column heading.</span>
+
+   <span class="preview">![Collapse all groupings](assets/collapse-expand-all-groupings.png)</span>
 
 ### Sort in an enhanced list
 

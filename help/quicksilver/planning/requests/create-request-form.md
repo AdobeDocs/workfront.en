@@ -156,7 +156,7 @@ To create a request form, you must complete the following:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the list view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** if you are creating the form for the first time. Click **Manage request forms** or <span class="preview">**Request forms**.</span>, if you already have a form and you want to create additional ones. 
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** if you are creating the form for the first time. Click **Request forms**.
 
    The **Request forms** page opens and the requests display in the list view. 
 
@@ -208,34 +208,22 @@ To create a request form, you must complete the following:
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
 
-   <div class="preview">
-
    * **Choices**: This is available only for select fields. Do one of the following: 
 
       * Click **Sort Choices A-Z** to order them automatically. 
       * Drag and drop the choices or order them manually. 
       * Click the **Settings** icon ![Settings icon](assets/settings-icon.png), then **Select by Default** to indicate which choice is the default option, or **Hide choice** to hide it.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">You cannot rename or remove choices on a Planning request form. You must edit the field choices in the table view of the record type.</span>
+   >You cannot rename or remove choices on a Planning request form. You must edit the field choices in the table view of the record type.
       
-
 1. In the **Advanced settings** area, select from the options listed below. Not all options are available to all field types. 
 
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
-   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. Add logic is available only when fields are, or are preceded by, single- and multi-select fields. <span class="preview">Validation and default value rules are not available for all field types.</span>
+   * **Add logic**: Define what conditions must be met in order for the field to display or be hidden. Add logic is available only when fields are, or are preceded by, single- and multi-select fields. Validation and default value rules are not available for all field types.
 
-      In the Production environment, select from the following options: 
-
-      * **Display Logic**: The field you selected must be preceded by a multi-select or a single-select field. 
-      * **Skip Logic**: Add skip rules for when users should skip the field and leave it blank.
-
-      <div class="preview">
-
-      In the Preview environment, select from the following options: 
+   Select from the following options: 
 
       * **Display**
       * **Skip**
@@ -244,13 +232,11 @@ To create a request form, you must complete the following:
       * **Formatting**
       * **Editability**
 
-      </div> 
-
       For more information, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
       >[!TIP]
       >
-      ><span class="preview">The field type of each field displays at the top of the right panel, after you select the field on the form.</span>
+      >The field type of each field displays at the top of the right panel, after you select the field on the form.
 
 1. (Optional) Long-click a field and drag it and drop it in another position on the form.
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
@@ -265,24 +251,25 @@ To create a request form, you must complete the following:
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a request. 
 1. Continue to one of the following:
 
-   * [Configure form settings](#configure-form-settings) if you want to configure more details for the form in the Production environment
-   * [Publish form](#publish-form) if you do not want to configure further settings.
+   * [Configure form settings](#configure-form-settings) if you want to configure more details for the form 
+   * [Publish form](#publish-form) to publish the form so users can submit requests to it
+   * [Share a request form](#share-a-request-form) to share the form with others or publicly
 
 ### Configure form settings
 
-On the Settings tab, you can set approval rules, configure when a request created from this form will be marked as Completed, and <span class="preview">assign default permissions to users interacting with future requests submitted using the form.</span>
+On the Settings tab, you can set approval rules, configure when a request created from this form will be marked as Completed, and assign default permissions to users interacting with future requests submitted using the form.
 
 Approval rules define the approval process based on field values in the submitted requests. 
 
 For example, if a request form has the field "Campaign type," a rule can be created that sends the request to one person when the field has the value "Digital", and a different person when it has the value "Print."
 
-<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>
+Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.
 
 For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Completion options allow you to set whether a request is marked complete when the requested object is created, or when the created object is completed. You define when the object is complete based on a specified condition.
 
-<span class="preview">Use the Permissions section in the Settings area of a request form to define the default permissions of requestors <!--and non-requestors--> to the requests created using the form.</span>
+Use the Permissions section in the Settings area of a request form to define the default permissions of requestors <!--and non-requestors--> to the requests created using the form.
 
 To configure form settings: 
 
@@ -293,7 +280,7 @@ To configure form settings:
 
 1. To begin configuring approval rules, click **Approvals** ![Approvals icon](assets/approvals-icon-on-form.png) in the left navigation.
 
-   You can create single <span class="preview"> or multi stage approval rules </span> and assign users or teams to an approval. 
+   You can create single or multi stage approval rules and assign users or teams to an approval. 
 
    For more information about adding approvals, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -305,43 +292,47 @@ To configure form settings:
   
 1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and the value that indicates when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
 
-1. <span class="preview">Click **Permissions** on the left panel.</span>
-1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-
-   <div class="preview">
+1. Click **Permissions** on the left panel to configure the permissions users will have on requests submitted using this form by default. The permissions you grant here will take effect right away for future requests and they do not affect existing requests. 
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Select the permission level to the requests submitted to this form for the users submitting requests using this form:
 
    * **View**: All requesters can comment on and share the form.
    * **Contribute**: All requesters can comment on, share, and edit the form.
-   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form. This is the default permission. 
 
-   </div>
-
-1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-
-   <div class="preview">
+1. (Optional) <!--<span class="preview">In the **Requestor access** section,</span>--> Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:
 
    * Comment
    * Share
    * Edit. Not available for View. 
    * Delete. Not available for Contribute and View. 
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
+   >The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. 
 
-1. Continue to [Publish form](#publish-form). 
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
 
-1. Click **Save**.
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
+1. <span class="preview">Click **AI form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
 
       >[!TIP]
       >
@@ -354,7 +345,10 @@ Add these before Continue to Publish form above:
    <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
 
    ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
+
+1. Continue to [Publish form](#publish-form). 
+
+1. Click **Save**.
 
 ### Publish form
 
@@ -442,7 +436,7 @@ Add these before Continue to Publish form above:
 
 1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms** or <span class="preview">**Request forms**</span>.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Request forms**.
 
    The **Request forms** page opens and all request forms associated with the record type display in a list view. 
 1. (Optional) Update the following view elements in the **Request forms** page to change how information displays in the table: 

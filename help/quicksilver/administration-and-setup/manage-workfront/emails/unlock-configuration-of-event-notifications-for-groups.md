@@ -67,7 +67,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Unlock or re-lock the ability to configure an event notification
+## Unlock or re-lock the ability to configure an event notification in Production
 
 >[!IMPORTANT]
 >
@@ -89,3 +89,32 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    * Delete **System Event Notifications** in the search box above the list of notifications, search for and select the name of the top-level group to list its notifications, then activate or inactivate the unlocked notifications in the list that displays.
    * Click **Groups** in the left menu, then click the name of the top-level group. Click **Event Notifications** in the left panel, then configure the unlocked event notification, as explained in [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+
+<div class="preview">
+
+## Unlock or re-lock the ability to configure an event notification in Production
+
+>[!IMPORTANT]
+>
+>When you re-lock a notification, all groups in the system inherit the notification exactly as you set it. This overrides any changes that group administrators might have made for their groups, so it's a good idea to consult with them first.
+
+{{step-1-to-setup}}
+
+1. Click **Email** > **Notifications**.
+
+1. Make sure the **Event Notifications** tab is open.
+
+
+1. To unlock a notification for a group, click the lock icon ![Lock icon](assets/lock-icon-100626.png) to the right of the notification and select **Unlock Group Access**. The lock icon is no longer displayed when the notification is unlocked.
+
+1. To lock a notification for a group, select More menu ![More menu](assets/more-icon.png) to the right of the notification and click **Lock Group Access** in the action bar at the bottom of the screen. The lock icon ![Lock icon](assets/lock-icon-100626.png) is displayed when the notification is locked.
+
+
+
+1. (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group's administrator, you can do one of the following:
+
+   * Delete **System Event Notifications** in the search box above the list of notifications, search for and select the name of the top-level group to list its notifications, then activate or inactivate the unlocked notifications in the list that displays.
+   * Click **Groups** in the left menu, then click the name of the top-level group. Click **Event Notifications** in the left panel, then configure the unlocked event notification, as explained in [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+   </div>

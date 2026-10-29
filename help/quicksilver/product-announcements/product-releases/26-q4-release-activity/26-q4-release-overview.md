@@ -270,6 +270,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>October 22, 2026</p></td>
         </tr>
 -->        
+       <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
+                <p>You can now limit the Workfront MCP catalog to specific toolsets and filter availability by product entitlement, so AI clients only access the capabilities they need.</p>
+            </td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Updates to AI Collaborators</a>

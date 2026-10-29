@@ -63,6 +63,7 @@ The following table shows the limits for how many objects you can create in Work
 | Size of CSV of Excel file you can import to create record types | 5MB |
 | Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
+| Number of rows you can import in a CSV or Excel file using CX Enterprise Coworker to create records | more than 10,000 |
 | Number of formula fields for one record type | 20 |
 | Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |

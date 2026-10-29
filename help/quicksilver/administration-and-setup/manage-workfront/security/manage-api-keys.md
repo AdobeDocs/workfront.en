@@ -125,7 +125,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
 
 <!--
 
-   Remove me October 2026
+   Remove me January 2027
 
 ## Generate an API Key for Non-Admin Users
 
@@ -200,7 +200,7 @@ If you are concerned about a particular security breach regarding your Workfront
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 ## Restricting API logins with an X.509 certificate
 

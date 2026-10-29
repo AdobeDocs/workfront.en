@@ -19,9 +19,7 @@ role_v2:
 ---
 # Configure custom localization
 
-{{highlighted-preview}}
-
-Custom localization allows you to <span class="preview"> use AI</span> to define custom terms and phrases in different languages. Workfront then displays these terms in the language set in the user's Adobe Identity Management (IMS) settings. 
+Custom localization allows you to use AI to define custom terms and phrases in different languages. Workfront then displays these terms in the language set in the user's Adobe Identity Management (IMS) settings. 
 
 For example, label "Target Audience" can be localized to the German word "Zielgruppe." Any user with German selected as their browser's main language sees the word "Zielgruppe" as a label for any fields labeled "Target Audience" in English.
 
@@ -88,8 +86,6 @@ Translations are configured in the Setup area.
 1. (Optional) To reorder language columns, click the header of a column you want to move and drag it to the desired location.
 1. (Optional) To delete translations for a term, click the checkbox next to the term, then click **Delete** in the blue bar at the bottom of the page.
 
-<div class="preview">
-
 ## Localize untranslated custom text using AI translations
 
 You can use AI to localize custom text. You select the term and the languages, and can approve the translations before they are applied.
@@ -145,5 +141,3 @@ You can translate a previously localized term into new languages using AI, or pr
 1. Click **Save**.
 1. (Optional) To delete all translations for a term, click the checkbox next to the term, then click **Delete** in the blue bar at the bottom of the page.
 
-
-</div>

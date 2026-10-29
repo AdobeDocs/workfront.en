@@ -78,7 +78,7 @@ Use the Frame.io viewer to review and approve assets. The Frame.io viewer provid
 * Markup and commenting tools
 * Version history and comparison
 * Time-stamped comments for video reviews
-* Mobile access for on-the-go reviews and approvals
+* Mobile access for on-the-go review and approval with the [Frame.io iOS app](https://help.frame.io/en/collections/9679120-ios-app)
 
 For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
