@@ -184,7 +184,7 @@ Old:
 * You can create fields only from the table view. 
 * In the Production environment, newly added fields are added and are visible from all table views.
     
-    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all table views. The new fields are visible in the view you use to add them. </span>
+    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all table views that contain them. The new fields are visible in the view you use to add them. </span>
 
 ## Create fields by connecting record types 
 
