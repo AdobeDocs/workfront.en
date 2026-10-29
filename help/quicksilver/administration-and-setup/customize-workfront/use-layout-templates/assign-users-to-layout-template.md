@@ -100,17 +100,28 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Layout template assignment priority {#layout-template-assignment-priority}
 
-You and other Workfront administrators can assign multiple different layout templates to the same user in these four different ways:
+You and other Workfront administrators can assign multiple different layout templates to the same user in these ways:
 
 * To the individual user
 * To a particular job role the user has
 * To a certain team the user is on
 * To a certain group the user is in
 * To a certain access level the user is assigned to
+* To a business profile that is assigned to the user
 
 However, only one layout template is visible to the user at any given time. The template that is visible is determined by the following priority hierarchy:
 
-* **Individual user**: The layout template assigned to the person as an individual user overrides all others. You can override a previous assignment made so an individual user by making a new assignment; the most recent one takes precedence. 
+* **Business profile**: Business profiles represent the highest level of priority for a layout template. If the user has a business profile with layout templates assigned to the access levels, and the user is on a group-specific page (such as a project associated to a group), then all of the business profile layout templates for that group are combined with the user's assigned layout template. When the user is not on a group-specific page, then all of the business profile layout templates are combined with the user's assigned layout template.
+
+   When layout templates for multiple business profiles and access levels are combined, all available layout elements are displayed. If a menu item is displayed in one template but hidden in another, it will be displayed. Only items that are hidden in all templates for the business profile are hidden.
+
+   >[!NOTE]
+   >
+   >Business profiles are available only to organizations that have a Workflow Ultimate package.
+
+   For more information, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Individual user**: The layout template assigned to the person as an individual user overrides all others, except layout templates that come from a business profile. You can override a previous assignment made to an individual user by making a new assignment; the most recent one takes precedence.
 * **Primary job role**: If the person is not assigned a layout template as a single user, they see the template assigned for their primary job role.
 
   Only the layout template assigned to the primary job role of a user is visible to the user. Templates assigned to any secondary job roles held by the user are not visible.
@@ -123,7 +134,7 @@ However, only one layout template is visible to the user at any given time. The 
 
   Only the template assigned to the Home group of a user is visible to the user. Templates assigned to any of their other groups are not visible.
 
-* Access level: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, nor as a member of a Home group, they see the template assigned to their access level.
+* **Access level**: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, nor as a member of a Home group, they see the template assigned to their access level.
 
 ## Large numbers of users assigned to a layout template
 
