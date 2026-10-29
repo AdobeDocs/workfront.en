@@ -325,7 +325,6 @@ To configure form settings:
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

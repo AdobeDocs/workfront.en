@@ -197,6 +197,22 @@ For information about you connect record types, see [Connect record types](/help
             >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
             >
             >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+
+    <div class="preview">
+
+    * The following limitations exist when adding lookup fields:
+
+        * You can have up to 40 lookup fields per record type. 
+
+        * You can have up to 5 long-text lookup fields per record type. Connected lookup fields count against the limit of their original field. 
+
+        * You can have up to 50,000 characters in the value of a single long-text lookup cell. 
+        
+            If the combined content of the look up values exceeds this, values are shown in connection order until the limit is reached. 
+            
+            The first value that would exceed it, and all values after it, are omitted. The original connected object field is never changed. 
+
+    </div>
     
     * You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

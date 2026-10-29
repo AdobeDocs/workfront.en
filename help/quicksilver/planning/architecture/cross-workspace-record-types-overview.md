@@ -29,12 +29,12 @@ topic_v2:
 ---
 # Cross-workspace record type overview
 
-<!--
+
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 {{planning-important-intro}}
 
@@ -224,7 +224,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### Access to the connections of a global record type
 
-Record types connected to the global record type in the original workspace become visible from other workspaces where the global record type is added and they are available for connections from the secondary workspaces where the global record type is added. 
+* Record types connected to the global record type in the original workspace become visible from other workspaces where the global record type is added and they are available for connections from the secondary workspaces where the global record type is added. 
+
+<div class="preview">
+
+* When two connected global record types are added to a secondary workspace, you can turn off cross-workspace connectivity and still link records locally. 
+
+    Each secondary record type displays only its own records for both record types and can connect them to each other. Records from the global workspace and other secondary workspaces are no longer shown.
+
+</div> 
 
 ### API access of a global record type
 

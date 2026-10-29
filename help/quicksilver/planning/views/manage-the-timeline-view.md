@@ -33,11 +33,9 @@ topic_v2:
 
 <!--remove Production and Preview references at release-->
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -191,9 +189,10 @@ To manage a timeline view:
 
     The records associated with the record type you selected display as bars in a timeline and are automatically sorted in chronological order of their Start Date, by default. 
 
-    <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+    <span class="preview">The first 1000 records display by default. Additional records continue to display as you scroll the page, in batches of 1000.</span> 
+
+    <span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
+
     <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
     >[!TIP]
@@ -251,10 +250,13 @@ To manage a timeline view:
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
 
-
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted. 
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. 
+    
+        The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+
+        <span class="preview">The total number of records displayed to the left of the search box is replaced by the number of records found in the search. </span>
 
         ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
 
@@ -262,19 +264,15 @@ To manage a timeline view:
 
         You cannot use keywords that are associated with fields that do not display in the timeline view.
 
-        <!--
-        this might change at the release of table lazy loading:
         >[!TIP]
         >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->    
-        <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+        ><span class="preview">Quick search works for all records, and not just the ones that currently display on the page. 1000 records display by default. Click **Load more** to display more records found in the quick search. </span>
 
     1. Press Enter on your keyboard to go to the next found field.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
     1. Click the **x** icon in the search box to clear the search keyword.
 
-    1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
 
 1. (Optional) Click **Breakdown** to display connected records on the timeline. 
 
@@ -519,11 +517,9 @@ To add a grouping in the timeline view:
     >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
-<!--
 1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
 
     <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
 
 ### Add sort
 
@@ -553,11 +549,9 @@ To add a sort in the timeline view:
 
     For example, the sorting of a text field could be A -> Z or Z -> A. 
 
-    <!--
     >[!TIP]
     >
     ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
 
     The direction a sorting is applied depends on the format of the field you selected. 
 1. (Optional) Click **Add condition** to add up to 10 conditions. 

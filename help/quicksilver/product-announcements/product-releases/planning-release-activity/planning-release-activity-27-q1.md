@@ -61,13 +61,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
-When two connected global record types are added to a secondary workspace, you can now turn off cross-workspace connectivity and still link records locally. Each secondary workspace sees only its own records for both record types and can connect them to each other. Records from the global workspace and other secondary workspaces are no longer shown.
+When two connected global record types are added to a secondary workspace, you can turn off cross-workspace connectivity and still link records locally.  
+
+Each secondary record type displays only its own records for both record types and can connect them to each other. Records from the global workspace and other secondary workspaces are no longer shown. 
 
 Prior to this enhancement, if cross-workspace connectivity was turned off for connected global record types, secondary workspaces couldn't link their own records to each other. If it was turned on, users could see and link records from the global workspace and all other secondary workspaces.
 
 For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## See the total record count in table views
+## View the total record count in the table, timeline and list views 
 
 >[!NOTE]
 >
@@ -75,9 +77,11 @@ For more information, see [Cross-workspace record type overview](/help/quicksilv
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
-The table view now shows the total number of records, and the count updates automatically as you apply filters, search, or change the view. The record count always reflects your full filtered results and respects your permissions.
+The table, timeline and list views now show the total number of records and the count updates automatically as you apply filters, search, or change the view. The record count always reflects your full filtered results and respects your permissions. 
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+The record count displays to the left of the quick search box, in the upper-right corner of the table, timeline, or the list view.  
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 <!--
 
@@ -193,8 +197,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Improved performance with incremental data loading in the table and timeline views
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Preview: October 29, 2026
@@ -203,8 +205,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 To improve performance on a large number of records, we have made the following improvements to the table and timeline views:
 
-* The view now loads the first 500 records initially, with additional records loaded automatically as you scroll in batches of 500.
-* Quick search and grouping impact only the records currently loaded in the view.
+* The table view now loads the first 500 records initially, with additional records loaded automatically as you scroll in batches of 500.  
+* The timeline view has a similar behavior but loads 1000 records at one time with the next 1000 loaded as you scroll.  
+* Quick search applies for all records, not just the ones that display in the current view. More records load, as you scroll in both the timeline and the table views. 
+* When applying a quick search in the timeline view and there are more than 1000 items found, you can click Load more at the bottom of the timeline to display more records that match the search. 
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
