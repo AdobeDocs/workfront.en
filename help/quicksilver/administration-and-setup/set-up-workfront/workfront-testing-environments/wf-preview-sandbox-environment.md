@@ -82,7 +82,7 @@ The preview environment is ideal for running trainings, testing out new features
 
 >[!IMPORTANT]
 >
->Only [!DNL Workfront] administrators can view Planning data in sandbox environments.
+>Planning data in Canvas Dashboards is visible only to [!DNL Workfront] administrators in sandbox environments.
 
 >[!NOTE]
 >

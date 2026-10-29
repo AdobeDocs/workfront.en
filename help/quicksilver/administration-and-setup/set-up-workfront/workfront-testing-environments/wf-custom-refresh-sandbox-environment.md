@@ -133,7 +133,7 @@ To access your Custom Refresh Sandbox:
 
 >[!IMPORTANT]
 >
->Only [!DNL Workfront] administrators can view Planning data in sandbox environments.
+>Planning data in Canvas Dashboards is visible only to [!DNL Workfront] administrators in sandbox environments.
 
 ## Access the Custom Refresh Sandbox using a URL {#access-the-custom-refresh-sandbox-using-a-url}
 
