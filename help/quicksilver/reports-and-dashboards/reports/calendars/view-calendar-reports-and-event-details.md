@@ -28,6 +28,8 @@ topic_v2:
 ---
 # View calendar reports and event details
 
+{{highlighted-preview}}
+
 You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
 
 ## Access requirements

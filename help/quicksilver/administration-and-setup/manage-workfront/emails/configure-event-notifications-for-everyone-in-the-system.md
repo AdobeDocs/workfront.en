@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Configure event notifications for everyone in the system
 
+{{highlighted-preview}}
+
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
