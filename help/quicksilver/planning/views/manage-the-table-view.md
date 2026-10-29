@@ -392,6 +392,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
 You can have up to 50,000 records (or rows) for a record type. <span class="preview">Only 500 rows display by default. More load as you scroll the page.</span>
+<span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
 
 1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
@@ -407,7 +408,6 @@ You can have up to 50,000 records (or rows) for a record type. <span class="prev
     >
     >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    <span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
     
 1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
