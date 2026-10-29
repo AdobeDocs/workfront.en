@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Share a custom form
 
+{{preview-fast-release-general}}
+
 You can configure access for a custom form to control who—person, role, group, team, company, business profile—can view, share, and edit it.
 
 ## Access requirements
@@ -104,7 +106,8 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
       <td> <p>This option is available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
        <ul> 
         <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
-        <li><strong>Delete</strong>: Delete the custom form from the system</li> 
+        <li><strong>Delete</strong>: Delete the custom form from the system</li>
+        <li> <p><span class="preview"><strong>Remove custom data</strong>: Ability to remove the custom form from projects, tasks, and issues for which they have Manage access</span></p> </li> 
         <li><strong>Share</strong>: Share the custom form with others in the system</li> 
        </ul> </td> 
      </tr> 
