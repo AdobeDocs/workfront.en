@@ -28,6 +28,8 @@ topic_v2:
 ---
 # Create or edit views in Adobe Workfront
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 11/2024 -->
 
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
@@ -90,6 +92,11 @@ You can create a new standard view, or you can customize an existing standard vi
 
    * Modify the value of any column by clicking the column title and then selecting a new field.
    * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
+
+    >[!TIP]
+    >
+    ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
+
    * Adjust the order that columns appear by dragging the column title to a new location.
 
    * In the **Column Settings** area, click **Summarize this column by**, and choose how you want the data to display in the column. This option is available for the following column types: 
