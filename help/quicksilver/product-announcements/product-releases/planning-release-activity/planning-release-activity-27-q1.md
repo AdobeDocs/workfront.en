@@ -208,6 +208,8 @@ To improve performance on a large number of records, we have made the following 
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
+<!--
+
 ## Additional permissions for users other than requestors to submitted requests
 
 >[!NOTE]
@@ -225,6 +227,8 @@ You can grant permissions to workspace users or any other users, groups, teams, 
 Prior to this enhancement, you could only grant permissions to requestors.
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+-->
 
 ## Manual grouping reordering in timeline view
 
