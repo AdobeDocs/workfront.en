@@ -31,11 +31,9 @@ topic_v2:
 ---
 # Export a record's details
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
 
 {{planning-important-intro}}
 
@@ -167,7 +165,13 @@ Old:
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
 
-* You cannot export a customized Details page, where several fields are hidden. 
+* In the Production environment, you cannot export a customized Details page, where several fields are hidden. 
+
+<div class="preview">
+
+* In the Preview environment, you can export a customized Details page, where several fields are hidden.
+
+</div>
 
 ## Export a record's details
 
@@ -202,7 +206,6 @@ Old:
       >[!NOTE]
       >
       >    Additional information that does not display on the page and is only visible after clicking Show more in the record details area does not display in the exported PDF file. Only the information visible on the page displays in the exported file. 
-
 
 1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 
 

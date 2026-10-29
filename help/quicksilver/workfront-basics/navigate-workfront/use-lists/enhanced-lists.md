@@ -246,6 +246,25 @@ To add and remove columns:
 >
 >Not all enhanced lists have all the elements described in this section.
 
+To view the total number of items in a list, do one of the following:
+
+* In the Production environment: 
+
+   1. Open an enhanced list. 
+   1. Scroll to the bottom of the list. 
+
+      The total number of items, taking into account any filters applied, displays in the lower-right corner of the list. 
+
+<div class="preview">
+
+* In the Preview environment: 
+
+   1. Open an enhanced list. 
+   1. When available, view the total number of items to the left of the quick search box, in the upper-right corner of the list. 
+   1. (Conditional) If there are items not displaying on the screen by default, scroll the page to display more.
+
+</div>
+
 To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
@@ -512,7 +531,11 @@ To sort individual columns:
 >
 >Not all enhanced lists have all the elements described in this section.
 
-1. Type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
+1. Type a keyword you want search by in the **Search** box in the upper-right corner of the list. 
+
+   In the Production environment, the results are highlighted in the list as you type.
+
+   <span class="preview">In the Preview environment, the list is filtered to display only the items that match the search criteria. The total number of records to the left of the quick search box is replaced by the number of items found.</span>
 
    ![Search term highlighted](assets/glist-search-highlighted.png)
 

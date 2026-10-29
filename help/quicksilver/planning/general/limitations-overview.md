@@ -73,6 +73,9 @@ The following table shows the limits for how many objects you can create in Work
 | Number of hierarchies in a workspace | 5 |
 | Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |
 | Number of records connected to one record in a multi-select connection type, without a hierarchy configured between the records | 500 |
+|<span class="preview">Number of lookup fields per record type</span>| 40 |
+|<span class="preview">Number of long-text lookup fields per record type</span>| 5 |
+|<span class="preview">Number of characters in the value of a single long-text lookup field cell (in the table view)</span>| 50,000 characters |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 

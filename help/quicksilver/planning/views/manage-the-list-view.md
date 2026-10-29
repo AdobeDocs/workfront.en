@@ -30,11 +30,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -161,6 +159,11 @@ Removed - more direct steps below:
     * A connected records page for projects in a record's details area
     * The Request forms page of a record type
 
+    >[!TIP]
+    >
+    ><span class="preview">The number of items in the list displays to the left of the quick search box in the upper-right corner of the list. The number reflects the number of items displayed  with filters applied to the list. Items you don't have permissions to view are not counted. </span>
+
+
 1. (Conditional) When available, do one of the following to modify the list view: 
 
     1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** and create another one.
@@ -265,7 +268,9 @@ Removed - more direct steps below:
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
-    Items that match your search term are highlighted in the list.
+    Items that match your search term are highlighted in the list. 
+
+    <span class="preview">The list is filtered to display only the items that match the search. </span>
 
 1. (Optional and conditional) In the projects <!--change projects to items here when more items will display in the Glist--> connected page, to add more items to the list and automatically connect them to the selected record, do one of the following:
 
