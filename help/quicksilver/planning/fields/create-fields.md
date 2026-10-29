@@ -47,11 +47,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Create fields
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -177,6 +177,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## Considerations about record fields
+
+* You can create fields only from the table view. 
+* In the Production environment, newly added fields are added and are visible from all table views.
+    
+    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all table views. The new fields are visible in the view you use to add them. </span>
 
 ## Create fields by connecting record types 
 

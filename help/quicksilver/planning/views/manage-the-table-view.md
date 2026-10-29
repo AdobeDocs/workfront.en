@@ -33,11 +33,10 @@ topic_v2:
 
 <!-- remove Production and Preview references at release-->
 
-<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 
 {{planning-important-intro}}
@@ -191,15 +190,13 @@ In a table view, all records of the selected record type display in a table form
 
 The following display in a table view by default: 
 
-* All fields and all records for the selected record type. 
+* In the Production environment, all fields and all records for the selected record type. 
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* In the Preview environment, 500 records display by default. Additional records display as you scroll the page. 
 
 </div>
--->
 
 To manage a table view: 
 
@@ -240,6 +237,10 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
+
+    In the Production environment, newly added fields are added and are visible from all views.
+    
+    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all views, except for the view where you are adding them. </span>
 
 1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
    
@@ -297,11 +298,11 @@ You can add up to 500 fields (or columns) in a table view.
     >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Click the **Fields** icon and turn on the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. <span class="preview">The total number of records displayed to the left of the search box is replaced by the number of records found in the search. The table is filtered to display only the items that match the search. </span>
 
         ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -309,12 +310,10 @@ You can add up to 500 fields (or columns) in a table view.
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
-        <!--
-        this might change at the release of table lazy loading:
         >[!TIP]
         >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->    
+        ><span class="preview">Quick search works for all records, not just the ones that display in the current view. More records load, as you scroll. </span> 
+
 
     1. Press **Enter** on your keyboard to go to the next found field. 
 
@@ -392,7 +391,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-You can have up to 50,000 records (or rows) for a record type. 
+You can have up to 50,000 records (or rows) for a record type. <span class="preview">Only 500 rows display by default. More load as you scroll the page.</span>
 
 1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
@@ -407,6 +406,8 @@ You can have up to 50,000 records (or rows) for a record type.
     >When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.
     >
     >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+    <span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
     
 1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
