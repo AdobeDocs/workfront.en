@@ -204,6 +204,24 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">See the total record count in enhanced lists</a></p>
+                <p>The enhanced view now shows the total number of items, and the count updates as you filter, search, or change the view.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Better visibility of quick search findings in enhanced lists</a></p>
+                <p>Quick search in an enhanced list now shows only the items that match instead of highlighting matches among all items.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
                 <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
             </td>

@@ -12,6 +12,32 @@ This page describes enhancements made with the First Quarter 2027 release to the
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## See the total record count in enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+The enhanced view now shows the total number of items, and the count updates automatically as you apply filters, search, or change the view. The items count always reflects your full filtered results based on your permissions.
+
+For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Better visibility of quick search findings in enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+When you use quick search in an enhanced list to find an item, the list eliminates all records that don't match the search and displays only the items that match.
+
+Prior to this enhancement, all items were displayed with the ones that match the search results highlighted.
+
+For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 ## Add sections to organize enhanced views
 
 <!-- NOTE FROM CSV: Check whether the areas affected listed below are complete or if there are others. Confirm whether this belongs in the general Workfront release notes. -->

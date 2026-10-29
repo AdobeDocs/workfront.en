@@ -25,6 +25,34 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Better visibility of quick search findings in the table view
+
+>[!NOTE]
+>
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+When you use quick search in the table view to find an item, the view eliminates all records that don't match the search and displays only the items that match.
+
+Prior to this enhancement, all records were displayed with the ones that match the search results highlighted.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+<!--
+
+## Record-level permissions - restricted access to records
+
+PLACEHOLDER: The release note field on the Workfront task points to an anchor story that no longer exists, so there is no description yet. Add the description and help link before unhiding.
+
+>[!NOTE]
+>
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
+
 ## Allow connecting records of connected global record types in secondary workspaces when cross-workspace connectivity is off
 
 >[!NOTE]
@@ -47,7 +75,7 @@ For more information, see [Cross-workspace record type overview](/help/quicksilv
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
 
-The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view. The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions, so you only ever count records you can access.
+The table view now shows the total number of records, and the count updates automatically as you apply filters, search, or change the view. The record count always reflects your full filtered results and respects your permissions.
 
 For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
