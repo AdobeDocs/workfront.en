@@ -80,6 +80,10 @@ Preview Sandbox also allows [!DNL Workfront] to deploy new features in a safe en
 
 The preview environment is ideal for running trainings, testing out new features, and determining setup functionality.
 
+>[!IMPORTANT]
+>
+>Planning data in Canvas Dashboards is visible only to [!DNL Workfront] administrators in sandbox environments.
+
 >[!NOTE]
 >
 >When you access the Preview Sandbox, notice the blue banner at the top of the screen. The banner cannot be removed while you are working in this environment.
