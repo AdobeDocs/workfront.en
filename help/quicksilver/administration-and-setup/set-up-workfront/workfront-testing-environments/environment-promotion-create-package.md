@@ -47,7 +47,7 @@ You must have the following:
   <tr>
    <td><strong>Workfront licenses</strong>
    </td>
-   <td> <p>Standard</p>>
+   <td> <p>Standard</p>
    </td>
   </tr>
    <tr>
