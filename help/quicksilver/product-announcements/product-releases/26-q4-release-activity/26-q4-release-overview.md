@@ -272,7 +272,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
 -->        
        <tr>
             <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP server toolsets</a></p>
                 <p>You can now limit the Workfront MCP catalog to specific toolsets and filter availability by product entitlement, so AI clients only access the capabilities they need.</p>
             </td>
             <td><p>October 22, 2026</p></td>
@@ -402,15 +402,6 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><p>This feature is not available in the Preview Sandbox environment because the Frame.io integration is unavailable there.</p></td>
             <td><p>October 15, 2026</p></td>
             <td><p>October 15, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
-            </td>
-            <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
         </tr>
         <tr>
             <td>
@@ -788,7 +779,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Non-administrators can now create event subscriptions<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Non-administrators can now create event subscriptions<p>[!BADGE Off schedule]{type=Neutral}</p></a>
                 <p>Users can now receive webhook notifications for supported Workfront objects without system administrator access, using targeted subscriptions and IMS user access tokens.</p>
             </td>
             <td><p>October 16, 2026</p></td>
