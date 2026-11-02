@@ -73,18 +73,15 @@ The following table lists the fields available for event subscription resources:
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -131,12 +128,10 @@ The following table lists the fields available for event subscription resources:
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -147,7 +142,6 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -194,13 +188,10 @@ The following table lists the fields available for event subscription resources:
    <td> decisionUserID </td> 
   </tr> 
   <tr> 
-  <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -377,7 +368,6 @@ The following table lists the fields available for event subscription resources:
    <td> securityRootID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td>status</td> 
@@ -473,18 +463,15 @@ The following table lists the fields available for event subscription resources:
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> extRefID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> groupID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -505,7 +492,6 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -1862,6 +1848,16 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>isPrivate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>noteObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>noteText</td> 
   </tr> 
   <tr> 
@@ -1927,6 +1923,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>proofID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1973,6 +1974,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>timesheetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topNoteObjCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2188,6 +2194,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>companyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>condition</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2760,18 +2771,15 @@ The following table lists the fields available for event subscription resources:
    <td> companyID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> currency </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2893,18 +2901,15 @@ The following table lists the fields available for event subscription resources:
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2951,18 +2956,15 @@ The following table lists the fields available for event subscription resources:
    <td> categoryID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> entryDate </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3039,18 +3041,15 @@ The following table lists the fields available for event subscription resources:
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> rateAttributeID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3087,12 +3086,10 @@ The following table lists the fields available for event subscription resources:
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> systemGenerated </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td>Staffing Plan Resource Parameter Value <p>(Event Subs v2)</p></td> 
    <td>SRPVAL</td> 
@@ -3114,18 +3111,15 @@ The following table lists the fields available for event subscription resources:
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID</td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3215,11 +3209,6 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
