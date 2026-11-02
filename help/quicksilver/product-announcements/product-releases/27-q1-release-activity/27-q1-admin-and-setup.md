@@ -38,6 +38,20 @@ Fields marked as favorites also appear at the top of the field library in the fo
 
 For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+## Values verified on custom fields when changing the format
+
+>[!NOTE]
+>
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+The system now checks for incompatible values when you change an existing Text custom field format to Number or Currency.
+
+If the existing values for the field are all numeric, the system simply updates the field format. However, if any of the existing values are non-numeric, the system shows a warning message that incompatible values will be cleared when you save the field.
+
+For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
 ## Change History now tracks Canvas Dashboard objects
 
 >[!NOTE]
