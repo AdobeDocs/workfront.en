@@ -64,6 +64,15 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Values verified on custom fields when changing the format</a></p>
+                <p>The system now checks for incompatible values when you change an existing Text custom field format to Number or Currency.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Change History now tracks Canvas Dashboard objects</a></p>
                 <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
