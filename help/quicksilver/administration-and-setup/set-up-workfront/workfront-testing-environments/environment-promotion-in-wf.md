@@ -60,7 +60,9 @@ Because environment promotion deals with object configuration, transactional obj
 * [Custom data objects](#custom-data-objects)
 * [Organization objects](#organization-objects)
 * [Other configuration objects](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### Work objects
 
@@ -73,12 +75,12 @@ Because environment promotion deals with object configuration, transactional obj
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group  |
-| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  |
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group |
+| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter |
 | Calendar (CALEND) | Calendar<br>Calendar Section |
 | External Page (EXTSEC) | External Page |
 | Report (PTLSEC) | Report<br>Filter<br>Grouping<br>View<br>Parameter |
-| Filter (UIFT) |  Filter<br>Parameter |
+| Filter (UIFT) | Filter<br>Parameter |
 | Grouping (UIGB) | Grouping<br>Parameter |
 | View (UIVW) | View<br>Parameter |
 
@@ -132,6 +134,22 @@ Because environment promotion deals with object configuration, transactional obj
 >* Group
 
 -->
+
+<!--
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
 
 ## Environment promotion statuses
 

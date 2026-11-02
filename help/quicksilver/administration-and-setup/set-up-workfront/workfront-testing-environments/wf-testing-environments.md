@@ -30,11 +30,17 @@ topic_v2:
 ---
 # [!DNL Adobe Workfront] testing environments
 
-This section contains the following articles:
+This section contains articles for the following environments and capabilities:
+
+  * [Testing environments](#testing-environments)
+  * [Environment Promotion](#environment-promotion)
+
+## Testing environments
 
 * [The [!DNL Adobe Workfront] Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 * [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-* Environment promotion:
+
+## Environment Promotion
 
    * [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
    * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
