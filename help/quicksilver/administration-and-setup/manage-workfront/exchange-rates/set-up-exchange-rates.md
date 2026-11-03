@@ -107,6 +107,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
 
+>[!NOTE]
+>
+>Configuring date-effective exchange rates defines which system exchange rate applies for a particular date. It does not mean that all project financial calculations use a different exchange rate for each day.
+>
+>When the **Use date-effective exchange rates from the system** setting is turned on for a project, planned cost and revenue use the system exchange rate that is effective on the project's **Exchange Rate Date**. They do not automatically use the effective rate on each day of planned work.
+>
+>For information about setting a project to use the system-level date-effective exchange rates, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
+
 {{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Exchange Rates**.
