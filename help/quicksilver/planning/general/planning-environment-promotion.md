@@ -22,7 +22,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 You can copy Workfront Planning workspaces, record types, fields, and views from one Workfront environment to another using Environment Promotion capabilities. 
 
@@ -42,7 +42,7 @@ Using Environment Promotion with Planning is similar to using it for Workfront. 
     * Views
     * Hierarchies
     * Sharing settings for all objects
-    * Automations
+    * Automations <!--this might not be part of it; Lilit is checking-->
     * Request forms
     * Business rules
     * Connected objects

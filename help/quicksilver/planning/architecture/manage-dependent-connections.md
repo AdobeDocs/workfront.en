@@ -138,6 +138,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * Dependent fields are supported for all areas where the connected records fields display, including the Details areas of a record or request forms. 
 
+<!--
+* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
+-->
+
 ## Create a dependent connection
 
 1. As a workspace manager, go to a record type in Workfront Planning and open it in the table view. 

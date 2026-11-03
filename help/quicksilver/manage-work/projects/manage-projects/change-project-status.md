@@ -108,6 +108,15 @@ Old:
 * **When updating a project to Complete:** Ensure that all tasks and issues are completed on the project. You cannot select the Complete status for a project, or any other status that equates Complete when there are tasks or issues that have not been completed on the project. This includes approving any task or issue that is in a Complete-Pending Approval status.
 * **When updating a project from Complete to Current:** If all the tasks and issues on the project are completed, ensure that the project's Completion Mode is set to Manual. If the project's Completion Mode is Automatic, the status of the project remains Complete.
 
+<!--
+* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
 ## Change project status
 
 1. Go to the project whose status you want to update.
@@ -120,3 +129,9 @@ Old:
    Click the **More** menu ![More menu](assets/qs-more-menu.png) next to the name of the project and click **Edit** and select a new status in the **Status** field, then click **Save**.
 
    The project status updates to the status you selected.
+
+<!--
+1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+--> 
