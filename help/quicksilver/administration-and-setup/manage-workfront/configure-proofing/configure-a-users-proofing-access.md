@@ -66,6 +66,8 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+<!--
+
 ## Configure a user's proof permission profile
 
 The permission profile you select is granted to the users for each proof that exists within your organization.
@@ -121,6 +123,8 @@ Consider the following information when setting permissions:
 * When you change a user's Workfront Access level to any level other than System Administrator, the user's Workfront Proof permission profile defaults to Manager.   
 
 * When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
+
+-->
 
 ## Configure Workfront Proof access via Workfront Main Menu for all users {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 

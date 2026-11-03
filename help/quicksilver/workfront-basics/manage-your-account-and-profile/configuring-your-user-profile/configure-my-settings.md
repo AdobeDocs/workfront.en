@@ -417,10 +417,12 @@ You can change any of the following in this sub-section:
       </p> </td> 
    </tr>
   --> 
+  <!--
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
    <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>This field displays the level of access you have in [!DNL Workfront Proof]. It is available only if:</p> 
