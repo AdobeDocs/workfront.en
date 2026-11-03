@@ -48,8 +48,8 @@ The Ideation spaces leverages the Enterprise CX Coworker to generate briefs that
 The planned release timeline for Ideation space which is subject to change includes the following milestones: 
 
 * **Closed Beta:** Launched July 2026, for a small number of customers.
-* **Open Beta:** Targeted for November 2026. This will be an opt-in offering, where customers must actively turn the option on and configure it, instead of actively opting out of it. 
-* **General availability:** Targeted for 2027.
+* **Open Beta:** Targeted for November 12, 2026. This is an opt-in offering, where you must actively turn the option on, instead of actively opting out of it. 
+* **General availability:** Targeted for February 1, 2027. 
 
 ## Product requirements
 

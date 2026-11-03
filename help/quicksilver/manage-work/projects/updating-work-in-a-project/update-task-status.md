@@ -111,6 +111,15 @@ Old:
 
   For more information, see [Edit projects](../manage-projects/edit-projects.md).
 
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
 ## Manually update task status
 
 You can update the task status in the following areas:
@@ -146,6 +155,12 @@ To manually update the task status in the task header:
    >[!IMPORTANT]
    >
    >  Only task assignees can update the Commit Date.
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+--> 
 
 <!--
 old functionality in old commenting: 

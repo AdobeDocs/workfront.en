@@ -136,6 +136,10 @@ Because environment promotion deals with object configuration, transactional obj
 -->
 
 <!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
 ## Workfront Planning objects
 
 >[!IMPORTANT]
