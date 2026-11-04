@@ -41,6 +41,10 @@ The My Approvals widget supports approvals from the following Workfront objects:
 * Planning record requests
 * Timesheets
 
+>[!NOTE]
+>
+>If your organization uses Adobe cloud storage, a document approval appears in the widget only when the project that contains the document is shared with you.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -75,6 +79,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 ## Approve work from the My Approvals widget
+
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
@@ -168,14 +173,14 @@ An approval is removed from the My Approvals widget after you make a decision on
 
    >[!NOTE]
    >
-   >If a project is pending approval, the project's own approval remains in the widget, but any approvals on its tasks and issues do not display.
+   >If a project is pending approval, the project's own approval can still display for its current approvers, but any approvals on its tasks and issues do not display.
 
 
-* **Legacy document approvals**: Legacy document approvals are removed from the widget when the project, task, or issue is in one of the following statuses:
+* **Legacy document approvals**: Legacy document approvals are removed from the widget based on the status of the object the document is directly attached to, not on a parent object. The approval is removed when that object is in one of the following statuses:
     * Project: Complete or Dead
     * Task: Complete
     * Issue: Closed, or a status that equates with Closed. This includes Resolved, Won't Resolve, Cannot Duplicate, and Verified Complete.
 
-* **Unified Approvals**: Unified Approvals remain in the widget regardless of the project, task, or issue status. They're removed from the widget only when the approval workflow is satisfied.
+* **Unified Approvals**: Unified Approvals remain in the widget regardless of the project, task, or issue status. Their visibility is controlled by the approval workflow and your pending approval responsibilities, so an approval can be removed from the widget before the entire workflow is complete.
 
 Custom statuses follow their Equates With mapping, so a status that equates with any of the statuses above produces the same result. The approval can remain Pending on the object even when it's removed from the widget. For more information about custom statuses, see [Create or edit a status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
