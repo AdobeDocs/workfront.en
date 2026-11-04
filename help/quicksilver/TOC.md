@@ -614,10 +614,7 @@ feature-set: Workfront
       * [Edit a team's settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Customize Adobe Workfront {#customize}
     * [Customize Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Custom branding in Adobe Workfront {#custom-branding}
-      * [Custom branding](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [Brand your instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * Layout templates {#layout-templates}
       * [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [Default Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -633,7 +630,6 @@ feature-set: Workfront
       * [Customize Filters, Views, Groupings](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [Customize user interface terminology](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [Customize the landing page](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Brand Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [Test a layout template](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [Administrative access for layout templates](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Assign users to layout templates](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)

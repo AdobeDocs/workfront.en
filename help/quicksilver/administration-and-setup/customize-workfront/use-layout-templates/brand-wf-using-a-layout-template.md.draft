@@ -6,6 +6,7 @@ navigation-topic: layout-templates
 description: Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
+hide: true
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 TQID: 'https://experienceleague.adobe.com/MhQmqpwdvtCfxXlktomHlIukgbq7sJKXwxTwRJgDSO8'

@@ -125,7 +125,7 @@ There is also now a User details link that displays the following user informati
 
 Now you can use a Layout Template to change the logos in the top navigation area and on the Main Menu for specific groups, teams, job roles, and users who have their own branding.
 
-For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Group Administrators can create and manage approval processes
 

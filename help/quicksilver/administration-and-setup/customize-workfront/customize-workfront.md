@@ -35,9 +35,12 @@ topic_v2:
 
 This section contains the following subsections:
 
-* [Custom branding in Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md) 
 * [Layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md) 
 * [Custom forms: article index](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) 
 * [Statuses and priority labels](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md) 
 * [Approval processes and milestone paths](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md) 
 * [Custom conditions](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+>[!NOTE]
+>
+>Branding is not available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe CX Enterprise.
