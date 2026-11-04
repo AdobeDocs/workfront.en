@@ -134,27 +134,36 @@ For more information about Workfront access requirements, see [Access requiremen
 
 You can create briefs to either create or edit Planning records or to create files that you can export to other applications. 
 
-1. Log in to Workfront with Planning where Coworker has been turned on, and do one of the following: 
+1. Log in to Workfront with Planning where Coworker has been turned on, and do one of the following to open the Ideation space for the first time to create briefs: 
 
-    * Go to the **Main Menu** > **Ideation space**
-    * Go to **Main Menu** > **Planning** > click a workspace > click a record type > **New record** > **Start Ideation space**
+    * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Ideation space**
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > **New record** > **Start Ideation space**
+
+     The Ideation space opens and a new ideation is titled by default following the following format: 
+
+     `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
     
-        For more information about creating records using the Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
-    * Go to **Main Menu** > **Planning** > click a workspace > click a record type > click an existing record > **Open in Ideation space**
+     For more information about creating records using the Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
 
-    The Ideation space opens and a new ideation is titled by default following the following format: 
+1. (Conditional) To open an existing brief in Ideation space, log in to Workfront with Planning where Coworker has been turned on, and do one the following: 
 
-    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click an existing record > **Open in Ideation space**
+    
+        The ideation name matches the name of the record. 
 
-    If you open an ideation from an existing record, the ideation name matches the name of the record. 
-
-1. (Recommended) Click the name of the ideation to change the name. 
+1. (Recommended) Click the name of the ideation to change the name, if you opened it for the first time. 
     
 1. (Conditional and optional) To open another existing Ideation space, click the drop-down menu to the right of the ideation name, search for it by name, then click the ideation when it displays in the list. 
     
-1. When the **Ideation space** opens, the CX Coworker opens on the right. Use the Coworker prompt to describe the kind of brief you want to create. 
+    The **Ideation space** opens and the CX Coworker opens on the right. 
+1. Use the Coworker prompt to describe the kind of brief you want to create. 
 
     For example, type "Create a back-to-school campaign for K-12 students to run through the month of August, for parents and teachers in the US".  To make the brief as complete as possible, indicate as much information as you have available for what kind of campaign, the timeline, the stakeholders, approvals checkpoints and other details. 
+1. (Optional) Click the **+** icon in the Coworker prompt box and attach information in the following ways: 
+
+    * **Commands**: Use a command from the list to prompt Coworker for content. 
+    * **Attach file**: Attach a file to the prompt box to add it or its information to the ideation space. You must ask Coworker to create cards based on the file to later send the cards to the brief. 
+    * **Reference an object**: Select an object from the list to reference it in your ideation. The object must exist in Workfront. 
 
 1. Click Enter.  
 
@@ -167,6 +176,11 @@ You can create briefs to either create or edit Planning records or to create fil
 1. (Conditional) When Coworker offers to the create cards for the ideation, answer **Yes**. 
 
     Cards are added to the ideation space and you can see the sources for each card and decide which to add to your brief. 
+
+    >[!TIP]
+    >
+    >You cannot add files directly to the brief. You must first transfer the file information to the cards which you can send to the brief.
+
 
 1. Click the **Search** icon ![Search icon](assets/search-icon.png) to search for items in the ideation space, then click when it displays in the list to navigate to it. 
 
