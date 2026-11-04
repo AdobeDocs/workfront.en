@@ -166,7 +166,10 @@ An approval is removed from the My Approvals widget after you make a decision on
     * Dead
     * On Hold
 
-   The exception is a project that is still pending approval: the project's own approval can remain in the widget, but the approvals on its tasks and issues are still removed. A Rejected project status doesn't remove these approvals.
+   >[!NOTE]
+   >
+   >If a project is pending approval, the project's own approval remains in the widget, but any approvals on its tasks and issues do not display.
+
 
 * **Legacy document approvals**: Legacy document approvals are removed from the widget when the project, task, or issue is in one of the following statuses:
     * Project: Complete or Dead
