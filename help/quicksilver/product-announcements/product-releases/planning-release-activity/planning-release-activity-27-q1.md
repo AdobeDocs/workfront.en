@@ -25,6 +25,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Improved conflict detection in dependent fields when submitting requests
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+When you submit a request where a dependent connected field has a dependency conflict, the system displays an error and prevents you from submitting the request until the conflict is resolved. Requests that have not been approved yet also display any conflicts caused by later changes to dependent fields in rule setup, both when you view and when you edit a request.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
 ## Better visibility of quick search findings in the table view
 
 >[!NOTE]
