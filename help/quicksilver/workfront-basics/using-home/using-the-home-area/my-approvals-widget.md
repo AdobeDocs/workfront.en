@@ -157,8 +157,22 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    </tr>
    </table>
       
-After you make a decision, the approval is removed from the My Approval widget.
+## When approvals are removed from the widget
 
->[!NOTE]
->
->Work approvals can also be removed from the My Approvals widget when the project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
+An approval is removed from the My Approvals widget after you make a decision on it. Approvals are also removed in the following situations:
+
+* **Work approvals**: Approvals on projects, tasks, and issues are removed from the widget when the project is in one of the following statuses:
+    * Complete
+    * Dead
+    * On Hold
+
+   The exception is a project that is still pending approval: the project's own approval can remain in the widget, but the approvals on its tasks and issues are still removed. A Rejected project status doesn't remove these approvals.
+
+* **Legacy document approvals**: Legacy document approvals are removed from the widget when the project, task, or issue is in one of the following statuses:
+    * Project: Complete or Dead
+    * Task: Complete
+    * Issue: Closed, or a status that equates with Closed. This includes Resolved, Won't Resolve, Cannot Duplicate, and Verified Complete.
+
+* **Unified Approvals**: Unified Approvals remain in the widget regardless of the project, task, or issue status. They're removed from the widget only when the approval workflow is satisfied.
+
+Custom statuses follow their Equates With mapping, so a status that equates with any of the statuses above produces the same result. The approval can remain Pending on the object even when it's removed from the widget. For more information about custom statuses, see [Create or edit a status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
