@@ -203,6 +203,10 @@ To create an advanced approval workflow:
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+>[!NOTE]
+>
+>The approver or reviewer must have the project that contains the document shared with them, or the approval won't appear in their My Approvals widget. 
+
 The **Request approval** dialog opens in **Basic** mode by default. Basic mode is a single stage with one set of approvers or reviewers. Switch to **Advanced** mode to configure multi-stage approvals or parallel paths.
 
 ### Create a basic approval workflow
