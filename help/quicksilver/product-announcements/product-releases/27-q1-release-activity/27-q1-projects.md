@@ -12,6 +12,19 @@ This page describes Project enhancements made with the First Quarter 2027 releas
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## Unavailable status guidance
+
+>[!NOTE]
+>
+>Preview: November 4, 2026
+>Production fast release: November 4, 2026
+>Production for everyone: November 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+When a saved issue, task, or project status isn't available for the current object, a warning now explains why and shows the saved status code. "Not applicable" appears as display text only, not as a replacement status. Users with Manage permissions on the object can select another status. Administrators can create another status.
+
+For more information, see [Update issue status](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md). Updating project and task status is similar to updating issue status.
+
 ## Pin important threads to the top of updates
 
 >[!NOTE]
