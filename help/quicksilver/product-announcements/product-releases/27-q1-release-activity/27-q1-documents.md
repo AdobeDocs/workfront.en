@@ -72,14 +72,11 @@ For more information, see [Configure the Approved with changes decision](/help/q
 >This feature is temporarily unavailable in the Preview environment.
 
 
-<!--
 >[!NOTE]
 >
->Preview: October 29, 2026
+>Preview: November 5, 2026
 >Production fast release: November 12, 2026
 >Production for everyone: January 21, 2027
-
--->
 
 You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them. There are now 18 notifications that are grouped as Unified Approvals and are active by default. Workfront administrators can activate or deactivate them for everyone in Setup, and users can manage them in their profiles.
 
