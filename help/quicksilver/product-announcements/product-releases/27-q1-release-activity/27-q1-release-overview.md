@@ -127,6 +127,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
@@ -136,6 +137,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>December 17, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
+-->        
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>

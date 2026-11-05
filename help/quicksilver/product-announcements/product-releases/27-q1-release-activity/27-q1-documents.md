@@ -30,6 +30,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 -->
 
+<!--
+
 ## Consistent review and approval buttons across documents
 
 >[!NOTE]
@@ -50,6 +52,8 @@ In addition to a new look and feel, some buttons have new names:
 | Open in Frame.io | Open viewer |
 
 For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
+
+-->
 
 ## Turn the Approved with changes decision on or off
 
