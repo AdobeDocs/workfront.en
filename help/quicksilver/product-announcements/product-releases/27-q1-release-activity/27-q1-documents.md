@@ -30,21 +30,57 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 -->
 
-## Configure unified review and approval email notifications
-
->[!IMPORTANT]
->
->This feature is temporarily unavailable in the Preview environment.
-
-
 <!--
+
+## Consistent review and approval buttons across documents
+
 >[!NOTE]
 >
->Preview: October 29, 2026
->Production fast release: November 12, 2026
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
 >Production for everyone: January 21, 2027
 
+Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
+
+In addition to a new look and feel, some buttons have new names:
+
+| Previous name | New name |
+| --- | --- |
+| Open proof | Open viewer |
+| Review and approve | Make decision |
+| Complete my review | Complete review |
+| Open in Frame.io | Open viewer |
+
+For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
+
 -->
+
+<!--
+
+## Turn the Approved with changes decision on or off
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+If your organization uses Adobe cloud storage, System Administrators can now turn the "Approved with changes" decision on or off for document approvals. When it's on, reviewers see three decisions (Approved, Approved with changes, and Needs Work) in both the Workfront approval interface and the Frame.io viewer. When it's off, reviewers see only Approved and Needs Work.
+
+The setting lives on the Approval Settings page in Setup, and a live preview on that page shows exactly which decisions reviewers currently see.
+
+For more information, see [Configure the Approved with changes decision](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/configure-approved-with-changes.md).
+
+-->
+
+## Configure unified review and approval email notifications
+
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
 
 You can now configure unified review and approval email notifications. Workfront has always sent these emails, but until now you couldn't configure them. There are now 18 notifications that are grouped as Unified Approvals and are active by default. Workfront administrators can activate or deactivate them for everyone in Setup, and users can manage them in their profiles.
 
