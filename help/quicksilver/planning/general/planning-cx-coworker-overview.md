@@ -39,6 +39,8 @@ Coworker preserves everything AI Assistant does today while adding more powerful
 
 It operates within your organization's existing product-level access controls, so users can only take actions they're already permitted to in Workfront, with read-only access by default and write access controlled by Workfront administrators.
 
+Coworker uses the Workfront MCP server capabilities to perform actions on your behalf. For information, see [Workfront skills in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md). 
+
 >[!IMPORTANT]
 >
 >Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. 
@@ -155,11 +157,11 @@ You can locate Coworker in the following areas of Workfront Planning:
 
     Locate the **Coworker** icon ![Coworker icon](assets/coworker-icon.png) in the upper-right corner of the page, or continue to the steps below. 
 
-1. Click a **workspace card**. 
-
-1. Click a **record type card**. 
-
-1. Click a **record** to open the record's **Details** page, then click the **Open in new tab** icon ![Open in new tab](assets/open-workspace-on-new-tab-icon.png) .
+1. Do any of the following: 
+  
+  * Click a **workspace card**. 
+  * Click a **record type card**. 
+  * Click a **record** to open the record's **Details** page, then click the **Open in new tab** icon ![Open in new tab](assets/open-workspace-on-new-tab-icon.png) .
 
 1. Click the **Coworker icon** ![Coworker icon](assets/coworker-icon.png) in the upper-right corner of the screen.
 
@@ -169,7 +171,9 @@ You can locate Coworker in the following areas of Workfront Planning:
 
     For example, you may type one of the following:
 
-      * Create a new campaign record called Summer Sale 2026
+      * Create a workspace and name it "Marketing team". 
+      * Create a Campaign and a Personas record type in this workspace.
+      * Create a campaign record called Summer Sale 2026
       * Update the budget field in the Summer Campaign record to $75,000
       * Delete the campaign record named Old Promo
       * Restore the campaign I accidentally deleted
