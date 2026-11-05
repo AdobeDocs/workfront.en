@@ -24,6 +24,12 @@ role_v2:
 
 Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API, rich text is stored as JSON using the open source framework Draft.js.
 
+>[!NOTE]
+>
+>The rich text fields described in this article are the "text with formatting" fields. This field type is no longer available to add to new fields, and existing fields should be converted to the "rich text" field type.
+>&nbsp;
+>Note that the new rich text fields store content as HTML, but they do not store any styles that were applied in the field editor. Removing styling information from storage can help to prevent unexpected UI issues and security vulnerabilities.
+
 ## Overview Example
 
 A custom field with rich-text formatting is called Field with rich text, and can have the following values associated with it:
