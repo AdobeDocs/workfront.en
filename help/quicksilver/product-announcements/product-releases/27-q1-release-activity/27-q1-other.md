@@ -12,6 +12,8 @@ This page describes enhancements made with the First Quarter 2027 release to the
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+<!--
+
 ## Enhanced list button and icon improvements
 
 >[!NOTE]
@@ -23,6 +25,8 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
 
 For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## See the total record count in enhanced lists
 
