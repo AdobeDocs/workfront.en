@@ -120,16 +120,9 @@ For more information about custom statuses and issue types, see the following ar
 * [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 
 * [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
---> 
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not available.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
 
 
 You can manually update issue statuses or you can let Workfront automatically update them when certain actions take place.
@@ -170,11 +163,10 @@ To manually update the issue status in the issue header:
    >
    >  Only issue assignees can update the Commit Date. 
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Conditional) When the status of the issue is **_Not available_**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**.
 
   If you don't see an acceptable status, ask your administrator to create one.
---> 
+
 
 <!--
 Old instructions, in old commenting: 
