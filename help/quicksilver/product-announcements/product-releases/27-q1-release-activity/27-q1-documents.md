@@ -55,6 +55,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 -->
 
+<!--
+
 ## Turn the Approved with changes decision on or off
 
 >[!NOTE]
@@ -69,11 +71,9 @@ The setting lives on the Approval Settings page in Setup, and a live preview on 
 
 For more information, see [Configure the Approved with changes decision](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/configure-approved-with-changes.md).
 
-## Configure unified review and approval email notifications
+-->
 
->[!IMPORTANT]
->
->This feature is temporarily unavailable in the Preview environment.
+## Configure unified review and approval email notifications
 
 
 >[!NOTE]
