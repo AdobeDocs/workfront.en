@@ -21,7 +21,7 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 >Production for everyone: November 4, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
-When a saved issue, task, or project status isn't available for the current object, a warning now explains why and shows the saved status code. "Not applicable" appears as display text only, not as a replacement status. Users with Manage permissions on the object can select another status. Administrators can create another status.
+When a saved issue, task, or project status isn't available for the current object, a warning now explains why and shows the saved status code. "Not available" appears as display text only, not as a replacement status. Users with Manage permissions on the object can select another status. Administrators can create another status.
 
 For more information, see [Update issue status](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md). Updating project and task status is similar to updating issue status.
 
