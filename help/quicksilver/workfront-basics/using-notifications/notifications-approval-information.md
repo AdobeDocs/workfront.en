@@ -5,10 +5,6 @@ title: 'Notifications: Approval information'
 description: The following notifications alert you about approval activities happening on a work item you are involved with. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -25,8 +21,7 @@ The following notifications alert you about approval activities happening on a w
 
 >[!NOTE]
 >
->These notifications apply to legacy document approvals only. Notification controls for unified document approvals are not currently available.
-
+>These notifications apply to legacy document approvals only. For unified approval notifications, see [Notifications: Unified approvals](notifications-unified-approvals.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -74,3 +69,4 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
  </tbody> 
 </table>
+
