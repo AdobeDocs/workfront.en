@@ -215,7 +215,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >The values for dependent connected record fields are limited by the dependency rules between the records. For more information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md). 
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>
    
 1. (Optional and conditional) Click **Fill form** to attach a file and have AI fill out the form for you with information inside the file. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -290,7 +290,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* Editing a request is possible only when a record has not been created yet and the request is awaiting approval. 
    >* Some fields are read-only and you cannot edit them. 
    >* You can no longer edit a request after a record has been created from it. 
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>
    
 1. (Optional) After editing the request, click **Submit changes**.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 

@@ -21,11 +21,10 @@ role_v2:
 
 # Manage dependent connections
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -138,9 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * Dependent fields are supported for all areas where the connected records fields display, including the Details areas of a record or request forms. 
 
-<!--
 * <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
--->
+
 
 ## Create a dependent connection
 
