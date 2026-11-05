@@ -74,8 +74,8 @@ If this is not the case, you can follow the steps below.
 
 1. Do one of the following to download the app:
 
-   * If you are using the Production environment, click [Mac Production Download for the Desktop Proofing Viewer.](https://app.proofhq.com/desktopviewer/mac)
-   * If you are using the Preview environment, click [Mac Preview Download for the Desktop Proofing Viewer.](https://app.preview.proofhq.com/desktopviewer/mac)
+   * If you are using the Production environment, click [ Production Download for the Desktop Proofing Viewer.](https://us.my.workfront.com/proof/desktopviewer)
+   * If you are using the Preview environment, click [ Preview Download for the Desktop Proofing Viewer.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Open the file you have just downloaded to start the installation.
 1. On the installation box that appears, click **Continue**, then click **Install**.
@@ -98,8 +98,8 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 1. Do one of the following to download the app:
 
-   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://app.proofhq.com/desktopviewer/windows)
-   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+  * If you are using the Production environment, click [ Production Download for the Desktop Proofing Viewer.](https://us.my.workfront.com/proof/desktopviewer)
+  * If you are using the Preview environment, click [ Preview Download for the Desktop Proofing Viewer.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, open the file you have just downloaded to start the installation.
