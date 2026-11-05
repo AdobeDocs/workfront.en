@@ -112,7 +112,7 @@ The following table correlates object names in Workfront (as well as their names
 
 >[!NOTE]
 >
->New fields may be added to the object views without advanced notice to support the evolving data needs of the Workfront application. We caution against using "SELECT" queries where the downstream data recipient isn't prepared to handle additional columns as they are added.<br>
+>New fields may be added to the object views without advanced notice to support the evolving data needs of the Workfront application. We caution against using "SELECT *" queries where the downstream data recipient isn't prepared to handle additional columns as they are added.<br>
 >If renaming or removing a column is required, we will provide advance notice of these changes.
 
 ### Access Level
