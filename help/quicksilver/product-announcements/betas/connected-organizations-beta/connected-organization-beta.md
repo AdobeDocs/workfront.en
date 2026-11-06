@@ -1,13 +1,13 @@
 ---
 product-area: betas
-title: Get Started with the Connected organizations Capability
+title: Connected organizations Capability Beta Program
 description: 
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 ---
-# Get started with the Connected organizations capability
+# Connected organizations capability beta program
 
 >[!IMPORTANT]
 >

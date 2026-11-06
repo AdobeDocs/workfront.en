@@ -181,7 +181,7 @@ You can create briefs to either create or edit Planning records or to create fil
     
 1. (Conditional and optional) To open another existing Ideation space, click the drop-down menu to the right of the ideation name, search for it by name, then click the ideation when it displays in the list. 
     
-    The **Ideation space** opens and the CX Coworker opens on the right. 
+    The **Ideation space** opens and Coworker opens on the right. 
 1. Use the Coworker prompt to describe the kind of brief you want to create. 
 
     For example, type "Create a back-to-school campaign for K-12 students to run through the month of August, for parents and teachers in the US".  To make the brief as complete as possible, indicate as much information as you have available for what kind of campaign, the timeline, the stakeholders, approvals checkpoints and other details. 
