@@ -453,6 +453,7 @@ feature-set: Workfront
       * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
+    * {hide-from-toc} [Connected organizations capability beta program](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Canvas Dashboards beta {#canvas-dashboards-beta}
       * [Canvas Dashboards beta information](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc} [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)

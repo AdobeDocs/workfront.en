@@ -51,9 +51,16 @@ The following features are currently available in beta:
 
 <!--
 
-* Adobe Workfront Planning with Catalyze is available in Closed beta.
+* Ideation space for Adobe Workfront Planning is available in Open beta.
 
-    For information, see [Get started with Adobe Workfront Planning with Catalyze](LINK HERE)
+    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+-->
+
+<!--
+
+* The Connected organizations capability is available in closed beta 
+
+    For information, see [Connected organizations capability beta program](/help/quicksilver/product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
 -->
 
 <!--
