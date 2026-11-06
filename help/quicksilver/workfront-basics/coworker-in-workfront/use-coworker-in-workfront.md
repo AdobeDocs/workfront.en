@@ -86,3 +86,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Enterprise Coworker documentation.
 1. To expand the Coworker panel, click the Expand icon ![Expand icon](assets/coworker-expand-icon.png).
 1. To go into the Adobe CX Enterprise Coworker interface, click the Apps icon ![Apps icon](assets/apps-icon.png) at the upper-right corner of the page and select Coworker from the list of available apps.
+
