@@ -165,7 +165,7 @@ To manually update the issue status in the issue header:
 
 1. (Conditional) When the status of the issue is **_Not available_**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
+    If you don't see an acceptable status, ask your administrator to create one.
 
 
 <!--

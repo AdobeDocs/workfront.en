@@ -57,6 +57,22 @@ This skill queries and manages Workfront Planning objects such as:
 * Business rules
 -->
 
+<!--
+
+### Ideation space skills
+
+Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+
+* Thing 1
+* Thing 2
+* Other thing
+
+For more information about Ideation Space, see []().
+
+-->
+
+## Workfront skills
+
 ### Manage Workfront Objects
 
 Name: `manage-workfront-objects`

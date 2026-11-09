@@ -20,9 +20,30 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>
+>The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
 
-<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 You can copy Workfront Planning workspaces, record types, fields, and views from one Workfront environment to another using Environment Promotion capabilities. 
 
@@ -73,7 +94,7 @@ Using Environment Promotion with Planning is similar to using it for Workfront. 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
 <p>Prime or Ultimate Workflow package with a Prime or Ultimate Planning package</p>
-<p>Prime or Ultimate Planning package when purchased as a standalone product</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 
