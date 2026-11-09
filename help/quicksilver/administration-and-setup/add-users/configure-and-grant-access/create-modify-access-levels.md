@@ -230,10 +230,34 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Never allow users to delete announcements</td> 
       <td>Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a>.</td> 
      </tr> 
+
+    <tr>
+      <td role="rowheader">Disable the CX Coworker panel in Workfront</td> 
+      <td>
+      <p>Select this setting to allow users to access the Coworker panel.</p> 
+      <p>This is selected by default.</p>
+      <p>For more information, see <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Use CX Enterprise Coworker in Workfront</a>.</p>
+      <p><b>NOTE:</b></p>
+      <p>Not all customers have access to Coworkere.</p>
+      </td> 
+     </tr>
+    
      <tr>
       <td role="rowheader">Allow users to access Brands</td> 
       <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
      </tr>
+    <!--
+    <tr>
+      <td role="rowheader">Disable Ideation space</td> 
+      <td>
+      <p>Select this setting to allow users to access Ideation space.</p> 
+      <p>This is selected by default.</p>
+      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
+      <p><b>NOTE:</b></p>
+      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      </td> 
+     </tr>
+    -->
     </tbody> 
    </table>
 

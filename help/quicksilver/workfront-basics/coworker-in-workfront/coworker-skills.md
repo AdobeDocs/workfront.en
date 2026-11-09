@@ -53,9 +53,7 @@ This skill queries and manages Workfront Planning objects such as:
 * Fields
 * Views
 * Records
-<!--
 * Business rules
--->
 
 <!--
 
@@ -67,7 +65,7 @@ Coworker has a variety of skills to work with Workfront Planning Ideation space.
 * Thing 2
 * Other thing
 
-For more information about Ideation Space, see []().
+For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 -->
 
