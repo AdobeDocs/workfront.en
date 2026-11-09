@@ -19,6 +19,8 @@ role_v2:
 ---
 # Be an [!DNL Android] beta tester
 
+{{mobile-maintenance-mode}}
+
 ## Download the beta app
 
 There are a couple of ways to become a beta tester for the [!DNL Adobe Workfront] app:

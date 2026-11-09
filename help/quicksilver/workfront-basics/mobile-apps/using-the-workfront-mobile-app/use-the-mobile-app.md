@@ -20,6 +20,8 @@ role_v2:
 ---
 # Use the [!DNL Adobe Workfront] mobile app: article index
 
+{{mobile-maintenance-mode}}
+
 <!-- Audited: 2/2024 -->
 
 Accelerate engagement and streamline work for teams and individuals in your organization through [!DNL Adobe Workfront's] mobile app, available on any iOS or Android device. With the app, you can:

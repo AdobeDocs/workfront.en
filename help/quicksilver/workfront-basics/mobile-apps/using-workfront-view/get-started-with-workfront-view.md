@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Get started with [!DNL Adobe Workfront View]
 
+{{mobile-maintenance-mode}}
+
 You can keep track of the progress on your projects when you are on the go by using the [!DNL Adobe Workfront View] mobile app.
 
 [!DNL Workfront View] is a reporting tool. You cannot make changes or complete work using the [!DNL Workfront View] app. You can only view the status of your projects. It is intended for Project or Portfolio Managers, and other project stakeholders to connect to a high level interface for monitoring their projects.

@@ -19,6 +19,8 @@ role_v2:
 ---
 # Configure [!DNL Adobe Workfront] for [!DNL MobileIron]
 
+{{mobile-maintenance-mode}}
+
 In the Adobe Workfront for [!DNL MobileIron] app, we support default configurations provided by [!DNL MobileIron] for both [!DNL Android] and [!DNL iOS].
 
 ## Android

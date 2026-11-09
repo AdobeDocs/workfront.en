@@ -19,6 +19,8 @@ role_v2:
 ---
 # [!UICONTROL My Work] section in the mobile app
 
+{{mobile-maintenance-mode}}
+
 The [!UICONTROL My Work] section of the [!UICONTROL Home] area displays your tasks, issues, projects, approvals, requests, and timesheets.
 
 >[!NOTE]

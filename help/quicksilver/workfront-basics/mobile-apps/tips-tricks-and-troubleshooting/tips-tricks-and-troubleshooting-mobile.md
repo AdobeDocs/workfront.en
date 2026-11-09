@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront] Mobile Apps
 
+{{mobile-maintenance-mode}}
+
 This section contains the following articles:
 
 * [Error Message on the [!DNL Adobe Workfront] Mobile App: "[!UICONTROL Your account is not API enabled.]"](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
