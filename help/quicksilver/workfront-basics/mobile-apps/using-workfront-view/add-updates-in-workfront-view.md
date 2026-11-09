@@ -27,6 +27,8 @@ topic_v2:
 ---
 # Add updates in [!DNL Adobe Workfront View]
 
+{{mobile-maintenance-mode}}
+
 You can review and add updates to projects you are reviewing in the [!DNL Adobe Workfront View] app.
 
 You cannot add updates to tasks or issues in [!DNL Workfront View].

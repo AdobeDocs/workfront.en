@@ -23,6 +23,8 @@ topic_v2:
 ---
 # [!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)
 
+{{mobile-maintenance-mode}}
+
 Adobe [!DNL Workfront] has partnered with a few [!DNL Mobile Device Management] (MDM) platforms to provide organizations a more secure and controlled mobile experience. The [!DNL Workfront] mobile app is available on the following mobile device management platforms:
 
 ## MobileIron

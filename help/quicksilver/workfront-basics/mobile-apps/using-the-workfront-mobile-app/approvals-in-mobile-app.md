@@ -19,6 +19,12 @@ role_v2:
 ---
 # Approvals in the [!DNL Adobe Workfront] mobile app
 
+>[!IMPORTANT]
+>
+>The Workfront mobile app is in maintenance mode and no longer undergoing new development.
+>&nbsp;
+>Unified Approvals are not supported in the Workfront mobile app.
+
 You can manage approvals assigned or delegated to you from the [!UICONTROL Approvals] area in the [!DNL Adobe Workfront] mobile app. From the [!UICONTROL approvals] area, you can approve:
 
 <table style="table-layout:auto"> 

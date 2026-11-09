@@ -357,6 +357,12 @@ OLD:
 
 1. Open the document proof and select the **[!UICONTROL More]** menu ![More menu](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **[!UICONTROL More]**.
 
+## Mobile - no new development {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>The Workfront mobile app is in maintenance mode and no longer undergoing new development.
+
 <!-- My Updates -->
 
 ## Step 1 - Getting to My Updates - {#step1-to-my-updates}
