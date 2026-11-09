@@ -126,6 +126,10 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 
+## Boards - maintenance mode {#boards-maintenance-mode}
+
+Workfront Boards is currently not undergoing new development.
+
 <!-- Blueprints -->
 
 ## Step 1 - Getting to Blueprints - {#step1-to-blueprints}

@@ -29,6 +29,8 @@ role_v2:
 
 <!--Audited: 12/2023-->
 
+{{boards-maintenance-mode}}
+
 These videos will introduce you to the different types of boards available in Adobe Workfront, and show examples of how you can use boards in your daily work.
 
 ## Types of boards

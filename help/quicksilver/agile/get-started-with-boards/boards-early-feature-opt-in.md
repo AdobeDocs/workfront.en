@@ -30,6 +30,8 @@ topic_v2:
 ---
 # Early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]
 
+{{boards-maintenance-mode}}
+
 The early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards] was launched in July 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.

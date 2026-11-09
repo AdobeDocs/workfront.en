@@ -30,6 +30,8 @@ topic_v2:
 ---
 # Manage the [!UICONTROL Work in Progress] (WIP) limit on a board
 
+{{boards-maintenance-mode}}
+
 You can configure a [!UICONTROL Work In Progress] (WIP) limit for each column on a board.
 
 The WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
