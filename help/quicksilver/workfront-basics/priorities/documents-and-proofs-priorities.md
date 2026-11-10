@@ -109,6 +109,28 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**.
 
+## Upload a document to an Adobe cloud storage project
+
+You cannot upload documents directly to a task or issue on an Adobe cloud storage project. Instead, upload the document to the project from the **Project** tab.
+
+{{step1-to-priorities}}
+
+1. In the worklist, hover over the work name, then click the **Summary** icon ![open summary icon](assets/summary-icon.png).
+1. In the summary panel, click the **Project** tab.
+1. Click the **Upload File** icon ![Upload file icon](assets/upload-file-icon.png).
+1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
+
+   or
+
+   Click **Add files** to browse files or import files from a Document Cloud provider.
+1. (Optional) Add a comment.
+1. (Optional) Add more files.
+
+    >[!NOTE]
+    >
+    >Additional files are uploaded as separate documents. 
+1. Click **Upload**.
+
 
 ## Create a simple or advanced proof
 
