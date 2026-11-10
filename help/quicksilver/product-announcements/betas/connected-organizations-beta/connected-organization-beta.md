@@ -94,12 +94,185 @@ The first phase of the beta program allows you to connect the two instances and 
 | **Request acceptance**            | Once both sides agree, the provider accepts the request and the client can see that it has been accepted.                                                                                                                                                                                                                                   |
 | **AI-drafted status updates**     | When a requestor asks for status in a comment, the provider can use AI commands to quickly and consistently generate a draft reply. <br> The draft includes information from the  objects connected to the request, such as Planned Completion date, Condition, and hours logged against Planned Hours. <br> It is a summary of the most important information, not a field-by-field export. A person reviews and edits it before sending a response to the client. |
 
+## Participate in the beta
+
+Talk with your Adobe beta program manager to participate in the beta. 
+
+### What we ask of participants
+
+  * Join a weekly feedback call.
+
+  * Set aside about one hour per week for hands-on testing on your own. Live working sessions on the call are an option.
+
+  * Bring both the partners' perspectives to the meetings, where possible.
+
+  * Identify the Workfront environments to connect, and provision admin accounts for a small number of Adobe engineers so they can validate the connection.
+
+### What we want to learn
+
+  * Is mirroring an object and syncing only selected data the right sharing model? Is it flexible enough for each side?
+
+  * Is the phase sequencing right, or should a later capability come sooner?
+
+  * What touchpoints are missing from the collaboration?
+
+  * How should field naming and mapping work between the two instances? 
+  
+    Today, the form and request are owned by the client, and the provider sees them read-only with the client's field names.
+
+  * What does IT need to approve and administer a connection?
+
 ## End-to-end workflow
 
-This section describes the workflow for two parties engaged in this integration, after their respected organizations' Workfront instances have been connected. 
+This section describes the workflow for two parties engaged in this integration.
 
 We are using a client and provider workflow as examples. 
 
+The workflow includes the following steps:
+
+1. [Create an instance connection](#1-create-an-instance-connection)
+1. [Acknowledge the connection](#2-acknowledge-the-connection)
+1. [Share a request form with the connected organization](#3-share-a-request-form-with-the-connected-organization)
+1. [Submit a request](#4-submit-a-request)
+1. [Review the request and create a project](#5-review-the-request-and-create-a-project)
+1. [Collaborate in the cross-company conversation](#6-collaborate-in-the-cross-company-conversation)
+
+### Before you begin
+
+* You must be a System administrator with full access to the **Setup** area in both instances.
+* The requesting instance needs the unique customer **GUID** of the receiving instance.
+* The form you want to share must be published.
+
+### 1. Create an instance connection
+
+Set up the following in the requesting instance (the client):
+
+1. Log in to the client's environment, and go to **Setup** > **Instance connections**. The page lists all connections and is empty if none exist yet.
+1. Click **Create connection**.
+1. In the **Create connection** box, add the **Receiving instance GUID**. It is a required field.
+1. (Optional) Set an **Expiration date**. The connection stops working after this date.
+1. Click **Create connection**.
+  
+    The new connection displays in the list of connections with the status **Pending**.
+1. Select the new connection, to see its details.
+
+    >[!TIP]
+    >
+    >A pending connection shares nothing. The receiving instance must acknowledge it first.
+
+
+### 2. Acknowledge the connection
+
+Set up the following in the receiving instance (the provider):
+
+1. Log in to the provider's instance and go to **Main Menu** > **Setup** > **Instance connections**.
+1. Click the name to open the connection from the receiving instance. A banner displays the following message: **An instance wants to connect to yours. Choose at least one eligible recipient, then acknowledge the connection. Nothing is shared until you do.**
+1. Under **Eligible recipients**, open the **Search groups and users** list and choose who can receive work from the requesting instance. You can pick groups and individual users. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Click **Acknowledge** to accept the connection, or click one of the following:
+
+    * **Decline** to refuse the connection.
+    * **Close** to leave it pending.
+
+    A "Changes saved" message appears, and the connection status changes to **Active**. The list now shows the eligible recipients, the created date, and the expiration date.
+
+    >[!TIP]
+    >
+    >**Acknowledge** stays dimmed until you choose at least one eligible recipient.
+
+### 3. Share a request form from the requesting organization
+
+From the the client's Workfront instance: 
+
+1. Go to **Main Menu** > **Requests** and click **Request forms**.
+1. Open the published form you want to share. 
+1. Click **Share**. 
+
+    Notice the following tabs inside the **Share** box:
+    
+    * **Internal sharing**
+    * **Public sharing**
+    * **Connected organizations**
+1. Open the **Connected organizations** tab.
+1. In the **Organization** field, select the connected provider's instance.
+1. In the **Users and groups** field, choose who in that organization can use the form. Add users and groups. 
+1. Click **Save**.
+
+  A **Your changes are successfully saved** message confirms the share. <!--need to submit a UI text change - remove "successfully"-->
+
+### 4. Submit a request 
+
+As a user in the client's instance, submit a request by doing the following: 
+
+1. Log in the client's Workfront instance, and go to **Main Menu** > **Requests**. 
+
+    The **Submit a new request** page lists recent forms, including the one you just shared.
+    
+    A note at the top displays **Cross-company request: Requests submitted with this form are visible to the connected organization.**
+1. Fill in the form manually, or use **Fill form** to have AI do it for you. 
+1. (Optional) To use Fill form, do the following: 
+
+   1. Click **Fill form**.
+   1. Describe your request, paste a related email, or click **Attach files** to upload a file. AI finds the relevant details and applies them to the form.
+   1. Click **Apply to form**. A progress bar shows **Filling your form** while field values are generated. 
+   1. To skip the AI step, click **Skip**.
+1. Review the generated values and edit anything that needs changing.
+1. Click **Submit** to submit the request.
+
+    A **Request submitted successfully** message displays with a **View your request** link. 
+    
+    The new request is added to the request list with the form name and a status of **New**.
+
+    >[!TIP]
+    >
+    >AI responses can be inaccurate. Always double-check the filled values before you submit.
+
+### 5. Review the request and create a project
+
+1. Log in the provider's Workfront instance and go to **Main Menu** > **Requests**. 
+
+  The incoming request displays in the list. 
+  
+  The **Type** of the request is marked as **External: < name of the client's instance >**, which marks it as coming from the connected organization.
+
+1. Open the request. A **Shared with: < name of the client's instance >** badge displays next to the title, and the comments panel shows the following **Cross-company conversation** notice: **This discussion is visible to < name of the client's organization >.**
+1. Review the request information and the form answers. 
+1. Click the **More** menu to the right of the request name, then **Create object**. 
+1. In the **Create object** dialog, update the following fields:
+   * **Action**: Select an action from the menu. For example, **Create a single project**
+   * **Project template**: Select an available template. 
+   * **Project owner**: Add a project owner. 
+   * **Module**: Choose an product where the object will display. If you choose **Workflow**, a project is created in provider's instance of Workfront. 
+   * **Custom forms**: Attach custom forms, if needed.
+   * **Portfolio** and **Program**: Add portfolios or programs for the new project. 
+1. Click **Create**.
+
+    The request in the provider's instance now links to the new project, and the request's status changes to **In Progress**. The requesting instance of the client sees the status change on its own copy of the request.
+
+### 6. Collaborate in the cross-company conversation
+
+Users in both organizations can comment on their respective requests. The **Cross-company conversation** banner is a reminder that everything written here is visible to the other organization.
+
+Do one of the following: 
+
+1. To ask for an update from the client's instance: 
+
+    1. Open the request and go to the **Comments** panel.
+    1. Click **New comment**, type your message, and click **Submit**.
+
+1. To update the request from the provider's instance: 
+
+    1. Open the request. The new comment is highlighted with a **New** label.
+    1. Click **Reply**, write the response, and click **Submit**. 
+
+1. To follow up from the client's instance: 
+
+    1. Open the request. The provider's reply appears under the original comment.
+    1. Click **Like** to acknowledge it, or **Add reply** to continue the discussion.
+
+
+
+
+<!--
 ### Client's workflow
 
 As a requestor in the client's organization, you can do the following:  
@@ -125,6 +298,7 @@ As a work manager in the provider's organization, do the following:
 5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
 
     From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Security and governance
 
@@ -189,33 +363,7 @@ The phases below describe our current development and release plan. Sequencing m
 </tbody>
 </table>
 
-## Participate in the beta
 
-Talk with your Adobe beta program manager to participate in the beta. 
-
-### What we ask of participants
-
-  * Join a weekly feedback call.
-
-  * Set aside about one hour per week for hands-on testing on your own. Live working sessions on the call are an option.
-
-  * Bring both the partners' perspectives to the meetings, where possible.
-
-  * Identify the Workfront environments to connect, and provision admin accounts for a small number of Adobe engineers so they can validate the connection.
-
-### What we want to learn
-
-  * Is mirroring an object and syncing only selected data the right sharing model? Is it flexible enough for each side?
-
-  * Is the phase sequencing right, or should a later capability come sooner?
-
-  * What touchpoints are missing from the collaboration?
-
-  * How should field naming and mapping work between the two instances? 
-  
-    Today, the form and request are owned by the client, and the provider sees them read-only with the client's field names.
-
-  * What does IT need to approve and administer a connection?
 
 
 
