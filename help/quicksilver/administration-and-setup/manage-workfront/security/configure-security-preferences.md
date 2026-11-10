@@ -98,26 +98,26 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Enable fast release process</p> </td> 
-      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>Allow embedding of Workfront in an iframe</p> </td> 
-      <td>Lets you embed Workfront in an iframe.<p>This option is disabled by default.</p><p><b>IMPORTANT</b>: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Allow SAML 2.0 authentication in Office 365 add-ins</td> 
-      <td> <p>Lets you embed Workfront in an iframe only for Office 365 add-ins when Workfront is integrated with a SAML 2.0 single sign-on solution. </p> <p>This option is enabled by default.</p> <p><b>NOTE</b>:  If you enable the option above, <strong>Allow embedding of Workfront in an iframe</strong>, the option <strong>Allow SAML 2.0 authentication in Office 365 add-ins</strong> is enabled and dimmed.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 
-      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. It is recommended to use OAuth for integrations instead.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Let people use Workfront's mobile applications</td> 
-      <td> <p>Allows users to access the mobile apps (Workfront View for iPad and mobile phone apps)</p> <p>This option is enabled by default. </p> <p>For information about Workfront View, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. For more information about the mobile apps, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Use the Adobe Workfront mobile app: article index</a>.</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>Enable fast release process</p> </td> 
+         <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>Allow embedding of Workfront in an iframe</p> </td> 
+         <td>Lets you embed Workfront in an iframe.<p>This option is disabled by default.</p><p><b>IMPORTANT</b>: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Allow SAML 2.0 authentication in Office 365 add-ins</td> 
+         <td> <p>Lets you embed Workfront in an iframe only for Office 365 add-ins when Workfront is integrated with a SAML 2.0 single sign-on solution. </p> <p>This option is enabled by default.</p> <p><b>NOTE</b>:  If you enable the option above, <strong>Allow embedding of Workfront in an iframe</strong>, the option <strong>Allow SAML 2.0 authentication in Office 365 add-ins</strong> is enabled and dimmed.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 
+         <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. It is recommended to use OAuth for integrations instead.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Let people use Workfront's mobile applications</td> 
+         <td> <p>Allows users to access the mobile apps (Workfront View for iPad and mobile phone apps)</p> <p>This option is enabled by default. </p> <p>For information about Workfront View, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. For more information about the mobile apps, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Use the Adobe Workfront mobile app: article index</a>.</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>Collaborate with people without Workfront accounts by using email addresses</p> </td> 
       <td>Allows Workfront users to share certain items with people without a Workfront account by including their email address instead of their name. Users can share the following items with external users by using their email address:
        <ul>
@@ -192,7 +192,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     <tr> 
       <td role="rowheader">Planning Designer</td> 
       <td>This is available only to customers who have purchased a Workfront Planning package. Turning on this setting allows your users to create and edit workspaces using the Planning Designer. For information, see <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Get started with the Adobe Workfront Planning Designer</a>.</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Read-only MCP tools</td> 
