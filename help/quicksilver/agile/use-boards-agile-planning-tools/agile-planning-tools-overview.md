@@ -27,6 +27,8 @@ role_v2:
 
 <!-- Audited: 5/2025 -->
 
+{{boards-workstreams}}
+
 As you create a board using ad hoc and connected cards, you can take advantage of additional Agile planning tools.
 
 Tools useful for Kanban include:
@@ -40,10 +42,6 @@ Tools useful for Scrum include:
 * Workstreams and iteration boards
 * Card list or backlog
 * Iteration metrics
-
->[!IMPORTANT]
->
->Workstreams and their related tools are only available to a specific group of customers.
 
 You can use any or all of these tools in a way that works for you and your team, without committing to a specific Agile methodology.
 

@@ -128,7 +128,21 @@ You can make sure you are associating the right group with the team by hovering 
 
 ## Boards - maintenance mode {#boards-maintenance-mode}
 
-Workfront Boards is currently not undergoing new development.
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+
+## Boards - workstreams not available {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+>&nbsp;
+>The workstreams feature in Boards was deprecated, but it remains available for customers who were already using it.
+>
+>* It is recommended to move away from using workstreams because they are no longer supported.
+>* If you do not have a Workstreams tab on the boards dashboard, you cannot add workstreams.
+>* If you have access to workstreams, you can add new workstreams and manage existing workstreams. If you archive or delete a workstream, you cannot recover it. If you have one remaining workstream and you archive or delete it, then workstreams are fully deprecated for your Workfront instance and you cannot add new workstreams.
 
 <!-- Blueprints -->
 

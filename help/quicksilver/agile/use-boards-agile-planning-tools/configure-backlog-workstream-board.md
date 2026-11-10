@@ -30,9 +30,7 @@ topic_v2:
 ---
 # Configure the backlog on a workstream board
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
 
