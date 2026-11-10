@@ -87,7 +87,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a project preference.
-1. In the left panel, click **Project Preferences** or **Tasks & Issues Preferences**.
+1. On the left, click **Project Preferences** or **Tasks & Issues Preferences**.
 
 1. On the page that appears, do any of the following for a preference that is unlocked at the system level or for a group above your group:
 
