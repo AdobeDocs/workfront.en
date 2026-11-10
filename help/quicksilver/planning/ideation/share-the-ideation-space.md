@@ -29,12 +29,10 @@ role_v2:
 
 <span class="preview">For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
-</span>
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>The information in this article refers to functionality available only for Workfront customers who also have Adobe Workfront Planning. Your company must purchase an additional Planning package.
 >
 >The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
 >
@@ -91,29 +89,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud provider requirements</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTE:</b></p>
+   <p>No other cloud providers are supported</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront or Workflow with a Planning package</p></li>
+<li><p>Any Workflow with a Planning package</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>System requirements</p></td> 
+   <td><p>Coworker & MCP preferences settings in your System Preferences in the Setup area must be turned on</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -123,24 +133,28 @@ Or
    <td role="rowheader"><p>Adobe Planning license</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
    <ul>
-   <li><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   </li>
+   <li><p>You must add both a Workflow and a Planning license type to the access level <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>The Disable Ideation space setting in your access level must be deselected</p></li>
+   <li><p>The Disable the CX Coworker panel in Workfront setting in your access level must be deselected</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-      <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
-      <p>Editor permissions on the Ideation space of a brief to create briefs</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>

@@ -125,7 +125,7 @@ Or
 
 * When creating, updating, or deleting an object through Coworker, Coworker displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. 
 
-## Functionality currently available for Coworker
+## Functionality currently available for Coworker in Workfront Planning
 
 Currently, Coworker is available in the Planning area of Workfront and it uses a set of skills to access and manipulate information for Planning objects. For more information, see [Workfront skills in CX Enterprise Coworker ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md). 
 
@@ -133,14 +133,16 @@ You can use Coworker to perform the following actions:
 
 * Search for records. You can search by information contained in any record fields. 
 * Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
-* Create records based on a document that you upload. Workfront supports the following document formats for the Coworker:
+* Create records based on a document that you upload. Workfront supports the following document formats to attach to Coworker:
 
     PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
 * Update fields for the records you see on the screen
 * Delete, duplicate, or restore records
 * Link records to other records
 * View a record's change history
-* Import 10,000 or more records by attaching an Excel file to Coworker. 
+* Import 10,000 or more records by attaching an Excel file to Coworker
+* Create and manage business rules
+
 
 ## Locate Coworker in Workfront Planning
 

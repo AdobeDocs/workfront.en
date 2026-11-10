@@ -28,12 +28,10 @@ role_v2:
 
 <span class="preview">For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
-</span>
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>The information in this article refers to functionality available only for Workfront customers who also have Adobe Workfront Planning. Your company must purchase an additional Planning package.
 >
 >The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
 >
@@ -87,12 +85,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud provider requirements</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTE:</b></p>
+   <p>No other cloud providers are supported</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront or Workflow with a Planning package</p></li>
+<li><p>Any Workflow with a Planning package</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -110,6 +115,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>System requirements</p></td> 
+   <td><p>Coworker & MCP preferences settings in your System Preferences in the Setup area must be turned on</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -124,8 +134,9 @@ Or
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
    <ul>
-   <li><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   </li>
+   <li><p>You must add both a Workflow and a Planning license type to the access level <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>The Disable Ideation space setting in your access level must be deselected</p></li>
+   <li><p>The Disable the CX Coworker panel in Workfront setting in your access level must be deselected</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -296,25 +307,29 @@ There are controls for the Ideation space that configure what you see on the scr
     -->
 1. Click **Save**. 
 
-1. Click the the **zoom level** drop-down icon to the left of the **Help** icon or the **Help** icon ![Help icon](assets/more-information-icon.png) to select an option or review the keyboard shortcuts that you can use to navigate the ideation space or select a different zoom value. 
+1. Click the the **zoom level** dropdown menu to the left of the **Help** icon ![Help icon](assets/more-information-icon.png) to select an option. 
 
-    Choose from the following zoom levels:
+    Choose from the following options:
     
-    * Zoom to 100%
-    * Zoom to 200%
-    * Zoom to fit
+    * **Zoom to fit**
+    * **Zoom in**
+    * **Zoom out**
+    * Zoom to **50**, **100**, **150**, or **200%**
+    * **Show dot grid**: Turn on selection to display dot grid. 
+    * **Product tour**: Turn off selection to opt out of guiding hints while using Ideation space.
 
-    Or use one of the following shortcuts to navigate on the page: 
+1. Click the **Help** icon ![Help icon](assets/more-information-icon.png) to review the keyboard shortcuts that you can use to navigate the ideation space or select a different zoom value: 
 
-    | Action | Shortcut |
-    | --- | --- |
-    | Zoom in / out | Ctrl/⌘ + / − |
-    | Zoom to fit / fit selection | — |
-    | Zoom to cursor | Ctrl/⌘ + scroll |
-    | Pan the canvas | Hold Space + drag |
-    | Show/hide dot grid | G |
-
-
+| Action | Shortcut |
+| --- | --- |
+| Zoom in / out | Ctrl/⌘ + / − |
+| Zoom to 100% / | Ctrl/⌘ 1 / 1 |
+| Zoom to 200% / | Ctrl/⌘ 2 / 2 |
+| Zoom to fit | Ctrl/⌘ 0 / 0 |
+| Zoom to fit selection | Alt Ctrl 0 |
+| Zoom to cursor | Ctrl/⌘ scroll |
+| Pan | Hold Space drag |
+| Show/hide dot grid | G |
 
 <!--
 
