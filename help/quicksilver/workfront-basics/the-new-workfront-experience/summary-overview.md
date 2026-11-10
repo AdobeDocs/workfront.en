@@ -20,14 +20,6 @@ role_v2:
 ---
 # [!UICONTROL Summary] overview
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
-
 You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks, issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
 Your Workfront or group administrator can modify the areas and the fields that display in the Summary panel. They can add up to 16 fields to the Summary panel. 
@@ -115,19 +107,15 @@ For information about accessing the [!UICONTROL Summary] for documents, see [[!U
 ## View the [!UICONTROL Summary] panel in a list of tasks or issues
 
 1. Go to a task or issue and select an item in the list.
-1. Click the **[!UICONTROL Summary]** icon ![Summary in new toolbar](assets/qs-summary-in-new-toolbar-small.png)
-
-   or
-
-   Click the **[!UICONTROL Open Summary]** icon ![Open Summary with text](assets/open-summary-with-text-nwe.png) in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area.
-
-   After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
+1. Click the **[!UICONTROL Open Summary]** icon ![Summary in new toolbar](assets/qs-summary-in-new-toolbar-small.png). After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
 
    >[!TIP]
    >
    >You can only select one task or one issue at a time to view their details in the [!UICONTROL Summary] panel.
 
    ![Summary panel](assets/summary-panel-for-task-new-comments.png)
+
+   <!--![Summary panel](assets/summary-panel.png)-->
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
@@ -151,11 +139,19 @@ When you drag and drop the bubble in the Summary panel, the Percent Complete upd
 
 ![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)
 
+<span class="preview">In preview:
+![Percent complete in Summary panel](assets/percent-complete.png)
+</span>
+
 ## [!UICONTROL Updates]
 
 Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
 ![Updates section in Summary panel](assets/summary-updates-section.png)
+
+<span class="preview">In preview:
+![Updates section in Summary panel](assets/updates.png)
+</span>
 
 ## [!UICONTROL Documents]
 
