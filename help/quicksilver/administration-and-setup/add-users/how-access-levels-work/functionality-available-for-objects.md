@@ -56,38 +56,38 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 ## Projects
 
-| Action                       | Standard | Light  | Contributor | External user |
-|------------------------------|----------|--------|-------------|---------------|
-| Create                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Copy                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide            | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Add a custom form            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | ✓           | &nbsp;        |
-| Add issue                    | ✓        | ✓      | ✓           | &nbsp;        |
-| Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Give updates/comments        | ✓        | ✓      | ✓           | &nbsp;        |
-| Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Manage finance               | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add/edit expenses            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Attach a rate card           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Attach templates             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Save as a template           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add/edit a business case     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit project details         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit staffing                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Export to MS Project         | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Recalculate finance/timeline | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Set queue properties         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Copy | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Add a custom form | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Update custom fields | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add an approval process | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Approve a project | ✓ | ✓ | &nbsp; | &nbsp; |
+| Add document | ✓ | ✓ | ✓ | &nbsp; |
+| Add issue | ✓ | ✓ | ✓ | &nbsp; |
+| Add tasks | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Give updates/comments | ✓ | ✓ | ✓ | &nbsp; |
+| Change status | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Log hours | ✓ | ✓ | &nbsp; | &nbsp; |
+| Edit assignments | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Manage a baseline | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Manage risks | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Manage finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add/edit expenses | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Attach a rate card | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Attach templates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Save as a template | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add/edit a business case | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit project details | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit staffing | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Export to MS Project | ✓ | ✓ | &nbsp; | &nbsp; |
+| Recalculate finance/timeline | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Set queue properties | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -95,31 +95,31 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 ## Tasks
 
-| Action                         | Standard | Light  | Contributor | External user |
-|--------------------------------|----------|--------|-------------|---------------|
-| Create                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                          | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide              | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                           | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Add predecessors               | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add issues                     | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Edit a task (excluding status) | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Change task status             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                  | ✓        | ✓      | ✓           | &nbsp;        |
-| Copy a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Move a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                      | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Accept an assignment           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make an assignment             | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Attach a custom form           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit custom fields             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Create an approval process     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve a task                 | ✓        | ✓      | ✓           | &nbsp;        |
-| Edit finances                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add/edit expenses              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add updates/comments           | ✓        | ✓      | ✓      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Add predecessors | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add issues | ✓ | ✓ | &nbsp; | &nbsp; |
+| Edit a task (excluding status) | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Change task status | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add documents | ✓ | ✓ | ✓ | &nbsp; |
+| Copy a task | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Move a task | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Log hours | ✓ | ✓ | &nbsp; | &nbsp; |
+| Accept an assignment | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Make an assignment | ✓ | ✓ | &nbsp; | &nbsp; |
+| Attach a custom form | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit custom fields | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create an approval process | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Approve a task | ✓ | ✓ | ✓ | &nbsp; |
+| Edit finances | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add/edit expenses | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View finance | ✓ | ✓ | &nbsp; | &nbsp; |
+| Add updates/comments | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -127,27 +127,27 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 ## Issues
 
-| Action                        | Standard | Light  | Contributor | External user |
-|-------------------------------|----------|--------|-------------|---------------|
-| Create                        | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Edit                          | ✓        | ✓      | ✓           | &nbsp;        |
-| Delete                        | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Share                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Share system-wide             | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                          | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Attach custom forms           | ✓        | ✓      | ✓           | &nbsp;        |
-| Edit custom fields            | ✓        | ✓      | ✓           | &nbsp;        |
-| Approve issues                | ✓        | ✓      | ✓           | &nbsp;        |
-| Add an approval process       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                 | ✓        | ✓      | ✓           | &nbsp;        |
-| Copy issues                   | ✓        | ✓      | ✓           | &nbsp;        |
-| Move issues                   | ✓        | ✓      | ✓           | &nbsp;        |
-| Log hours                     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Convert an issue to a project | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Convert an issue to a to task | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Accept assignments            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make assignments              | ✓        | ✓ | ✓     | &nbsp;        |
-| Add updates and comments      | ✓        | ✓      | ✓           | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Edit | ✓ | ✓ | ✓ | &nbsp; |
+| Delete | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Share | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Attach custom forms | ✓ | ✓ | ✓ | &nbsp; |
+| Edit custom fields | ✓ | ✓ | ✓ | &nbsp; |
+| Approve issues | ✓ | ✓ | ✓ | &nbsp; |
+| Add an approval process | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add documents | ✓ | ✓ | ✓ | &nbsp; |
+| Copy issues | ✓ | ✓ | ✓ | &nbsp; |
+| Move issues | ✓ | ✓ | ✓ | &nbsp; |
+| Log hours | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Convert an issue to a project | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Convert an issue to a to task | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Accept assignments | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Make assignments | ✓ | ✓ | ✓ | &nbsp; |
+| Add updates and comments | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -157,21 +157,21 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 Only users with a Standard license can have full access to portfolios. 
 
-| Action                   | Standard | Light  | Contributor | External user |
-|--------------------------|----------|--------|-------------|---------------|
-| Create                   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                    | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                     | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Edit details             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Attach custom forms      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit custom fields       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add and remove projects  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve projects         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Portfolio optimization   | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents            | ✓        | ✓      | ✓          | &nbsp;        |
-| Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Edit details | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Attach custom forms | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit custom fields | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add and remove projects | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Approve projects | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Portfolio optimization | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add documents | ✓ | ✓ | ✓ | &nbsp; |
+| Add updates and comments | ✓ | ✓ | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -181,21 +181,21 @@ Only users with a Standard license can have full access to portfolios.
 
 Only users with a Standard license can have full access to programs. 
 
-| Action                       | Standard | Light  | Contributor | External user |
-|------------------------------|----------|--------|-------------|---------------|
-| Create                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide            | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Edit details                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Attach custom forms          | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit custom fields           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add and remove projects      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve projects             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Portfolio Optimization       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                | ✓        | ✓      | ✓           | &nbsp;        |
-| Add Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Edit details | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Attach custom forms | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit custom fields | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add and remove projects | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Approve projects | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Portfolio Optimization | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Add documents | ✓ | ✓ | ✓ | &nbsp; |
+| Add Add updates and comments | ✓ | ✓ | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -205,17 +205,17 @@ Only users with a Standard license can have full access to programs.
 
 Users with a Standard license can have full access to reports. All other Access Levels have View access to reports.
 
-| Action                               | Standard | Light  | Contributor | External user |
-|--------------------------------------|----------|--------|-------------|---------------|
-| Create                               | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                               | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View built-in reports                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                                | ✓&#42;   | ✓      | &nbsp;      | &nbsp;        |
-| Share calendars and reports publicly | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide                    | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                                 | ✓&#42;   | ✓&#42; | ✓&#42;      | ✓&#42;        |
-| Edit                                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Copy                                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View built-in reports | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | ✓ | &nbsp; | &nbsp; |
+| Share calendars and reports publicly | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Copy | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -227,14 +227,14 @@ Users with a Standard license can have full access to reports. All other Access 
 
 ## Filters, views, and groupings
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Create            | ✓*         | ✓*      | ✓*            | &nbsp;        |
-| Delete            | ✓*         | ✓*      | ✓*            | &nbsp;        |
-| Share             | ✓*         | ✓*      | ✓*            | &nbsp;        |
-| Share system-wide | ✓*         | ✓*      | ✓*            | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------- | ------------ | --------- | --------------- | --------------- |
+| Create | ✓* | ✓* | ✓* | &nbsp; |
+| Delete | ✓* | ✓* | ✓* | &nbsp; |
+| Share | ✓* | ✓* | ✓* | &nbsp; |
+| Share system-wide | ✓* | ✓* | ✓* | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -242,34 +242,34 @@ Users with a Standard license can have full access to reports. All other Access 
 
 ## Documents
 
-| Action                         | Standard | Light  | Contributor | External user |
-|--------------------------------|----------|--------|-------------|---------------|
-| Create                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Delete (documents and folders) | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Share                          | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
-| Share publicly (externally)    | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide              | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                           | ✓&#42;   | ✓&#42; | ✓&#42;      | ✓&#42;        |
-| Edit details                   | ✓        | ✓      | ✓           | &nbsp;        |
-| Download                       | ✓        | ✓      | ✓           | ✓             |
-| Checkout                       | ✓        | ✓      | ✓           | &nbsp;        |
-| Add approvers (documents)                  | ✓        | ✓      | ✓           | &nbsp;        |
-| Approve documents              | ✓        | ✓      | ✓           | ✓             |
-| Attach custom forms            | ✓        | ✓      | ✓           | &nbsp;        |
-| Edit custom fields             | ✓        | ✓      | ✓           | &nbsp;        |
-| Move to (object)               | ✓        | ✓      | ✓           | &nbsp;        |
-| Send to (integration)          | ✓        | ✓      | ✓           | &nbsp;        |
-| Add updates and comments       | ✓        | ✓      | ✓           | &nbsp;        |
-| Upload new version             | ✓        | ✓      | ✓           | &nbsp;        |
-| Delete a version               | ✓        | ✓      | ✓           | &nbsp;        |
-| Preview                        | ✓        | ✓      | ✓           | ✓             |
-| Approve proofs                          | ✓        | ✓      | ✓           | ✓             |
-| Generate proofs                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Remove proof                   | ✓        | ✓      | ✓           | &nbsp;        |
-| Add/Remove&#42;&#42;           | ✓        | ✓      | ✓           | &nbsp;        |
-| Rename&#42;&#42;               | ✓        | ✓      | ✓           | &nbsp;        |
-| Link (with integration)        | ✓        | ✓      | ✓           | &nbsp;        |
-| Unlink (with integration)      | ✓        | ✓      | ✓           | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Delete (documents and folders) | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Share | ✓&#42; | ✓&#42; | ✓&#42; | &nbsp; |
+| Share publicly (externally) | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Edit details | ✓ | ✓ | ✓ | &nbsp; |
+| Download | ✓ | ✓ | ✓ | ✓ |
+| Checkout | ✓ | ✓ | ✓ | &nbsp; |
+| Add approvers (documents) | ✓ | ✓ | ✓ | &nbsp; |
+| Approve documents | ✓ | ✓ | ✓ | ✓ |
+| Attach custom forms | ✓ | ✓ | ✓ | &nbsp; |
+| Edit custom fields | ✓ | ✓ | ✓ | &nbsp; |
+| Move to (object) | ✓ | ✓ | ✓ | &nbsp; |
+| Send to (integration) | ✓ | ✓ | ✓ | &nbsp; |
+| Add updates and comments | ✓ | ✓ | ✓ | &nbsp; |
+| Upload new version | ✓ | ✓ | ✓ | &nbsp; |
+| Delete a version | ✓ | ✓ | ✓ | &nbsp; |
+| Preview | ✓ | ✓ | ✓ | ✓ |
+| Approve proofs | ✓ | ✓ | ✓ | ✓ |
+| Generate proofs | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Remove proof | ✓ | ✓ | ✓ | &nbsp; |
+| Add/Remove&#42;&#42; | ✓ | ✓ | ✓ | &nbsp; |
+| Rename&#42;&#42; | ✓ | ✓ | ✓ | &nbsp; |
+| Link (with integration) | ✓ | ✓ | ✓ | &nbsp; |
+| Unlink (with integration) | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -279,21 +279,21 @@ Users with a Standard license can have full access to reports. All other Access 
 
 These options are available in the Preview environment:
 
-| Action                                                                                             | Standard | Light  | Contributor | External user** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Create                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Delete                                                                                             | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit Contact Info                                                                                  | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit, delete, deactivate, log in as, or reset the password for any user                            | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| View users                                                                                         | ✓        | ✓      | ✓           | &nbsp;          |
-| View contact info                                                                                  | ✓        | ✓      | ✓           | &nbsp;          |
-| View Billing Rates                                                                                 | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| View Cost Rates                                                                                    | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
-| View General Finance                                                                               | ✓*       | &nbsp; | &nbsp;      | &nbsp;          |
+| Action | Standard | Light | Contributor | External user** |
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Contact Info | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit, delete, deactivate, log in as, or reset the password for any user | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View users | ✓ | ✓ | ✓ | &nbsp; |
+| View contact info | ✓ | ✓ | ✓ | &nbsp; |
+| View Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -303,18 +303,18 @@ These options are available in the Preview environment:
 
 ## Job Roles
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓*        | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------- | ------------ | --------- | --------------- | --------------- |
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -324,18 +324,18 @@ These options are available in the Preview environment:
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -343,10 +343,10 @@ These options are available in the Preview environment:
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -356,14 +356,14 @@ These options are available in the Preview environment:
 
 ## Teams
 
-|  Action                                 |  Standard  |  Light  |  Contributor  |  External user*  |
-|-----------------------------------------|-----------|------------|-------------|------------------|
-| Create                                  | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |
-| Delete                                  | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |
-| Edit teams they're on                   | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |
-| Edit teams in groups they manage        | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |
-| View all teams                          | ✓         | ✓          | ✓           | &nbsp;           |
-| View teams associated with their groups | ✓         | ✓          |  ✓          | &nbsp;           |
+| Action | Standard | Light | Contributor | External user* |
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit teams they're on | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit teams in groups they manage | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View all teams | ✓ | ✓ | ✓ | &nbsp; |
+| View teams associated with their groups | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -371,15 +371,15 @@ These options are available in the Preview environment:
 
 ## Templates
 
-| Action                | Standard | Light  | Contributor | External user |
-|-----------------------|----------|--------|-------------|---------------|
-| Create                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Delete                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share                 | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Share system-wide     | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                  | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Copy                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit template details | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
+| Create | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Share system-wide | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Copy | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Edit template details | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -389,21 +389,21 @@ These options are available in the Preview environment:
 
 Only users with a Standard license can have full access to financial data.
 
-| Action                                                       | Standard | Light  | Contributor | External user |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Edit Billing Rates                                           | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit Cost Rates                                              | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Edit General Finance                                         | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View Billing Rates                                           | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| View Cost Rates                                              | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| View General Finance                                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| Manage billing records                                       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Manage expenses                                              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| View information by Cost in the Resource Planning tools      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Budget Resources in the Resource Planning tools&#42;&#42;    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| View resource allocation in the Resource Planning tools&#42; | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Create risks on projects                                     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| View risks on projects                                       | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Edit Billing Rates | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓&#42; | ✓&#42; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓&#42; | ✓&#42; | &nbsp; | &nbsp; |
+| View General Finance | ✓&#42; | ✓&#42; | &nbsp; | &nbsp; |
+| Manage billing records | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Manage expenses | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View information by Cost in the Resource Planning tools | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Budget Resources in the Resource Planning tools&#42;&#42; | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View resource allocation in the Resource Planning tools&#42; | ✓ | ✓ | &nbsp; | &nbsp; |
+| Create risks on projects | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View risks on projects | ✓ | ✓ | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -413,16 +413,16 @@ Only users with a Standard license can have full access to financial data.
 
 Only users with a Standard license can have full access to resource management. Other license types can have limited or no access to Resource Management in Workfront.
 
-| Action                                                         | Standard | Light  | Contributor | External user |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
-| Edit priorities and budget hours in the Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Create, edit, delete Resource Pools&#42;&#42;                  | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| Update Planned Hours in the Workload Balancer&#42;&#42;&#42;   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View project priorities in the Resource Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View resource allocation in the Resource Planning tools        | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| View Resource Pools                                            | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
-| Budget resources in the Resource Planning tools&#42;&#42;      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Attach Resource Pools to projects, templates, and users        | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
+| Edit priorities and budget hours in the Planner | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Create, edit, delete Resource Pools&#42;&#42; | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| Update Planned Hours in the Workload Balancer&#42;&#42;&#42; | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View project priorities in the Resource Planner | ✓&#42; | &nbsp; | &nbsp; | &nbsp; |
+| View resource allocation in the Resource Planning tools | ✓&#42; | ✓&#42; | &nbsp; | &nbsp; |
+| View Resource Pools | ✓&#42; | ✓&#42; | &nbsp; | &nbsp; |
+| Budget resources in the Resource Planning tools&#42;&#42; | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Attach Resource Pools to projects, templates, and users | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -434,14 +434,14 @@ Only users with a Standard license can have full access to resource management. 
 
 ## Scenario Planner area
 
-| Action                                                                | Standard | Light | Contributor | External user |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
-| Create/edit existing plans and initiatives                            | ✓        | ✓     | &nbsp;      | &nbsp;        |
-| Add or edit job role information on plans and initiatives&#42;        | ✓        | ✓     | &nbsp;      | &nbsp;        |
-| Add or edit cost information on plans and initiatives&#42;            | ✓        | ✓     | &nbsp;      | &nbsp;        |
-| Delete plans and initiatives                                          | ✓        | ✓     | &nbsp;      | &nbsp;        |
-| View Scenarios in the Main Menu                                        | ✓        | ✓     | &nbsp;      | &nbsp;        |
-| View plans and initiatives that the user created&#42;                 | ✓        | ✓     | &nbsp;      | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
+| Create/edit existing plans and initiatives | ✓ | ✓ | &nbsp; | &nbsp; |
+| Add or edit job role information on plans and initiatives&#42; | ✓ | ✓ | &nbsp; | &nbsp; |
+| Add or edit cost information on plans and initiatives&#42; | ✓ | ✓ | &nbsp; | &nbsp; |
+| Delete plans and initiatives | ✓ | ✓ | &nbsp; | &nbsp; |
+| View Scenarios in the Main Menu | ✓ | ✓ | &nbsp; | &nbsp; |
+| View plans and initiatives that the user created&#42; | ✓ | ✓ | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -455,13 +455,13 @@ Only users with a Standard license can have full access to resource management. 
 
 Only users with a Standard license can have full access to rate cards.
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | &nbsp;        | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Share             | ✓*         | ✓*      | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+| ------------------- | ------------ | --------- | --------------- | --------------- |
+| View | ✓ | ✓ | &nbsp; | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Share | ✓* | ✓* | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -471,26 +471,26 @@ Only users with a Standard license can have full access to rate cards.
 
 <!-- ask Alina about this section -->
 
-| Actions |View |Edit |
-|---|---|---|
-| Create |&nbsp; |✓ |
-| Edit / delete all goals |&nbsp; |✓ |
-| View Goals in the Main menu |✓ |✓ |
-| View the Goals area from a shared link |✓ |✓ |
-| View all goals in the system |✓ |✓  |
-| Activate/ deactivate/ close all goals |&nbsp; |✓ |
-| Create/ edit/ delete activities |&nbsp; |✓ |
-| Create/ edit/ delete results |&nbsp; |✓ |
-| Add an aligned goal |&nbsp; |✓ |
-| Update progress on a result or activity |&nbsp; |✓ |
-| Own a goal, result, or activity |✓ |✓ |
-| Comment on a goal |✓ |✓ |
-| Copy goals |&nbsp; |✓ |
-| View the Goal List section in the left panel |✓ |✓ |
-| View the Graphs section in the left panel |✓ |✓ |
-| View the Goal Alignment section in the left panel |✓ |✓ |
-| View the Pulse section in the left panel |✓ |✓ |
-| View the Check-in area in the left panel |&nbsp; |✓ |
-| View the Settings area in the left panel |✓ |✓  |
-| Print a list of goals |✓ |✓  |
+| Actions | View | Edit |
+| --- | --- | --- |
+| Create | &nbsp; | ✓ |
+| Edit / delete all goals | &nbsp; | ✓ |
+| View Goals in the Main menu | ✓ | ✓ |
+| View the Goals area from a shared link | ✓ | ✓ |
+| View all goals in the system | ✓ | ✓ |
+| Activate/ deactivate/ close all goals | &nbsp; | ✓ |
+| Create/ edit/ delete activities | &nbsp; | ✓ |
+| Create/ edit/ delete results | &nbsp; | ✓ |
+| Add an aligned goal | &nbsp; | ✓ |
+| Update progress on a result or activity | &nbsp; | ✓ |
+| Own a goal, result, or activity | ✓ | ✓ |
+| Comment on a goal | ✓ | ✓ |
+| Copy goals | &nbsp; | ✓ |
+| View the Goal List section in the left panel | ✓ | ✓ |
+| View the Graphs section in the left panel | ✓ | ✓ |
+| View the Goal Alignment section in the left panel | ✓ | ✓ |
+| View the Pulse section in the left panel | ✓ | ✓ |
+| View the Check-in area in the left panel | &nbsp; | ✓ |
+| View the Settings area in the left panel | ✓ | ✓ |
+| Print a list of goals | ✓ | ✓ |
 
