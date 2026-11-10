@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Manage the Boards Admin View
 
+{{boards-maintenance-mode}}
+
 The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.
 
 From this area, you can perform the following actions: 

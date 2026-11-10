@@ -30,6 +30,8 @@ topic_v2:
 ---
 # Use groups on a board
 
+{{boards-maintenance-mode}}
+
 You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.
 
 >[!NOTE]

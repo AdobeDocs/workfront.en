@@ -30,9 +30,7 @@ topic_v2:
 ---
 # Create an iteration in a workstream
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 An iteration is a set amount of time reserved for completing work. Some Agile teams may refer to an iteration as a sprint.
 

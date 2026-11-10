@@ -30,9 +30,7 @@ topic_v2:
 ---
 # Review iteration metrics
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 Metrics are available for each iteration in a workstream, on the iteration process board and the dashboard.
 

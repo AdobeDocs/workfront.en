@@ -126,6 +126,24 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 
+## Boards - maintenance mode {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+
+## Boards - workstreams not available {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+>&nbsp;
+>The workstreams feature in Boards was deprecated, but it remains available for customers who were already using it.
+>
+>* It is recommended to move away from using workstreams because they are no longer supported.
+>* If you do not have a Workstreams tab on the boards dashboard, you cannot add workstreams.
+>* If you have access to workstreams, you can add new workstreams and manage existing workstreams. If you archive or delete a workstream, you cannot recover it. If you have one remaining workstream and you archive or delete it, then workstreams are fully deprecated for your Workfront instance and you cannot add new workstreams.
+
 <!-- Blueprints -->
 
 ## Step 1 - Getting to Blueprints - {#step1-to-blueprints}

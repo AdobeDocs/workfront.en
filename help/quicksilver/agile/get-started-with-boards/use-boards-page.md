@@ -31,9 +31,7 @@ topic_v2:
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 The boards dashboard shows the list of boards and workstreams that you have access to, including boards you have created and boards that you have been added to. Individual boards you have access to that are not part of a workstream are displayed first.
 
