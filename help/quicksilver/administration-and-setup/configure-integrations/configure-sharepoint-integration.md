@@ -142,7 +142,7 @@ To send a document to SharePoint:
 
 To view and manage your organization's [!DNL SharePoint] integrations:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click the **[!UICONTROL Main Menu]** icon  ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL [!DNL SharePoint] Integration]**.
 
    A list of your organization's [!DNL SharePoint] integrations appears.
@@ -167,10 +167,10 @@ The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint]
 The following permissions are requested:
 
 | Access | Reason |
-|---|---|
+| --- | --- |
 | Have full access to your files | Allows [!DNL Workfront] to access a user's files to link assets. When documents are sent from [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] requires access to create the asset. |
 | Read items in all site collections | Allows [!DNL Workfront] to read assets to enable user navigation. |
-| Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collections. Delete is used only when cleaning up after unsuccessful link attempts.|
+| Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collections. Delete is used only when cleaning up after unsuccessful link attempts. |
 | Maintain access to data you have given it access to | Allows [!DNL Workfront] to generate a refresh token. |
 | Sign in and read user profile | Allows [!DNL Workfront] to use the access token to act of behalf of the user, through the OAuth2 login flow. |
 
@@ -205,7 +205,7 @@ Reconfiguring the legacy [!DNL SharePoint] integration allows your users to acce
 > * The legacy [!DNL SharePoint] integration is labeled "[!DNL SharePoint]."
 > * The new [!DNL SharePoint] integration is labeled "[!UICONTROL [!DNL SharePoint] (Graph API)]." 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Workfront, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL Cloud Providers]**.
 1. Make sure that the **[!DNL SharePoint]** option and **[!UICONTROL [!DNL SharePoint] (Graph API)]** option are both enabled.
 1. Click **[!UICONTROL Save]**.
@@ -231,7 +231,7 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 1. Generate a new client secret as described in [Replace an expiring client secret in a [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copy this Client Secret to a secure location. 
 1. Log into [!DNL Workfront] as an administrator.
-1. In Workfront, click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. In Workfront, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Click on the [!DNL SharePoint] integration you want to update, then click **[!UICONTROL Edit]**.
 1. Locate the **Connection Info** section of the editing window, then enter the new Client Secret into the **[!UICONTROL SharePoint Client Secret]** field.
