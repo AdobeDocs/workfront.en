@@ -2341,6 +2341,7 @@ feature-set: Workfront
   * {hide-from-toc}The Ideation space in Workfront Planning {#ideation}
     * {hide-from-toc}[Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Access needed to use The Ideation space](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
