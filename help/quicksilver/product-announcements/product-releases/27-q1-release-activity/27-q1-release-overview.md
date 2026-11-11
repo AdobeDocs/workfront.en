@@ -23,6 +23,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >|<ul><li>2026.11 (November 12, 2026)</li><li>2026.12 (December 17, 2026)</li><li>2027.01 (January 21, 2027)</li></ul>|<ul><li>2027.01 (January 21, 2027)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -42,6 +49,16 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Environment Promotion available for Workfront Planning</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Workfront administrators can now promote Workfront Planning workspaces, record types, fields, and views from one environment to another.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -211,6 +228,15 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Resolve comment threads</a></p>
+                <p>You can now resolve a comment thread to hide it from the comment stream for all viewers, and unresolve it later to bring it back.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Unavailable status guidance</a></p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>When a saved issue, task, or project status isn't available, a warning now explains why and shows the saved status code.</p>
@@ -241,6 +267,16 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Ideation space for Workfront Planning now available in Open Beta</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
         </tr>
 <!--
         <tr>

@@ -25,6 +25,50 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Environment Promotion available for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>Environment Promotion for Workfront Planning is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront administrators can now promote Workfront Planning workspaces, record types, fields, and views from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+
+This capability requires Prime or Ultimate Workflow and Planning packages, a Standard license, and Workfront administrator access.
+
+For information, see [Use Environment Promotion for Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
+## Ideation space for Workfront Planning now available in Open Beta
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>This capability is available as an open beta program. Ideation space is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work. Ideation space helps stakeholders centralize brainstorming, align on priorities, and seamlessly move approved concepts into planning workflows.
+
+Using the CX Enterprise Coworker, you can now create ideation briefs which you can export to files or to Workfront Planning records.
+
+With Ideation space, you can:
+
+* Capture and collaborate on ideas with your teams and stakeholders.
+* Organize, evaluate, and prioritize ideas with visibility into the intake process.
+* Turn approved ideas into planning records and workflows.
+
+For more information, see [Get started with the Ideation space for Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
 ## Improved conflict detection in dependent fields when submitting requests
 
 >[!NOTE]

@@ -12,6 +12,25 @@ This page describes Administrator enhancements made with the First Quarter 2027 
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## Environment Promotion available for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>Environment Promotion for Workfront Planning is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront administrators can now promote Workfront Planning workspaces, record types, fields, and views from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+
+This capability requires Prime or Ultimate Workflow and Planning packages, a Standard license, and Workfront administrator access.
+
+For information, see [Use Environment Promotion for Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
 ## Permissions for removing an attached custom form
 
 >[!NOTE]
