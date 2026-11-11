@@ -147,6 +147,10 @@ Proof approvals must be added in the Proof Workflow. For more information on app
 
 ![Document summary approvals](assets/approvals-section.png)
 
+<span class="preview">In preview:
+![Document summary approvals](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### Versions
 
 Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
@@ -158,6 +162,10 @@ Use the Versions section to view the number of versions created for a specific d
 * Delete a proof or document.
 
 ![Document summary versions](assets/versions-section.png)
+
+<span class="preview">In preview:
+![Document summary versions](assets/document-versions-summary-legacy.png)
+</span>
 
 ## Summary for documents in the new documents experience
 
