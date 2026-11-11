@@ -81,9 +81,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Cloud provider requirements</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTE:</b></p>
-   <p>No other cloud providers are supported</p>
+   <p>We do not support any other cloud providers.</p>
    </td> 
   </tr>
 <tr> 
@@ -166,7 +166,7 @@ For more information about Workfront access requirements, see [Access requiremen
 * To use the Ideation space to create or edit records, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
 * When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated space is not deleted.
-* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change?-->
+* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change after beta?-->
 * The following scenarios exist when fields are created, edited or removed in Workfront Planning: 
 
     * New fields created on records linked to Ideation briefs are added daily to the brief. New fields appear empty in the Ideation brief. 
@@ -185,8 +185,8 @@ For more information about Workfront access requirements, see [Access requiremen
 1. Click the card for a record type you can add records to. 
 1. Do one of the following to create a record:
 
-    * From any view of the record type page, click **New record** in the upper-right corner of the page and in the **Choose a way to add your records** box, click **Open the Ideation space**, then click **Continue**. 
-    * Scroll to the bottom of the record table and click **New row**, then click **Open the Ideation space**.
+    * From any view of the record type page, click **New record** in the upper-right corner of the page and in the **Choose a way to add your records** box, click **Start Ideation space**, then click **Continue**. 
+    * Scroll to the bottom of the record table and click **New row**, then click **Start Ideation space**.
 
         >[!TIP]
         >
@@ -194,11 +194,15 @@ For more information about Workfront access requirements, see [Access requiremen
 
     ![New record box with Open Ideation space button](assets/new-record-creation-picker-with-ideation.png)
 
-    The Ideation space opens in a new tab.
+1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space. 
 
-    Coworker opens in the right panel. 
+    The following things occur: 
 
-    The record is created immediately with a placeholder name. 
+    * The Ideation space canvas opens in a new tab.
+
+    * Coworker opens in the right panel. 
+
+    * The record is created immediately with a placeholder name. 
 
     <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -239,7 +243,7 @@ You cannot bulk-edit records in the Ideation space.
 
 1. Go to an existing record in Workfront Planning and open its details page. 
 
-1. Click **Open in Ideation space** ![](assets/open-in-ideation-space.png). This opens the Ideation space in a new tab.
+1. Click **Open in Ideation space** in the upper-right corner of the details page. This opens the Ideation space in a new tab.
 
     If an ideation for the record already exists, it opens that space.
     

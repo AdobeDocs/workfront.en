@@ -1,5 +1,5 @@
 ---
-title: Access Needed to Use the Ideation Space
+title: Access Needed to Use Ideation Space
 description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to transform data and direct inputs into tangible plans and give teams an informed starting point instead of a blank page with Adobe Ideation space.
 author: Alina
 feature: Workfront Planning
@@ -21,7 +21,7 @@ role_v2:
     internal-label: Admin
 ---
 
-# Access needed to use The Ideation space
+# Access needed to use Ideation space
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
 
@@ -67,7 +67,7 @@ For general information about the Ideation space, see [Get started with Ideation
 
 >[!NOTE]
 >
->You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront if you also have Workfront Planning. 
+>You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront when you also have Workfront Planning. 
 >
 >For more information about the access required to use Ideation space, see [Access needed to use the Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
 
@@ -75,9 +75,9 @@ You can access the Ideation space if your organization and you have access to th
 
 * Cloud providers: 
 
-    * AWS
+    * Amazon Web Services (AWS)
     
-        Azure and GCP providers are not supported.
+        Azure and GCP providers are not supported for Ideation space.
 
 * Products: 
 
@@ -88,16 +88,20 @@ You can access the Ideation space if your organization and you have access to th
         >
         >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations, but the Ideation space is not available for Workfront customers that don't have Coworker.
     
-* Adobe packages:
+* Adobe packages: <!--Et wanted the Coworker added to these-->
 
     * During the Open Beta release (starting with November 12, 2026), you must have the following: 
 
-        * An Adobe Workfront Workflow package with a Workfront Planning package
+        * An Adobe Workfront Workflow package with a Workfront Planning package with Adobe CX Enterprise Coworker activated
 
     * After the General Availability release (targeted for February 1, 2027), you may have one of the following:
 
         * An Adobe Workfront Workflow package with a Workfront Planning package
         * An Adobe Workfront Planning as a standalone product
+
+        Both packages must have Adobe CX Enterprise Coworker activated
+
+
 
 
 <!--
@@ -165,9 +169,9 @@ Your Workfront access level must include the following license types to access I
 
 ## Workfront Planning permissions requirements
 
-When you use the Ideation space from Workfront Planning each Planning record is connected to one brief in Ideation space. 
+When you use the Ideation space from Workfront Planning, each Planning record is connected to one brief in Ideation space. 
 
-Ideation space brief permissions are inherited from Workfront Planning record permissions. <!--not sure if this is right, because now you can share the ideation with others??-->
+Ideation space brief permissions are inherited from Workfront Planning record permissions. 
 
 You must have Contribute or higher permissions for a record type in Planning to create records in order to create or edit a record in Ideation space.
 
@@ -179,6 +183,8 @@ The following table shows the connection between Workfront Planning record permi
 |---|---|
 | Contribute or higher permissions to a record | Can create a brief in the Ideation space of the record|
 | View permissions to a record | Can read the brief of the record in Ideation space, but cannot modify it|
+
+You can also share an ideation canvas with others. For more information, see the following section in this article. 
 
 ## Ideation space permissions
 
