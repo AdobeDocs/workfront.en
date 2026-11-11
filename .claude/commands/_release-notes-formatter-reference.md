@@ -133,8 +133,7 @@ Each H3 product area section contains an HTML table. Use this exact structure:
 - Feature cell: `<a>` tag with `class="MCXref xref" xrefformat="{para}"` followed by `<p>` description
 - The `href` links to the product area page (not a specific anchor)
 - Date cells: wrapped in `<p>` tags
-- For off-schedule items, add `<p>[!BADGE Off schedule]{type=Neutral}</p>` after the link
-- Empty `<p></p>` after the link is acceptable when no badge is needed
+- For off-schedule items, add `<p>[!BADGE Off schedule]{type=Neutral}</p>` as its own paragraph directly under the link paragraph, before the description paragraph- Empty `<p></p>` after the link is acceptable when no badge is needed
 - Keep HTML indentation consistent with existing files
 
 ### Overview Trailing Sections

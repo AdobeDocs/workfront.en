@@ -29,7 +29,6 @@ The enhancements on this page are available in the Preview environment. This pag
 * [Administrator enhancements](#administrator-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -74,8 +73,8 @@ The enhancements on this page are available in the Preview environment. This pag
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Change History now tracks Canvas Dashboard objects</a></p>
-                <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
             </td>
             <td><p>October 29, 2026</p></td>
             <td><p>October 29, 2026</p></td>
@@ -213,8 +212,8 @@ The enhancements on this page are available in the Preview environment. This pag
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Unavailable status guidance</a></p>
-                <p>When a saved issue, task, or project status isn't available, a warning now explains why and shows the saved status code.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>When a saved issue, task, or project status isn't available, a warning now explains why and shows the saved status code.</p>
             </td>
             <td><p>November 4, 2026</p></td>
             <td><p>November 4, 2026</p></td>
