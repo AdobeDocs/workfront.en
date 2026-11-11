@@ -351,6 +351,18 @@ There are no updates for the following at this point in the release:
 
 ## Desktop proofing viewer updates
 
+### Version 2.4.0
+
+>[!NOTE]
+>
+>Production release for all customers: November 11, 2026
+
+The Desktop Proofing Viewer has been updated from version 2.3.0 to version 2.4.0. This update includes internal tooling updates and does not impact end-user functionality.
+
+This update is for both Mac and Windows.
+
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ### Version 2.3.0
 
 >[!NOTE]
