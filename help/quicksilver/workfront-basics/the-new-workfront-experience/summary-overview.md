@@ -145,7 +145,7 @@ When you drag and drop the bubble in the Summary panel, the Percent Complete upd
 
 ## [!UICONTROL Updates]
 
-Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
+Use the [!UICONTROL Updates] tab of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
 ![Updates section in Summary panel](assets/summary-updates-section.png)
 
@@ -155,29 +155,42 @@ Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent 
 
 ## [!UICONTROL Documents]
 
-Use the [!UICONTROL Documents] section of the [!UICONTROL Summary] to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the [!UICONTROL Documents] tab on the task or issue, click the **[!UICONTROL Documents]** title.
+Use the [!UICONTROL Documents] tab of the [!UICONTROL Summary] to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the [!UICONTROL Documents] tab on the task or issue, click the **[!UICONTROL Documents]** title.
 
 ![Documents section in Summary panel](assets/summary-documents-section.png)
 
+<span class="preview">In preview:
+![Documents section in Summary panel](assets/documents.png)
+</span>
+
+
 ## [!UICONTROL Details]
 
-Use the [!UICONTROL Details] section of the [!UICONTROL Summary] to view high-level work item details, make assignments, or add start dates. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Details] tab on the task or issue.
-
-
+Use the [!UICONTROL Details] tab of the [!UICONTROL Summary] to view high-level work item details, make assignments, or add start dates. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Details] tab on the task or issue.
 
 ![Details section in Summary panel](assets/summary-details-section.png)
 
+<span class="preview">In preview:
+![Details section in Summary panel](assets/details.png)
+</span>
+
 ## [!UICONTROL Subtasks]
 
-This section is only available for tasks. Use the [!UICONTROL Subtasks] section of the [!UICONTROL Summary] to view [!UICONTROL New], [!UICONTROL In Progress], and [!UICONTROL Closed] subtasks on the task you selected. Click the **[!UICONTROL Status]** drop-down menu to switch between statuses. To go directly to the [!UICONTROL Subtasks] tab on the task, click the **[!UICONTROL Subtasks]**&#x200B;title.
+This section is only available for tasks. Use the [!UICONTROL Subtasks] tab of the [!UICONTROL Summary] to view [!UICONTROL New], [!UICONTROL In Progress], and [!UICONTROL Closed] subtasks on the task you selected. Click the **[!UICONTROL Status]** drop-down menu to switch between statuses. To go directly to the [!UICONTROL Subtasks] tab on the task, click the **[!UICONTROL Subtasks]**&#x200B;title.
 
 If you have not added any subtasks to the task, click **[!UICONTROL Add one here]** to go directly to the [!UICONTROL Subtasks] tab on the task.
 
 ![Subtasks section in Summary panel](assets/summary-subtasks-section.png)
 
+<span class="preview">In preview:
+
+![Subtasks section in Summary panel](assets/subtask.png)
+
+</span>
+
 ## [!UICONTROL Hours]
 
-Use the [!UICONTROL Hours] section of the [!UICONTROL Summary] to log hours on the task or issue you selected. Click **[!UICONTROL Log Time]** and enter your hours. To go directly to the Hours tab on the task or issue, click the **[!UICONTROL Hours]** title.
+Use the [!UICONTROL Hours] tab of the [!UICONTROL Summary] to log hours on the task or issue you selected. Click **[!UICONTROL Log Time]** and enter your hours. To go directly to the Hours tab on the task or issue, click the **[!UICONTROL Hours]** title.
 
 The hour count in the [!UICONTROL Summary] displays the hours you log. Other users will have different hour totals in the [!UICONTROL Summary] depending on the time they log on the task.
 
@@ -185,10 +198,20 @@ If there are no planned [!UICONTROL hours] on the task or issue and you have log
 
 ![Hours section in Summary panel](assets/summary-hours-section.png)
 
+<span class="preview">In preview:
+
+![Hours section in Summary panel](assets/hours.png)
+
+</span>
+
 ## Approvals
 
-Use the [!UICONTROL Approvals] section of the [!UICONTROL Summary] to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click **[!UICONTROL Create single-use approval process]** to go directly to the [!UICONTROL Approvals] tab on the task or issue.
+Use the [!UICONTROL Approvals] tab of the [!UICONTROL Summary] to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click **[!UICONTROL Create single-use approval process]** to go directly to the [!UICONTROL Approvals] tab on the task or issue.
 
 To go directly to the [!UICONTROL Approvals] tab on the task or issue, click the **[!UICONTROL Approvals]** title.
 
 ![Approvals section in Summary panel](assets/summary-approvals-section.png)
+
+<span class="preview">In preview:
+![Approvals section in Summary panel](assets/approval.png)
+</span>
