@@ -621,15 +621,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## Pin comments
+## Pin comment threads
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+You can pin important threads to the top of the Updates tab, to separate them from the update stream in a Pinned threads section. 
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+Consider the following when pinning threads: 
+
+* You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+* You can later unpin threads. 
+* Anyone with permissions to View an object with an Updates area can pin or unpin a thread. 
+
+To pin a comment thread: 
+
+1. Go to an object that has an **Updates** area, and click **Updates** in the left panel, then click the  **Comments** tab.
 
    For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab for you and everyone who can view the object. 
 
    A new **Pinned threads** section is created at the top of the **Comments** tab. 
 
@@ -641,7 +649,41 @@ You can pin top-level comments to the top of the Comments tab. You cannot pin re
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## Delete a comment or a reply
 

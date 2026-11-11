@@ -93,29 +93,31 @@ You can access the Ideation space if your organization and you have access to th
 
 * Cloud providers: 
 
-    * AWS
+    * Amazon Web Services (AWS)
     
         Azure and GCP providers are not supported.
 
 * Products: 
 
     * Adobe Workfront with Workfront Planning
-    * Adobe Enterprise CX Coworker for Workfront
+    * CX Enterprise Coworker in Workfront
 
         >[!IMPORTANT]
         >
-        >Adobe CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations, but the Ideation space is not available for Workfront customers that don't have Coworker.
+        >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations, but the Ideation space is not available for Workfront customers that don't have Coworker.
     
-* Adobe packages:
+* Adobe packages: <!--Et wanted the Coworker added to these-->
 
     * During the Open Beta release (starting with November 12, 2026), you must have the following: 
 
-        * An Adobe Workfront Workflow package with a Workfront Planning package
+        * An Adobe Workfront Workflow package with a Workfront Planning package with Adobe CX Enterprise Coworker activated
 
     * After the General Availability release (targeted for February 1, 2027), you may have one of the following:
 
         * An Adobe Workfront Workflow package with a Workfront Planning package
         * An Adobe Workfront Planning as a standalone product
+
+        Both packages must have Adobe CX Enterprise Coworker activated
 
  
 
@@ -185,6 +187,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 The following are some of the capabilities of Coworker when used in the Ideation space: 
 
+* Conduct what-if analysis to compare different campaign themes, messages or test your strategic direction
 * Upload documents or social insights
 * Access web content pertinent to the brief you are building
 * Define a campaign goal 
@@ -207,7 +210,12 @@ To gain access to the Ideation space:
 1. Verify you meet the product requirements as described in the section [Product requirements](#product-requirements) in this article. 
 1. Contact your Adobe account representative to express interest in participating in the Closed Beta or join Open Beta, when it becomes available.
 
-    System administrators have access to Ideation space by default and cannot remove it when it becomes available in Open Beta. They can turn it on for all other users. 
+    System administrators have access to Ideation space by default and cannot remove it when it becomes available in Open Beta. They can turn it on for all other users in any of the following environments: 
+
+    * Production
+    * Preview
+    * Custom sandboxes
+
 1. (Recommended) Identify your first campaign: a recent one to refresh, or a new initiative to create from scratch. 
 
 For more information about using the Ideation space, also see the following articles:

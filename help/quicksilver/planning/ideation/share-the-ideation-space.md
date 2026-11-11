@@ -59,7 +59,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-You can use the Ideation Space from Adobe Workfront to create briefs for your campaigns and other record types before you launch them. This invites others to brainstorm and gather information to collaboratively create the brief before launching your work. 
+You can use the Ideation space from Adobe Workfront to create briefs for your campaigns and other record types before you launch them. This invites others to brainstorm and gather information to collaboratively create the brief before launching your work. 
 
 You can share the ideation space and its respective brief with other users for better collaboration. 
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Cloud provider requirements</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTE:</b></p>
-   <p>No other cloud providers are supported</p>
+   <p>We do not support any other cloud providers.</p>
    </td> 
   </tr>
 <tr> 
@@ -188,7 +188,7 @@ For more information about Workfront access requirements, see [Access requiremen
         Everyone in your organization that has a Workflow and a Planning license in their access level can find and comment on the ideation. 
     * **Anyone with the link can comment**
 
-        Anyone that you share a link to the ideation can comment on it, including people external to your organization. 
+        Anyone that you share a link to the ideation canvas with can comment on it, including people external to your organization. 
 
 1. Click **Copy link** to generate a link to the ideation and share it with others. The link is added to your clipboard. 
 1. Click the back arrow on the Settings box to go back to sharing. 
@@ -196,13 +196,13 @@ For more information about Workfront access requirements, see [Access requiremen
 
     | Ideation space permission  | Capabilities |
     |---|---|
-    | **Editor** | Can edit, download and share the ideation space|
-    | **Commenter** | Can view and comment on the ideation space|
-    | **Viewer** | Can view the ideation space|
+    | **Editor** | Can edit, download and share the ideation canvas|
+    | **Commenter** | Can view and comment on the ideation canvas|
+    | **Viewer** | Can view the ideation canvas|
 
-1. (Optional) Include a message with your assignment, then click **Invite**. 
+1. (Optional) Include a message with your sharing invitation, then click **Invite**. 
 
-    The users invited receives an email notification about their permission assignment. 
+    The users invited receive an email notification about their permission assignment. 
 
 1. Click the **X** icon to close the **Share document** box. 
 
