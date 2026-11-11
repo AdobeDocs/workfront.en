@@ -92,6 +92,10 @@ If your organization is on legacy Workfront storage, you will see the legacy doc
 
    ![Summary details](assets/document-summary-panel.png)
 
+  <span class="preview">In preview:
+   ![Summary details](assets/document-details-summary-legacy.png)
+  </span>
+
    After you open the Summary, it will remain open on this page (even if you click on other documents) until you manually close it.
 
 
@@ -108,17 +112,29 @@ Expand the Overview section to view or download an image thumbnail, open a proof
 
 ![Document summary overview](assets/details-section.png)
 
+ <span class="preview">In preview:
+   ![Summary details](assets/document-details-summary-legacy.png)
+  </span>
+
 #### Custom Forms {#custom-forms}
 
 Use the Custom Forms section to add, edit, or view any custom forms associated with the document. Begin typing the name of the custom form to add it to the document. For more information, see [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Add a custom form in document summary](assets/custom-forms-section.png)
 
+<span class="preview">In preview:
+   ![Add a custom form in document summary](assets/custom-form-summary-legacy.png)
+</span>
+
 ### Updates
 
 Use the Updates section to view an update someone made on the document or proof. The summary shows the first 2 comments made. For more information on updates, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Updates section in Summary panel](assets/updates-section.png)
+
+<span class="preview">In preview:
+![Updates section in Summary panel](assets/updates-summary-legacy.png)
+</span>
 
 ### Approvals
 

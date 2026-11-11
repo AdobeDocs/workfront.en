@@ -20,6 +20,8 @@ role_v2:
 ---
 # [!UICONTROL Summary] overview
 
+{{highlighted-preview}}
+
 You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks, issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
 Your Workfront or group administrator can modify the areas and the fields that display in the Summary panel. They can add up to 16 fields to the Summary panel. 
