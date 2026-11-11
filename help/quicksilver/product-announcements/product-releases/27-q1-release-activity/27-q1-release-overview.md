@@ -54,7 +54,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Environment Promotion available for Workfront Planning</a></p>
                 <p>[!BADGE Concurrent release]{type=Neutral}</p>
-                <p>Workfront administrators can now promote Workfront Planning workspaces, record types, fields, and views from one environment to another.</p>
+                <p>Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another.</p>
             </td>
             <td><p>November 12, 2026</p></td>
             <td><p>November 12, 2026</p></td>
@@ -268,16 +268,6 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-        <tr>
-            <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Ideation space for Workfront Planning now available in Open Beta</a></p>
-                <p>[!BADGE Concurrent release]{type=Neutral}</p>
-                <p>Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work.</p>
-            </td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-        </tr>
 <!--
         <tr>
             <td>
@@ -377,6 +367,31 @@ The Desktop Proofing Viewer has been updated to version 2.3.0. This update inclu
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Announcements
+
+### Ideation space for Workfront Planning now available in Open Beta
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>This capability is available as an open beta program. Ideation space is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work. Ideation space helps stakeholders centralize brainstorming, align on priorities, and seamlessly move approved concepts into planning workflows.
+
+Using the CX Enterprise Coworker, you can now create ideation briefs which you can export to files or to Workfront Planning records.
+
+With Ideation space, you can:
+
+* Capture and collaborate on ideas with your teams and stakeholders.
+* Organize, evaluate, and prioritize ideas with visibility into the intake process.
+* Turn approved ideas into planning records and workflows.
+
+For more information, see [Get started with the Ideation space for Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ### Deprecation of legacy billing and cost rate fields in job role list views
 

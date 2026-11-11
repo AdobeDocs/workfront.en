@@ -12,31 +12,6 @@ This page describes enhancements made with the First Quarter 2027 release to the
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
-## Ideation space for Workfront Planning now available in Open Beta
-
->[!NOTE]
->
->Preview: November 12, 2026
->Production fast release: November 12, 2026
->Production for everyone: November 12, 2026
->[!BADGE Concurrent release]{type=Neutral}
-
->[!NOTE]
->
->This capability is available as an open beta program. Ideation space is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
-
-Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work. Ideation space helps stakeholders centralize brainstorming, align on priorities, and seamlessly move approved concepts into planning workflows.
-
-Using the CX Enterprise Coworker, you can now create ideation briefs which you can export to files or to Workfront Planning records.
-
-With Ideation space, you can:
-
-* Capture and collaborate on ideas with your teams and stakeholders.
-* Organize, evaluate, and prioritize ideas with visibility into the intake process.
-* Turn approved ideas into planning records and workflows.
-
-For more information, see [Get started with the Ideation space for Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
-
 <!--
 
 ## Enhanced list button and icon improvements

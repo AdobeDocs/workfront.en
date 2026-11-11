@@ -25,7 +25,9 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 >
 >Environment Promotion for Workfront Planning is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
 
-Workfront administrators can now promote Workfront Planning workspaces, record types, fields, and views from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+
+Records, automations, and fields that don't belong to the exported workspaces cannot be promoted.
 
 This capability requires Prime or Ultimate Workflow and Planning packages, a Standard license, and Workfront administrator access.
 
