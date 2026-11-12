@@ -176,6 +176,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Group administrators can manage business profiles</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access.</p>
             </td>
             <td><p>July 30, 2026</p></td>
