@@ -25,6 +25,19 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Share a Planning automation
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+New Workfront Planning automations are now available only to their owner by default, instead of being shared automatically with everyone in the workspace. Owners can choose who gets access by sharing the automation with others. You can give other users a **Manage**, **Edit**, or **Run** access level. Existing automations stay shared with their workspace users, so current access isn't affected.
+
+For information, see [Configure Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
 ## Environment Promotion available for Workfront Planning
 
 >[!NOTE]
