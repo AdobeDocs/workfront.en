@@ -55,19 +55,27 @@ This skill queries and manages Workfront Planning objects such as:
 * Records
 * Business rules
 
-<!--
+### Ideation space (beta) skills
 
-### Ideation space skills
+>[!NOTE]
+>
+>Ideation space is currently available in beta as an additional capability from Workfront Planning. 
+>
+>For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
+Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
 
 Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
 
-* Thing 1
-* Thing 2
-* Other thing
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
-
--->
+* Campaign ideation — Brainstorm and generate idea cards on the canvas for campaigns and other topics, using your attached source documents and other sources. This is the main starting point for ideation.
+* Campaign conversation — Work through campaign ideas conversationally within the Ideation Space app.
+* Campaign brief — Build and refine a structured campaign brief, with guardrails to keep it complete and on-track.
+* Document Q&A — Ask questions against documents you've attached to your ideation session.
+* Research — Pull in research to inform your ideation on the canvas.
+* Starter prompts — Get suggested prompts to kick off or expand your ideation.
+* Open canvas — Launch or jump into an Ideation Space canvas (used when starting from a regular chat outside the app).
 
 ## Workfront skills
 

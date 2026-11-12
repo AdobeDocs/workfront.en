@@ -25,12 +25,17 @@ Coworker respects your organization's existing Workfront-level access controls. 
 
 Coworker is part of the Adobe ecosystem, and is not just limited to Workfront. 
 
-For information on using Coworker in Workfront, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
-
 For more information on Coworker and its capabilities, see [Adobe CX Enterprise Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+
+For information on using Coworker in Workfront, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 For skills available in Coworker in Workfront, see [Workfront skills in CX Enterprise Coworker ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
-For example prompts, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+For example prompts for Coworker in Workfront, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
+CX Enterprise Coworker in Workfront is also available for the following Workfront capabilities:
+
+  * Workfront Planning. For information, see [Adobe Workfront Planning CX Enterprise Coworker overview](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+  * Ideation space in Workfront Planning. This is currently in beta. For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 
 
