@@ -194,3 +194,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 The user sees validation errors if they don't select the correct number of options.
 
 ![Validation error examples](assets/min-max-selections.png)
+
+## Formula to trigger validation only when the field is visible
+
+Validation logic is always checked, even if the field is not displayed. If a user interacts with a field containing validation logic, and the field is later hidden by display logic, the validation error will occur, even if the field's value was cleared before the field was hidden.
+
+Workaround: Use the same condition from the display rule in the validation formula to ensure validation is triggered only when the field is visible.
+
+For example, you have two fields, A and B.
+Field B has a display rule that makes it visible only when Field A's value is `"show"`.
+
+Field B also has the following validation formula:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+To validate Field B only when it is visible, you can include the display condition in the validation formula:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+This way, the validation error will only appear when Field A is set to `"show"` and the other validation conditions are met.
+

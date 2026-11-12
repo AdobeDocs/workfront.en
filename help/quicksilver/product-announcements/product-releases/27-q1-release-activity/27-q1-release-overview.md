@@ -349,6 +349,11 @@ Over time, we have introduced enhanced rate management capabilities and dedicate
 
 With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
 
+Although these fields are still available until January, they may not work correctly. Administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in Job Role list views should update their workflows to use the recommended rate management experiences to manage and review job role rates:
+
+* Access and manage job role rates directly from the Job Role > Rates page.
+* Use Rate Reports to review, analyze, and report on rate information across job roles.
+
 As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
 
     ```
@@ -359,13 +364,6 @@ As a replacement in reports, you can use the recommended Text Mode code (use `co
     valueexpression=CONCAT({startDate}," - ",{endDate},": ",{value})
     valueformat=HTML
     ```
-
-To manage and review job role rates, use the dedicated rate management experiences:
-
-* Access and manage job role rates directly from the Job Role > Rates page.
-* Use Rate Reports to review, analyze, and report on rate information across job roles.
-
-No action is required to prepare for the change. However, administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in Job Role list views should update their workflows to use the recommended rate management experiences described above.
 
 For information on job role rates, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
