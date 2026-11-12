@@ -150,7 +150,7 @@ The Updates section displays information in the following tabs:
   
     For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 
-    <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+    <span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>
 
 * **System activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. Any replies that were made to system activity records in the legacy commenting experience are populated on the System activity tab as read-only. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).

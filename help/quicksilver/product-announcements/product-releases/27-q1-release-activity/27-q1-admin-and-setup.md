@@ -12,6 +12,27 @@ This page describes Administrator enhancements made with the First Quarter 2027 
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## Environment Promotion available for Workfront Planning
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>Environment Promotion for Workfront Planning is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+
+Records, automations, and fields that don't belong to the exported workspaces cannot be promoted.
+
+This capability requires Prime or Ultimate Workflow and Planning packages, a Standard license, and Workfront administrator access.
+
+For information, see [Use Environment Promotion for Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
 ## Permissions for removing an attached custom form
 
 >[!NOTE]
@@ -29,7 +50,7 @@ For more information, see [Share a custom form](/help/quicksilver/administration
 >[!NOTE]
 >
 >Preview: October 29, 2026
->Production fast release: November 12, 2026
+>Production fast release: December 17, 2026
 >Production for everyone: January 21, 2027
 
 You can now mark a custom field as a favorite, either in the field list or in the custom form designer. When you work in certain lists and reports (such as project, task, and issue lists) and build filters, views, and groupings, the favorite fields appear at the top of the list of available fields in the Suggested section.
