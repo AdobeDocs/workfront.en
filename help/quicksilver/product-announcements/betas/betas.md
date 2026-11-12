@@ -47,14 +47,16 @@ The following features are currently available in beta:
 
 * The Adobe Workfront Planning Designer 
 
-    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md). 
+    Use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. 
 
-<!--
+    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md). 
 
 * Ideation space for Adobe Workfront Planning 
 
+    Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
+
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
--->
+
 
 <!--
 

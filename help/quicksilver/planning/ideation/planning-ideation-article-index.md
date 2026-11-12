@@ -55,9 +55,11 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to transform data and direct inputs into tangible plans and give teams an informed starting point instead of a blank page. 
 
-* [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [Create or edit Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md) 
-* [Share an Ideation space with others](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+The following articles contain information about Ideation space and give you a guide for its capabilities: 
+
+* Start here, to get a general understanding of Ideation space in Workfront: [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* As a System administrator, ensure you understand how to make Ideation space available to your organization: [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* When you are ready to create your first campaign strategy, find out how to build briefs using Ideation space: [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* If you are working from Workfront Planning, find out how to create records using Ideation space:  [Create or edit Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md) 
+* Collaborate with others on Ideation space: [Share an Ideation space with others](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 
