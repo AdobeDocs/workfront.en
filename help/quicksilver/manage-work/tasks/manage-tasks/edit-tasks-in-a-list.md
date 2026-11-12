@@ -477,6 +477,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
     </tbody> 
    </table>
 
+
 1. Workfront updates all in-project and cross-project dependencies when you change the timeline of a task. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
@@ -520,6 +521,19 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
       <tr> 
       </tbody> 
       </table>
+
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
 
 1. Click the **X** in the top-right corner of the panel to close it. 
 
