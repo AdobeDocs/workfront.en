@@ -53,12 +53,12 @@ The enhancements on this page are available in the Preview environment. This pag
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Environment Promotion available for Workfront Planning</a></p>
-                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another.</p>
             </td>
+            <td><p>To be communicated soon</p></td>
             <td><p>November 12, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
+            <td><p>To be communicated soon</p></td>
         </tr>
         <tr>
             <td>
