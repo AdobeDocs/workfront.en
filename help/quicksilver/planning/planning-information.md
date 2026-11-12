@@ -137,3 +137,11 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 ## Workfront Planning as a standalone product
 
 Customers can purchase Workfront Planning without purchasing a Workflow license. For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
+## Workfront Planning and Ideation space (Beta)
+
+The Adobe Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
+
+This capability it is currently available as a beta program.
+
+For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md). 
