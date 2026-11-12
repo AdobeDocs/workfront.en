@@ -190,6 +190,7 @@ For more information, see [Configure document integrations](/help/quicksilver/ad
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
 >Production for everyone: October 22, 2026
+>[!BADGE Workflow Ultimate]{type=Informative}
 
 Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access. This gives organizations more flexibility to delegate business profile management at the group level.
 
