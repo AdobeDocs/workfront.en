@@ -16,10 +16,9 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 
 >[!NOTE]
 >
->Preview: November 12, 2026
->Production fast release: November 12, 2026
->Production for everyone: November 12, 2026
->[!BADGE Concurrent release]{type=Neutral}
+>Production and Sandboxes fast release: November 12, 2026
+>Production, Preview, Sandboxes for everyone: To be communicated soon
+>[!BADGE Off schedule]{type=Neutral}
 
 >[!NOTE]
 >
