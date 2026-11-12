@@ -12,6 +12,8 @@ This page describes Project enhancements made with the First Quarter 2027 releas
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+<!--
+
 ## Resolve comment threads
 
 >[!NOTE]
@@ -27,6 +29,8 @@ Resolved threads are read-only, so you can't edit, delete, reply to, react to, o
 You can use a filter to display resolved threads in the Updates tab.
 
 For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+-->
 
 ## Unavailable status guidance
 

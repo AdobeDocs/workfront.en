@@ -50,7 +50,7 @@ For more information, see [Share a custom form](/help/quicksilver/administration
 >[!NOTE]
 >
 >Preview: October 29, 2026
->Production fast release: November 12, 2026
+>Production fast release: December 17, 2026
 >Production for everyone: January 21, 2027
 
 You can now mark a custom field as a favorite, either in the field list or in the custom form designer. When you work in certain lists and reports (such as project, task, and issue lists) and build filters, views, and groupings, the favorite fields appear at the top of the list of available fields in the Suggested section.

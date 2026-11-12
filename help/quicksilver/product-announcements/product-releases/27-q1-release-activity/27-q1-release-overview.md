@@ -75,7 +75,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 <p>You can now mark a custom field as a favorite so it appears at the top of the available fields when you build filters, views, and groupings, and in the form designer field library.</p>
             </td>
             <td><p>October 29, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
         <tr>
@@ -226,6 +226,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+<!--
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Resolve comment threads</a></p>
@@ -235,6 +236,7 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>December 17, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Unavailable status guidance</a></p>
