@@ -2221,7 +2221,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning CX Enterprise Coworker overview](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[Use Environment Promotion for Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
+    * [Use Environment Promotion for Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
