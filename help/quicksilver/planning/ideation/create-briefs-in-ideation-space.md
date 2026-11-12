@@ -229,6 +229,9 @@ You can create briefs to either create or edit Planning records or to create fil
     >
     >You cannot add files directly to the brief. You must first transfer the file information to the cards which you can send to the brief.
 
+1. (Optional) Click the **Chats** icon ![Chats icon](assets/chats-icon-coworker.png) in the upper-right corner of the Coworker panel, then click **New chat** to open a new prompt or click one of the previous chats in the list to return to an older one.
+
+    For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Enterprise Coworker documentation.
 
 1. Click the **Search** icon ![Search icon](assets/search-icon.png) to search for items in the ideation canvas, then click when it displays in the list to navigate to it. 
 

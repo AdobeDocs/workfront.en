@@ -12,13 +12,11 @@ recommendations: noDisplay, noCatalog
 <!--add to TOC-->
 <!--add to miniTOC-->
 
-<!--
-Not sure if this bit will ever be needed because this only exists when both Preview and Prod have the features in parity. Features released here always come to both environments at the same time: 
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only for select customers in their Production and Sandbox environments since November 12, 2026. At a later date, the same features will also available in the Production, Preview, and Sandbox environments for all customers. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">For information about releases, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md) . </span>
+
 
 >[!IMPORTANT]
 >
