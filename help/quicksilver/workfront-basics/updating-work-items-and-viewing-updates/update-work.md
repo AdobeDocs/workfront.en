@@ -649,7 +649,6 @@ To pin a comment thread:
 
 </div>
 
-<!--
 <div class="preview">
 
 ## Resolve comment threads
@@ -672,7 +671,7 @@ To resolve comment threads:
 
 1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
 
-   ************add a screen shot***************
+   ![Comment more menu with Pin and Resolve options](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
    The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
 
@@ -683,7 +682,6 @@ To resolve comment threads:
 1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
 
 </div>
--->
 
 ## Delete a comment or a reply
 
@@ -696,7 +694,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 1. Go to the comment or reply you want to delete.
 1. Click the **More** menu next to the comment or reply you wish to delete, then click **Delete**. 
 
-   ![Update stream comment More menu](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Comment more menu with Pin and Resolve options](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. In the message that appears, click **Delete**. 
 
