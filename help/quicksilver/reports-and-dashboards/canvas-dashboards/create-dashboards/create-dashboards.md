@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
+TQID: 'https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,11 +32,7 @@ topic_v2:
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
 >If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Please note that this beta is not available on the following cloud providers:
->
->* Bring Your Own Key for Amazon Web Services
->* Azure
->* Google Cloud Platform 
+
 
 With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
 
@@ -87,9 +85,7 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
 
 1. Click **New Dashboard** in the top-right corner.  
 
-1. In the **Create dashboard** box, 
-
-1. Specify the following: 
+1. In the **Create dashboard** box, specify the following: 
 
    <table style="table-layout:auto">
     <col>
@@ -105,13 +101,14 @@ Canvas Dashboards offer a wide variety of options and configurations that you ca
      </tr>
       <tr>
       <td role="rowheader"><strong>Currency</strong></td>
-      <td>Choose the default currency type for the dashboard. <br>
-      <br>Users can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</td>
+      <td><p>Choose the default currency type for the dashboard.</p>
+      <p>You can toggle between different currency types when filtering the dashboard. For more information, see <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filter a dashboard by currency type</a>.</p>
+      <p><strong>Note:</strong> If you only have one currency defined in your Workfront instance, you will not see the Currency field when creating a dashboard.</p></td>
      </tr>
     </tbody>
    </table> 
 
-1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard. 
+1. Click **Create**. The **Add report box** opens. From here, you can create a new report or add an existing report to the dashboard.
 
 ## Add a report to a dashboard 
 

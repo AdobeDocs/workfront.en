@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94
+TQID: 'https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
     internal-label: Data export
@@ -105,6 +107,7 @@ Information can be exported in the following formats:
 * PDF (Landscape or Portrait)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Tab Delimited
 
 >[!NOTE]
@@ -334,6 +337,8 @@ Links can point to any object in Workfront that supports linking. When you expor
 
 When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
 
+<!--
+
 ## Branding {#branding}
 
 >[!IMPORTANT]
@@ -347,3 +352,7 @@ If your Workfront administrator has added customized branding to your Workfront 
 Data that is exported in any other formats cannot be personalized with your logo.
 
 For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

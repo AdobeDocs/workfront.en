@@ -6,6 +6,18 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Third Quarter 2026 release activity for Adobe Workfront Planning
 
@@ -368,6 +380,17 @@ With this release key metadata is consistent across both platforms and reflects 
 
 For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
+## Planning features available in the Workfront MCP server
+
+>[!NOTE]
+>
+>* Preview: May 28, 2026
+>* Production fast release: June 11, 2026
+>* Production for everyone:  July 16, 2026
+
+Workfront Planning features are now accessible from the Workfront MCP server, so teams can reference Planning context and execute setup and approvals with the new MCP Connector tools. 
+
+For information, see [Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 ## List view updates 
 

@@ -79,34 +79,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 {{step1-to-timesheets}}
 
-   The **All** filter is selected by default. This displays all timesheets you have access to view.
+   All timesheets that you have access to view are displayed by default.
 
-   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list](assets/list-of-all-timesheets.png)
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
-   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
+   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve,
 
      Or
 
      Select **My Timesheets** to view only your timesheets.
 
-     This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
+     This applies the **My Timesheet Approvals** or the **My Timesheet** filters to the list of timesheets.
 
-     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to apply a filter or create a new filter. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
-   > 
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Optional) Click the **Search** icon ![Search icon](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
 
-1. (Optional) Click the **View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -116,65 +111,18 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **New Timesheet** at the top of the list of timesheets.
    
-   Specify the following information:
-
-   <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>Create timesheet for</strong> </td> 
-      <td>Start entering the name of the user, a job role, or a team for whom you are creating the timesheet, and click them when they display in the list.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Start Date</strong> </td> 
-      <td>This is the start date of the timesheet.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>End Date</strong> </td> 
-      <td> This is the end date of the timesheet.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Approvers</strong> </td> 
-      <td>Approvers are users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear in the list.<br>You can have multiple approvers on a timesheet. In this case, after one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Can edit time</strong> </td> 
-
-      <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> 
-      
-      This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.
-
-      The following scenarios exist: 
-
-      <ul>
-      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
-   <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
-   <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
-   <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
-   <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
-   <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
-   <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
-   </ul>
-
-   <p><b>NOTE</b>
-
-      Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p>
-          
-      </td> 
-      </tr> 
-           
-     <tr> 
-
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-      <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
-      </tr> 
-      </tbody> 
-   </table>
+   Enter the following information:
+   
+   | Field Name | Description |
+   | --------- | ---------- |
+   | Create timesheet for | Start entering the name of the user, a job role, or a team for whom you are creating the timesheet, and click them when they display in the list. |
+   | Start Date | This is the start date of the timesheet. |
+   | End Date | This is the end date of the timesheet. |
+   | Approvers | <p>Approvers are users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see [Grant users administrative access to certain areas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Start entering the names of the timesheet approvers and select them when they appear in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after one of the approvers approves the timesheet, the timesheet is marked as **Closed** and it disappears from the timesheet approvals list of all the remaining approvers.</p> |
+   | Can edit time | <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p><p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).</p><p>The following scenarios exist:</p><p>When the **Restrict timesheet editing to owners and admins** option is enabled:</p><ul><li>Approvers can only approve and reject timesheet, regardless of whether **Can edit time** is enabled or not.</li><li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul><p>When the **Restrict timesheet editing to owners and admins** option is disabled:</p><ul><li>When **Can edit time** is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li><li>When **Can edit time** is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet.</li><li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul><p>**NOTE**</br>Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see [Submit a timesheet for approval](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) and [Approve a timesheet](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md). |
+   | Overtime | You can choose to hide the **Overtime** box on the timesheet. This option is disabled by default. |
 
 1. Click **Create timesheet**.
-
-<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
 ## When tasks and issues appear on users' timesheets
 

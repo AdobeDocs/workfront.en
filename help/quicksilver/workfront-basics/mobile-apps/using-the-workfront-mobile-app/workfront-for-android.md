@@ -7,10 +7,13 @@ description: The [!DNL Adobe Workfront] app allows you to access your work on an
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+TQID: 'https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,6 +22,8 @@ topic_v2:
     internal-label: Security
 ---
 # [!DNL Adobe Workfront] for [!DNL Android]
+
+{{mobile-maintenance-mode}}
 
 The [!DNL Adobe Workfront] app allows you to access your work on any [!DNL Android] device. You can install and use the [!DNL Workfront] mobile app on phones and tablets running [!DNL Android] 5.0 or later.
 

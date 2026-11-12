@@ -6,15 +6,24 @@ description: You can manage approvals assigned or delegated to you from the [!UI
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
+TQID: 'https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
 # Approvals in the [!DNL Adobe Workfront] mobile app
+
+>[!IMPORTANT]
+>
+>The Workfront mobile app is in maintenance mode and no longer undergoing new development.
+>&nbsp;
+>Unified Approvals are not supported in the Workfront mobile app.
 
 You can manage approvals assigned or delegated to you from the [!UICONTROL Approvals] area in the [!DNL Adobe Workfront] mobile app. From the [!UICONTROL approvals] area, you can approve:
 

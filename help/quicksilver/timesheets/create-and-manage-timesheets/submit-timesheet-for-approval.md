@@ -82,7 +82,7 @@ To submit a timesheet for approval:
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Click **Submit for approval** to launch the timesheet approval process.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Submit for approval button](assets/submit-for-approval-button-on-timesheet.png)
 
    The **Submit for approval** button is replaced by the **Approve**, **Reject**, and **Recall** buttons. The status of the timesheet changes to **Submitted**.
 
@@ -103,65 +103,38 @@ Without these notifications, you can learn about the status of your submitted ti
 
 To view the status of a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Timesheets**. The **All** filter is selected by default.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   All timesheets that you have access to view are displayed by default.
+
+   ![Timesheets list](assets/list-of-all-timesheets.png)
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
-   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
+   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve,
 
      Or
 
      Select **My Timesheets** to view only your timesheets.
 
-     This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
+     This applies the **My Timesheet Approvals** or the **My Timesheet** filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to apply a filter or create a new filter. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
-   >
-   >   
-   >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Conditional) If you selected **My Timesheets**, ensure that the **Standard** view is applied and notice the **Status** column.
 
-   Timesheets may have the following statuses:
+   Timesheets can have the following statuses:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Open</td> 
-      <td> <p>Your timesheet is currently open and you may log time. </p> <p>A recalled timesheet displays with a status of Open. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Submitted</td> 
-      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Closed</td> 
-      <td> <p>The following scenarios exist:</p> 
-       <ul> 
-        <li> <p>If the timesheet has no approver, you saved your time and closed it.</p> </li> 
-        <li> <p>If the timesheet has an approver, you have submitted it for approval and it has been approved.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rejected</td> 
-      <td>You submitted the timesheet for approval and the approver rejected it.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Status | Description |
+   | --------- | ---------- |
+   | Open | <p>Your timesheet is currently open and you may log time.</p><p>A recalled timesheet displays with a status of Open. For information, see the [Recall a timesheet](#recall-a-timesheet) section in this article.</p> |
+   | Submitted | You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it. For information, see the [Recall a timesheet](#recall-a-timesheet) section in this article. |
+   | Closed | <p>The following scenarios exist:</p><ul><li>If the timesheet has no approver, you saved your time and closed it.</li><li>If the timesheet has an approver, you have submitted it for approval and it has been approved.</li></ul> |
+   | Rejected | You submitted the timesheet for approval and the approver rejected it. |
 
 ## Recall a timesheet {#recall-a-timesheet}
 
@@ -169,10 +142,9 @@ You can recall a timesheet that has already been submitted for approval. Only ti
 
 To recall a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**.
-1. Click **My Timesheets** in the upper-right corner of the screen or select **My Timesheets** from the **Filter** ![](assets/filter-nwepng.png) drop-down menu.
+1. Click **My Timesheets** in the upper-right corner of the screen, or select **My Timesheets** from the **Filter** ![Filter icon](assets/filter-nwepng.png) drop-down menu.
 1. Click the time frame for a timesheet with a status of **Submitted**.
 1. Click **Recall**.
 

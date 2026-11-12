@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
+TQID: 'https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,11 +31,12 @@ topic_v2:
 ---
 # Manage the table view
 
-<!--
+<!-- remove Production and Preview references at release-->
+
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 
 {{planning-important-intro}}
@@ -63,21 +68,36 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
+
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
+
 </tbody> 
 </table> 
 
@@ -132,7 +152,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -166,13 +186,23 @@ For more information about editing records in the table view, see [Edit records]
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+In a table view, all records of the selected record type display in a table format. Each row is a unique record and each column is a record field. 
+
+The following display in a table view by default: 
+
+* In the Production environment, all fields and all records for the selected record type. 
+
+<div class="preview">
+
+* In the Preview environment, 500 records display by default. Additional records display as you scroll the page. 
+
+</div>
 
 To manage a table view: 
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
-    ![Table view example](assets/table-view-example-g-list.png)
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -208,6 +238,10 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
 
+    In the Production environment, newly added fields are added and are visible from all views.
+    
+    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all views, except for the view where you are adding them. </span>
+
 1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
@@ -215,6 +249,8 @@ You can add up to 500 fields (or columns) in a table view.
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
+
+        <!--update the screen shot without Thumbnail at Production release-->
         
         ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -262,11 +298,11 @@ You can add up to 500 fields (or columns) in a table view.
     >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Click the **Fields** icon and turn on the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. <span class="preview">The total number of records displayed to the left of the search box is replaced by the number of records found in the search. The table is filtered to display only the items that match the search. </span>
 
         ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -274,18 +310,73 @@ You can add up to 500 fields (or columns) in a table view.
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
+        >[!TIP]
+        >
+        ><span class="preview">Quick search works for all records, not just the ones that display in the current view. More records load, as you scroll. </span> 
+
+
     1. Press **Enter** on your keyboard to go to the next found field. 
 
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
     1. Click the **x** icon in the search box to clear the search keyword. 
-  
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column.
+        * **MIN**: Displays the lowest value from all the cells in the column.
+        * **MAX**: Displays the highest value from all the cells in the column.
+        * **AVG**: Displays the average value of all the cells in the column.
+        * **NONE**: The values of the column are not aggregated. This is the default option.
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated. This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated. This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+     
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
     * **MIN**: Displays the lowest value from all the cells in the column. 
     * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
 
     Consider the following when working with aggregators: 
     
@@ -294,11 +385,14 @@ You can add up to 500 fields (or columns) in a table view.
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
+-->
+
 ### Add rows (or records) {#add-rows-1}
 
 The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-You can have up to 50,000 records (or rows) for a record type. 
+You can have up to 50,000 records (or rows) for a record type. <span class="preview">Only 500 rows display by default. More load as you scroll the page.</span>
+<span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
 
 1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
@@ -306,29 +400,44 @@ You can have up to 50,000 records (or rows) for a record type.
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-    A default thumbnail image is also added to the new record.
+    A default thumbnail image and color are also added to the new record.
+
+    >[!TIP]
+    >
+    >When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    >In the drag and drop line, a number indicator displays the number of records selected, if more than one. 
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
+1. Hover over the primary field header, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. 
+
+1. (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.
+
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 ### Add filters {#add-filters-1}
 
 Filters help you reduce the amount of information displayed on the screen.
 
-Filters help you reduce the amount of information displayed on the screen.
-
 Consider the following when working with filters in the table view: 
+
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -385,10 +494,10 @@ To add a filter to a table view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p>
+            <td><p>Is any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p>
+            <p>Is none of</p>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
@@ -543,6 +652,11 @@ Consider the following:
 * When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
 * Groupings are listed in the alphabetical order of their values. 
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
+-->
+
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 To add a grouping:
@@ -555,6 +669,14 @@ To add a grouping:
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
 
     The grouping is applied automatically to the table and records display under the grouping separation line.
+
+    <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    --> 
     
 1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
 
@@ -1120,9 +1242,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

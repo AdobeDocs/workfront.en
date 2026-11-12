@@ -196,7 +196,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       >
       >For more information, see [Document management overview for projects and related objects](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md). 
    
-   1. (Conditional and optional) If you selected a legacy storage template, select the Create this project on Adobe cloud storage setting in the lower-right corner of the New project box. This will create an Adobe cloud storage project. Documents and document folders from the template will not be added to the project.      
+   1. (Conditional and optional) If you selected a legacy storage template, select the **Create this project on Adobe cloud storage** setting in the lower-right corner of the New project box. This will create an Adobe cloud storage project. Documents and document folders from the template will not be added to the project.      
    
    1. Review the following template details on the right:
    
@@ -240,6 +240,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
    Edit the pre-populated values to better match your project. 
 
    For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Click **Create project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
@@ -274,6 +275,7 @@ Instead of starting in the Projects area, you can create a project from a templa
    If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. 
    
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 
 1. Click **Create project**.
 

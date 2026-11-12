@@ -64,6 +64,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
+## Configure time logging
+
 1. Do either of the following, depending on your objective and your access level in the system:
 
    * **Standard or Plan user configuring time logging for yourself:** Click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**. Then, click the **More** icon next to your name and select **Edit**.
@@ -86,6 +88,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    Consider the following when configuring this setting:
 
    * This option is not available when configuring to log time in hours.
-   * This option is used only for the purpose of logging time. This option is not related to the **Schedule** option that is also available when editing a user. The **Schedule** option is used when calculating timelines and in other areas of Workfront. (For more information about using the **Schedule** option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)&nbsp;
+   * This option is used only for the purpose of logging time. This option is not related to the **Schedule** option that is also available when editing a user. The **Schedule** option is used when calculating timelines and in other areas of Workfront. For more information about using the **Schedule** option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Click **Save Changes**.

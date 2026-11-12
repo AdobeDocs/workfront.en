@@ -126,6 +126,24 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 
+## Boards - maintenance mode {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+
+## Boards - workstreams not available {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards is currently not undergoing new development.
+>&nbsp;
+>The workstreams feature in Boards was deprecated, but it remains available for customers who were already using it.
+>
+>* It is recommended to move away from using workstreams because they are no longer supported.
+>* If you do not have a Workstreams tab on the boards dashboard, you cannot add workstreams.
+>* If you have access to workstreams, you can add new workstreams and manage existing workstreams. If you archive or delete a workstream, you cannot recover it. If you have one remaining workstream and you archive or delete it, then workstreams are fully deprecated for your Workfront instance and you cannot add new workstreams.
+
 <!-- Blueprints -->
 
 ## Step 1 - Getting to Blueprints - {#step1-to-blueprints}
@@ -357,6 +375,12 @@ OLD:
 
 1. Open the document proof and select the **[!UICONTROL More]** menu ![More menu](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **[!UICONTROL More]**.
 
+## Mobile - no new development {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>The Workfront mobile app is in maintenance mode and no longer undergoing new development.
+
 <!-- My Updates -->
 
 ## Step 1 - Getting to My Updates - {#step1-to-my-updates}
@@ -377,8 +401,8 @@ OLD:
 
 **Latest version**: 
 
-* Mac: 2.1.54 as of 12/11/2025
-* Windows: 2.1.54 of 12/11/2025
+* Mac: 2.4.0 as of 11/11/2026
+* Windows: 2.4.0 as of 11/11/2026
 
 <!-- Release -->
 

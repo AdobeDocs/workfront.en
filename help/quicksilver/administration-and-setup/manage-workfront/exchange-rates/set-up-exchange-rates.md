@@ -8,13 +8,15 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-TQID: https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo
+TQID: 'https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -29,6 +31,7 @@ topic_v2:
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront. This includes the following:
 
@@ -103,6 +106,14 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Set effective dates on a currency's exchange rates
 
 Effective dates for a currency's exchange rates are configured so that a rate value ends on a specific date and another rate begins. The exchange rate for the correct date is then used in financial calculations.
+
+>[!NOTE]
+>
+>Configuring date-effective exchange rates defines which system exchange rate applies for a particular date. It does not mean that all project financial calculations use a different exchange rate for each day.
+>
+>When the **Use date-effective exchange rates from the system** setting is turned on for a project, planned cost and revenue use the system exchange rate that is effective on the project's **Exchange Rate Date**. They do not automatically use the effective rate on each day of planned work.
+>
+>For information about setting a project to use the system-level date-effective exchange rates, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 

@@ -10,13 +10,15 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
-TQID: https://experienceleague.adobe.com/dS4fvNszKwuuEYL8ZGvVqjyTkjl4WV2tnhEuZ2uXeIc
+TQID: 'https://experienceleague.adobe.com/dS4fvNszKwuuEYL8ZGvVqjyTkjl4WV2tnhEuZ2uXeIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -37,10 +39,8 @@ This section contains the following articles:
 * [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
 * [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
 * [Removal of various single sign-on options](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) 
-* [Renew the Adobe Workfront SAML 2.0 metadata certificate](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md) 
 * [Prevent duplicate users](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md) 
 * [Restrict access to Adobe Workfront by IP address](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) 
 * [File encryption](../../../administration-and-setup/manage-workfront/security/file-encryption.md) 
-* [Change your Adobe Workfront domain](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md) 
 * [Manage API keys](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md) 
 * [Adobe Workfront Privacy Policy](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)

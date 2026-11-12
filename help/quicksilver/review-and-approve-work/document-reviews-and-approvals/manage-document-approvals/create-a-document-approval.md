@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
+TQID: 'https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,9 +17,13 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,6 +34,8 @@ topic_v2:
 # Create a document approval workflow
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.  
+
+By default, an approval template is visible only to its creator. Throughout this article, you can only select templates you created or that were shared with you. For more information, see [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates.
 
 >[!IMPORTANT]
 >
@@ -58,7 +64,7 @@ You can request approval from other users or teams for a document in Adobe Workf
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, and Calendars, Documents</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, Calendars, and Documents</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -71,53 +77,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## Create an approval workflow in the legacy documents area
 
@@ -140,11 +99,12 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>Select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>Select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td><strong>Add people or teams</strong></td>
+   <td><p>Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -165,6 +125,10 @@ To create a single-stage approval workflow:
 1. Click **Request approval**.
 
    ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
+
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 ### Create an advanced approval workflow 
 
@@ -188,6 +152,14 @@ To create an advanced approval workflow:
    >
    >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
 
+1. (Optional) To apply a template:
+
+   1. Toggle **Templates** On.
+   1. Click the filter icon, then select **All**, **My templates**, or **Shared with me** to narrow the list.
+   1. Click a template to apply it to the approval.
+
+   System Administrators see every template in the account here, regardless of who created or shared it.
+
 1. Fill in details for Stage 1 of Path 1:
 
    <table>
@@ -196,8 +168,9 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td><strong>Add people or teams</strong></td>
+   <td><p>Begin typing a user name, team, or email address. The team is added as a single approver or review by default, but you can choose to add each team member as an individual participant.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -219,61 +192,20 @@ To create an advanced approval workflow:
 
 1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
-   ![Advanced mode with parallel paths](assets/request-approval-parallel-paths.jpeg)
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## Create an approval workflow in the new Documents area
 
 If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>The approver or reviewer must have the project that contains the document shared with them, or the approval won't appear in their My Approvals widget. 
 
 The **Request approval** dialog opens in **Basic** mode by default. Basic mode is a single stage with one set of approvers or reviewers. Switch to **Advanced** mode to configure multi-stage approvals or parallel paths.
 
@@ -294,11 +226,12 @@ To create a single-stage approval workflow:
    <table>
    <tr>
    <td><strong>Use an approval template (optional)</strong></td>
-   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
+   <td>The templates field is collapsed by default. Click the field to expand it, then select a template from the drop-down menu. The menu only lists templates you created or that were shared with you — either with you specifically or with everyone in your organization. System Administrators see every template in the account here, regardless of who created or shared it. If the template has one path and one stage, it applies in Basic mode. If the template has more than one stage or more than one path, the dialog automatically switches to Advanced mode and any input you entered in Basic mode is replaced by the template's content.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
+   <td><strong>Add people or teams</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -306,7 +239,7 @@ To create a single-stage approval workflow:
    </tr>
    <tr>
    <td><strong>Due on (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   <td>Set a due date for the approval. Users are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
@@ -316,7 +249,12 @@ To create a single-stage approval workflow:
 
 1. Click **Request approval**.
 
-   ![Request approval in Basic mode](assets/request-approval-basic.jpeg)
+   ![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+
+
+
+
+   
 
 >[!NOTE]
 >
@@ -346,6 +284,14 @@ To create an advanced approval workflow:
    >
    >While you're creating the approval, you can return to Basic mode by clicking **Go to basic** in the top right. After you click **Request approval**, the **Go to basic** option is no longer available.
 
+1. (Optional) To apply a template:
+
+   1. Toggle **Templates** On.
+   1. Click the filter icon, then select **All**, **My templates**, or **Shared with me** to narrow the list.
+   1. Click a template to apply it to the approval.
+
+   System Administrators see every template in the account here, regardless of who created or shared it.
+
 1. Fill in details for Stage 1 of Path 1:
 
    <table>
@@ -354,8 +300,9 @@ To create an advanced approval workflow:
    <td>Stages are named <em>Stage 1</em>, <em>Stage 2</em>, and so on by default. Rename the stage to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made..<p>Note: A reviewer or approver can be assigned to only one open stage at a time on the same asset. If multiple parallel stages are open simultaneously, the same person can't be added to more than one.</p></td>
+   <td><strong>Add people or teams</strong></td>
+   <td><p>Begin typing a user name, team, or email address, then choose if they are an <strong>Approver</strong> or <strong>Reviewer</strong>. Workfront adds each active member of a team individually.</p>
+   <p>Note: If a user is already added, or belongs to more than one team you add, they're included once. Additionally, participants can be assigned only to one open stage at a time on the same asset.</p></td>
    </tr>
    <tr>
    <td><strong>Only one decision required (optional)</strong></td>
@@ -363,7 +310,7 @@ To create an advanced approval workflow:
    </tr>
    <tr>
    <td><strong>Due on (optional)</strong></td>
-   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users and teams are notified by email 72 hours, then 24 hours before the due date.</td>
+   <td>The first stage of each path supports an absolute due date. Each subsequent stage in the path supports a relative due date — the number of days from when that stage opens. Users are notified by email 72 hours, then 24 hours before the due date.</td>
    </tr>
    <tr>
    <td><strong>Add Custom Message (optional)</strong></td>
@@ -378,11 +325,36 @@ To create an advanced approval workflow:
 
 1. (Optional) To remove a path, hover the path label and click the trash icon. **Path 1** can't be removed, and paths can't be reordered. Other paths can be removed only if no stage within the path is locked or completed.
 
-   ![Advanced mode with parallel paths](assets/request-approval-advanced.jpeg)
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+
+
+
+
 
 1. (Optional) To clear all paths and stages and start over, click **Reset** in the top right.
 
 1. Click **Request approval**.
+
+## View approval workflows for previous versions in the new Documents area
+
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+The Approvals panel lists only the versions of the document that have an approval workflow.
+
+To view approval workflows for previous versions:
+
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
+
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
+
+1. Click a version to expand it. You can view its stages, each approver's decision, the stage's decision rule (such as whether only one decision is required to complete the stage), and due dates.
+1. Click another version to expand its approval workflow without leaving the panel.
+
+   >[!NOTE]
+   >
+   >If a version's approval workflow was withdrawn because a newer version's approval was requested, it stays in the list, collapsed, so you can still review its prior decisions.
+
 
 <!--
 ## Resubmit an approval on a new version

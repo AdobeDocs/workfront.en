@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
+TQID: 'https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -112,6 +114,7 @@ For information about custom fields and widgets in custom forms, see [Create a c
   * Custom fields not included in a display logic statement show on a custom form, by default.
   * You can create multi-field display logic statements.
   * If all of the fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form.
+  * Fields hidden by display logic keep their values, and they are still included in expressions such as CONCAT.
 
 ## Add display logic to a custom form
 
@@ -200,10 +203,6 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >Advanced display logic is not supported in the form designer preview mode.
-
 ## Add skip logic to a custom form
 
 Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
@@ -278,10 +277,6 @@ When the custom form is attached to a project and the project status is Planning
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >Default value logic is not supported in the form designer preview mode.
-
 ## Add validation logic to a custom form
 
 Validation logic is built using formulas, and you can make the logic as simple or as complex as you need. The validation can be based on the values of other fields or the status of objects, and you can provide an error message for when the validation fails.
@@ -326,10 +321,6 @@ For additional examples of validation logic, see [Examples of advanced logic in 
 1. Click **Apply**.
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
-
-   >[!NOTE]
-   >
-   >Validation logic is not supported in the form designer preview mode.
 
 ## Add formatting logic to a custom form
 
@@ -390,10 +381,6 @@ IF(
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >Formatting logic is not supported in the form designer preview mode.
-
 ## Add editability logic to a custom form
 
 Editability logic determines whether a custom form field can be edited or whether it is read-only. This logic is built using formulas, and when the field meets the defined conditions it can be set as editable or read-only.
@@ -440,6 +427,3 @@ IF($$USER.{role}.{name}="Resource Manager", true)
    
    The logic is applied, and the logic icons are added to the target field and the reference field in the form designer.
 
-   >[!NOTE]
-   >
-   >Editability logic is not supported in the form designer preview mode.

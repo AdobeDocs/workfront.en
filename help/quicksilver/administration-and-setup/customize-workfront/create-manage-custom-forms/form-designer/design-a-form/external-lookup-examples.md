@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
+TQID: 'https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -232,7 +234,7 @@ There are many other use cases for creating an External lookup.
    Example Base API URL for templates, to replace a typeahead field:
    `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External eookup field).
+**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External lookup field).
 **Solution:** Use an API call to existing objects in the system, or create a new object and use an API call to this object.
 
 **Use case:** Define a way for users to maintain their own fields outside of the custom forms area. Set up the External lookup field and you can give users to the objects that comprise the field. This option is good for high maintenance fields and teams.
@@ -240,4 +242,3 @@ There are many other use cases for creating an External lookup.
 
 **Use case:** Integration with objects outside of Workfront. For example, accessing another system to get the name of every user, rather than being restricted in a typeahead field.
 **Solution:** Webhook/Fusion automation to connect to other systems.
-

@@ -9,13 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-TQID: https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8
+TQID: 'https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -58,7 +60,9 @@ Because environment promotion deals with object configuration, transactional obj
 * [Custom data objects](#custom-data-objects)
 * [Organization objects](#organization-objects)
 * [Other configuration objects](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### Work objects
 
@@ -71,12 +75,12 @@ Because environment promotion deals with object configuration, transactional obj
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group  |
-| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  |
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group |
+| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter |
 | Calendar (CALEND) | Calendar<br>Calendar Section |
 | External Page (EXTSEC) | External Page |
 | Report (PTLSEC) | Report<br>Filter<br>Grouping<br>View<br>Parameter |
-| Filter (UIFT) |  Filter<br>Parameter |
+| Filter (UIFT) | Filter<br>Parameter |
 | Grouping (UIGB) | Grouping<br>Parameter |
 | View (UIVW) | View<br>Parameter |
 
@@ -130,6 +134,26 @@ Because environment promotion deals with object configuration, transactional obj
 >* Group
 
 -->
+
+<!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
 
 ## Environment promotion statuses
 

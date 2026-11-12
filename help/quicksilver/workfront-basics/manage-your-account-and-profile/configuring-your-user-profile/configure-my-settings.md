@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+TQID: 'https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,7 +16,9 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
     internal-label: Workfront Proof
@@ -364,7 +366,7 @@ You can change any of the following in this sub-section:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</p>
-   <p><strong>NOTE:</strong> When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. For more information, see <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Change the Adobe Experience Cloud language</a> in the article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Supported languages in Adobe Workfront</a>.</p></td> 
+   <p><strong>NOTE:</strong> When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. For more information, see <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Change the Adobe CX Enterprise language</a> in the article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Supported languages in Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Automatically set the task status to In Progress when tasks are self-assigned]</strong> </td>
   <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
@@ -415,10 +417,12 @@ You can change any of the following in this sub-section:
       </p> </td> 
    </tr>
   --> 
+  <!--
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
    <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>This field displays the level of access you have in [!DNL Workfront Proof]. It is available only if:</p> 

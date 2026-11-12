@@ -6,13 +6,15 @@ description: Your Adobe Workfront administrator grants users access to view or e
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-TQID: https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE
+TQID: 'https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner

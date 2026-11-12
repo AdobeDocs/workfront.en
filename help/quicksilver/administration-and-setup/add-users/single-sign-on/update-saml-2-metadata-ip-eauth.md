@@ -7,13 +7,15 @@ role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 recommendations: noDisplay, noCatalog
-TQID: https://experienceleague.adobe.com/T5QFoqQvdMa4T-dLreKMeNK0tn30qCHcwt-kM9bpjic
+TQID: 'https://experienceleague.adobe.com/T5QFoqQvdMa4T-dLreKMeNK0tn30qCHcwt-kM9bpjic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -28,6 +30,12 @@ topic_v2:
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication
 
 <!-- enhanced authentication is no longer available for workfront customers -->
+
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
+
+<!--
 
 {{important-admin-console-onboard}}
 
@@ -167,3 +175,5 @@ This procedure provides essential information for configuring Okta as an identit
 ## Using other identity providers
 
 When using identity providers other than Okta (such as Ping or Centrify), you must re-upload the Workfront metadata to your identity provider.
+
+-->

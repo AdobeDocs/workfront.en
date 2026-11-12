@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: "Administration and setup: article index"
+title: 'Administration and setup: article index'
 description: Find the information you need to manage the Workfront system.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-TQID: https://experienceleague.adobe.com/dJyaHf5cWCbUikjRtToUZ9bMvrAD7uZ8K85-qW1WLkw
+TQID: 'https://experienceleague.adobe.com/dJyaHf5cWCbUikjRtToUZ9bMvrAD7uZ8K85-qW1WLkw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started

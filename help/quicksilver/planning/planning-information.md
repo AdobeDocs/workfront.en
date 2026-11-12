@@ -116,6 +116,8 @@ The following sections contain articles that describe in detail the features cur
 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
 
+* [Use the Workfront MCP server for Planning objects](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): The Adobe Workfront MCP server lets you find, create, update, and manage Workfront items by asking an AI agentic platform in natural language. The platform decides which Workfront actions to call and handles the conversation with Workfront for you. 
+
 * [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md): You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
 * [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
@@ -135,3 +137,11 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 ## Workfront Planning as a standalone product
 
 Customers can purchase Workfront Planning without purchasing a Workflow license. For information, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
+## Workfront Planning and Ideation space (Beta)
+
+The Adobe Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
+
+This capability it is currently available as a beta program.
+
+For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md). 

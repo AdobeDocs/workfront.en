@@ -3,6 +3,9 @@ title: Proofing collaboration limitations with people outside of your organizati
 description: Proofing collaboration limitations with people outside of your organization
 author: Courtney
 draft: Probably
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 ---
 # Proofing collaboration limitations with people outside of your organization
 

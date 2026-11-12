@@ -8,13 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-TQID: https://experienceleague.adobe.com/9kmdYi4mGcFFYPDPub9hYD3el1Fp-D3EDn-xahkn5aI
+TQID: 'https://experienceleague.adobe.com/9kmdYi4mGcFFYPDPub9hYD3el1Fp-D3EDn-xahkn5aI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -23,6 +25,12 @@ topic_v2:
     internal-label: Administration
 ---
 # Deactivate single sign-on in Adobe Workfront
+
+>[!IMPORTANT]
+>
+>Because sign-on is now handled through Adobe IMS (Identity Management System), the information in this article has been removed.
+
+<!--
 
 {{important-admin-console-onboard}}
 
@@ -64,3 +72,5 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Scroll to the bottom of the page and disable the **Enable** option.
 1. Click **Save**.
+
+-->

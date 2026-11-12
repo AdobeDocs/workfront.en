@@ -9,13 +9,18 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
+TQID: 'https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
     internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -39,16 +44,18 @@ Project coordinators manage work in Workfront while creatives, marketers, and st
 
 ## Built on Adobe cloud storage
 
-Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
+Unified review and approval is built on Adobe cloud storage—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
 
 Key benefits of Adobe cloud storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions with Adobe Identity Management system (IMS) for secure access control
-* End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
+* End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps
 * Scalable storage and quota management for enterprise needs
 
 For more details, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Creative Cloud apps (Photoshop, Illustrator, and InDesign) can also access Workfront projects directly. For more information, see [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Unified review and approval 
 
@@ -71,7 +78,7 @@ Use the Frame.io viewer to review and approve assets. The Frame.io viewer provid
 * Markup and commenting tools
 * Version history and comparison
 * Time-stamped comments for video reviews
-* Mobile access for on-the-go reviews and approvals
+* Mobile access for on-the-go review and approval with the [Frame.io iOS app](https://help.frame.io/en/collections/9679120-ios-app)
 
 For more information, see [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
@@ -94,6 +101,12 @@ The Frame.io viewer is the default viewer for all Workfront review and approval 
 If your organization wants to take advantage of additional Frame.io functionality available with this integration, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io Enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
 Workfront Proofing functionality is not available with this integration.
+
+## Complete audit trail
+
+Unified review and approval includes comprehensive audit logging that creates a complete governance trail across Workfront and Frame.io. Change tracking logs capture approval decisions made in the Frame.io viewer and document lifecycle. Each log entry includes source system attribution (Workfront or Frame.io) alongside the standard Workfront audit fields: date and time, log type, user name, action, and object name. Frame.io viewer comments are not included in audit logs.
+
+Change tracking logs appear in Workfront's Setup area and are available for export. For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Powerful project management in Workfront
 
@@ -341,6 +354,12 @@ The Frame.io viewer includes a full set of visual markup tools, including freeha
 
 Comments and annotations remain within the Frame.io viewer so that they retain their full context, including timestamps and visual markups. This may evolve in future releases.
 
+The Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+
+**Who can see the Frame.io comment indicator in Workfront?**
+
+Only users who could already see those comments in Frame.io can see the indicator. If you have a Frame.io Enterprise license, you see it for any comments on the document. If you don't have a Frame.io Enterprise license, you see it only once an approval exists for the document. Approvals make all prior comments on the document visible to you as well.
+
 **Is it possible to add comments to a downloaded version of an asset (e.g., a PDF)?**
 
 This is not currently supported, but it is a commonly requested feature that is under consideration for a future release.
@@ -358,6 +377,14 @@ For a full list of supported file types, see the Frame.io supported file types d
 **Can I share assets externally with stakeholders who don\'t have access to Workfront?**
 
 Yes. Assets can be shared externally. External users are notified via email and will be prompted to create a Frame.io login to access the viewer and participate in the review.
+
+**Can I attach images to comments on a document in Workfront?**
+
+If your organization uses Adobe cloud storage as part of Unified review and approval, you can attach image files directly to comments on a document. Attached images are stored in Adobe cloud storage, and all media type image file formats are supported.
+
+These comments are Workfront-native and are separate from comments in the Frame.io viewer. Images attached to a comment are not accessible in Frame.io, and attaching an image does not add markup to the asset or route it for approval. Non-image file types cannot be attached to a comment.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
@@ -481,7 +508,7 @@ Users can launch the Frame.io viewer directly from Workfront. All review and app
 
 Yes. Once an asset completes the review and approval cycle, you can transfer it to Adobe Experience Manager Assets for final storage and distribution. This connects Workfront for work management, Frame.io for review, and AEM for digital asset management into a unified content supply chain.
 
-For more information, see For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+For more information, see [Use Adobe Experience Manager with Workfront and Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **How does unified review and approval fit into Adobe GenStudio?**
 

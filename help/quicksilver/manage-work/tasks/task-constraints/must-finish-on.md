@@ -40,6 +40,10 @@ Consider the following when scheduling a task with a Must Finish On constraint:
 * Predecessor relationships do not force the task to be rescheduled. Adobe Workfront essentially ignores the predecessor relationships.
 * The task shows as **At Risk** if the predecessors begin to run behind or are late.
 
+* The Must Finish On constraint has no effect on a task with subtasks. A task with subtasks always has its own Planned Start, Planned Completion, and Duration rolled up from the earliest subtask Start and latest subtask Completion Dates, regardless of the constraint applied to it. You must associate the Must Finish On constraint directly with the subtask that needs the fixed date instead. The parent will continue to roll up automatically.
+
+ For more information, also see [Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md). 
+
 * When you move or copy a task with a MFO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
    * When the destination project is scheduled From Start:

@@ -7,10 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b604d8fe-3a5b-4217-9a08-df269826f112
-TQID: https://experienceleague.adobe.com/DWHydmTwK7aj7-HlM6mIZOea1fpG9LoM1Ry-rvTD7yQ
+TQID: 'https://experienceleague.adobe.com/DWHydmTwK7aj7-HlM6mIZOea1fpG9LoM1Ry-rvTD7yQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -19,7 +22,12 @@ role_v2:
 
 Following are various resources on Event Subscriptions in Adobe Workfront:
 
+>[!NOTE]
+>
+>To work with event subscriptions within the Workfront application, see [Configure event subscriptions in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
+
 * [Event Subscription API](../../wf-api/general/event-subs-api.md) 
+* [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md)
 * [Event subscription best practices](../../wf-api/general/event-sub-best-practice.md) 
 * [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md) 
 * [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md) 

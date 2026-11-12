@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jME5S-vKX72Y56J0sj-pOyokhKiyZ3e-pMTFMB7660o
+TQID: 'https://experienceleague.adobe.com/jME5S-vKX72Y56J0sj-pOyokhKiyZ3e-pMTFMB7660o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner
@@ -28,6 +30,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Create or edit filters in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -244,6 +248,10 @@ Create a filter using the standard builder interface:
 
 1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list that you are filtering.
 
+   >[!TIP]
+   >
+   ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
+
    You can also select **Browse fields** to view a list of all fields you can filter by. The fields in the advanced search are grouped by object category.
 
    ![Locate a field to filter by](assets/new-filter-search-for-field.png)
@@ -383,7 +391,11 @@ Regardless of the method you use to create filters, creating a filter from scrat
    * Modify existing filter rules by clicking the existing rule and selecting a new option.
    * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
 
-     Fields associated with the object of your filter are listed in the **Start typing field name** box. 
+     Fields associated with the object of your filter are listed in the **Start typing field name** box.
+
+     >[!TIP]
+     >
+     ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
    
    * Click **AND** or **OR** when adding a filter rule.  
      When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

@@ -8,12 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Push rate changes to projects
 
-When a rate card is attached to a project <!--or a staffing plan-->, the rates on the rate card can still be adjusted. Then, you can optionally push those rates to the projects that the rate card is attached to. If you do not push the new rates, then the original rates remain on the project.
+When a rate card is attached to a project<!--or a staffing plan-->, the rates on the rate card can still be adjusted. Then, you can optionally push those rates to the projects that the rate card is attached to. If you do not push the new rates, then the original rates remain on the project.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>If a job role or user billing rate is manually overridden at the project level, that rate remains on the project when the rate card changes are pushed to the project. Only the rates tied to the rate card are updated.
 
 For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 

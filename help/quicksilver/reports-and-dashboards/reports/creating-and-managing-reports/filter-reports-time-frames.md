@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6D9KNoW0cNsODeSbO-Oqi99xcggMKdnKnfJDCZAfLjg
+TQID: 'https://experienceleague.adobe.com/6D9KNoW0cNsODeSbO-Oqi99xcggMKdnKnfJDCZAfLjg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -195,7 +197,7 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Quarter</td> 
-   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding the current quarter, where quarters are defined above.</p> <p><b>NOTE</b></p>  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters</a>.</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding the current quarter, where quarters are defined above.</p> <p><b>NOTE</b></p>  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters and weeks</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Year</td> 

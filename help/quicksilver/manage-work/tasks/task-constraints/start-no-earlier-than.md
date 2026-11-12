@@ -48,12 +48,12 @@ Consider the following when using the Start No Earlier Than Task Constraint:
       * When the constraint date of the task is earlier than the project Planned Start Date, the task constraint changes to As Soon As Possible. 
       * When the constraint date of the task is later than the project Planned Completion Date, the project Planned Completion Date changes to match the completion constraint date of the task.
 
-      * When the destination project is scheduled From Completion:
+    * When the destination project is scheduled From Completion:
 
-         * When the constraint date of the task is later than the Project Completion Date, the task constraint changes to As Late As Possible. 
-         * When the constraint date of the task is earlier than the Planned Start Date of the project, the project Planned Start Date changes to match the start constraint date of the task.
+      * When the constraint date of the task is later than the Project Completion Date, the task constraint changes to As Late As Possible. 
+      * When the constraint date of the task is earlier than the Planned Start Date of the project, the project Planned Start Date changes to match the start constraint date of the task.
 
-      * Regardless of the schedule of the project, when the constraint date of the task is within the Start and Completion Dates of the project, there are no changes to the Task Constraint or the project dates.
+    * Regardless of the schedule of the project, when the constraint date of the task is within the Start and Completion Dates of the project, there are no changes to the Task Constraint or the project dates.
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md). For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

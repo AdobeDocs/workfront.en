@@ -6,13 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -91,6 +93,31 @@ Click **Add files** to browse files or import files from a Document Cloud provid
    Click **Add files** to browse files or import files from a Document Cloud provider.
 
    ![Add files](assets/add-files.png)
+
+1. (Optional) Add a comment.
+1. (Optional) Add more files.
+
+    >[!NOTE]
+    >
+    >Additional files are uploaded as separate documents. 
+
+1. Click **Upload**. 
+
+## Upload a file to an Adobe cloud storage project
+
+You cannot upload files directly to a task or issue on an Adobe cloud storage project. Instead, upload the file to the project from the **Project** tab in the Summary panel.
+
+{{step1-to-priorities}}
+
+1. In the worklist, hover over the work name, then click the **Summary** icon ![open summary icon](assets/summary-icon.png).
+1. In the summary panel, click the **Project** tab.
+1. Click the **Upload File** icon ![Upload file icon](assets/upload-file-icon.png).
+1. (Optional) In the **Upload Files** box, select a folder.
+1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
+
+   or
+
+   Click **Add files** to browse files or import files from a Document Cloud provider.
 
 1. (Optional) Add a comment.
 1. (Optional) Add more files.

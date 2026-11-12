@@ -8,13 +8,17 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-TQID: https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE
+TQID: 'https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -69,16 +73,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Issue statuses
 
-If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Reopened cannot be used as a default status because the Change Order issue type is not selected:
+If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Idea cannot be used as a default status because the Change Order issue type is not selected:
 
-![All issue types enabled](assets/all-4-issue-types-enabled.png)
+![All issue types enabled](assets/new-all-issue-types-enabled.png)
 
 ## Set a custom status as a default status for a group
 
 {{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
-1. In the left panel, click **Statuses** ![Gear settings icon](assets/gear-icon-settings.png).
+1. In the left panel, click **Statuses** ![Status icon](assets/status-icon.png).
 1. Open the **Project**, **Tasks**, or **Issues** tab, depending on the type of status you want to set as a default status.
 1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
@@ -114,4 +118,3 @@ If you hide a default status (by enabling the Hide status option for it), the sy
 
 If there is no available status of the equivalent type, the status type displays as **Hidden** and is not available for work items.
 
-![No available status](assets/when-hide-default-status-no-equivalent.png)

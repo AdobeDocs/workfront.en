@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
+TQID: 'https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -67,9 +74,9 @@ To configure proof email notification settings that are sent from Workfront:
 
 1. Expand **Email**, then click **Review and Approval**.  
 
-1. In the **Proof Notifications in Workfront** section, decide whether to enable or disable the option, Send emails from Workfront when a comment is made on a proof.
+1. In the **Proof Notifications in Workfront** section, decide whether to enable or disable the option, **Send notifications from Workfront when a comment is made on a proof**.
 
-   * When this setting is enabled, users receive an email from Workfront when a comment is made on a proof.
-   * When this setting is disabled, users do not receive an email from Workfront when a comment is made on a proof.
+   * When this setting is enabled, users receive an email from Workfront when a comment is made on a proof. A Workfront in-app notification is also displayed.
+   * When this setting is disabled, users do not receive an email or in-app notification from Workfront when a comment is made on a proof.
 
 1. Click **Save**.

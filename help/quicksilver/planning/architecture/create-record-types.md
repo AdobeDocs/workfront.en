@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
+TQID: 'https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -61,29 +65,37 @@ For more information about record types, see [Record types overview](/help/quick
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and Planning package</p>
-<p>Any Workflow and Planning package</p>
+<p>Any Workfront or Workflow and a Planning package</p>
+Or
+<p>Any Planning package when purchased as a standalone product</p>
 <p><b>NOTE</b></p>
 <p>To configure connectable record types: </p>
 <ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+<li>A Planning Prime or Ultimate package when purchased as a standalone product</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+Or 
+<li>A Planning Prime or Ultimate package when purchased as a standalone product</li>
+</ul>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
@@ -143,7 +155,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -285,12 +297,14 @@ You can manually add record types in both the Operational Record Types and Taxon
 
     The changes are saved automatically.
 
-    For additional information about adding records, deleting or editing record types, or updating the view in the record type page, see the following articles:
+    For additional information about adding and managing records to a record type, see the following articles:
 
       * [Create records](/help/quicksilver/planning/records/create-records.md)
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
-      * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
+      * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md)
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
 
 ## Create record types by importing information from a CSV or Excel file
 

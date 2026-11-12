@@ -8,10 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A
+TQID: 'https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,11 +31,9 @@ topic_v2:
 
 # Adobe Workfront Planning object limitations overview
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -57,6 +61,7 @@ The following table shows the limits for how many objects you can create in Work
 | Size of CSV of Excel file you can import to create record types | 5MB |
 | Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
+| Number of rows you can import in a CSV or Excel file using CX Enterprise Coworker to create records | more than 10,000 |
 | Number of formula fields for one record type | 20 |
 | Number of connection fields for one record type | 30 |
 | Number of characters in a formula field expression | 50,000 |
@@ -66,6 +71,9 @@ The following table shows the limits for how many objects you can create in Work
 | Number of hierarchies in a workspace | 5 |
 | Number of records from a parent record type connected to one record from a child record type, inside a hierarchy | 10 |
 | Number of records connected to one record in a multi-select connection type, without a hierarchy configured between the records | 500 |
+|<span class="preview">Number of lookup fields per record type</span>| 40 |
+|<span class="preview">Number of long-text lookup fields per record type</span>| 5 |
+|<span class="preview">Number of characters in the value of a single long-text lookup field cell (in the table view)</span>| 50,000 characters |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 

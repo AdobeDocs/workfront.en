@@ -11,7 +11,7 @@ role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/G7H4JNLLNmQX65RJ-Z-H4zoICtR-cu-baPtRdBfK7Ro
+TQID: 'https://experienceleague.adobe.com/G7H4JNLLNmQX65RJ-Z-H4zoICtR-cu-baPtRdBfK7Ro'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -20,6 +20,8 @@ feature_v2:
     internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -35,13 +37,15 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The procedure described on this page applied only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>The procedure described on this page applied only to organizations that had not been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >Because all organizations have now been onboarded to the Adobe Admin Console, this functionality has been deprecated.
+>
+>For instructions on renewing the SAML certificate on the Adobe Admin Console, see the section "The digital signature in the SAML response did not validate..." in [Troubleshooting Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 

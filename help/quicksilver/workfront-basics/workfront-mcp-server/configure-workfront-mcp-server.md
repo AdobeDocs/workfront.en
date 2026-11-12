@@ -5,7 +5,12 @@ title: Configure the Adobe Workfront MCP server
 description: Configure your Workfront instance and your AI agentic platform so you can work with Workfront through natural-language conversation.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Configure the Adobe Workfront MCP server
@@ -29,6 +34,16 @@ If you use a different MCP-compatible AI agentic platform (for example, [!DNL Ge
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+>To reduce the size of the MCP catalog for clients that load all tools up front, you can add the `toolsets` query parameter to the Workfront MCP server URL. For example: 
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+>```
+>
+>For more information on toolsets, see [Toolsets in the Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) in the article Adobe Workfront MCP server tools.
+
 ## Prerequisites
 
 Before you can connect Workfront to an AI agentic platform, you must:
@@ -49,6 +64,8 @@ MCP server access is gated by two separate administrators.
 
 * If you use an enterprise version of an AI agentic platform, your administrator for that platform must enable the [!DNL Adobe Workfront] connector for your organization or give you custom URL access to connect to the Workfront MCP server.
 
+* If you're connecting a custom application or agentic platform with a unique, per-customer OAuth callback URL, your Workfront administrator must add that URL to the **Authorized redirect URLs** list in **System Preferences > MCP preferences**. Without this, authentication is rejected. For more information, see [Connect with OAuth](#connect-with-oauth) in this article.
+
 
 ## Connect Workfront to Claude
 
@@ -65,23 +82,15 @@ You connect to Workfront once per [!DNL Claude] account. The connection authenti
 To connect Workfront to [!DNL Claude]:
 
 1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
+1. Click **Customize**.
+1. In the left navigation, click **Connectors**.
 1. Find **[!DNL Adobe Workfront]** in the connector list.
 
    If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
 1. Click **Connect**.
+1. When prompted, log in to your Workfront instance. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
-
-
-1. When prompted, log in to your Workfront instance.
-
-
-1. After authentication completes, you're connected.
+   After authentication completes, the Workfront MCP server is connected.
 
 
 
@@ -101,15 +110,18 @@ To connect Workfront to [!DNL Claude] with a URL:
 
 1. Log in to [Claude](https://claude.ai) using your credentials.
 1. In the left menu, select the **Customize** icon.
-1. Select **Connectors**, then select the **+** icon to add a connector.
-1. Select the **Create app** button.
+1. In the left navigation select **Connectors**.
+1. Select the **+** icon, then select **Add custom connector**.
 1. Give the connector a desired name (such as "Workfront") and enter the MCP Server URL: 
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
    
-1. After the connector is created, a login window pops up. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. Click **Connect**.
+   A Workfront login window appears.
+1. Authenticate using your Adobe ID credentials. 
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
 +++
 
@@ -129,6 +141,8 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
 
 ### Connect to ChatGPT Desktop or ChatGPT Codex
 
++++ Expand to view step-by-step instructions for connecting Workfront to ChatGPT Desktop or ChatGPT Codex.
+
 1. In ChatGPT, open **Settings**.
 1. Click **Plugins** in the left navigation.
 1. Click **Add server** near the upper-right of the window.
@@ -142,11 +156,15 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
 
 1. Click **Save**.
 1. In the list that appears, click **Authenticate** for the MCP server that you are adding.
-1. Log in to WOrkfront.
+1. Log in to Workfront.
+   You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 1. In ChatGPT, in the MCP server list, ensure that the toggle to the right of the new MCP server remains toggled on.
 
++++
 
 ### Connect to ChatGPT on the web
+
++++ Expand to view step-by-step instructions for connecting Workfront to ChatGPT on the web.
 
 1. Log in to [ChatGPT](https://chatgpt.com) using your credentials.
 1. In the lower left, select your name, then select **Settings**.
@@ -163,8 +181,9 @@ The procedure to connect the Woorkfront MCP server with ChatGPT differs based on
 1. Ensure that Authentication is set to **OAuth** (set by default).
 1. Read the risk message and check the box to show that you have read it.
 1. Click **Create**.
-1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. Ensure that you select the desired Workfront instance if you belong to more than one.
+1. After the app is created, a Workfront login window appears. Authenticate using your Adobe ID credentials. You may need to select a profile and a Workfront instance. The profile you select determines which workspace is connected.
 
++++
 
 ### Customize ChatGPT behavior with Custom GPTs
 
@@ -173,6 +192,14 @@ ChatGPT supports user-created assistants called Custom GPTs. You can use a Custo
 To learn more about Custom GPTs, see the [ChatGPT user documentation](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) or ask ChatGPT for help with Custom GPTs.
 
 ## Connect Workfront to Copilot
+
+
+* [Connect Workfront to Copilot with Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
+* [Connect Workfront to GitHub Copilot](#connect-workfront-to-github-copilot)
+
+### Connect Workfront to Copilot with Copilot Studio
+
++++ Expand to view step-by-step instructions for connecting Workfront to Copilot with Copilot Studio.
 
 To build a custom Copilot agent that the Workfront MCP can connect to, use Copilot Studio.
 
@@ -186,23 +213,64 @@ To build a custom Copilot agent that the Workfront MCP can connect to, use Copil
 1. In the panel that appears, enter a name and description for this connection.
 1. In the server URL field, enter the URL:
 
-```
-https://mcp.workfront.adobe.com/mcp/v1/workfront`
-```
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   ```
 
-1. For Authorization, select **OAuth 2.0**, then select **Dynamic discovery**.
+1. For Authentication, select **OAuth 2.0**, then select **Dynamic discovery**.
 1. Click **Create** at the bottom of the panel.
    
    The app is registered.
 
 1. After the app is registered, in the panel that appears, click **Not connected**, then click **Create a new connection**, then click **Create**.
-1. In the login panel that appears, log in to Workfront, then select **Continue** when it shows which Workfront instance you want to use.
+1. Set up a connection by clicking **Not connected**, then **Create new connection**, then **Create**.
+1. In the login panel that appears, log in to Workfront, select the instance that you want to use (if you have access to more than one instance), then click **Continue**.
 1. In the panel that displays your server, click **Add and configure**.
 
    You can now begin using and configuring tools for your MCP server. 
 1. When a tool is configured and tested, click **Publish**. 
 
    You may not have permissions to publish. If this is the case, contact your Copilot administrator.
+
++++
+
+
+### Connect Workfront to GitHub Copilot
+
++++ Expand to view step-by-step instructions for connecting Workfront to GitHub Copilot.
+
+>[!NOTE]
+>
+>If GitHub Copilot says that Dynamic Client Registration is not supported or asks for an OAuth Client ID, use the workaround below instead of the standard HTTP configuration. Some GitHub Copilot MCP clients do not support the Dynamic discovery flow used in the default setup.
+>
+>To work around this, configure GitHub Copilot to launch the Workfront MCP server through `mcp-remote` and set `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>  "servers": {
+>    "wf-mcp": {
+>      "command": "npx.cmd",
+>      "args": [
+>        "-y",
+>        "mcp-remote",
+>        "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>      ],
+>      "env": {
+>        "NODE_OPTIONS": "--use-system-ca"
+>      }
+>    }
+>  }
+>}
+>```
+>
+
+1. In GitHub Copilot, go to **Customize**.
+1. Click **Add** > **MCP Server**.
+1. Set the name to something like "Workfront".
+1. Set the **Server Type** to `HTTP`.
+1. Set the URL to `https://mcp.workfront.adobe.com/mcp/v1/workfront`.
+
++++
 
 ## Connect Workfront to a custom MCP solution
 
@@ -226,7 +294,30 @@ There are two ways to connect:
 
 ### Connect with OAuth
 
-Self-service support for custom OAuth integrations is not yet available for Workfront. 
+If the AI agentic platform or custom application you're connecting has a unique OAuth callback (redirect) URL per customer, such as a URL that contains a connection or tenant ID, your Workfront administrator must add that URL to your organization's list of authorized redirect URLs before you can authenticate.
+
+>[!NOTE]
+>
+>This is required only for integrations that aren't one of the natively supported platforms, such as Claude or Copilot. If you use a natively supported platform, see the section for that platform in this article.
+
+Your Workfront administrator adds authorized redirect URLs in System Preferences.
+
+For instructions on adding redirect URLs for MCP servers, see [Add or remove an authorized redirect URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url).
+
+After the URL is added, you can connect your custom application or agentic platform to the Workfront MCP server URL:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+When connecting, you will be asked to authenticate using your Adobe ID credentials.
+
+>[!IMPORTANT]
+>
+>Callback URLs must match exactly. Workfront doesn't support wildcard or prefix matching for custom callback URLs. Only URLs on this list can complete login for your MCP agents — remove a URL right away if the associated agent is retired or compromised.
+
+If your callback URL isn't on the list, the authentication request is rejected. Ask your Workfront administrator to confirm the URL is entered exactly as your integration provides it.
+
 
 ## Verify your connection
 

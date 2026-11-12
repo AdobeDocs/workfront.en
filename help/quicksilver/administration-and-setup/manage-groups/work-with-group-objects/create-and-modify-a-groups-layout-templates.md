@@ -9,13 +9,17 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-TQID: https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY
+TQID: 'https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -79,6 +83,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+
+     For information about the action bar and other features of enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
    
    * To edit an existing group layout template, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
@@ -86,3 +92,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    
    * To delete one or more layout templates, select them, then click the **Delete** icon ![Delete icon](assets/delete.png).
    * To export the list of layout templates, click the **Export** icon ![Export icon](assets/export-icon.png).
+

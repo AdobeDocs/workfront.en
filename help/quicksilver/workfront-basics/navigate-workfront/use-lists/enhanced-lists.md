@@ -7,13 +7,15 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
+TQID: 'https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
@@ -25,6 +27,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Use enhanced lists
+
+{{preview-fast-release-general}}
 
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
@@ -69,17 +73,41 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 | Workfront list | Location of object list |
 | --- | --- |
-| Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
-| List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
-| List of reports | Reports (**Use shareable folders** must be turned on) |
+| Priorities | <ul><li>Home > select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
+| List of requests | <ul><li>Main Menu > Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
+| Lists of statuses, priorities, severities, conditions, and exchange rates in Setup | <ul><li>Setup > Project Preferences > Statuses</li><li>Setup > Project Preferences > Priorities</li><li>Setup > Project Preferences > Severities</li><li>Setup > Project Preferences > Conditions</li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
+| Lists of actions and tracked fields in the Update Feeds | <ul><li>Setup > Interface > Update Feeds > Tracked fields tab</li> <li>Setup > Interface > Update Feeds > Actions tab</li></ul> |
+| List of scorecards | Setup > Scorecards |
+| List of risk types | Setup > Risk Types |
 | List of job roles and rates on a rate card | Setup > Rate Cards > select a rate card > Job Roles and Rates |
+| List of locations | Setup > Locations |
 | List of translations | Setup > Localization |
+| Lists of integrations | <ul><li>Setup > Documents > SharePoint Integration</li><li>Setup > Documents > Custom Integration</li><li>Setup > Documents > Experience Manager Assets</li></ul> |
+| <span class="preview">List of layout templates</span> | <span class="preview">Setup > Interface > Layout Templates</span> |
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
+| List of reports | Main Menu > Reports (**Use shareable folders** must be turned on) |
+| Lists of queue topics, topic groups, and routing rules | <ul><li>Project or Template > Queue Topics</li><li>Project or Template > Topic Groups</li><li>Project or Template > Routing Rules</li></ul> |
 | List of snapshots | Project > Snapshots |
 | List of resources for billing | Project > Resource for Billing |
+| List of predecessors | Setup > Task or Template Task > Predecessors |
 | New Advanced Assignments on a task | Task > Assignments > Advanced |
+| All versions view of a document | Project > Documents > Document Details > All Versions |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
+| Lists of scenario plans and initiatives | Main Menu > Scenarios |
+| Lists of goals and progress indicators | <ul><li>Main Menu > Goals</li><li>Main Menu > Goals > Progress Indicators</li></ul> |
+
+<!--
+
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
+
+-->
 
 ## Add items to an enhanced list
 
@@ -117,6 +145,19 @@ Depending on which enhanced list you are viewing, do one of the following:
    >Note that not all lists support all field types.
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
+
+## Edit items inline
+
+Some enhanced lists allow you to edit objects inline. When you edit the information on objects displayed in a list, the object updates immediately.
+
+On the list:
+
+1. Locate the item you want to edit, then click inside any field in the list.
+1. Edit the information inside this cell, then press Enter.
+1. Press Tab to move to the next editable cell.
+1. After you finish modifying all the cells, press Enter to save your changes.
+
+![Edit enhanced list inline](assets/edit-enhanced-list-inline.png)
 
 ## Edit items using the action bar
 
@@ -157,9 +198,12 @@ Depending on which objects you are viewing in an enhanced list, you can hide, sh
 
 1. Click **Columns** above the list.
 
-   ![Display columns example](assets/glist-display-move-columns.png)
+   ![Display columns example](assets/display-columns-090126.png)
 
 1. Use the toggles to display or hide columns in the list.
+
+   You can search for a column in the search box.
+
 1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
 
    >[!NOTE]
@@ -202,17 +246,39 @@ To add and remove columns:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. (Optional) To reorder the columns, hover over a column name in the **Selected** section and click the **Drag** icon ![Drag icon](assets/drag-icon.png). Move the columns vertically to place them in order.
 1. Click **Save**.
 
    ![Column manager](assets/glist-column-manager.png)
 
    The list updates the columns according to the choices you made.
 
-### Change the row height in a view
+## Customize rows
 
 >[!NOTE]
 >
 >Not all enhanced lists have all the elements described in this section.
+
+To view the total number of items in a list, do one of the following:
+
+* In the Production environment: 
+
+   1. Open an enhanced list. 
+   1. Scroll to the bottom of the list. 
+
+      The total number of items, taking into account any filters applied, displays in the lower-right corner of the list. 
+
+<div class="preview">
+
+* In the Preview environment: 
+
+   1. Open an enhanced list. 
+   1. When available, view the total number of items to the left of the quick search box, in the upper-right corner of the list. 
+   1. (Conditional) If there are items not displaying on the screen by default, scroll the page to display more.
+
+</div>
+
+To change the row height in a view:
 
 1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list. 
 
@@ -221,6 +287,14 @@ To add and remove columns:
       * Standard. This is the default choice. 
       * Medium
       * Tall
+
+To change the order of rows:
+
+1. Drag and drop rows into your preferred order.
+
+   >[!NOTE]
+   >
+   >If you have a sort applied, you cannot change the row order manually.
 
 ## Update enhanced list elements
 
@@ -379,7 +453,7 @@ Filters help you reduce the amount of information you display in the list.
 1. Click **Filter** above the list.
 1. In the Filter box, click **Add condition**.
 1. Select a field to filter by.
-1. Select a filter modifier, such as "Has any of," "Has none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+1. Select a filter modifier, such as "Is any of," "Is none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
 1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
     
    ![Filter in enhanced lists](assets/glist-filter-with-options.png)
@@ -425,14 +499,18 @@ Workfront provides a limited number of predefined groupings and you cannot modif
 
    ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
 
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
+1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.<!--Delete this line at January release-->
+1. When the grouping is applied, you can open the Grouping options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    An indicator appears on the **Grouping** button when a grouping is applied to the list.
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">To collapse or expand all groupings in the list, click the arrow next to the first column heading.</span>
+
+   <span class="preview">![Collapse all groupings](assets/collapse-expand-all-groupings.png)</span>
 
 ### Sort in an enhanced list
 
@@ -466,7 +544,11 @@ To sort individual columns:
 >
 >Not all enhanced lists have all the elements described in this section.
 
-1. Type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
+1. Type a keyword you want search by in the **Search** box in the upper-right corner of the list. 
+
+   In the Production environment, the results are highlighted in the list as you type.
+
+   <span class="preview">In the Preview environment, the list is filtered to display only the items that match the search criteria. The total number of records to the left of the quick search box is replaced by the number of items found.</span>
 
    ![Search term highlighted](assets/glist-search-highlighted.png)
 

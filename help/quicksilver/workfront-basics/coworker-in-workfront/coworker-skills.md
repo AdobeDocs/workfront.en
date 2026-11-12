@@ -1,0 +1,97 @@
+---
+title: Workfront skills in CX Enterprise Coworker 
+content-type: reference
+description: Learn about the skills available for Coworker in Adobe Workfront.
+author: Becky
+feature: Get Started with Workfront
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+---
+# Workfront skills in CX Enterprise Coworker 
+
+>[!IMPORTANT]
+>
+>CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations. For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
+This article lists skills that are currently available to CX Enterprise Coworker in Workfront.
+
+The abilities covered by these skills is available in Coworker through the conversational interface, and you do not need to call these skills directly. However, if you do want to call the skills directly, you can do so in the Coworker panel by entering a slash `/` and typing the name of the skill.
+
+For example prompts, see the prompts in the article [Use the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
+## Workfront Planning skills
+
+### Workfront Planning Solution Architect
+
+Name: `wf-planning-solution-architect`
+
+This skill can answer questions related to Workfront Planning, including but not limited to:
+
+* Workspace design
+* Formula field syntax
+* API filtering
+* Record connections
+* Automation options
+* Reporting
+* Access and permissions
+* Integrations
+* Product limits by pricing tier
+
+### Manage Workfront Planning
+
+Name: `manage-workfront-planning`
+
+This skill queries and manages Workfront Planning objects such as:
+
+* Workspaces
+* Sections
+* Record types
+* Fields
+* Views
+* Records
+* Business rules
+
+<!--
+
+### Ideation space skills
+
+Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+
+* Thing 1
+* Thing 2
+* Other thing
+
+For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
+-->
+
+## Workfront skills
+
+### Manage Workfront Objects
+
+Name: `manage-workfront-objects`
+
+This skill creates and updates Workfront projects, tasks, issues, portfolios, and programs. Examples include but are not limited to:
+
+* Creating a project
+* Adding a task
+* Setting planned dates
+* Assigning a task
+
+### Query Workfront Data
+
+Name: `query-workfront-data`
+
+This skill finds, lists, and reports on Workfront objects. The following are some examples of such Workfront objects, but the list is not complete: 
+
+* Projects
+* Tasks
+* Issues
+* Users
+* Portfolios
+
+

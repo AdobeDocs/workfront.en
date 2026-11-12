@@ -2,17 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: "Agile planning tools overview: article index"
+title: 'Agile planning tools overview: article index'
 description: As you create a board using ad hoc and connected cards, you can take advantage of additional Agile planning tools on boards.
 author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/bToSZHOFLL597bcXunH3nwN-m4vkrZk0bEZ0dM9ga6g
+TQID: 'https://experienceleague.adobe.com/bToSZHOFLL597bcXunH3nwN-m4vkrZk0bEZ0dM9ga6g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,6 +26,8 @@ role_v2:
 # Agile planning tools overview: article index
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 As you create a board using ad hoc and connected cards, you can take advantage of additional Agile planning tools.
 
@@ -34,10 +42,6 @@ Tools useful for Scrum include:
 * Workstreams and iteration boards
 * Card list or backlog
 * Iteration metrics
-
->[!IMPORTANT]
->
->Workstreams and their related tools are only available to a specific group of customers.
 
 You can use any or all of these tools in a way that works for you and your team, without committing to a specific Agile methodology.
 

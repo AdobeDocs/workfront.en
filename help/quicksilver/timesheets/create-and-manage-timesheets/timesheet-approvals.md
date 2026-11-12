@@ -80,6 +80,7 @@ If the following notification settings are in place, the user who submits the ti
 
 * The Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * The My timesheet is approved personal notification is enabled on the user's profile page. For more information, see [Modify your own email notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 
+* The user who submitted the timesheet has a Standard license. Users with a Light license or lower do not receive the timesheet approval email notification, even when the My timesheet is approved personal notification is enabled on their profile.
 
 ### Approve a timesheet from the Timesheets area
 
@@ -95,17 +96,13 @@ If the following notification settings are in place, the user who submits the ti
 
    Select the **My Timesheet Approvals** filter at the top of the timesheet list.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template. 
-   >
-   >For more information see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed those filters from either the List Controls in the Setup area or from your Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
+1. (Optional) Click the **search** icon ![Search icon](assets/search-icon.png) at the top of the timesheet list and type a keyword to locate a specific timesheet. You can search for a time frame, or an owner or approver's name. 
 1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
 
    >[!TIP]

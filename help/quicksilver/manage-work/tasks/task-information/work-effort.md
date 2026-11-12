@@ -56,13 +56,7 @@ As a project manager, you can decide how you want to estimate the amount of work
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.
-   <!--
-       
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-       
-     -->
-     </p> <p>Consider the following about Work Effort:</p>
+   <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task.</p> <p>Consider the following about Work Effort:</p>
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
      <li>You can enable the use of this label and define the percentage of working time associated with it at the project level. </li> 
@@ -70,6 +64,14 @@ As a project manager, you can decide how you want to estimate the amount of work
   </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 This article describes what Work Effort is and how you should use it when estimating the amount of work for your tasks.
 

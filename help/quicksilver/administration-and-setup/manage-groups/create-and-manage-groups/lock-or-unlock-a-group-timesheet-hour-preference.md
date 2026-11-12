@@ -8,13 +8,17 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-TQID: https://experienceleague.adobe.com/nTA2XGeNLCiL72IrACxltqpo0zysflqS9UEF5Itnm8M
+TQID: 'https://experienceleague.adobe.com/nTA2XGeNLCiL72IrACxltqpo0zysflqS9UEF5Itnm8M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
@@ -92,7 +96,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a timesheets and hours preference.
-1. In the left panel, click **Timesheets and Hours Preferences**.
+1. On the left, click **Timesheets and Hours Preferences**.
 
 1. On the page that appears, do any of the following:
 

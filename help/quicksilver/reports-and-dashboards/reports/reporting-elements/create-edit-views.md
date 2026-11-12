@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,6 +27,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Create or edit views in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -88,6 +92,11 @@ You can create a new standard view, or you can customize an existing standard vi
 
    * Modify the value of any column by clicking the column title and then selecting a new field.
    * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
+
+    >[!TIP]
+    >
+    ><span class="preview">Custom fields marked as favorites appear in the **Suggested** section at the top of the search results.</span>
+
    * Adjust the order that columns appear by dragging the column title to a new location.
 
    * In the **Column Settings** area, click **Summarize this column by**, and choose how you want the data to display in the column. This option is available for the following column types: 

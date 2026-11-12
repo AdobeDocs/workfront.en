@@ -116,6 +116,6 @@ To create a predecessor task for a project task:
 
 1. Click **Save**.
 
-1. (Optional) To remove a predecessor, select it from the list of predecessors, then click the **Remove** icon ![Remove icon](assets/remove-or-delete-icon.png).
+1. (Optional) To remove a predecessor, select it in the list of predecessors and click **Remove** in the action bar at the bottom of the screen.
 
-   The predecessor is removed from the list. The predecessor task is not deleted from its project. 
+   The predecessor is removed from the list. The predecessor task is not deleted from its project.

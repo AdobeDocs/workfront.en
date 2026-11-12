@@ -5,10 +5,17 @@ title: Adobe Workfront MCP server tools
 description: Reference list of the tools available through the Adobe Workfront MCP server, grouped by Workfront area.
 author: Courtney
 feature: Get Started with Workfront
-
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 ---
 
 # Adobe Workfront MCP server tools
+
+{{preview-fast-release-general}}
 
 This article lists the tools that the [!DNL Adobe Workfront] MCP server exposes to a connected AI agentic platform. The platform calls these tools on your behalf when you ask it to find, create, update, or delete Workfront items.
 
@@ -17,6 +24,60 @@ For information about how to use these tools through an AI agentic platform, see
 >[!IMPORTANT]
 >
 >The AI agentic platform acts in Workfront using your Workfront account, access level, and object permissions. A tool only works if you have the corresponding access in Workfront. Adobe is not responsible for changes the AI agentic platform makes to your Workfront data.
+
+## How product entitlements affect the tool list
+
+The tools that appear in your AI agentic platform depend on your organization's Workfront product entitlements.
+
+* Customers licensed only for Workfront Planning see Planning tools, but not Workflow tools.
+* Customers licensed only for Workfront Workflow see Workflow tools, but not Planning tools.
+* Customers licensed for both Workfront Workflow and Workfront Planning see both sets of tools.
+* Insights and context tools are available to all customers.
+
+If your organization is not entitled to a product area, the related tools do not appear in the tool list for that connection. If an AI agentic platform attempts to call a tool that is not available for your entitlements, the request is blocked.
+
+The following tables identify the product area each tool belongs to.
+
+## Toolsets in the Workfront MCP server
+
+>[!IMPORTANT]
+>
+>Toolsets are selected when you configure your connection to the Workfront MCP server. 
+>For information and instructions, see [Configure the Adobe Workfront MCP server](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Toolsets let you select the Workfront capabilities your AI client needs instead of exposing the full MCP catalog. This is useful for clients that load all tool definitions up front, need to stay within tool-count limits, or benefit from a more focused tool list.
+
+You can specify toolsets by adding the `toolsets` query parameter to the Workfront MCP server URL.
+
+>[!BEGINSHADEBOX]
+
+Example:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+This example exposes the `core` and `comment-stream` capabilities. The `core` group is automatically included whenever a subset is selected.
+
+>[!ENDSHADEBOX]
+
+Available toolsets include:
+
+* `core`: The base Workfront toolset that is included automatically when you select a subset of toolsets.
+* `comment-stream`: Tools for comment and discussion workflows.
+* `planning`: Tools for Workfront Planning capabilities.
+* `approvals`: Tools for approval workflows.
+* `reporting`: Tools for reporting.
+
+To expose the full authorized catalog, omit the parameter or use `toolsets=all`. 
+
+You can Combine optional groups with commas, such as `toolsets=core,planning,approvals`.
+
+Selection applies to tools, resources and resource templates, prompts, and MCP apps that surface Workfront tools in their UI. Backend-specific server instructions follow the selected toolset configuration as well. 
+
+Toolsets do not change permissions. Your Workfront access level and object permissions continue to be enforced. 
+
+If you want the AI client to access a different domain, update the connection configuration to select the appropriate toolset.
 
 
 ## Read and write actions
@@ -35,36 +96,46 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Approvals tools
 
+Product requirement: All customers
+
+There are currently no entitlement limitations on approvals tools.
+
 ### Documents
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
+| Upload Document to Workfront** | `upload_document_ui` | It lets you upload a file to a project, task, issue, program, portfolio or template, and optionally into a folder. | Write |
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
-| Get documents by project | `approvals_get_documents_by_project` | Lists documents inside a Workfront project, with each document's current version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
-| Find a document | `approvals_find_document` | Look up a document by filename or document version ID | Read |
-| Get documents by scope | approvals_get_documents_by_scope | List document inside a project or folder. | Read |
-
-<!--
+| Get documents by scope | `approvals_get_documents_by_scope` | Deprecated. Use `insights_find_workfront_data` instead. This tool listed documents inside a project or folder. | Read |
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+| Find a document | `approvals_find_document` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up a document by filename or document version ID. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
+**This tool opens an interactive upload panel in the chat, so it only works in tools that support MCP Apps. Currently, only Claude is supported for this tool. It appears under "Interactive tools" in the tool permissions and asks for approval by default.
 
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
 -->
 
 ### Approval workflows
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. | Read |
-| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. Supports linear and parallel (graph) stage dependencies. | Write |
-| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template. | Write |
+| Get approval workflow info | `approvals_get_approval_info` | Returns the current approval workflow (stages, participants, status) for a document version. <span class="preview">For approvals with multiple paths, it shows each path and its stages.</span> | Read |
+| Create or update approval workflow | `approvals_create_or_update_approval_workflow` | Creates or updates the approval workflow stages for a document version. <span class="preview">Supports a single track of stages or multiple parallel review paths.</span> | Write |
+| Create approval from template | `approvals_create_approval_from_template` | Creates an approval workflow on a document using an existing template, <span class="preview">including templates that define multiple parallel paths.</span> | Write |
 | Delete approval stage | `approvals_delete_approval_stage` | Deletes a single stage from an approval workflow by name or position. Only not-started stages can be deleted. | Write |
+| <span class="preview">Add path to approval</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Adds a new parallel review path to an existing approval workflow, so multiple review tracks run at the same time on a document version.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove path from approval</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Removes a parallel path from an approval workflow. The first path can't be removed, and paths that contain completed or locked stages are protected.</span> | <span class="preview">Write</span> |
+| <span class="preview">Add stage to path</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Adds a review stage to the end of a specific path within a parallel approval workflow.</span> | <span class="preview">Write</span> |
+| <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
+| <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
@@ -98,15 +169,16 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Get current user | `approvals_get_current_user` | Returns the calling user's Workfront identity, including name, user ID, home team name, and home team ID. | Read |
-| Find user by name | `approvals_find_user_by_name` | Looks up a Workfront user's ID by name (fuzzy or partial match). Returns name, ID, email, title, and avatar URL. | Read |
-| Find team by name | `approvals_find_team_by_name` | Looks up a Workfront team's ID by name (fuzzy or partial match). | Read |
-| Find project by name | `approvals_find_project_by_name` | Looks up Workfront projects by partial name match across the system. | Read |
-| Get projects by owner | `approvals_get_projects_by_owner` | Lists Workfront projects where the calling user is the owner. | Read |
-| Find projects | approvals_find_projects | Look up Workfront projects, optionally filtered by name and/or restricted to projects that the calling user owns. | Read |
-
+| Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
+| Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
+| Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
+| Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
+| Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
+| Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
+
+Product requirement: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -192,18 +264,74 @@ If the AI agentic platform can find Workfront items but can't create, update, or
 
 ## Workflow tools
 
+Product requirement: Workfront Workflow
+
 Workflow tools are the general-purpose actions the AI agentic platform uses to work with any Workfront object — projects, tasks, issues, hours, assignments, programs, portfolios, and so on.
 
 ### Objects and fields
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Search objects | `workflow_search_any_object` | Searches for Workfront objects with flexible filter parameters, ordering, and pagination. | Read |
+| Search objects | `workflow_search_any_object` | This tool has been deprecated. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
-| Update object | `workflow_update_any_object` | Updates fields on an existing Workfront object. | Write |
+| Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
-| Resolve field names | `workflow_resolve_field_names_any_object` | Converts user-provided field names or labels to the underlying Workfront API field names so the AI agentic platform can build accurate requests. | Read |
+| Resolve field names | `workflow_resolve_field_names_any_object` | This tool has been deprecated. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
+
+### Update object tool abilities
+
+The Update object tool does more than change field values. It can also relocate work between projects, promote work items into new objects, and wire up task dependencies.
+
+#### Move a task or issue to another project
+
+Moving reparents a work item in place. The object keeps its identity and links, it just lives in a different project or parent task.
+
+>[!NOTE]
+>
+>Setting a Project field in a plain field update does not move a task or issue. Use the move capability instead.
+
+* **Move a task**: Moves the task to a target project, and optionally under a target parent task.
+* **Move an issue**: Moves the issue (request) to a target project.
+
+Example prompts:
+
+* "Move task *Wireframes* to the *Mobile App Redesign* project."
+* "Move this request under the *Q4 Launch* project."
+
+#### Convert an issue or task into a project
+
+>[!NOTE]
+>
+>Converting produces a new object. The source item is consumed in the process.
+
+* **Convert a task to a project**: Creates a new project from the task. You can optionally copy the task's custom data and base the new project on a project template.
+* **Convert an issue (request) to a project**: Creates a new project from the issue. You can optionally copy the issue's custom data, copy its native field values, and apply a project template.
+* **Convert an issue (request) to a task**: Creates a task on an existing project from the issue.
+
+Each conversion returns the newly created object, along with a link so you can open it directly in Workfront.
+
+Example prompts:
+
+* "Convert task *Website Refresh* into a project called *Website Refresh 2026* using our standard template."
+* "Turn this request into a project and copy over its custom fields."
+
+#### Set task predecessors (dependencies)
+
+You can define a task's predecessors. Predecessors support the following dependency types, plus optional lag time:
+
+* **Finish-Start (FS)**: The task starts when its predecessor finishes. (Default)
+* **Start-Start (SS)**: The task starts when its predecessor starts.
+* **Finish-Finish (FF)**: The task finishes when its predecessor finishes.
+* **Start-Finish (SF)**: The task finishes when its predecessor starts.
+
+You can add lag (a delay) or lead (a negative delay) in workdays, chain multiple predecessors on a single task, and reference a task in a different project.
+
+Example prompts:
+
+* "Make *Development* start after *Design* finishes."
+* "Set *QA* to start when *Development* starts, with a two-day lag."
+* "Add task #3 and task #5 as predecessors of *Launch*."
 
 ### Comments
 
@@ -221,7 +349,13 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 ### Insights tools
 
+Product requirement: Workfront Workflow or Workfront Planning.
+
 Insights tools retrieve information about Workfront objects.
+
+>[!NOTE]
+>
+>Insights data is near real-time, with an SLA of up to approximately 15 minutes. Changes made in Workfront may not appear immediately in Insights results.
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
@@ -233,6 +367,19 @@ Insights tools retrieve information about Workfront objects.
 | Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
 | Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
 | List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
+| Search users | `insights_search_users` | Find people in your Workfront instance by name. Type a full or partial name, and get back the top matching users. This can also optionally include AI-collaborator "bots" alongside regular users. | Read |
+
+## Feedback tools
+
+Product requirement: Workfront Workflow or Workfront Planning.
+
+<span class="preview">Feedback tools let you report your experience with the Workfront MCP server directly from your AI agentic platform.</span>
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Share feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Records your reported sentiment and what happened during the conversation, so Workfront's MCP tools can be improved. Only used when you explicitly ask to share feedback (for example, "share feedback" or "report a bug").</span> | <span class="preview">Write</span> |
+
+## Reporting tools
 
 ### Boards
 
@@ -251,12 +398,42 @@ Insights tools retrieve information about Workfront objects.
 | Update column | `boards_update_column` | Renames a board column. | Write |
 | Delete column | `boards_delete_column` | Deletes a board column, moving cards first if needed. | Write |
 | Create board | `boards_create_board` | Creates a new basic board, optionally inside a workspace. | Write |
+Product requirement: All customers
+
+Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
 
+### Canvas Dashboards
 
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| List Dashboards | `reporting_relist_dashboards` | Lists the Reporting dashboards visible to you. Supports the `view` values `"my"`, `"shared"`, `"all"`, and `"favorites"`. Returns dashboard metadata only, including a URL to open each dashboard. | Read |
+| Get Dashboard | `reporting_get_dashboard` | Fetches a Canvas Dashboard by ID, including metadata, layout, prompts, filter, and widget IDs. Widget data is not hydrated. | Read |
+| Get Widget | `reporting_get_widget` | Fetches a widget shell and its flattened content configuration. Field references are returned as `{id, label, dataType}` so they can be reused directly in the `reporting_update_*_widget` tools. Supported content types are Table, KPI, and MultiSeries. | Read |
+| Create Dashboard | `reporting_create_dashboard` | Creates an empty Reporting dashboard. Returns the full created dashboard, including its ID, title, description, currency, creator ID, create date, and empty widget, prompt, and filter collections. | Write |
+| Update Dashboard | `reporting_update_dashboard` | Partially updates a dashboard's title, description, currency, prompt, filter, and per-widget `ignoreDashboardFilters` and layout settings. Omitted fields are left unchanged, and prompt and filter are fully replaced when provided. | Write |
+| Create Table Widget | `reporting_create_table_widget` | Creates a Table widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update Table Widget | `reporting_update_table_widget` | Updates an existing Table widget and its report configuration. Replaces the stored table configuration, including columns, buckets, row limit, caption, description, condition, and run-as-user settings. | Write |
+| Create KPI Widget | `reporting_create_kpi_widget` | Creates a KPI widget and its report configuration on a dashboard. Returns the full created widget in the flattened `get_widget` shape. | Write |
+| Update KPI Widget | `reporting_update_kpi_widget` | Updates an existing KPI widget and its report configuration. `fieldId` and `aggregation` are required, and the underlying report is fully replaced. | Write |
+| Create Chart Widget | `reporting_create_chart_widget` | Creates a Chart widget and its report configuration. Supported chart types are BAR, COLUMN, LINE, and PIE, including SIMPLE, MULTI_SERIES, and STACKED variants where supported. | Write |
+| Update Chart Widget | `reporting_update_chart_widget` | Updates an existing Chart widget and its report configuration. `aggregationFieldId`, `aggregationType`, `groupByFields`, and `chartType` are required, and the underlying report is fully replaced. | Write |
+| Copy Widget | `reporting_copy_widget` | Copies an existing widget to the same dashboard or to a different dashboard, duplicating the widget and its report configuration. | Write |
+| Copy Dashboard | `reporting_copy_dashboard` | Copies a dashboard to a new dashboard, including its widgets and report configurations. You can optionally copy only a subset of widgets and choose whether to include the prompt and filter. | Write |
+| Delete Object | `reporting_delete_object` | Permanently deletes a Reporting dashboard, and all its widgets, or a single widget. This action cannot be undone. | Write |
 
 ## How tools are updated
 
-When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically. You don't need to reconnect or change anything on your side.
+When Adobe releases a new version of the Workfront MCP server, the AI agentic platform uses the updated tool set automatically.
+
+The tool list is set when the connection starts. If your organization's product entitlements change, the updated tool list appears the next time you start a new connection to the Workfront MCP server.
+
+
+
+## Intent telemetry
+
+Workfront MCP server tracks user intent for customers. Intent data gathered is generic for telemetry purposes, and only ever gathered for the intent of a user as it relates to the Workfront product. Prompt intent telemetry is only used to improve existing MCP tools in order to provide more accurate responses. 
+
+Users can disable telemetry collection by reaching out to customer support to file a request.
 
 

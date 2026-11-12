@@ -1,0 +1,339 @@
+---
+title: Get started with Ideation Space for Adobe Workfront Planning
+description: Adobe Workfront Planning now offers an additional capability to ideate before you launch your campaigns. Leverage the power of AI to transform data and direct inputs into tangible plans and give teams an informed starting point instead of a blank page.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+---
+
+# Get started with Ideation space for Adobe Workfront Planning 
+
+<!--
+Should we add a new Feature to ExL for "Strategic Ideation"?
+-->
+
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
+-->
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
+</span>
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>
+>The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
+
+The Adobe Ideation space is Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
+
+Accessible only from Workfront Planning or the Workfront Main Menu, the Ideation space is located at the very front of the campaign lifecycle, before planning, production, and delivery, and feeding directly into the Workfront Planning workspace where teams plan and execute their work.
+
+The Ideation spaces leverages the Adobe Enterprise CX Coworker to generate briefs that you can later convert into Planning records or download as PDFs. 
+
+## Product availability
+
+The planned release timeline for Ideation space which is subject to change includes the following milestones: 
+
+* **Closed Beta:** Launched July 2026, for a small number of customers.
+
+    Ideation space is available in the Production environment for participating customers. 
+* **Open Beta:** Targeted for November 12, 2026. This is an opt-in offering, where you must actively turn the option on, instead of actively opting out of it. 
+
+    Ideation space is available in Production, Preview, and the Sandbox environments for all customers who meet all other requirements. 
+
+* **General availability:** Targeted for February 1, 2027. 
+
+## Product eligibility requirements
+
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
+
+>[!NOTE]
+>
+>You do not need a separate login to access Ideation space. It is immediately available if you can log in to Workfront if you also have Workfront Planning. 
+>
+>For more information about the access required to use Ideation space, see [Access needed to use the Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
+
+You can access the Ideation space if your organization and you have access to the following:
+
+* Cloud providers: 
+
+    * Amazon Web Services (AWS)
+    
+        Azure and GCP providers are not supported.
+
+* Products: 
+
+    * Adobe Workfront with Workfront Planning
+    * CX Enterprise Coworker in Workfront
+
+        >[!IMPORTANT]
+        >
+        >CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations, but the Ideation space is not available for Workfront customers that don't have Coworker.
+    
+* Adobe packages: <!--Et wanted the Coworker added to these-->
+
+    * During the Open Beta release (starting with November 12, 2026), you must have the following: 
+
+        * An Adobe Workfront Workflow package with a Workfront Planning package with Adobe CX Enterprise Coworker activated
+
+    * After the General Availability release (targeted for February 1, 2027), you may have one of the following:
+
+        * An Adobe Workfront Workflow package with a Workfront Planning package
+        * An Adobe Workfront Planning as a standalone product
+
+        Both packages must have Adobe CX Enterprise Coworker activated
+
+* Adobe Workfront license:
+
+    * Workflow and Planning System administrators or Standard-license users
+ 
+For more information, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
+    
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
+
+<!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
+
+<!--
+No longer required or recommended, per Et:
+
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
+
+## Gain access to Ideation space
+
+To gain access to the Ideation space:
+
+1. Verify you meet the product requirements as described in the section [Product requirements](#product-requirements) in this article. 
+1. Contact your Adobe account representative to express interest in participating in the Closed Beta or join Open Beta, when it becomes available.
+
+    System administrators have access to Ideation space by default and cannot remove it when it becomes available in Open Beta. They can turn it on for all other users in any of the following environments: 
+
+    * Production
+    * Preview
+    * Custom sandboxes
+
+1. As a System administrator, do the following: 
+
+    * Turn on the Coworker & MCP Tools setting in your System Preferences to allow access to Coworker for the entire company.
+    * Turn off the following settings for Standard-license users in their access levels: 
+        * Disable the CX Coworker panel in Workfront
+        * Disable Ideation space
+
+    For more information about using the Ideation space, also see the following articles:
+
+    * [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Create briefs in Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+
+1. (Recommended) Identify your first campaign: a recent one to refresh, or a new initiative to create from scratch.
+
+## Locate the Ideation space
+
+After you have ensured you have access to the the proper products, packages, and system and access level configured, you can locate the Ideation space in the following areas of Workfront:
+
+* In the Workfront Main Menu, by opening the Ideation space area
+
+    ![Ideation space area in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
+
+* In Workfront Planning, when manually adding a new record
+
+    ![Ideation space in adding new record](assets/ideation-space-in-planning-new-record.png)
+
+* In Workfront Planning, when editing an existing record
+
+    ![Ideation space in record Details page](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>You cannot remove the Ideation space area from the Main menu using a layout template. For more information about blocking a user from accessing Ideation space, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+## Ideation space and the Adobe CX Enterprise Coworker
+
+The Ideation space uses the Adobe CX Enterprise Coworker as its prompting interface.
+
+Users can ask follow-up questions and refine a brief conversationally rather than getting a single one-shot result. 
+
+When a brief is tied to a live Workfront Planning record, Coworker holds back from overwriting it so the underlying plan stays intact. The record is overridden only when you export te brief to Workfront Planning. 
+
+<!--
+Previous intro but oped for the more direct one above: 
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+
+Ideation space works exclusively with the CX Enterprise Coworker for Workfront as the prompting agent for all its capabilities. 
+-->
+
+The following are some of the capabilities of Coworker when used in the Ideation space: 
+
+* Conduct what-if analysis to compare different campaign themes, messages or test your strategic direction
+* Upload documents or social insights
+* Access web content pertinent to the brief you are building
+* Define a campaign goal 
+* Get a summary of audience insights
+* Generate audience personas
+* Ideate campaign messaging
+* Work in a large visual canvas, using AI prompts to generate text, image, file, chart, and insight cards
+* Organize, revise, and expand cards to eventually translate them into campaign briefs
+* Collaborate with multiple users who can add ideas, leave comments on specific canvas items, or use sticky notes for freeform ideas before a brief is finalized
+* We recommend the following best practices when using Coworker in Ideation space: 
+
+    * **Be specific**. Richer campaign descriptions produce more relevant, better-grounded cards.
+    * **Verify before finalizing**. AI-generated responses may be inaccurate, so always check **Sources** on a card and confirm against linked sources before finalizing a record.
+    * **Mix AI cards with real records**. Drag and drop actual records in the Ideation space.
+
+## Audience and use cases 
+
+The Ideation space is designed for product and brand marketers who are responsible for shaping campaign strategy and producing campaign briefs.
+
+<!--
+Too much: 
+
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
+
+As a workspace manager, you can use the Ideation space to create records in Workfront Planning by following the following steps: 
+
+* Create a brief in the Ideation space after launching it from Planning, as you start creating or editing records. 
+* Use AI prompts to gather details from other records in your system or from the web and finish creating ideation briefs.
+* Create Planning record types from the briefs. 
+* Refine your ideation briefs and update existing record types in Planning. 
+
+The following are use cases for how to use Ideation space: 
+
+* **Refresh a previous campaign using historical performance**
+    
+    * For example, you can update existing campaigns for a new quarter, season, or product moment.
+    * This produces a "delta brief" grounded in prior performance outlining what stays, what changes, and why. 
+
+* **Create a net-new campaign using historical performance**
+
+    * For example, you can create a campaign when launching a new product, segment, or initiative with no direct campaign history.
+    * This produces a net-new brief through guided ideation, a recommended channel mix, and initial concept or message directions.
+
+## Objects generated by the Ideation space
+
+You can use the Ideation space to brainstorm and formulate ideas that you can later convert to items important for your workflow. 
+
+The Ideation space takes all your ideas and information from internal or external (web) sources and creates a brief. After you decide that the brief is complete, you can export it to the following files or objects: 
+
+* One of the following file formats: PDF, Word, PowerPoint, Powerpoint template
+* A Planning record
+
+    You can export a brief to a Planning record only when you access the Ideation space from Workfront Planning or when you previously connected a Planning record to an Ideation brief. 
+
+<!--
+**************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
+
+Catalyze Coworker needs — panel inside Catalyze, not a rail from Unified ShellWhy this matters. Catalyze is AI-first. You can't use it without a prompt, so the prompting surface can't be something you open and close from Unified Shell. Coworker's rail was built to bolt onto apps that already work fine without AI. We need the opposite.
+
+What we need
+
+* Coworker embedded as a panel inside Catalyze (the Photoshop/Illustrator model), always present, minimized or expanded, never fully closeable.
+* Not the Unified Shell rail that slides in, pushes the app, and only opens and closes from the shell.
+* Quick terminology flag, since Coworker inverts it. By "panel" we mean embedded in the app. Their team uses "panel" for the shell version, so we have to be explicit every time.
+
+
+Must-haves
+
+* Minimized and expanded prompt bar states that live inside Catalyze, not tied to the shell.
+* Minimize, never close. There's no state where the prompt disappears.
+* Full UI control over how the prompt behaves.
+* Headless Coworker so the panel can always sit on the canvas.
+
+
+Where it stands (Aug 20 Shell/Catalyze sync with Stephen Gould)
+
+* Headless is technically possible. Coworker can be hosted in Catalyze's own front-end.
+* But Horia's team has no capacity to build or own an in-app rail. Deeper embedding means Catalyze eng builds the panel and owns it going forward.
+* The open question is ownership, one-time integration vs owning the panel long-term. Still unresolved, and it's the thing that decides this.
+
+
+Worth noting
+
+* Experience Workspace and Brand Visibility (AM) already run Coworker without the shell, so headless isn't net-new. Let's learn how they did it before anyone calls it infeasible.
+* Next step everyone agreed on is getting clarity from Horia's team and Joshua on rail ownership.
+
+*************************************
+-->
+
+<!--
+## Additional resources
+
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+
+-->
+
+<!--
+
+Not sure if we should disclose this: 
+
+## The problem the Ideation space solves
+
+Before the Ideation space, campaign strategy relied on two slow, manual processes:
+
+- **Gathering insights** — fragmented, time-consuming, and difficult when no prior audience data exists
+- **Aligning stakeholders** — without a shared, data-backed "hook," executives, creatives, and channel partners often work from different assumptions, causing rework and delays
+
+The Ideation space automates insight synthesis and generates a structured brief that gives everyone a shared starting point.
+-->
+
+<!--
+## What's included, phase by phase
+
+| Phase | Timeline | What's included |
+|---|---|---|
+| Closed Beta | July 2026 | Limited customers/users/campaigns; core agent skills (strategy framing, messaging ideation, audience definition, data ingestion, brief generation); CJA data integration |
+| Open Beta | ~Sept 2026 (planned) | Quality/performance improvements; CJA integration refinements; Workfront Planning handoff; data visualization; Planning workspace structure ingestion; Unity/Conversational UI integration |
+| General Availability | H2 2026 (planned) | Bring Your Own Data Source (BYODS); Workfront/Workfront Planning data integration; audience data integration; social data integration; workflow ingestion; strategy testing capabilities |
+
+At GA, the Ideation space is also expected to be accessible through the GenStudio Home conversational UI, running as part of Adobe's Agent Orchestrator suite of agents.
+-->

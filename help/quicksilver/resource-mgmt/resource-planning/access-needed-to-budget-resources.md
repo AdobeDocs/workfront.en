@@ -7,7 +7,7 @@ description: You can view and manage information about resource planning for the
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-TQID: https://experienceleague.adobe.com/X0g8M77au0kHvFSt6q-v0TOc9Lh3VxaHtUngvg-uoUk
+TQID: 'https://experienceleague.adobe.com/X0g8M77au0kHvFSt6q-v0TOc9Lh3VxaHtUngvg-uoUk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,7 +15,7 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
     internal-label: Resource Planner

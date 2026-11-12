@@ -8,13 +8,15 @@ feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/m1XNhxMM29x1vAL-RESTCCF6fK1KIWA1g7ckfA6cyWQ
+TQID: 'https://experienceleague.adobe.com/m1XNhxMM29x1vAL-RESTCCF6fK1KIWA1g7ckfA6cyWQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -85,9 +87,9 @@ To schedule a report for automatic delivery:​
 
 {{step1-to-reports}}
 
-   >[!NOTE]
-   >
-   >Report deliveries do not contain prompts. If you wish to limit data in a report delivery, we recommend applying filters to the report that you want to send.
+>[!NOTE]
+>
+>Report deliveries do not contain prompts. If you wish to limit data in a report delivery, we recommend applying filters to the report that you want to send.
 
 1. On the **Reports** page, select a report.
 1. At the top of the screen, click **Report Actions**, then **Send Report** from the drop-down that appears. The **Send Report** dialog box displays.
@@ -144,7 +146,7 @@ To schedule a report for automatic delivery:​
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats</p> </td> 
-      <td> <p>Select whether the report should be delivered daily, weekly, monthly, or yearly.</p> </td> 
+      <td> <p>Select whether the report should be delivered daily, weekly, or monthly.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats Every</p> </td> 
@@ -168,11 +170,11 @@ To schedule a report for automatic delivery:​
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ends On</p> </td> 
-      <td>Select a date for the scheduled delivery to end.</td> 
+      <td><p>Select a date for the scheduled delivery to end.</p> <p>Note: The end date can be no more than 13 months from the day you create or update the delivery rule.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Never</p> </td> 
-      <td>Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</td> 
+      <td role="rowheader"><p>Active</p></td> 
+      <td><p>Toggle on to keep this delivery active. New deliveries are Active by default.</p> <p>When the <strong>Ends On</strong> date passes, Workfront automatically turns this toggle off and disables it. To resume delivery, update the <strong>Ends On</strong> date to a date in the future, then turn the toggle back on.</p></td> 
      </tr> 
     </tbody> 
    </table>

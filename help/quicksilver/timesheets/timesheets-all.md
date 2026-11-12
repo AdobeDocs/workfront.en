@@ -2,15 +2,21 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Timesheets: article index"
+title: 'Timesheets: article index'
 description: Learn more about how to create, edit, approve, and manage timesheets, timesheet profiles, and hour types in the following sections.
 author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-TQID: https://experienceleague.adobe.com/-SYFhrsfctPJ86T5-Ao1VvRoZ-HJnBTk169WBQe16-0
+TQID: 'https://experienceleague.adobe.com/-SYFhrsfctPJ86T5-Ao1VvRoZ-HJnBTk169WBQe16-0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-TQID: https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA
+TQID: 'https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
     internal-label: Event Subscription API
@@ -35,7 +37,7 @@ topic_v2:
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -400,12 +402,7 @@ Because your organization is on the Adobe Unified Experience, it uses the follow
 
 For Workfront Fusion, add the following domains:
 
-<!--Remove me October 2026-->
-
-* For organization not on the Adobe Unified Experience:
-   * app.workfrontfusion.com (US AWS)
-   * app-eu.workfrontfusion.com (EU AWS)
-   * app-az.workfrontfusion.com (US Azure)
+<!--Remove me January 2027-->
    
 * For organization on the Adobe Unified Experience 
 (These domains are covered under `*.adobe.com`, but can be added if desired.)
@@ -413,6 +410,14 @@ For Workfront Fusion, add the following domains:
    * fusion.adobe.com
    * app-eu.fusion.adobe.com
    * app-az.fusion.adobe.com
+
+   >[!NOTE]
+   >
+   >Because all organization are now on the Adobe Unified Experience, the following domains are no longer necessary.
+   >
+   >* app.workfrontfusion.com (US AWS)
+   >* app-eu.workfrontfusion.com (EU AWS)
+   >* app-az.workfrontfusion.com (US Azure)
 
 
 

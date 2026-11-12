@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
+TQID: 'https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,9 +17,13 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -43,13 +47,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Create fields
 
-<!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
 
 {{planning-important-intro}}
 
@@ -85,16 +87,25 @@ For more information about Workfront Planning fields, see [Field overview](/help
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront and any Planning package</p></li>
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  
@@ -155,7 +166,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -166,6 +177,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## Considerations about record fields
+
+* You can create fields only from the table view. 
+* In the Production environment, newly added fields are added and are visible from all table views.
+    
+    <span class="preview">In the Preview environment, newly added fields are added as hidden fields in all table views that contain them. The new fields are visible in the view you use to add them. </span>
 
 ## Create fields by connecting record types 
 
@@ -198,6 +217,10 @@ You can import fields when you import record types using a CSV or Excel file.
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Create fields by importing them from Workfront
+
+>[!IMPORTANT]
+>
+>Creating fields by importing them from Workfront is not available for customers who purchased Planning as a standalone product.
 
 You can import copies of existing Workfront fields. 
 
@@ -283,6 +306,16 @@ For information, see [Import fields from Workfront](/help/quicksilver/planning/f
     -->
 
 1. Continue with adding each field, as described in the sections below.
+1. (Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Edit field** to edit the field. 
+
+    For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md). 
+1. (Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Delete** to delete the field. 
+
+    For information, see [Delete fields](/help/quicksilver/planning/fields/delete-fields.md). 
+
+1. (Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field.
+
+    For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md).
 
 ### Single-line text {#single-line-text}
 

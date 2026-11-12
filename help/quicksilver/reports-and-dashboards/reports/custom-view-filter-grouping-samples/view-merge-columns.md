@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Merge Information from Multiple Columns in One Shared Column"
+title: 'View: Merge Information from Multiple Columns in One Shared Column'
 description: You can merge the information that displays in multiple separate columns and display it in one shared column.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
+TQID: 'https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -87,6 +87,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -133,9 +140,9 @@ Each H3 product area section contains an HTML table. Use this exact structure:
 - Feature cell: `<a>` tag with `class="MCXref xref" xrefformat="{para}"` followed by `<p>` description
 - The `href` links to the product area page (not a specific anchor)
 - Date cells: wrapped in `<p>` tags
-- For off-schedule items, add `<p>[!BADGE Off schedule]{type=Neutral}</p>` after the link
-- Empty `<p></p>` after the link is acceptable when no badge is needed
-- Keep HTML indentation consistent with existing files
+- For off-schedule items, add `<p>[!BADGE Off schedule]{type=Neutral}</p>` as its own paragraph directly under the link paragraph, before the description paragraph
+- For items released concurrently to Preview and Production, add `<p>[!BADGE Concurrent release]{type=Neutral}</p>` in the same position
+- Empty `<p></p>` after the link is acceptable when no badge is needed- Keep HTML indentation consistent with existing files
 
 ### Overview Trailing Sections
 

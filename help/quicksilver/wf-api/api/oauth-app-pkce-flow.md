@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
+TQID: 'https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -24,6 +26,15 @@ topic_v2:
     internal-label: Administration
 ---
 # Configure and use your organization's custom OAuth 2 applications using PKCE flow
+
+>[!IMPORTANT]
+>
+>Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>* November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>* February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 PKCE is a secure authorization flow that works well with dynamically refreshing applications such as mobile apps, but is valuable across all OAuth2 clients. Instead of a static client secret, PKCE uses a dynamically generated string, eliminating the risk of a leaked client secret.
 

@@ -312,7 +312,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
 1. Click **Apply**. A toolbar setting displays with options to undo, redo, and save your changes.
 
-   ![Manual save toolbar](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Manual save toolbar](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Click inside any field that you have permissions to update manually. The field becomes editable and you can make your changes.
 
@@ -426,7 +426,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
    * The Agile view icon is removed. 
    * A toolbar setting displays with options to undo, redo, and save your changes.
 
-     ![Manual save toolbar](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Manual save toolbar](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Edit any field that you have permissions to update manually.
 

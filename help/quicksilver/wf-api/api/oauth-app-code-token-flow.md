@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-TQID: https://experienceleague.adobe.com/G8mttRndZ2pCn-2YM86VrIFDCIsY091eh3zSO23qFI8
+TQID: 'https://experienceleague.adobe.com/G8mttRndZ2pCn-2YM86VrIFDCIsY091eh3zSO23qFI8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -24,6 +26,15 @@ topic_v2:
     internal-label: Administration
 ---
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
+
+>[!IMPORTANT]
+>
+>Custom OAuth2 applications are in the process of being deprecated. Please note the following dates:
+>
+>* November 1, 2026: You will no longer be able to create new custom OAuth2 applications.
+>* February 1, 2027: Existing custom OAuth2 applications will no longer work.
+>
+>For more information, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
 

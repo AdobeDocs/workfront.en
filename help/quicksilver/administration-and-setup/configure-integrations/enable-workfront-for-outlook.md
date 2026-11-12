@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-TQID: https://experienceleague.adobe.com/PqSZrzII7Cv8Ox-9YJY9NH0A6y4xubB3fXhEaPc43S8
+TQID: 'https://experienceleague.adobe.com/PqSZrzII7Cv8Ox-9YJY9NH0A6y4xubB3fXhEaPc43S8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
     internal-label: Adobe Workfront for Outlook

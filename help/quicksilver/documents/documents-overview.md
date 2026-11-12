@@ -2,19 +2,24 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Documents: Article Index"
+title: 'Documents: Article Index'
 description: Learn how to use documents. To support your work, you can add, view, organize, manage, or approve documents in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-TQID: https://experienceleague.adobe.com/LNvbs2uALlFVrFt2z9jnkBzdsf-X7oOGpg9R1x-hzEM
+TQID: 'https://experienceleague.adobe.com/LNvbs2uALlFVrFt2z9jnkBzdsf-X7oOGpg9R1x-hzEM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -32,3 +37,4 @@ For information about working with documents, view the articles in the following
 * [Organize documents: article index](../documents/organizing-documents/organize-documents.md) 
 * [Adobe Cloud Drive: article index](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
 * [Workfront and Experience Manager Assets Integrations: article index](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [C2PA metadata in Adobe Workfront](../documents/c2pa-metadata-overview.md)

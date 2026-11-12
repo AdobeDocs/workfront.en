@@ -6,6 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Standalone Workfront Proof to Integrated Proofing in Workfront overview
 description: If your organization changes from the standalone version of Workfront Proof to the Workfront Pro plan, in which Workfront Proof Premium is integrated with Workfront, some proofing functionality is not available.
 author: Courtney
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 ---
 
 # Standalone Workfront Proof to Integrated Proofing in Workfront overview

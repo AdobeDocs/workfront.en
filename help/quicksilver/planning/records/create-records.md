@@ -1,6 +1,6 @@
 ---
 title: Create Records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. Each record can be associated with a thumbnail, a cover image, and a unique color. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. Each record can be associated with a thumbnail, a cover image, and a unique color.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+TQID: 'https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,6 @@ topic_v2:
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 -->
 
 {{planning-important-intro}}
@@ -51,6 +54,7 @@ You can create records by doing one of the following:
 * [Connect them from other records](#create-records-as-you-connect-them)
 * [Submit a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Import information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Create records with CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Use automations](#create-records-by-using-automations)
 
 For information about managing records in the table or timeline views, see the following articles:
@@ -74,14 +78,26 @@ For information about managing records in the table or timeline views, see the f
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p>Planning Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
@@ -144,7 +160,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
 </td> 
   </tr> 
@@ -178,17 +194,9 @@ Old:
     >
     >A workspace manager must create a request form for the record type in order for users with View permissions to add records using a request form. Otherwise, View-permission users cannot create records.
 
-<!--
-add this bullet for July 23 release:
-
-<div class="preview">
-
 * All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
 
     For more information, see the section [Color coding records](#color-coding-records) in this article. 
-
-</div>
--->
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -293,8 +301,8 @@ For information about editing record information, see [Edit records](/help/quick
         >
         >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from.
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
     ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -587,6 +595,16 @@ You can import records for existing record types when you import information fro
 
 For information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
 
+## Create records using CX Enterprise Coworker
+
+You can use the CX Enterprise Coworker to create records by prompting AI to create them for you. 
+
+You can also use the **Attach file** capability of the Workfront CX Enterprise Coworker to upload large numbers of records at a time. You can import 10,000 or more records using this method. 
+
+CX Enterprise Coworker is not currently available to organizations in health care, finance, or some other industries with sensitive data. AI Assistant is available to these organizations.
+
+For information, see [Use CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md). 
+
 ## Create records by using automations
 
 You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
@@ -596,10 +614,8 @@ You can configure and activate the automation in the record's page in Workfront 
 For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
-
-<div class="preview">
+Move to its own article after production release in 10/2026:
+-->
 
 ## Color coding records
 
@@ -642,6 +658,3 @@ All records are automatically associated with a color when they are created.
 
         Once selected, the new color is applied immediately. 
 
-</div>
-
--->

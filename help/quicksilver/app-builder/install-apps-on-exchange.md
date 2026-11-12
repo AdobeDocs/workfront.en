@@ -22,7 +22,7 @@ topic_v2:
 
 You can now install partner-built apps for Workfront directly from Adobe Exchange. This capability connects customers to a growing ecosystem of Adobe partners who deliver purpose-built tools that improve productivity, streamline operations, and extend Workfront functionality. Through Adobe Exchange, customers can discover and install apps that integrate seamlessly into Workfront using UI Extensions. 
 
-Adobe Exchange is the central marketplace for third-party applications, extensions, and integrations across Adobe Experience Cloud—including Adobe Workfront. For Workfront customers, it's the go-to destination to discover and install apps that enhance functionality, streamline workflows, and integrate with external systems. 
+Adobe Exchange is the central marketplace for third-party applications, extensions, and integrations across Adobe CX Enterprise —including Adobe Workfront. For Workfront customers, it's the go-to destination to discover and install apps that enhance functionality, streamline workflows, and integrate with external systems. 
 
 ## Adobe partner apps
 

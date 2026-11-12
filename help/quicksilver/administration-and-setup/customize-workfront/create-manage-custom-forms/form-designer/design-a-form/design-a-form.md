@@ -10,13 +10,15 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -34,6 +36,8 @@ topic_v2:
     internal-label: Administration
 ---
 # Create a custom form
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -135,6 +139,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 ### Reuse an existing field or widget already used in another custom form
 
 1. In the upper-left side of the screen, click **Field library**.
+1. Search for the field you want to add to the form.
+
+   >[!TIP]
+   >
+   ><span class="preview">Fields marked as favorites appear in the **Suggested** section at the top of the field library.</span>
 
 1. Drag and drop the desired field or widget onto the canvas. Repeat this step to add any other fields or widgets.
 
@@ -167,11 +176,11 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
 * Each custom field API name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
-* Though it's possible to do so, we recommend that you don't change this API name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+* API names are read-only by default. Though it's possible to do so, we recommend that you don't change this API name after the custom form is used in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 
    For example, if you add the custom field to a report and later change its API name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 
-* API names are read-only by default. To make the API name editable, click the **Edit** icon next to the **API Name**. Then, type **confirm** in the confirmation box and click **Rename field**.
+   You could also break existing integrations and calculations that depend on the field's API name.
 
 * We recommend that you don't type an API name that is already used for built-in Workfront fields.
 
@@ -326,6 +335,15 @@ To add a text field:
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
     <tr>
+     <td>Mark as favorite</td>
+     <td><p><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     <td><ul>
+     <li>Single line text</li>
+     <li>Paragraph</li>
+     <li>Rich text</li>
+     <li>Descriptive text</li></ul></td>
+    </tr>
+    <tr>
      <td>Active</td>
      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      <td><ul>
@@ -477,30 +495,44 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Single-select dropdown</li>
     <li>Multi-select dropdown</li>
     </ul></td>
-    </tr> 
-    <td role="rowheader">Choices </td> 
-    <td> 
-    <p>Select any of the following options:</p> 
-    <ul> 
-    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
-   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </tr>
+    <tr>
+    <td role="rowheader">Choices</td> 
+    <td>
+    <p>Click <strong>Edit choices</strong> to add or edit choices for the field.</p>
+    <p>To add a new choice in the Edit choices dialog:</p>
+    <ol>
+    <li><p>Click <strong>New row</strong> at the bottom of the table.</p> <p><b>Note:</b> There is no limit for how many choices you can add.</p></li>
+    <li>Type the <strong>Choice name</strong> and <strong>Choice value</strong>. These are usually the same, just like the field API name and label.</li>
+    <li>(Optional) Select <strong>Select by Default</strong> to have the choice selected by default in the field.</li> 
+    </ol>
+    <p>For additional actions:</p>
+    <ul>
+    <li>To edit an existing choice, double-click in the area you want to change.</li>
+    <li> To hide a choice in the field, select it and click <strong>Hide Choice</strong> in the action bar at the bottom of the screen. Hidden choices remain accessible in reports.</li> 
+    <li> <p>To delete a choice from the field, select it and click <strong>Remove Choice</strong> in the action bar at the bottom of the screen.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    <li>Use the <strong>Drag</strong> icon <img src="assets/drag-icon.png"> to sort the choices manually.</li>
+    <li>Click <strong>Sort Choices A-Z</strong> to sorts the choices alphabetically in the field.</li>
     </ul>
-     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
-    <ul> 
-    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
-    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
-    </ul>   
-    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    <p>Click <strong>Save</strong> when you are finished editing choices.</p>
     </td> 
     <td><ul>
-    <li>Radio buttons</li>
-    <li>Checkbox group</li>
-    <li>Single-select dropdown</li>
-    <li>Multi-select dropdown</li>
+    <li>Radio buttons</span></li>
+    <li>Checkbox group</span></li>
+    <li>Single-select dropdown</span></li>
+    <li>Multi-select dropdown</span></li>
     </ul>
     </td>
-     </tr>
+    </tr>
+    <tr>
+     <td>Mark as favorite</td>
+     <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     <td><ul>
+     <li>Radio buttons</li>
+     <li>Checkbox group</li>
+     <li>Single-select dropdown</li>
+     <li>Multi-select dropdown</li></ul></td>
+    </tr> 
     <tr>
      <td>Active</td>
      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
@@ -537,6 +569,37 @@ To add radio buttons, checkbox groups, and drop-downs:
     Or
 
     Click **Save and Close**.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 
@@ -712,6 +775,10 @@ To add date fields:
       <td><p>Select this option if you want to show the time of day along with the date in the field.</p></td>
      </tr> 
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -828,6 +895,10 @@ To add an external lookup:
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
+     <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
      </tr>
@@ -854,8 +925,6 @@ To add an external lookup:
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
 
-
-
 ### Add internal lookup fields
 
 An internal lookup field allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. For example, if the user is typing a user name then a list of matching names appears. The internal lookup field type is supported on the following objects:
@@ -873,6 +942,12 @@ An internal lookup field allows users to type the name of an object that exists 
 * Issue
 * Document
 * Location
+
+>[!NOTE]
+>
+>Typeahead fields are no longer available to add to custom forms. You can convert an existing typeahead to an internal lookup by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
+>&nbsp;
+>Also note that if a typeahead field is included in an environment promotion package, the field is automatically converted to an internal lookup when the promotion takes place. For more information on environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 To add an internal lookup:
 
@@ -923,6 +998,10 @@ To add an internal lookup:
      <tr> 
       <td role="rowheader">Multi-select dropdown</td>
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>
@@ -1008,7 +1087,11 @@ The Workfront Mobile app
      <tr> 
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
+     </tr>
      <tr>
       <td>Active</td>
       <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
@@ -1052,7 +1135,7 @@ The Workfront Mobile app
 
 ### Add Workfront native fields
 
-You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, if the custom field references the Description field and it is on a custom form attached to a project, it pulls in the project description. (The field may show "N/A" if no data is available.)
 
 +++ Expand to see the list of supported native fields.
 
@@ -1165,11 +1248,15 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Use dynamic filter syntax to narrow the list of items in this field based on the value of another field. For example, when you use <code>?portfolioID={portfolio}.{ID}</code> in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.</p>
        <p><b>Note</b>:
        <ul> 
-        <li>The filter option is only available when you reference a native typeahead or internal lookup field, such as Portfolio, Company, or Owner.</li>
+        <li>The filter option is only available when you reference a native internal lookup or typeahead field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field doesn't remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter isn't available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 
       <td>
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>
@@ -1227,6 +1314,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>
@@ -1323,6 +1414,10 @@ To add a Planning connection field:
       <td role="rowheader">Record type fields</td> 
       <td><p>(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </p> <p> The connected record's fields that you select display in a table view on the custom form. When the form is attached to a Workfront object, the table view is read-only. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Mark as favorite</td>
+      <td><span class="preview">Select this option to have the field appear as a Suggested field when building filters, views, and groupings in lists and reports, and at the top of the field library in the form designer.</span></td>
      </tr>
      <tr>
       <td>Active</td>

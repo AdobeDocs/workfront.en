@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-TQID: https://experienceleague.adobe.com/lLZZugNI5odziqyz7uBMnkiVoOdGcT-jKb90j9TUG1Q
+TQID: 'https://experienceleague.adobe.com/lLZZugNI5odziqyz7uBMnkiVoOdGcT-jKb90j9TUG1Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms
@@ -26,6 +28,12 @@ topic_v2:
     internal-label: Administration
 ---
 # Rich text field storage in the API
+
+>[!NOTE]
+>
+>The rich text fields described in this article are the "text with formatting" fields. This field type is no longer available to add to new fields, and existing fields should be converted to the "rich text" field type.
+>&nbsp;
+>Note that the new rich text fields store content as HTML, but they do not store any styles that were applied in the field editor. Removing styling information from storage can help to prevent unexpected UI issues and security vulnerabilities.
 
 If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.
 

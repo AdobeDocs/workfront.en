@@ -8,13 +8,15 @@ author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+TQID: 'https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -136,7 +138,7 @@ If you have any questions or problems submitting a request, call the Customer Su
 
 1. Navigate to the **[!UICONTROL My Cases]** page. This page opens when you submit a case, or you can open it by clicking **[!UICONTROL My Cases]** in the left navigation.
 
-1. (Optional) Use the options at the top of the page to filter by **Product ([!DNL Experience Cloud] solution)** or case **[!UICONTROL Status]** ([!UICONTROL Open] or Cl[!UICONTROL ]osed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
+1. (Optional) Use the options at the top of the page to filter by **Product ([!DNL CX Enterprise] solution)** or case **[!UICONTROL Status]** ([!UICONTROL Open] or [!UICONTROL Closed]). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
 
 1. (Optional) To view more details on a case, click the **Case Number** to access it. 
 

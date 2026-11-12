@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: Update Information in the Task List Gantt Chart
 description: The Gantt Chart of an Adobe Workfront task list shows details about tasks that are on a project or a template.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z

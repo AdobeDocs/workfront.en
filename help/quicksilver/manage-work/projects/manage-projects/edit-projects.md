@@ -450,7 +450,10 @@ To edit fields in the Finance area:
     <tbody> 
      <tr>
       <td><strong>Use date-effective exchange rates from the system</strong></td>
-      <td><p>When this option is selected, the system-level date-effective exchange rates are always used, and exchange rate overrides are not permitted on the project.</p> <p>You must also select the <strong>Exchange Rate Date</strong> to start from, when the option is selected.</p></td> 
+      <td><p>Select this option to always use the system-level date-effective exchange rates and prevent exchange rate overrides on the project.</p><p>For more information about exchange rates, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Exchange Rate Date</strong></td>
+     <td><p>When you select the option to use the date-effective exchange rates from the system, you must also select a date. This date is used to define the exchange rates for planned cost and revenue.</p><p>For example, if the Exchange Rate Date is February 12, Workfront uses the system-level exchange rate on February 12 for planned cost and revenue currency conversions, even when the planned work occurs on other dates.</p><p>For actual cost and revenue, the exchange rate for the date the hours are logged is used.</p></td>
      </tr>
      <tr>
       <td><strong>Preserve project billing rates information</strong></td>

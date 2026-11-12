@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -74,12 +76,12 @@ Some of the following scenarios might be responsible:
 
      This behavior can be perceived as inconsistent or delayed deliveries, but it simply follows our policies for how Event Subscription messages are handled.
    
-   * An Event Subscription URL&nbsp;will be hard disabled if either of the following conditions are met:
+   * An Event Subscription URL will be hard disabled if either of the following conditions are met:
 
-      * The Subscription URL has failed to deliver for 7 days and has failed at least 2000 consecutive delivery attempts in the last 72 hours.
+      * The Subscription URL has failed to deliver for at least 72 hours and has failed more than 2,000 consecutive delivery attempts.
       * The Subscription URL failed to deliver 50,000 consecutive attempts.
 
-## What should I&nbsp;do if I'm receiving a 500 response status when I attempt to call the Event Subscription API?
+## What should I do if I'm receiving a 500 response status when I attempt to call the Event Subscription API?
 
 Please contact Workfront Support. To learn how to contact support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -90,6 +92,16 @@ You can use any authentication that uses a bearer token. The **authToken** field
 ## How long should it be before I receive my event payload from Workfront Event Subscriptions?
 
 In general, you can expect to receive Event Subscription event delivery requests in less than 5 seconds from the data change being logged. On average, webhook notifications are received in less than 1 second from the time the data change is made. However, the service can receive messages in such large quantities that it might also take longer.
+
+## Can I receive the same event more than once?
+
+Yes. Workfront uses deduplication to reduce duplicate event deliveries, but it does not guarantee exactly-once delivery.
+
+After an endpoint returns a successful HTTP response (2xx), Workfront temporarily records that delivery and uses this record to suppress subsequent deliveries of the same event for the same subscription. Deliveries for separate subscriptions are tracked independently.
+
+Duplicates can still occur&mdash;for example, when delivery attempts overlap, an endpoint processes an event but its response does not reach Workfront, or the delivery record expires or is unavailable.
+
+Design your endpoint to process repeated deliveries safely (idempotently). Use the `X-Event-ID` request header together with the payload's `subscriptionId` to identify repeated deliveries for a subscription.
 
 ## Additional resources
 

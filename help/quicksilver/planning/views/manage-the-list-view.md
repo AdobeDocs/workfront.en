@@ -6,8 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-last-update: 2026-04-01T11:23:03-07:00
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 
 # Manage the list view in Adobe Workfront Planning
@@ -18,15 +30,13 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
-You can view objects in the list view in the following areas of Workfront Planning:
+You can view objects in the list view in Adobe Workfront Planning in the following areas:
 
 * A connected records page for projects in a record's details area 
 
@@ -38,9 +48,12 @@ You can view objects in the list view in the following areas of Workfront Planni
 
 This article describes how you can navigate, create, or edit a list view in Workfront Planning. 
 
+For information on all other views available in Workfront Planning, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+
 ## Access requirements
 
 +++ Expand to view the access requirements for the functionality in this article. 
+
 
 <table style="table-layout:auto"> 
 <col> 
@@ -54,15 +67,29 @@ This article describes how you can navigate, create, or edit a list view in Work
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
+
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
@@ -131,6 +158,11 @@ Removed - more direct steps below:
 
     * A connected records page for projects in a record's details area
     * The Request forms page of a record type
+
+    >[!TIP]
+    >
+    ><span class="preview">The number of items in the list displays to the left of the quick search box in the upper-right corner of the list. The number reflects the number of items displayed  with filters applied to the list. Items you don't have permissions to view are not counted. </span>
+
 
 1. (Conditional) When available, do one of the following to modify the list view: 
 
@@ -236,7 +268,9 @@ Removed - more direct steps below:
 
 1. (Optional) Add a keyword in the search box in the upper-right corner of the list to search for an item. 
 
-    Items that match your search term are highlighted in the list.
+    Items that match your search term are highlighted in the list. 
+
+    <span class="preview">The list is filtered to display only the items that match the search. </span>
 
 1. (Optional and conditional) In the projects <!--change projects to items here when more items will display in the Glist--> connected page, to add more items to the list and automatically connect them to the selected record, do one of the following:
 

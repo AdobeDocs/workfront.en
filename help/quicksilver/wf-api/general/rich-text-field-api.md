@@ -7,10 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+TQID: 'https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -20,6 +23,12 @@ role_v2:
 <!-- Audited: 5/2025 -->
 
 Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API, rich text is stored as JSON using the open source framework Draft.js.
+
+>[!NOTE]
+>
+>The rich text fields described in this article are the "text with formatting" fields. This field type is no longer available to add to new fields, and existing fields should be converted to the "rich text" field type.
+>&nbsp;
+>Note that the new rich text fields store content as HTML, but they do not store any styles that were applied in the field editor. Removing styling information from storage can help to prevent unexpected UI issues and security vulnerabilities.
 
 ## Overview Example
 

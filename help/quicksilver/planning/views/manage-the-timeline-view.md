@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
+TQID: 'https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,11 +31,11 @@ topic_v2:
 ---
 # Manage the timeline view
 
-<!--
+<!--remove Production and Preview references at release-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -55,22 +59,36 @@ For information about record views, see [Manage record views](/help/quicksilver/
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront and any Planning package</p>
+<ul> 
+<li><p>Any Workfront or Workflow with a Planning package</p></li>
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li></ul>
+   </td> </tr>
 
-<p>Any Workflow and any Planning package</p>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
-  <tr> 
+   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard to create and delete views</p>
-   <p>Contributor or higher to update view elements</p>
+   <td><p>Workflow Light or higher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning license</p></td> 
+   <td><p> Planning Standard to create and delete views</p>
+   <p>Planning Contributor or higher to update view elements</p>
+   <p><b>NOTE</b><p>
+   <p>Not all customers have Planning Contributor licenses</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
+
 </tbody> 
 </table> 
 
@@ -125,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,11 +187,17 @@ To manage a timeline view:
 
     ![Timeline view example](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
+    The records associated with the record type you selected display as bars in a timeline and are automatically sorted in chronological order of their Start Date, by default. 
+
+    <span class="preview">The first 1000 records display by default. Additional records continue to display as you scroll the page, in batches of 1000.</span> 
+
+    <span class="preview">The total number of records displays to the left of the quick search box, in the upper-right corner of the table.</span>
+
+    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
     >[!TIP]
     >
-    >    The sorting of the records in the timeline is not visible in the Compact view.
+    >    The automatic sorting of the records in the timeline is not visible in the Compact view.
 
 1. (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. 
 
@@ -197,7 +221,7 @@ To manage a timeline view:
     >
     >Without custom quarter properly saved, the timeline view displays the classic quarters.
     >After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.
-    >For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+    >For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 1. (Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.
 
@@ -217,17 +241,22 @@ To manage a timeline view:
         * **Quarter**: Displays months and weeks with quarter indication. 
         * **Month**: Displays weeks and days. 
 
-        >[!TIP]
-        >
-        >The timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-
+        The timeline view displays custom weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month modes.
+        
+        For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+        
+        
+        
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
 
-
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted. 
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. 
+    
+        The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+
+        <span class="preview">The total number of records displayed to the left of the search box is replaced by the number of records found in the search. </span>
 
         ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
 
@@ -235,11 +264,15 @@ To manage a timeline view:
 
         You cannot use keywords that are associated with fields that do not display in the timeline view.
 
+        >[!TIP]
+        >
+        ><span class="preview">Quick search works for all records, and not just the ones that currently display on the page. 1000 records display by default. Click **Load more** to display more records found in the quick search. </span>
+
     1. Press Enter on your keyboard to go to the next found field.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
     1. Click the **x** icon in the search box to clear the search keyword.
 
-    1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
 
 1. (Optional) Click **Breakdown** to display connected records on the timeline. 
 
@@ -332,10 +365,10 @@ To add a filter to a timeline view:
         </tr>
         <tr>
             <td>Multi-select, People</td>
-            <td><p>Has any of</p>
+            <td><p>Is any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
-            <p>Has none of</p>
+            <p><p>Is none of</p>
             <p>Is empty</p>
             <p>Is not empty</p></td>
         </tr>
@@ -428,6 +461,7 @@ To add a grouping in the timeline view:
 1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
+1. (Optional) Click **Add condition** to add up to three fields to group by.
 1. (Optional and conditional) Depending on the field type you selected to group by, select one of the following sorting options to sort the groupings either in ascending or descending order:  
 
     * **A -> Z** or **Z -> A** for Select fields, Text fields, Paragraph fields, Connected records or objects, People fields
@@ -444,15 +478,31 @@ To add a grouping in the timeline view:
 
 1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
-1.  In the **Layout** area of the **Group records by** box select one of the following options:
+1. In the **Layout** area of the **Group records by** box select one of the following options:
 
     * **Stacked**: Groupings display without a frozen left column and fit the width of their items' timelines.
 
         ![Stacked grouping in timeline view](assets/stacked-grouping-in-timeline-view.png)
-    * **Swimlane**: Groupings display with a frozen left header column that lists the grouped items and the groupings fit the width of the timeline view. 
+    * **Swimlane**: Groupings display with a frozen left panel that lists the grouped items and the groupings fit the width of the timeline view. 
 
         ![Swimlane grouping in timeline view](assets/swimlane-grouping-in-timeline-view.png)
 
+    Groupings are applied immediately. 
+
+    <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    --> 
+1. (Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. 
+1. (Optional and conditional) In the swimlane display, drag and drop the left panel separator to adjust its width. Each user's panel width is saved across sessions, with a default width for first-time users.
+1. (Optional) For long grouping names, hover over a grouping's line to see the full name of the grouping in a tooltip.
+    
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
@@ -467,13 +517,57 @@ To add a grouping in the timeline view:
     >When you drag and drop records from one grouping to another, the fields that are selected in the grouping automatically update the values on the moved records.
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
-<!-- 
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
 
 ### Add sort
 
-this is not possible right now; if this is the same functionality as the table view, document it there and link from here. 
+You can sort records and groupings in the timeline view. 
 
--->
+Consider the following when working with record sorting in the timeline view: 
+
+* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
+* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+
+* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
+* You cannot name the sorting you build for a timeline view.
+* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+
+* You can sort by connected record fields or lookup fields.  
+
+To add a sort in the timeline view:
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Sort** in the view's toolbar. 
+
+    The sorting box opens. 
+
+    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
+1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
+1. Select the direction you want the record sorting to be applied (alphabetical, reverse descendent etc). 
+
+    For example, the sorting of a text field could be A -> Z or Z -> A. 
+
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+
+    The direction a sorting is applied depends on the format of the field you selected. 
+1. (Optional) Click **Add condition** to add up to 10 conditions. 
+1. (Optional) Click **Clear all** to remove all conditions.
+1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+
+    >[!TIP]
+    >
+    >If there are no groupings applied to the timeline view, the **Sort groupings** option is not available.
+1. (Optional) Select the direction you want the grouping sorting to be applied (alphabetical, reverse descendent etc). The direction a sorting is applied depends on the format of the field you selected. 
+1. (Conditional) Click **Reset all** to reset the sorting direction, if you modified it from the default. 
+1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
+1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+
+    Sorting is applied immediately.
+1. Click anywhere on the page to close the sorting box. 
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}
 
@@ -493,7 +587,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. (Conditional and optional) If you are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. 
 
-    For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+    For information, see [Enable custom quarters and weeks](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
     ![Use custom quarters warning inside timeline view settings](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
@@ -548,22 +642,12 @@ Update the timeline view settings to indicate what and how information displays 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
     
-        >[!NOTE]
-        >
-        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >    * You cannot match the color to connected records and their lookup fields.
-
-        <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
-
-    For example, multi-select or single-select fields can have color-coded options. 
+    >[!NOTE]
+    >
+    >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors. 
+    >    
+    >* You can match the color to connected records, but not to their lookup fields. 
+          
 
     If you group by fields without color-coded options, the grouping color remains gray.
 
@@ -575,12 +659,8 @@ Update the timeline view settings to indicate what and how information displays 
 
     * **Record type**: The color of the records match the color of the record type you selected. This is the default option. 
     * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
+    * **Record**: The color matches the records' colors. 
     * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
-    * **None**: Records displays in a white bar. 
-
-    <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 

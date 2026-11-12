@@ -8,13 +8,15 @@ feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
+TQID: 'https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
@@ -34,11 +36,11 @@ topic_v2:
 <!-- Audited: 4/2025 -->
 
 
-<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -452,7 +454,6 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    
    >[!IMPORTANT]
    >
-   >
    >* You cannot add images to goals or ad-hoc cards on boards.
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
@@ -463,6 +464,8 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
+   >* If your organization uses Adobe cloud storage as part of Unified review and approval, your Workfront administrator can enable the same preference to let you attach images to comments. All standard image formats are supported, and attached images are stored in Adobe cloud storage.
+   >* Images attached to comments on objects using Adobe cloud storage are not accessible in the Frame.io viewer.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -616,6 +619,70 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
+<div class="preview">
+
+## Pin comment threads
+
+You can pin important threads to the top of the Updates tab, to separate them from the update stream in a Pinned threads section. 
+
+Consider the following when pinning threads: 
+
+* You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+* You can later unpin threads. 
+* Anyone with permissions to View an object with an Updates area can pin or unpin a thread. 
+
+To pin a comment thread: 
+
+1. Go to an object that has an **Updates** area, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab for you and everyone who can view the object. 
+
+   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+
+   The number of pinned threads is listed in parentheses to the right of the section name. 
+
+   ![Pinned threads in Comments section](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+
+</div>
+
+<div class="preview">
+
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ![Comment more menu with Pin and Resolve options](assets/more-menu-for-comment-with-resolve-and-pin.png)
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+
 ## Delete a comment or a reply
 
 Depending on the access your Workfront administrator gives you, you might be able to delete comments you added in the Updates section of an object. 
@@ -627,7 +694,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 1. Go to the comment or reply you want to delete.
 1. Click the **More** menu next to the comment or reply you wish to delete, then click **Delete**. 
 
-   ![Update stream comment More menu](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Comment more menu with Pin and Resolve options](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. In the message that appears, click **Delete**. 
 

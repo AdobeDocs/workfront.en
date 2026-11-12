@@ -10,13 +10,15 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-TQID: https://experienceleague.adobe.com/Wvy0zTDMmD-RHwg-S-gFh7Gr9ngnURhwxu9vpWnaOwY
+TQID: 'https://experienceleague.adobe.com/Wvy0zTDMmD-RHwg-S-gFh7Gr9ngnURhwxu9vpWnaOwY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -32,7 +34,6 @@ This section contains the following articles:
 
 * [Group admins must have higher access than those they manage](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [Active and deactivated objects](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md) 
-* [ADFS logout URL doesn't work](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md) 
 * [Administration and setup FAQs](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md) 
 * [[!DNL Adobe Workfront] user credentials vs. SAML user credentials](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [Automatic reminders vs. reminder notifications](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md) 

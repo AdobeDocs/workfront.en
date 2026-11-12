@@ -8,16 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs
+TQID: 'https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -79,22 +83,23 @@ For information, see one of the following articles:
    <td> 
 <p>To configure connectable record types: </p>
 <ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
+<li>Any Workflow and a Planning Prime or Ultimate package</p></li>
 Or
-<li>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
+<li>A Workfront Planning Prime or Ultimate package as a standalone product</li>
+</ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
-<li><p>Any Workfront package and a Planning Plus package</p></li>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li>
+
 Or
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+<li>A Planning Prime or Ultimate package when purchased as a standalone product </li>
+</ul>
 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td role="rowheader"><p>Adobe Workfront and Planning license</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +110,17 @@ Or
    -->
 
    <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
+   <ul><li>Workfront and Planning Standard or higher</li></ul>
    <p>To make a record connectable:</p>
      
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <ul><li>Workfront and Planning Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul>
     
-   
    </td> 
   </tr> 
+  <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</p>  

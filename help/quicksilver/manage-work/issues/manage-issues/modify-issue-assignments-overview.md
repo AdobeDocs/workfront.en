@@ -23,7 +23,9 @@ role_v2:
 ---
 # Overview of modifying issue assignments
 
-You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.
+{{preview-fast-release-general}}
+
+You can assign issues to or unassign issues from users, teams, job roles, or Work Agents. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.
 
 >[!TIP]
 >

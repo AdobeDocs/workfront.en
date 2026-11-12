@@ -9,14 +9,23 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # View and manage business profiles
 
 To assign a business profile to a user, you must assign a group and an associated access level.
 
-As a Workfront administrator, you can set a user's business profile by assigning combinations of access levels and groups. This is managed from the user's User page in Workfront.
+As a Workfront administrator, you can set a user's business profile by assigning combinations of access levels and groups. This is managed from the user's User page in Workfront. Group administrators can also create, edit, and delete business profiles, but only for groups they administer.
 
 For more information on Business Profiles, see [Business profiles overview](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -41,7 +50,7 @@ For more information on Business Profiles, see [Business profiles overview](/hel
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td><p>System Administrator</p></td>
+   <td><p>System Administrator</p><p>Group Administrator (for groups they administer)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -61,3 +70,32 @@ For more detail about the information in this table, see [Access requirements in
 1. Select the group that this business profile applies to. 
 1. (Optional) To set start or end dates for this access, select those dates in the date picker.
 1. Click **Save**.
+
+## Edit a business profile
+
+Editing a business profile opens the same window used to create one.
+
+{{step-1-to-users}}
+
+1. Select the user whose business profile you want to edit.
+1. In the left navigation of that user's page, click **Business profiles**.
+1. Click the **More** icon ![More icon](assets/more-icon.png) in the row of the business profile you want to edit, then click **Edit**.
+1. Update the access level, group, or start and end dates as needed.
+1. Click **Save**.
+
+>[!NOTE]
+>
+>Group administrators can only edit business profiles for groups they administer.
+
+## Delete a business profile
+
+{{step-1-to-users}}
+
+1. Select the user whose business profile you want to delete.
+1. In the left navigation of that user's page, click **Business profiles**.
+1. Click the **More** icon ![More icon](assets/more-icon.png) in the row of the business profile you want to delete, then click **Delete**.
+1. Click **Delete** to confirm.
+
+>[!NOTE]
+>
+>Group administrators can only delete business profiles for groups they administer.

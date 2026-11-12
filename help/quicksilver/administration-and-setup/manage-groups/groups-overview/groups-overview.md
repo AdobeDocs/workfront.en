@@ -3,20 +3,24 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "Groups: Article Index"
+title: 'Groups: Article Index'
 description: Groups are similar to but distinct from teams and companies. The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate.
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-TQID: https://experienceleague.adobe.com/8-BfKx3ut4Q02NADwHcqCYJVkZ5tyjklydJmOXyTfVk
+TQID: 'https://experienceleague.adobe.com/8-BfKx3ut4Q02NADwHcqCYJVkZ5tyjklydJmOXyTfVk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
     internal-label: Custom forms

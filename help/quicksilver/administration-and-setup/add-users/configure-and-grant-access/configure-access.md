@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-TQID: https://experienceleague.adobe.com/Nv07H5krfZefm5eiphjVwk-D5rjmUVN8O3Si2TSgSjE
+TQID: 'https://experienceleague.adobe.com/Nv07H5krfZefm5eiphjVwk-D5rjmUVN8O3Si2TSgSjE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,7 +18,9 @@ feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource Management
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
     internal-label: Workfront Scenario Planner
@@ -36,7 +38,6 @@ topic_v2:
 These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 
 * [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 
-* [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 
 * [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
 * [Grant access to projects](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) 
 * [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 

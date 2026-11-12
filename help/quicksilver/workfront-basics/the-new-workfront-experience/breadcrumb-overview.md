@@ -6,10 +6,13 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
+TQID: 'https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -80,3 +83,20 @@ For information about parent objects in [!DNL Workfront], see [Understand object
    The object page opens.
 
    If you are looking at a project that is connected to an object in Workfront Planning (for example, a campaign), you can switch between both the Planning and the Workfront object types from the breadcrumb. For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copy the name and link from a breadcrumb
+
+{{highlighted-preview}}
+
+You can copy an object's name and link together in one action from the breadcrumb path. 
+
+1. Hover over any object in the breadcrumb path.
+1. Click the **[!UICONTROL Copy link]** icon that appears next to the object name.
+
+   ![Copy link icon on a breadcrumb](assets/copy-breadcrumbs.png)
+
+   The object's name and link are copied together. When you paste the copied information, it appears as a clickable link with the object name as the link text.
+
+</div>

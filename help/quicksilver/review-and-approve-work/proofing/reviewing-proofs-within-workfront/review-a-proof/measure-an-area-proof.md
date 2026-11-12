@@ -6,13 +6,18 @@ description: You can measure an area within a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-TQID: https://experienceleague.adobe.com/E69PAJvwdmI1qoTiLLN9FlmLwY-6uQN2e-VAtVYiX-U
+TQID: 'https://experienceleague.adobe.com/E69PAJvwdmI1qoTiLLN9FlmLwY-6uQN2e-VAtVYiX-U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

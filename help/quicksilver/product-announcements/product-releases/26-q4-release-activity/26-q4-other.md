@@ -1,0 +1,193 @@
+---
+title: Other enhancements during the Fourth Quarter 2026 release timeframe
+description: Other enhancements during the Fourth Quarter 2026 release time frame
+author: Becky
+feature: Product Announcements
+recommendations: noDisplay, noCatalog
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+---
+# Other enhancements during the Fourth Quarter 2026 release timeframe
+
+This page describes enhancements made with the Fourth Quarter 2026 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
+
+For a list of all changes available at this point in the Fourth Quarter 2026 release cycle, see [Fourth Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Non-administrators can now create event subscriptions
+
+>[!NOTE]
+>
+>Preview and Production for everyone: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+
+To make it easier to react to important Workfront object changes without system administrator access, we've added user event subscriptions. Now you can receive webhook notifications for supported Workfront objects using an IMS user access token and a targeted subscription for each object and event combination.
+
+User event subscriptions support Task, Project, Note or comment, and Assignment objects, with CREATE, UPDATE, and DELETE events. You can create separate subscriptions for each object and event combination you need, and you can use object IDs or filters to narrow delivery to the exact records you want.
+
+This release is especially useful for teams that need lightweight, event-driven integrations without granting broad admin permissions, such as when using Workfront Fusion.
+
+For more information, see [Manage event subscriptions as a non-admin user](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+
+## Updates to enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
+
+The following changes have been made to enhanced list filters and groupings:
+
+* In filters and groupings that use field groups, the groups are now collapsed by default. You no longer have to scroll as far to find the correct group of fields.
+* The filter operators "Has any of" and "Has none of" have been changed to to "Is any of" and "Is none of."
+
+The following changes have been made to enhanced list column headers, to provide consistency across all enhanced lists in Workfront:
+
+* An icon has been added to each header to indicate the type of field that the column represents. For example, a column for Assignees or Users has the icon of a person, and a date field shows a calendar. These icons are also displayed next to fields in the Column manager.
+* Column headers now provide a smoother, more consistent experience when changing the column size.
+
+For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Multiple screens updated to enhanced lists
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
+
+The following Workfront lists now use the enhanced list format:
+
+* Setup > Email > Notifications > Event Notifications, and Group Detail page > Event Notifications (This update was removed from the Preview environment on October 14 and will not be part of the quarterly release. These lists will be updated at a later date.)
+* Setup > Documents > Experience Manager Assets
+* Project or Template > Queue Topics
+* Project or Template > Topic Groups
+* Project or Template > Routing Rules
+* Task or Template Task > Predecessors
+
+Updates include the following for some or all the lists:
+
+* A new look and feel of the list, with updates to colors, formatting, and fonts.
+* The option to create a new object in the list was moved to the top right and displays as a blue button.
+* The toolbar was removed. Now, when you select one or more objects in the table, the action bar appears at the bottom of the list in blue.
+* Some columns might have been repositioned or removed, or new columns were added.
+* Some confirmations and warnings have been removed or changed.
+* Saving in some lists is now automatic, and the Save button might have been removed.
+* Some enhanced lists allow columns to be renamed or sorted.
+* Some enhanced lists include the Column manager, which allows you to add and arrange columns. You can select columns by native or custom fields in Workfront.
+* Icons within table cells have been replaced by More menus with multiple options.
+
+NOTE: Not all updates are available on all lists.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Enhanced list updates
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 22, 2026
+
+In all enhanced lists, the following updates are now available:
+
+* The button to add a new row on a table has been moved inside the grid, instead of underneath the grid.
+* The **Columns** options above the list now includes a search field.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Multiple screens updated to enhanced lists
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 22, 2026
+
+The following Workfront lists now use the enhanced list format:
+
+* Setup > Interface > Update Feeds > Actions
+* Setup > Interface > Update Feeds > Tracked Fields
+* Setup > Project Preferences > Conditions
+* Setup > Locations
+* Setup > Scorecards
+* Setup > Risk Types
+* Project > Documents > Document Details > All Versions
+* Setup > Documents > SharePoint Integration
+* Setup > Documents > Custom Integration
+* Main Menu > Scenarios > lists of scenario plans and initiatives
+
+Updates include the following for some or all the lists:
+
+* A new look and feel of the list, with updates to colors, formatting, and fonts.
+* The option to create a new object in the list was moved to the top right and displays as a blue button.
+* The toolbar was removed. Now, when you select one or more objects in the table, the action bar appears at the bottom of the list in blue.
+* Some columns might have been repositioned or removed, or new columns were added.
+* Some confirmations and warnings have been removed or changed.
+* Saving in some lists is now automatic, and the Save button might have been removed.
+* Some enhanced lists allow columns to be renamed or sorted.
+* Some enhanced lists include the Column manager, which allows you to add and arrange columns. You can select columns by native or custom fields in Workfront.
+* Icons within table cells have been replaced by More menus with multiple options.
+
+NOTE: Not all updates are available on all lists.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## C2PA metadata is preserved on your files
+
+>[!NOTE]
+>
+>Production for everyone: August 26, 2026
+
+Adobe Workfront preserves C2PA metadata on documents you upload, store, and download, without modifying it.
+
+For more information, see [C2PA metadata in Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
+
+## Interface update for left navigation panel icons
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production for everyone: August 13, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+We have updated the look and feel of the left navigation panel icons in Workfront, to provide a modern design and a consistent experience with other Adobe applications. No functionality has changed.
+
+The navigation panel is available on the left side of most areas and objects in Workfront, including projects, tasks, and issues.
+
+For more information, see [Left navigation in Adobe Workfront](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+
+## Enhanced list updates
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 22, 2026
+
+Multiple updates have been made to enhanced lists:
+
+* In the Column manager, you can now drag and drop columns in the **Selected** section to place them in order. (You can also use the **Columns** option above the list to reorder columns, or drag a column by its header on lists that support column dragging and dropping.)
+* The experience of dragging and dropping rows (on lists where drag and drop is available) has been improved visually.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Copy name and link from breadcrumb
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 22, 2026
+
+When you hover over an object's breadcrumb, you can now copy its name and link together in one action. This makes it faster to share objects in Slack, email, or other tools, without copying the name and URL separately.
+
+For more information, see [Breadcrumbs overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/breadcrumb-overview.md).

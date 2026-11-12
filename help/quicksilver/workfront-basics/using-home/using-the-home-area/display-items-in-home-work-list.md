@@ -6,7 +6,7 @@ description: Each widget contains its own worklist. Worklists display all work i
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+TQID: 'https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
@@ -114,7 +116,8 @@ You can filter items in a widget's [!UICONTROL Worklist] to see only specific ty
 
 >[!NOTE]
 >
->The filter options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters, do not change. If you switch browsers or computers, then the filters revert to the default option, which is with all filters deselected.
+>The filter options for most widgets are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters, do not change. If you switch browsers or computers, then the filters revert to the default option, which is with all filters deselected. <br>
+>The My Approvals widget does not store filter options in the browser. The My Approvals widget always defaults to the My Approvals filter option, which displays approvals assigned to you.
 
 To filter your work:
 
@@ -129,7 +132,7 @@ To filter your work:
    | My Tasks     | Displays tasks assigned to you                                                                    |
    | My Issues    | Displays issues assigned to you                                                                   |
    | My Requests  | Displays all requests that you have submitted                                                                 |
-   | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
+   | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals |
 
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** filter or a filter that you have created. 
