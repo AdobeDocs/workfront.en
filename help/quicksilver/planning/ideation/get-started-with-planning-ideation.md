@@ -79,7 +79,7 @@ The planned release timeline for Ideation space which is subject to change inclu
 
 * **General availability:** Targeted for February 1, 2027. 
 
-## Product requirements
+## Product eligibility requirements
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -119,8 +119,11 @@ You can access the Ideation space if your organization and you have access to th
 
         Both packages must have Adobe CX Enterprise Coworker activated
 
- 
+* Adobe Workfront license:
 
+    * Workflow and Planning System administrators or Standard-license users
+ 
+For more information, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md). 
     
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -137,38 +140,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## Audience and use cases 
+## Gain access to Ideation space
 
-The Ideation space is designed for product and brand marketers who are responsible for shaping campaign strategy and producing campaign briefs.
+To gain access to the Ideation space:
 
-<!--
-Too much: 
+1. Verify you meet the product requirements as described in the section [Product requirements](#product-requirements) in this article. 
+1. Contact your Adobe account representative to express interest in participating in the Closed Beta or join Open Beta, when it becomes available.
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+    System administrators have access to Ideation space by default and cannot remove it when it becomes available in Open Beta. They can turn it on for all other users in any of the following environments: 
 
-As a workspace manager, you can use the Ideation space to create records in Workfront Planning by following the following steps: 
+    * Production
+    * Preview
+    * Custom sandboxes
 
-* Create a brief in the Ideation space after launching it from Planning, as you start creating or editing records. 
-* Use AI prompts to gather details from other records in your system or from the web and finish creating ideation briefs.
-* Create Planning record types from the briefs. 
-* Refine your ideation briefs and update existing record types in Planning. 
+1. As a System administrator, do the following: 
 
-The following are use cases for how to use Ideation space: 
+    * Turn on the Coworker & MCP Tools setting in your System Preferences to allow access to Coworker for the entire company.
+    * Turn off the following settings for Standard-license users in their access levels: 
+        * Disable the CX Coworker panel in Workfront
+        * Disable Ideation space
 
-* **Refresh a previous campaign using historical performance**
-    
-    * For example, you can update existing campaigns for a new quarter, season, or product moment.
-    * This produces a "delta brief" grounded in prior performance outlining what stays, what changes, and why. 
+    For more information about using the Ideation space, also see the following articles:
 
-* **Create a net-new campaign using historical performance**
+    * [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Create briefs in Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-    * For example, you can create a campaign when launching a new product, segment, or initiative with no direct campaign history.
-    * This produces a net-new brief through guided ideation, a recommended channel mix, and initial concept or message directions.
+1. (Recommended) Identify your first campaign: a recent one to refresh, or a new initiative to create from scratch.
+
+## Locate the Ideation space
+
+After you have ensured you have access to the the proper products, packages, and system and access level configured, you can locate the Ideation space in the following areas of Workfront:
+
+* In the Workfront Main Menu, by opening the Ideation space area
+
+    ![Ideation space area in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
+
+* In Workfront Planning, when manually adding a new record
+
+    ![Ideation space in adding new record](assets/ideation-space-in-planning-new-record.png)
+
+* In Workfront Planning, when editing an existing record
+
+    ![Ideation space in record Details page](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>You cannot remove the Ideation space area from the Main menu using a layout template. For more information about blocking a user from accessing Ideation space, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
 
 ## Ideation space and the Adobe CX Enterprise Coworker
 
@@ -203,42 +223,38 @@ The following are some of the capabilities of Coworker when used in the Ideation
     * **Verify before finalizing**. AI-generated responses may be inaccurate, so always check **Sources** on a card and confirm against linked sources before finalizing a record.
     * **Mix AI cards with real records**. Drag and drop actual records in the Ideation space.
 
-## Gain access to Ideation space
+## Audience and use cases 
 
-To gain access to the Ideation space:
+The Ideation space is designed for product and brand marketers who are responsible for shaping campaign strategy and producing campaign briefs.
 
-1. Verify you meet the product requirements as described in the section [Product requirements](#product-requirements) in this article. 
-1. Contact your Adobe account representative to express interest in participating in the Closed Beta or join Open Beta, when it becomes available.
+<!--
+Too much: 
 
-    System administrators have access to Ideation space by default and cannot remove it when it becomes available in Open Beta. They can turn it on for all other users in any of the following environments: 
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-    * Production
-    * Preview
-    * Custom sandboxes
+As a workspace manager, you can use the Ideation space to create records in Workfront Planning by following the following steps: 
 
-1. (Recommended) Identify your first campaign: a recent one to refresh, or a new initiative to create from scratch. 
+* Create a brief in the Ideation space after launching it from Planning, as you start creating or editing records. 
+* Use AI prompts to gather details from other records in your system or from the web and finish creating ideation briefs.
+* Create Planning record types from the briefs. 
+* Refine your ideation briefs and update existing record types in Planning. 
 
-For more information about using the Ideation space, also see the following articles:
+The following are use cases for how to use Ideation space: 
 
-* [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Create briefs in Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **Refresh a previous campaign using historical performance**
+    
+    * For example, you can update existing campaigns for a new quarter, season, or product moment.
+    * This produces a "delta brief" grounded in prior performance outlining what stays, what changes, and why. 
 
-## Locate the Ideation space
+* **Create a net-new campaign using historical performance**
 
-After you have ensured you have access to the the proper products, packages, and system and access level configured, you can locate the Ideation space in the following areas of Workfront:
-
-* When manually adding a new record in Workfront Planning
-
-    ![Ideation space in Planning](assets/ideation-space-in-planning-new-record.png)
-* In the Workfront Main Menu, by opening the Ideation space area
-
-    ![Ideation space area in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->You cannot remove the Ideation space area from the Main menu using a layout template. For more information about blocking a user from accessing Ideation space, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
+    * For example, you can create a campaign when launching a new product, segment, or initiative with no direct campaign history.
+    * This produces a net-new brief through guided ideation, a recommended channel mix, and initial concept or message directions.
 
 ## Objects generated by the Ideation space
 

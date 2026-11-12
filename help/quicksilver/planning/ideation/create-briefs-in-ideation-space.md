@@ -173,8 +173,17 @@ You can create briefs to either create or edit Planning records or to create fil
 
 1. Log in to Workfront with Planning where Coworker has been turned on, and do one of the following to open the Ideation space for the first time to create briefs: 
 
-    * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Ideation space**
-    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > **New record** > **Start Ideation space**
+    * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > click **Ideation space**
+
+        ![Ideation space in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
+
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click **New record** > click **Start Ideation space**
+
+        ![Ideation space in new record](assets/ideation-space-in-planning-new-record.png)
+
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click an existing record > click **Open in Ideation space** 
+
+        ![Ideation space in record Details](assets/ideation-space-button-in-details-page.png)
 
 1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space.  
 
