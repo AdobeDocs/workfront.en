@@ -23,13 +23,19 @@ The enhancements on this page are available in the Preview environment. This pag
 >|<ul><li>2026.11 (November 12, 2026)</li><li>2026.12 (December 17, 2026)</li><li>2027.01 (January 21, 2027)</li></ul>|<ul><li>2027.01 (January 21, 2027)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -46,6 +52,16 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Environment Promotion available for Workfront Planning</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Permissions for removing an attached custom form</a></p>
                 <p>When sharing a custom form, you can now set permissions for users with Manage access to remove the form from objects it is attached to.</p>
             </td>
@@ -59,7 +75,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 <p>You can now mark a custom field as a favorite so it appears at the top of the available fields when you build filters, views, and groupings, and in the form designer field library.</p>
             </td>
             <td><p>October 29, 2026</p></td>
-            <td><p>November 12, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
         <tr>
@@ -74,8 +90,8 @@ The enhancements on this page are available in the Preview environment. This pag
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Change History now tracks Canvas Dashboard objects</a></p>
-                <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Change History now records who created, updated, or deleted a Canvas Dashboard or report, when, and what changed.</p>
             </td>
             <td><p>October 29, 2026</p></td>
             <td><p>October 29, 2026</p></td>
@@ -212,9 +228,18 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Resolve comment threads</a></p>
+                <p>You can now resolve a comment thread to hide it from the comment stream for all viewers, and unresolve it later to bring it back.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Unavailable status guidance</a></p>
-                <p>When a saved issue, task, or project status isn't available, a warning now explains why and shows the saved status code.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>When a saved issue, task, or project status isn't available, a warning now explains why and shows the saved status code.</p>
             </td>
             <td><p>November 4, 2026</p></td>
             <td><p>November 4, 2026</p></td>
@@ -326,6 +351,18 @@ There are no updates for the following at this point in the release:
 
 ## Desktop proofing viewer updates
 
+### Version 2.4.0
+
+>[!NOTE]
+>
+>Production release for all customers: November 11, 2026
+
+The Desktop Proofing Viewer has been updated from version 2.3.0 to version 2.4.0. This update includes internal tooling updates and does not impact end-user functionality.
+
+This update is for both Mac and Windows.
+
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ### Version 2.3.0
 
 >[!NOTE]
@@ -342,6 +379,31 @@ The Desktop Proofing Viewer has been updated to version 2.3.0. This update inclu
 For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Announcements
+
+### Ideation space for Workfront Planning now available in Open Beta
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>This capability is available as an open beta program. Ideation space is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work. Ideation space helps stakeholders centralize brainstorming, align on priorities, and seamlessly move approved concepts into planning workflows.
+
+Using the CX Enterprise Coworker, you can now create ideation briefs which you can export to files or to Workfront Planning records.
+
+With Ideation space, you can:
+
+* Capture and collaborate on ideas with your teams and stakeholders.
+* Organize, evaluate, and prioritize ideas with visibility into the intake process.
+* Turn approved ideas into planning records and workflows.
+
+For more information, see [Get started with the Ideation space for Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ### Deprecation of legacy billing and cost rate fields in job role list views
 
