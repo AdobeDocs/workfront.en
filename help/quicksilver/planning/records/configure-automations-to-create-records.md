@@ -390,7 +390,8 @@ Users that are part of the workspace do not get permissions to the automations i
 <!--checking this with Mikayel Aleksanyan to be sure-->
 
 
-<!-- original info sent in slack from Mikayel: 
+<!-- 
+original info sent in slack from Mikayel: 
 Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
