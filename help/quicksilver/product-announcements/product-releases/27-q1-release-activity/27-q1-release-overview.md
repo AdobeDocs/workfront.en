@@ -226,7 +226,6 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-<!--
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Resolve comment threads</a></p>
@@ -236,7 +235,6 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>December 17, 2026</p></td>
             <td><p>January 21, 2027</p></td>
         </tr>
--->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Unavailable status guidance</a></p>
