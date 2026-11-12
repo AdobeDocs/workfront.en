@@ -195,7 +195,7 @@ The user sees validation errors if they don't select the correct number of optio
 
 ![Validation error examples](assets/min-max-selections.png)
 
-## Formula to trigger validation only when the field is visible
+### Formula to trigger validation only when the field is visible
 
 Validation logic is always checked, even if the field is not displayed. If a user interacts with a field containing validation logic, and the field is later hidden by display logic, the validation error will occur, even if the field's value was cleared before the field was hidden.
 
