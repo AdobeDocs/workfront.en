@@ -381,6 +381,8 @@ Product requirement: Workfront Workflow or Workfront Planning.
 
 ## Reporting tools
 
+Product requirement: All customers
+
 ### Boards
 
 | Title | Tool name | What it does | Action |
@@ -398,12 +400,11 @@ Product requirement: Workfront Workflow or Workfront Planning.
 | Update column | `boards_update_column` | Renames a board column. | Write |
 | Delete column | `boards_delete_column` | Deletes a board column, moving cards first if needed. | Write |
 | Create board | `boards_create_board` | Creates a new basic board, optionally inside a workspace. | Write |
-Product requirement: All customers
-
-Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
 
 ### Canvas Dashboards
+
+Canvas Dashboards tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
