@@ -577,6 +577,10 @@ Partially. Approval workflows can be tested in a Workfront sandbox environment. 
 
 To limit exposure during rollout, you can enable unified review and approval for a specific group within your Workfront production environment. This allows you to run a targeted pilot with a smaller set of users before rolling out more broadly.
 
+**Why don't my Adobe cloud storage projects and documents appear in the sandbox after a refresh?**
+
+This is expected behavior. When a sandbox is refreshed from production, no Adobe cloud storage data is copied to the sandbox. Adobe cloud storage projects, their documents, and associated data are not included in the refresh. Legacy Workfront storage projects and documents continue to copy to the sandbox as usual. To test Adobe cloud storage in a sandbox, create new Adobe cloud storage projects and upload documents directly in that environment. For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
 
