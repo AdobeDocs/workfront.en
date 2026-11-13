@@ -246,18 +246,17 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Allow users to access Brands</td> 
       <td>Allows users to access and manage GenStudio Brands in Workfront. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Grant access to brand permissions</a>.</td> 
      </tr>
-    <!--
-    <tr>
+        <tr>
       <td role="rowheader">Disable Ideation space</td> 
       <td>
       <p>Select this setting to allow users to access Ideation space.</p> 
       <p>This is selected by default.</p>
       <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
       <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>Ideation space is available in Beta only for customers who also have a Workfront Planning package.</p>
       </td> 
      </tr>
-    -->
+    
     </tbody> 
    </table>
 
