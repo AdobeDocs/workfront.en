@@ -17,7 +17,7 @@ For a list of all changes available at this point in the First Quarter 2027 rele
 >[!NOTE]
 >
 >Production and Sandboxes fast release: November 12, 2026
->Production, Preview, Sandboxes for everyone: To be communicated soon
+>Production, Preview, Sandboxes for everyone: December 17, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 >[!NOTE]

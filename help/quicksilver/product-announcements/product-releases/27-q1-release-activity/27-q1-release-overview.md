@@ -56,9 +56,9 @@ The enhancements on this page are available in the Preview environment. This pag
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another.</p>
             </td>
-            <td><p>To be communicated soon</p></td>
+            <td><p>December 17, 2026</p></td>
             <td><p>November 12, 2026</p></td>
-            <td><p>To be communicated soon</p></td>
+            <td><p>December 17, 2026</p></td>
         </tr>
         <tr>
             <td>
