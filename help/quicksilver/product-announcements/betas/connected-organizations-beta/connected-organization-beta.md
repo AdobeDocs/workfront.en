@@ -220,11 +220,13 @@ As a user in the client's instance, submit a request by doing the following:
 
     A **Request submitted successfully** message displays with a **View your request** link. 
     
-    The new request is added to the request list with the form name and a status of **New**.
+    The new request is added to the request list with the form name and a status of **New** on both the client's and the provider's instance.
 
     >[!TIP]
     >
     >AI responses can be inaccurate. Always double-check the filled values before you submit.
+
+    The created request is read-only on the provider's instance. 
 
 ### 5. Review the request and create a project
 
@@ -246,7 +248,7 @@ As a user in the client's instance, submit a request by doing the following:
    * **Portfolio** and **Program**: Add portfolios or programs for the new project. 
 1. Click **Create**.
 
-    The request in the provider's instance now links to the new project, and the request's status changes to **In Progress**. The requesting instance of the client sees the status change on its own copy of the request.
+    The request in the provider's instance now links to the new project, and the request's status changes to **In Progress**, if the project is in a status of Current. The requesting instance of the client sees the status change on its own copy of the request.
 
 ### 6. Collaborate in the cross-company conversation
 
