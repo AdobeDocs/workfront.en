@@ -362,6 +362,10 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Share automations
 
+>[!NOTE]
+>
+>This feature has been temporarily removed from all environments on November 16, 2026, and it will be enabled at a future date.
+
 As the creator of an automation, you have Manage permissions to it, by default. 
 
 In addition, you can share it with other users or teams.
