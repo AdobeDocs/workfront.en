@@ -31,6 +31,8 @@ topic_v2:
 ---
 # Add an ad hoc card to a board
 
+{{boards-maintenance-mode}}
+
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
 >[!NOTE]

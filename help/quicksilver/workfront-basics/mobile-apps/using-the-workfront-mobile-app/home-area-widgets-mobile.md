@@ -19,6 +19,8 @@ role_v2:
 ---
 # [!UICONTROL Home] area widgets
 
+{{mobile-maintenance-mode}}
+
 The home area widgets for both [!DNL iOS] and [!DNL Android] help you find your work items quickly.
 
 ![Home area widgets](assets/mobile-home-area-widgets.png)

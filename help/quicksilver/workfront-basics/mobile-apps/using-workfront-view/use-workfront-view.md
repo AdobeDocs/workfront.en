@@ -20,6 +20,8 @@ role_v2:
 ---
 # Use [!DNL Adobe Workfront View]
 
+{{mobile-maintenance-mode}}
+
 This section contains the following articles:
 
 * [Get started with [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)

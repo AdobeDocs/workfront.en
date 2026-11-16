@@ -96,7 +96,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a timesheets and hours preference.
-1. In the left panel, click **Timesheets and Hours Preferences**.
+1. On the left, click **Timesheets and Hours Preferences**.
 
 1. On the page that appears, do any of the following:
 

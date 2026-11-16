@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add documents on cards
 
+{{boards-maintenance-mode}}
+
 You can add documents to connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and documents added on the task or issue are visible on the card. The same file types are supported in both areas. For more information on documents in Workfront, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 >[!NOTE]

@@ -45,15 +45,24 @@ The following features are currently available in beta:
 
     For information, see [Get started with the Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* The Adobe Workfront Planning Designer is available in beta for all customers. 
+* The Adobe Workfront Planning Designer 
+
+    Use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views. 
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md). 
 
+* Ideation space for Adobe Workfront Planning 
+
+    Adobe's AI-powered strategic ideation capability, built directly into Workfront Planning. It gives marketing teams a structured, data-informed starting point for campaign strategy, replacing manual research and guesswork with AI-generated briefs grounded in an organization's real performance history.
+
+    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+
+
 <!--
 
-* Adobe Workfront Planning with Catalyze is available in Closed beta.
+* The Connected organizations capability is available in closed beta 
 
-    For information, see [Get started with Adobe Workfront Planning with Catalyze](LINK HERE)
+    For information, see [Connected organizations capability beta program](/help/quicksilver/product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
 -->
 
 <!--

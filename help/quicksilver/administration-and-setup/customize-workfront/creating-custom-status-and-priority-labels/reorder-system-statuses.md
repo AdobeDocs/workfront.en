@@ -141,7 +141,7 @@ By default, statuses display in the following order:
 
 ## Reorder statuses for issues
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Click **Project Preferences > Statuses.**
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.

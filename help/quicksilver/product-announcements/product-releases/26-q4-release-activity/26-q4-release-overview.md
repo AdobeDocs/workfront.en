@@ -176,6 +176,7 @@ Live webinars are held for each quarterly release - these highlight the new feat
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Group administrators can manage business profiles</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Group administrators can now create, edit, and delete business profiles for the groups they administer, without requiring System Administrator access.</p>
             </td>
             <td><p>July 30, 2026</p></td>
@@ -259,17 +260,15 @@ Live webinars are held for each quarterly release - these highlight the new feat
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
-<!--        
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
         </tr>
--->        
        <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP server toolsets</a></p>
@@ -891,6 +890,11 @@ Over time, we have introduced enhanced rate management capabilities and dedicate
 
 With the January 2027 release, the legacy fields **Billing Per Hour** and **Cost Per Hour** will no longer be available in the Workfront API or in Job Role list views, including Filter / View / Grouping configurations (both direct references and text mode calculated columns).
 
+Although these fields are still available until January, they may not work correctly. Administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in Job Role list views should update their workflows to use the recommended rate management experiences to manage and review job role rates:
+
+* Access and manage job role rates directly from the Job Role > Rates page.
+* Use Rate Reports to review, analyze, and report on rate information across job roles.
+
 As a replacement in reports, you can use the recommended Text Mode code (use `costRates` or `billingRates` as needed):
 
     ```
@@ -901,13 +905,6 @@ As a replacement in reports, you can use the recommended Text Mode code (use `co
     valueexpression=CONCAT({startDate}," - ",{endDate},": ",{value})
     valueformat=HTML
     ```
-
-To manage and review job role rates, use the dedicated rate management experiences:
-
-* Access and manage job role rates directly from the Job Role > Rates page.
-* Use Rate Reports to review, analyze, and report on rate information across job roles.
-
-No action is required to prepare for the change. However, administrators who currently display **Billing Per Hour** and **Cost Per Hour** fields in Job Role list views should update their workflows to use the recommended rate management experiences described above.
 
 For information on job role rates, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 

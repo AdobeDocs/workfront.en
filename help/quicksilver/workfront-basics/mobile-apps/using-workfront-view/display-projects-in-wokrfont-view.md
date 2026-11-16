@@ -25,6 +25,8 @@ topic_v2:
 ---
 # Display projects in [!UICONTROL Adobe Workfront View]
 
+{{mobile-maintenance-mode}}
+
 By default, the list of projects displayed in [!DNL Adobe Workfront View] shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
 
 ## Access requirements

@@ -351,7 +351,7 @@ See example prompts for document and asset approvals in the following areas:
 * Can you display who modified this project and what they changed?
 * I need to see all the updates made to this record in the last week
 
-### Use System Designer in Workfront Planning
+### Use Planning Designer in Workfront Planning
 
 * [Create and configure workspaces](#create-and-configure-workspaces)
 * [Define record types](#define-record-types)
@@ -382,3 +382,15 @@ See example prompts for document and asset approvals in the following areas:
 * Create a timeline view in Planning to see my campaign schedule by start and end dates
 * Add a new table view to my Planning Initiatives that filters only active status
 * Duplicate my Planning Active Campaigns view and modify the sorting.
+
+### Coworker in Ideation space for Workfront Planning (beta)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Campaign ideation — Brainstorm and generate idea cards on the canvas for campaigns and other topics, using your attached source documents and other sources. This is the main starting point for ideation.
+* Campaign conversation — Work through campaign ideas conversationally within the Ideation Space app.
+* Campaign brief — Build and refine a structured campaign brief, with guardrails to keep it complete and on-track.
+* Document Q&A — Ask questions against documents you've attached to your ideation session.
+* Research — Pull in research to inform your ideation on the canvas.
+* Starter prompts — Get suggested prompts to kick off or expand your ideation.
+* Open canvas — Launch or jump into an Ideation Space canvas (used when starting from a regular chat outside the app).

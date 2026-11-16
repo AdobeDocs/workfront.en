@@ -27,6 +27,8 @@ role_v2:
 
 <!-- Audited: 12/2023 -->
 
+{{boards-maintenance-mode}}
+
 This section contains the following articles:
 
 * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)

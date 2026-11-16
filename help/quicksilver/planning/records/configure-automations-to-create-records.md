@@ -98,6 +98,8 @@ Or
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Manage permissions to the workspace and to the record type where you want to create automations. </p>
    <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   <p>Automation creators have Manage permissions to their own automations</p>
+   <p>You need Edit or higher permissions to the automation to edit it, and Run permissions to run it</p>
    </td> 
   </tr>  
 </tbody> 
@@ -231,9 +233,10 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
    Select one of the following actions: 
 
-      * Create multiple projects
+      * Create a project with an AEM workflow
       * Create a single project
-      * Create project
+      * Create multiple projects
+      * Create multiple records
       * Create record
       * Create program
       * Create portfolio
@@ -244,6 +247,12 @@ You must configure an automation for a record type in Workfront Planning before 
      >After you saved the automation, you can no longer change the action selected in this field.
 
 1. (Conditional) Depending on what action you selected, update the following fields:
+
+   * **Create a project with an AEM workflow**:
+      * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
+      * **Project template**: Select a project template that Workfront will use to create the project.  
+      * **Create linked folders**: Enable this option if you want to create linked folders for the project.
+   
 
    * **Create a single project**: <!--replace to the left: Create a single project-->
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
@@ -278,10 +287,39 @@ You must configure an automation for a record type in Workfront Planning before 
 
          * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
       
-         For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
+           For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
       
-         This is a required field. 
+           This is a required field. 
       
+         <!--submitted a change in functionality and UI text for this - revise??-->
+           In the **Map fields** area, update the following information: 
+
+         * **Transfer from**: Select fields from the record type the automation is created for to map them to the fields of the connected record type. 
+         * **Transfer to**: Select fields from the newly created record that will populate with information from the record you are running the automation from. 
+
+         >[!TIP]
+         >
+         >* The field types from the original record type must match the field types from the newly created record type.
+         >* If you choose no fields, the names of the new records will be **Untitled record**.
+
+         
+   * **Create multiple records**: 
+      * **Record type**: Select the record type you want to create. 
+
+         The **Settings** sub-section displays. Update the following fields in the **Settings** sub-section: 
+
+         * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
+      
+           For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
+      
+           This is a required field. 
+
+         * **Field whose choices will create new records:**
+
+           This is the field that the new records will be created from. 
+           
+           For example, if a planning record has a field that represents three regions, such as UK, EU, and US, selecting that field creates three new records, one for each option.
+
          <!--submitted a change in functionality and UI text for this - revise??-->
          In the **Map fields** area, update the following information: 
 
@@ -357,3 +395,79 @@ You must configure an automation for a record type in Workfront Planning before 
    * Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
    
       Records that have been created using a deleted automation remain connected to the record originally selected.
+
+## Share automations
+
+As the creator of an automation, you have Manage permissions to it, by default. 
+
+In addition, you can share it with other users or teams.
+
+Users that are part of the workspace do not get permissions to the automations in the workspace by default. You must specifically share an automation with them. 
+
+1. Go to the record type whose automations you want to share. 
+1. Click the **More** menu to the right of the record type name, then click **Automations**.
+
+   A list of automations opens. 
+1. (Conditional) If there are no automations in the list, create one, as described in the section [Configure an automation in Workfront Planning](#configure-an-automation-in-workfront-planning) in this article. 
+1. In the automations list, click the **More** menu to the right of the automation name, then click **Share**.
+1. In the sharing box, start typing the name of the users or teams that you want to share with. <!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. Choose from the following sharing permission levels: 
+
+   | Permission level | Allowed actions |
+   | --- | --- |
+   | **Manage** | Can delete, edit, start, and view the automation |
+   | **Edit** | Can edit, start, and view the automation |
+   | **Run** | Can start and view the automation |
+
+1. To change an existing user's permissions, open the same dialog and select a different permission level from the dropdown next to their name, or click Remove to revoke all access. 
+1. Click **Save** to save the sharing changes.
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->

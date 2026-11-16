@@ -35,6 +35,8 @@ topic_v2:
 
 <!-- Audited: 2/2024 -->
 
+{{boards-maintenance-mode}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:

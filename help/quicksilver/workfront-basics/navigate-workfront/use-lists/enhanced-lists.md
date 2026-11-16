@@ -146,6 +146,19 @@ Depending on which enhanced list you are viewing, do one of the following:
 
 ![Enhanced list example](assets/glist-exchange-rates.png)
 
+## Edit items inline
+
+Some enhanced lists allow you to edit objects inline. When you edit the information on objects displayed in a list, the object updates immediately.
+
+On the list:
+
+1. Locate the item you want to edit, then click inside any field in the list.
+1. Edit the information inside this cell, then press Enter.
+1. Press Tab to move to the next editable cell.
+1. After you finish modifying all the cells, press Enter to save your changes.
+
+![Edit enhanced list inline](assets/edit-enhanced-list-inline.png)
+
 ## Edit items using the action bar
 
 You can use the action bar in an enhanced list to edit items in the list. Not all action bars include the same options. Also, some lists may not allow you to select items and the action bar is not available.

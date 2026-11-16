@@ -30,6 +30,8 @@ topic_v2:
 ---
 # Configure card falloff
 
+{{boards-maintenance-mode}}
+
 You can configure a board so that cards are archived, or "fall off" the board, on a schedule. You can set cards in a particular column to fall off the board in a certain number of days or weeks.
 
 When a card falls off the board, it is archived. You can display archived cards with a filter. For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).

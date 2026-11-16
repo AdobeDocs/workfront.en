@@ -453,6 +453,7 @@ feature-set: Workfront
       * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
+    * {hide-from-toc} [Connected organizations capability beta program](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Canvas Dashboards beta {#canvas-dashboards-beta}
       * [Canvas Dashboards beta information](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc} [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -2216,6 +2217,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning CX Enterprise Coworker overview](planning/general/planning-cx-coworker-overview.md)
+    * [Use Environment Promotion for Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
@@ -2333,12 +2335,13 @@ feature-set: Workfront
     * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
     * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}The Ideation space in Workfront Planning {#ideation}
-    * {hide-from-toc}[Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
+  * The Ideation space in Workfront Planning {#ideation}
+    * [Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
+    * [Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Access needed to use The Ideation space](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)

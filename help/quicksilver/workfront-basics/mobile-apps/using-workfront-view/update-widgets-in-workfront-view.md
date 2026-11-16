@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Update widgets in the [!UICONTROL Project Details] view
 
+{{mobile-maintenance-mode}}
+
 You can view additional information about the [!UICONTROL project] after you have accessed it from the project list by adding widgets to your [!UICONTROL Project Details] screen. Each user can customize their own widgets.
 
 ## Access requirements

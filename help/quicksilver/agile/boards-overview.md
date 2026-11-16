@@ -25,6 +25,8 @@ role_v2:
 ---
 # [!UICONTROL Boards] overview
 
+{{boards-maintenance-mode}}
+
 [!DNL Adobe Workfront] [!UICONTROL Boards] are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 
 Showing task status is a common use for boards, but you can group any items together. A card on a board can represent a person, group of people, idea, concept, or any type of item that you need.

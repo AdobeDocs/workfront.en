@@ -106,6 +106,8 @@ Or
    <p>Manage permissions to the record you are running the automation for.</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
    <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   <p>Automation creators have Manage permissions to their own automations</p>
+   <p>You need Edit or higher permissions to the automation to edit it, and Run permissions to run it</p>
    </td> 
   </tr> 
 </tbody> 
@@ -194,6 +196,8 @@ Old:
 * When your organization uses both legacy Workfront and Adobe cloud storage, the items created automatically from Planning are created using the default storage selected by your Workfront administrator in your Setup area. 
 
    For information about enabling Adobe cloud storage in your environment, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* You must have at least Run permissions to an automation to be able to run it. For more information, see see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md). 
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
  

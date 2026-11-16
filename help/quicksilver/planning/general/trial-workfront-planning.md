@@ -250,7 +250,7 @@ You can review sample Planning workspaces and their objects, as well as create y
 1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
 
     For information, see the section [Enroll in the Adobe Workfront Planning free trial](#enroll-in-the-adobe-workfront-planning-free-trial) in this article.
-1. (Conditional) After the trial agreement was signed by a Workfront administrator, click the **Main Menu** icon ![](assets/main-menu-shell.png), then click one of the following to access the **Planning** area: 
+1. (Conditional) After the trial agreement was signed by a Workfront administrator, click the **Main Menu** icon ![Main menu](assets/main-menu-shell.png), then click one of the following to access the **Planning** area: 
 
     * **Planning**. The icon displays a **Trial** label next to it. 
     * **Projects**, **Requests**, **Calendars**, then click **Explore campaign calendars**

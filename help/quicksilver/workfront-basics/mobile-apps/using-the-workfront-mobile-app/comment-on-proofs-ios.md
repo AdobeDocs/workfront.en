@@ -19,6 +19,8 @@ role_v2:
 ---
 # Comment on proofs in [!DNL iOS]
 
+{{mobile-maintenance-mode}}
+
 You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
 
 Your access to comment on proofs is the same as in [!DNL Adobe Workfront]. For information about proofing capabilities, see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

@@ -19,6 +19,8 @@ role_v2:
 ---
 # Share and download proofs in the [!DNL Adobe Workfront] mobile app
 
+{{mobile-maintenance-mode}}
+
 You can share a proof document with internal and external recipients directly from the mobile app. You can also download a proof document to your mobile device.
 
 >[!NOTE]

@@ -24,6 +24,8 @@ topic_v2:
 ---
 # Mobile Apps
 
+{{mobile-maintenance-mode}}
+
 This section contains the following subsections:
 
 * [Use the [!DNL Adobe Workfront] mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)

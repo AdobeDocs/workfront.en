@@ -30,6 +30,8 @@ topic_v2:
 ---
 # Delete or archive a board
 
+{{boards-maintenance-mode}}
+
 You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time.
 
 Only the board owner can delete the board.

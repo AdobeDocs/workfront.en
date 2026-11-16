@@ -25,6 +25,8 @@ topic_v2:
 ---
 # Filter project lists in [!DNL Adobe Workfront View]
 
+{{mobile-maintenance-mode}}
+
 By default, [!DNL Adobe Workfront View] displays the [!UICONTROL All Projects] list in [!DNL Workfront], so all the projects you have access to view are listed, regardless of their status.
 
 You can filter the list of projects in [!DNL Workfront View] to only display projects that are relevant to you. After applying the filters, the project list remains filtered until the next time you login or until they are changed.

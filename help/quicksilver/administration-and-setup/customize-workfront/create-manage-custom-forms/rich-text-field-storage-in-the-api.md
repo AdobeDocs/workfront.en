@@ -29,6 +29,12 @@ topic_v2:
 ---
 # Rich text field storage in the API
 
+>[!NOTE]
+>
+>The rich text fields described in this article are the "text with formatting" fields. This field type is no longer available to add to new fields, and existing fields should be converted to the "rich text" field type.
+>&nbsp;
+>Note that the new rich text fields store content as HTML, but they do not store any styles that were applied in the field editor. Removing styling information from storage can help to prevent unexpected UI issues and security vulnerabilities.
+
 If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.
 
 Requesting text information from a project object that contains rich text can be done using the field **parameterValues**.

@@ -103,7 +103,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group whose timesheet or hour preferences you want to configure.
-1. In the left panel, click **Timesheets & Hours**.
+1. On the page that displays, on the left, click **Timesheets & Hours**.
 
 1. On the page that displays, in the **General preferences** section, configure any of the following options:
 

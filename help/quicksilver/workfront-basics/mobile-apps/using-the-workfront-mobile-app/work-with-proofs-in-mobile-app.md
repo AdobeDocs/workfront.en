@@ -19,6 +19,8 @@ role_v2:
 ---
 # Review and make decisions on proofs in the [!DNL Adobe Workfront] mobile app
 
+{{mobile-maintenance-mode}}
+
 When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it. For information about reviewing and approving proofs in [!DNL Adobe Workfront], see [Review proofs within [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 You can add comments to the proof and go through a revision process before making a final decision. For information about comments, see [Comment on proofs in [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md) or [Comment on proofs in [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md).

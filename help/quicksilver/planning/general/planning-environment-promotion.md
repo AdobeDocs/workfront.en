@@ -12,19 +12,38 @@ recommendations: noDisplay, noCatalog
 <!--add to TOC-->
 <!--add to miniTOC-->
 
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only for select customers in their Production and Sandbox environments since November 12, 2026. At a later date, the same features will also available in the Production, Preview, and Sandbox environments for all customers. </span>   
+
+<span class="preview">For information about releases, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md) . </span>
+
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>
+>The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
+
 <!--
-Not sure if this bit will ever be needed because this only exists when both Preview and Prod have the features in parity. Features released here always come to both environments at the same time: 
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
 -->
 
-{{planning-important-intro}}
-
-<!--if Lilit says this is not for STA, break the intro and specify that-->
-
-You can copy Workfront Planning workspaces, record types, fields, and views from one Workfront environment to another using Environment Promotion capabilities. 
+You can copy Workfront Planning workspaces and their additional objects from one Workfront environment to another using Adobe Workfront's Environment Promotion capabilities. 
 
 Instead of rebuilding everything by hand, you assemble the configuration into a package in the source environment and install it in the target environment.
 
@@ -33,31 +52,43 @@ Using Environment Promotion with Planning is similar to using it for Workfront. 
 ## Considerations about using Environment Promotion with Planning 
 
 * You must be a Workfront administrator to use Environment Promotion. 
-* The following are imported through environment promotion:
+* When you copy a workspace to another environment, the following objects associated with that workspace are also imported through environment promotion:
 
     * Workspaces
     * Workspace sections
     * Record types
-    * Fields
+    * Fields 
     * Views
     * Hierarchies
     * Sharing settings for all objects
-    * Automations
     * Request forms
     * Business rules
     * Connected objects
-    * Objects that the workspace depends on or that other objects are shared with, such as group, teams, job roles. The following scenarios exist: 
+    * Objects that the workspace depends on or that other objects are shared with, such as groups, teams, job roles, companies, and users. 
+    
+        The following scenarios exist: 
     
         * If an object with the same name already exists in the target environment, Workfront flags a conflict and you decide how to handle it.
         * If a team or a group that an object is shared with does not exist in the target environment, the promotion creates it.
+    <!--* Automations -- this is not promoted, for now, per Lilit -->
 * For each object, you can do the following:
 
     * Create it as a new object
     * Use the existing object but create it with a new name
     * Overwrite an existing object. Overwriting replaces the configuration in the target.
+* You cannot export the following objects:
+
+    * Automations that belong to the workspace you are copying
+    * Records
+    * Fields that don't belong to the exported workspaces
+
+* Cross-workspace connected record types cannot be promoted, unless they already exist in the target environment. 
+
+    We recommend first promoting the workspaces that contain the cross-workspace connectable record types, and only after that, promote the workspaces that reference those record types. 
 
 * Installation can take a few minutes. You can roll back an installation from the results page if needed.
 * We recommend to test the process before proceeding, when possible. You can install to a sandbox or Preview environment before promoting it to Production.
+
 
 ## Access requirements 
 
@@ -73,7 +104,7 @@ Using Environment Promotion with Planning is similar to using it for Workfront. 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
 <p>Prime or Ultimate Workflow package with a Prime or Ultimate Planning package</p>
-<p>Prime or Ultimate Planning package when purchased as a standalone product</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 
@@ -88,8 +119,7 @@ Using Environment Promotion with Planning is similar to using it for Workfront. 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
-   <p>You must be a System Administrator</p> 
+   <td> <p>You must be a System Administrator</p> 
 </td> 
   </tr> 
   <tr> 
@@ -118,7 +148,7 @@ Follow the instructions in the following sections to copy a Planning configurati
 
 ### Create a package in the source environment 
 
-1. Have a source environment where your desired configuration is in place. 
+1. Go to a source environment where your desired configuration is in place. 
 1. In the source environment, click the **Main Menu** ![Main Menu](assets/main-menu-shell.png), then go to **Setup** > **System** > **Environment Promotion**. 
     The **Configuration Packages** list shows existing packages with their status, source environment, and where they were deployed.
 1. Click **Create package**.
@@ -168,16 +198,28 @@ Before installing the package in the target environment, we recommend you test i
 1. On the package page, after you have verified it, click **Install**.
 1. In the **Target environment** list, select the environment to deploy to (for example, your Production environment), and click **Continue**. The default target is the current environment.
 1. On the **Package info** page, confirm the source environment and the environment you are deploying to.
-1. In the **Object mapping** section, expand each object grouping, such as **Group** and **Planning workspace**, to review the objects.
+1. In the **Object mapping** section, expand each object grouping, such as a **Planning workspace**, to review the objects. 
+
+    >[!TIP]
+    >
+    >Groups, teams, roles, companies, and users might display here, if any of the workspace objects are shared with them. 
+
 1. For each object, review the **Collision** and **Status** columns, then choose a **Deployment action** from the list. Choose from the following options: 
 
+
     * **Create new**: Adds the object to the target. Use this when no collision is detected.
-    * **Use existing**: Maps the object to one that already exists in the target, such as a group with the same name.
+    * **Use existing**: Maps the object to one that already exists in the target, such as a workspace with the same name.
     * **Create with new name**: Adds the object under a name you specify.
     * **Overwrite**: Replaces the existing object in the target with the one from the package.
+
+    >[!TIP]
+    >
+    >If the system does not find a workspace with the same ID, it tries to find a match based on the workspace name.
+
 1. (Optional) To change several objects at once, select their checkboxes, choose an action in the Deployment action list at the top of the group, and click Apply to selected. Use the filters above the list, such as Show only errors, to focus on specific objects.
 1. Resolve any error indicators. If you select **Use existing** for an object, you must also select the object it maps to.  Otherwise, the status shows an error and **Deploy** stays unavailable.
 1. Click **Deploy**, then **Deploy** to confirm.
+
 
     Workfront shows an installation page with the message **This package is being installed**. This may take a few minutes.
 

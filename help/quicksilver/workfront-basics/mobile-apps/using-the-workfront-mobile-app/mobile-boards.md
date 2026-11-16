@@ -19,6 +19,8 @@ role_v2:
 ---
 # [!DNL Adobe Workfront] [!UICONTROL Boards] for mobile
 
+{{mobile-maintenance-mode}}
+
 [!DNL Adobe Workfront] [!UICONTROL Boards] are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards. For additional information about boards, see [Boards overview](/help/quicksilver/agile/boards-overview.md).
 
 In the [!DNL Workfront] mobile app, you can see all of the boards you created or have been added to in the desktop version of [!DNL Workfront]. You can't create a new board in the mobile app.

@@ -127,7 +127,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **Save**.
 
    This process only defines the Routing Rule. To ensure that the issue is routed when it is submitted to the request queue, you must select the routing rule on the **Queue Details** tab under **Default Route**.
+
+   To edit an existing routing rule, click in any cell to add or change information. The routing rule is updated automatically.
+   The list of routing rules is an enhanced list and may have different functionality than other lists in Workfront. For more information about enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
    
    For information about adding a Default Route to a request queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    
    If you want to associate multiple routing rules with the request queue, you must create multiple queue topics and associate each one with a separate routing rule. For more information about creating a queue topic, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+

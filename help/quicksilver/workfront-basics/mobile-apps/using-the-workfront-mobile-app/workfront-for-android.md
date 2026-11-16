@@ -23,6 +23,8 @@ topic_v2:
 ---
 # [!DNL Adobe Workfront] for [!DNL Android]
 
+{{mobile-maintenance-mode}}
+
 The [!DNL Adobe Workfront] app allows you to access your work on any [!DNL Android] device. You can install and use the [!DNL Workfront] mobile app on phones and tablets running [!DNL Android] 5.0 or later.
 
 For information about logging in to the mobile app, see the section [Log in to the [!DNL Workfront] mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

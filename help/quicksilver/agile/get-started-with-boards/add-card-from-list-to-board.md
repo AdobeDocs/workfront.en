@@ -31,9 +31,7 @@ topic_v2:
 ---
 # Add existing tasks or issues to a [!DNL Workfront] board
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view, or from the object details.
 
