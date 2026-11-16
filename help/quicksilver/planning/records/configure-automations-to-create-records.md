@@ -233,9 +233,10 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
    Select one of the following actions: 
 
-      * Create multiple projects
+      * Create a project with an AEM workflow
       * Create a single project
-      * Create project
+      * Create multiple projects
+      * Create multiple records
       * Create record
       * Create program
       * Create portfolio
@@ -246,6 +247,12 @@ You must configure an automation for a record type in Workfront Planning before 
      >After you saved the automation, you can no longer change the action selected in this field.
 
 1. (Conditional) Depending on what action you selected, update the following fields:
+
+   * **Create a project with an AEM workflow**:
+      * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
+      * **Project template**: Select a project template that Workfront will use to create the project.  
+      * **Create linked folders**: Enable this option if you want to create linked folders for the project.
+   
 
    * **Create a single project**: <!--replace to the left: Create a single project-->
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
@@ -280,10 +287,39 @@ You must configure an automation for a record type in Workfront Planning before 
 
          * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
       
-         For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
+           For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
       
-         This is a required field. 
+           This is a required field. 
       
+         <!--submitted a change in functionality and UI text for this - revise??-->
+           In the **Map fields** area, update the following information: 
+
+         * **Transfer from**: Select fields from the record type the automation is created for to map them to the fields of the connected record type. 
+         * **Transfer to**: Select fields from the newly created record that will populate with information from the record you are running the automation from. 
+
+         >[!TIP]
+         >
+         >* The field types from the original record type must match the field types from the newly created record type.
+         >* If you choose no fields, the names of the new records will be **Untitled record**.
+
+         
+   * **Create multiple records**: 
+      * **Record type**: Select the record type you want to create. 
+
+         The **Settings** sub-section displays. Update the following fields in the **Settings** sub-section: 
+
+         * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
+      
+           For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
+      
+           This is a required field. 
+
+         * **Field whose choices will create new records:**
+
+           This is the field that the new records will be created from. 
+           
+           For example, if a planning record has a field that represents three regions, such as UK, EU, and US, selecting that field creates three new records, one for each option.
+
          <!--submitted a change in functionality and UI text for this - revise??-->
          In the **Map fields** area, update the following information: 
 

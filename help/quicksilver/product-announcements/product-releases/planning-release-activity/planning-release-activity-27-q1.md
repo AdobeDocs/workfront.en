@@ -25,13 +25,27 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Share a Planning automation
+## New Workfront templates: Create project with AEM workflow and Create multiple records
 
 >[!NOTE]
 >
 >Preview: November 12, 2026
 >Production fast release: November 12, 2026
 >Production for everyone: November 12, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+Two new automation templates are now available in Workfront Fusion.
+
+* **Create project with AEM workflow:** Creates a project from a project template, and optionally creates the AEM linked folders that are configured for the project template and links them to the new project.
+* **Create multiple records:** Creates one or more records on a record type, with one new record for each choice in a multi-select or connected field on the current record. Each new record is linked back to the current record, and you map the fields that are copied to the new records.
+
+For information, see [Configure Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Share a Planning automation
+
+>[!NOTE]
+>
+>This feature has been temporarily removed from all environments, and will be enabled at a future date.
 >[!BADGE Off schedule]{type=Neutral}
 
 New Workfront Planning automations are now available only to their owner by default, instead of being shared automatically with everyone in the workspace. Owners can choose who gets access by sharing the automation with others. You can give other users a **Manage**, **Edit**, or **Run** access level. Existing automations stay shared with their workspace users, so current access isn't affected.
