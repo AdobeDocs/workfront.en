@@ -234,7 +234,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >The [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin works only with projects on legacy Workfront storage. It doesn't support projects on Adobe cloud storage. The plugin won't receive new enhancements and will be retired in a future release.
 >
->To work with documents in Adobe cloud storage projects without uploading or downloading files, use either of the following:
+>To work with documents in Adobe cloud storage projects, use either of the following:
 >
 >* The Projects panel in Photoshop, Illustrator, or InDesign. For more information, see [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 >* Adobe Cloud Drive. For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
