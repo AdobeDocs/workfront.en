@@ -36,7 +36,6 @@ Workfront interface for your users.
 The following articles describe how you can customize the Workfront interface using layout templates:
 
 * [About the default Adobe Workfront layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Brand Adobe Workfront using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Customize object headers using a layout template](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
