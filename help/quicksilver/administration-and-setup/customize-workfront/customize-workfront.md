@@ -41,6 +41,8 @@ This section contains the following subsections:
 * [Approval processes and milestone paths](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md) 
 * [Custom conditions](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
 
+This section on customizing Workfront also contains an article on how to [Configure a custom help URL](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md).
+
 >[!NOTE]
 >
->Branding is not available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe CX Enterprise.
+>Branding is not available for Adobe Workfront. Branding was deprecated as part of the onboarding of Workfront into Adobe CX Enterprise.
