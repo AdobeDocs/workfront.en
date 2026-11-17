@@ -113,6 +113,16 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Use Writer Playbooks to create Work Agents</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>You can now use Writer Playbooks to create Work Agents.</p>
+            </td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Work Agents: Adobe Native support</a></p>
                 <p>You can now create a Work Agent that uses Adobe CX Coworker without configuring an external platform or entering external credentials.</p>
             </td>
