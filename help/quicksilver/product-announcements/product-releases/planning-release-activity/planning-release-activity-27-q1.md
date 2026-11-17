@@ -57,7 +57,7 @@ For information, see [Configure Workfront Planning automations](/help/quicksilve
 >[!NOTE]
 >
 >Production and Sandboxes fast release: November 12, 2026
->Production, Preview, Sandboxes for everyone: To be communicated soon
+>Production, Preview, Sandboxes for everyone: December 17, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 >[!NOTE]
