@@ -34,6 +34,10 @@ Karen Sterling has been an executive director since she was hired on March 3, 20
 
 You can view employment history from the Users list, or you can view a single user's total history on their User page.
 
+>[!NOTE]
+>
+>User employment history does not currently take into account a user's start date. 
+
 ### View employment history from the Users list
 
 {{step-1-to-users}}
