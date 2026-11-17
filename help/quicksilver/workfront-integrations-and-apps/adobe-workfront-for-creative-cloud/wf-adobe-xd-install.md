@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Install and open [!DNL Adobe Workfront for XD]
 
+{{cc-plugin-legacy-only}}
+
 You can install the [!DNL Adobe Workfront for XD] plugin from the Adobe Marketplace. The plugin supports the following languages:
 
 * English

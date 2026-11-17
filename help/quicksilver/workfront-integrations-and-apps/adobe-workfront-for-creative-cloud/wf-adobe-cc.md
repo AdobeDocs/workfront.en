@@ -35,6 +35,8 @@ topic_v2:
 
 <!--Audited: 12/2023-->
 
+{{cc-plugin-legacy-only}}
+
 You can use the [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin to 
 
 * Log time 

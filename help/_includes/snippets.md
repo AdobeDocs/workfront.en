@@ -228,6 +228,12 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 * Premiere Pro
 * After Effects
 
+## CC plugin legacy storage only {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>The [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin works only with projects on legacy Workfront storage. It doesn't support projects on Adobe cloud storage.
+
 ## Adjust automated proof settings {#adjust-proof-settings}
 
 1. (Optional) Adjust automated proof workflow settings

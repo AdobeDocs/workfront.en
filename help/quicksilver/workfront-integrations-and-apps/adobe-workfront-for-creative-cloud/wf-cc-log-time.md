@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Log time using the [!DNL Adobe Workfront] plugin
 
+{{cc-plugin-legacy-only}}
+
 You can log time for projects, tasks, and issues you're working on directly in any of the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}

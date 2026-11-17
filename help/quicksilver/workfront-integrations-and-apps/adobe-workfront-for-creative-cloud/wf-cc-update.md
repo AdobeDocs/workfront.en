@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Update your work using the [!DNL Adobe Workfront] plugin
 
+{{cc-plugin-legacy-only}}
+
 You can update your work from any of the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}

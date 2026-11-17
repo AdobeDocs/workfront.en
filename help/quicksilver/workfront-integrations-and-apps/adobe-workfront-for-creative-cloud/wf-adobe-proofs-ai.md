@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Upload proofs from [!DNL Illustrator]
 
+{{cc-plugin-legacy-only}}
+
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
 ## Access requirements

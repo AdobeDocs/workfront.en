@@ -33,6 +33,8 @@ topic_v2:
 ---
 # View and Manage [!DNL Adobe Workfront] notifications from [!DNL Adobe Creative Cloud]
 
+{{cc-plugin-legacy-only}}
+
 You can receive notifications in the Adobe Creative Cloud from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
 These notifications contain [!DNL Workfront] actions that you can take without navigating away from the Adobe Creative Cloud to accomplish them.
