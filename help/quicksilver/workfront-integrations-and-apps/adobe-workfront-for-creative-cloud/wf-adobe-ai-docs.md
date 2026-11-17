@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Upload documents from [!DNL Illustrator]
 
+{{cc-plugin-legacy-only}}
+
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
 
 ## Access requirements

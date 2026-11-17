@@ -33,6 +33,8 @@ topic_v2:
 ---
 # View work item information using the [!DNL Adobe Workfront] plugin
 
+{{cc-plugin-legacy-only}}
+
 You can see information about projects, tasks, issues, and documents from the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}

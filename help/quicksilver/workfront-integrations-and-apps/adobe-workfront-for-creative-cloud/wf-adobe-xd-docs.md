@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Upload [!DNL XD] artboards as documents to [!DNL Workfront]
 
+{{cc-plugin-legacy-only}}
+
 You can upload your artboards as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
 
 ## Access requirements

@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Upload [!DNL XD] artboards as proofs to [!DNL Workfront]
 
+{{cc-plugin-legacy-only}}
+
 You can upload your artboards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
 ## Access requirements

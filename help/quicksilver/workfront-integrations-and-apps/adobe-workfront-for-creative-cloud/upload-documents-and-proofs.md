@@ -28,6 +28,8 @@ role_v2:
 ---
 # Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
 
+{{cc-plugin-legacy-only}}
+
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront]. 
 
 >[!NOTE]
