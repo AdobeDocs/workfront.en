@@ -218,7 +218,7 @@ To create the package in the Adobe Admin Console:
    ![Choose apps step in package wizard](assets/choose-apps-step-in-wizard.png)
 
 1. Click **Next**.
-1. In the **Options** step, click **Next** without selecting any options.
+1. In the **Options** step, click **Disable update for end-users** to prevent users from updating the application themselves, or click **Next** without selecting any options.
 
    These settings apply to Creative Cloud desktop applications and don't apply to Adobe Cloud Drive.
 
@@ -234,6 +234,10 @@ To create the package in the Adobe Admin Console:
    ![Package in Preparing status](assets/package-is-preparing.png)
 
 1. Click **Download** and save the package file to your chosen location.
+
+   >[!NOTE]
+   >
+   >The package download link and downloader utility expire 3 days after package creation. However, the downloaded .pkg or .zip file does not expire and can be used for installation later.
 
 ### Method B: Self-serve direct download from Software Distribution
 
