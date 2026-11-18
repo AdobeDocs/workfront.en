@@ -25,8 +25,9 @@ topic_v2:
 
 {{mobile-maintenance-mode}}
 
-Adobe [!DNL Workfront] has partnered with a few [!DNL Mobile Device Management] (MDM) platforms to provide organizations a more secure and controlled mobile experience. The [!DNL Workfront] mobile app is available on the following mobile device management platforms:
+Adobe [!DNL Workfront] has partnered with [!DNL Mobile Device Management] (MDM) platforms to provide organizations a more secure and controlled mobile experience. The [!DNL Workfront] mobile app is available on the following mobile device management platforms:
 
+<!--
 ## MobileIron
 
 See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
@@ -35,6 +36,7 @@ See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobil
 * Android
 
 For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## Intune
 
@@ -44,5 +46,3 @@ The Workfront mobile app is now available in the [!DNL Microsoft Intune] app sto
 * Android
 
 Your Workfront instance must be on Adobe Identity Management System (IMS).
-
-<!--remove this note October 2026-->
