@@ -34,6 +34,7 @@ The enhancements on this page are available in the Preview environment. This pag
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Agile enhancements](#agile-enhancements)
 * [AI enhancements](#ai-enhancements)
 * [Documents enhancements](#documents-enhancements)
 * [Project enhancements](#project-enhancements)
@@ -96,6 +97,29 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><p>October 29, 2026</p></td>
             <td><p>October 29, 2026</p></td>
             <td><p>October 29, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Agile enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Updated look and feel for editing fields on agile cards</a></p>
+                <p>The fields you use to edit agile cards have an updated look and feel to match other styling in Workfront.</p>
+            </td>
+            <td><p>November 19, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -277,6 +301,15 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Preview</strong></td>
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Updated look and feel for the summary panel for tasks, issues, and documents</a></p>
+                <p>The Summary panel has an updated look and feel, with information and fields organized into separate tabs.</p>
+            </td>
+            <td><p>November 19, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
         </tr>
 <!--
         <tr>
