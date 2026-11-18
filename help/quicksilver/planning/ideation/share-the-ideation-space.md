@@ -73,6 +73,8 @@ Consider the following:
 
 * You must have Editor permissions on an ideation space to create or contribute to briefs and export them to other applications. 
 
+* * Sharing controls only who can access and collaborate in the ideation canvas. Record updates still occur only when someone exports the brief to Workfront Planning.
+
 ## Access requirements
 
 +++ Expand to view the access requirements for the functionality in this article. 

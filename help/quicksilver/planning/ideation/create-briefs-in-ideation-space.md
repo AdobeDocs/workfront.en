@@ -1,5 +1,5 @@
 ---
-title: Create briefs in the ideation space
+title: Create briefs in the Ideation space
 description: This article describes how you can brainstorm and strategize in the Ideation space to create briefs. You can export finished Ideation briefs to a file or to Workfront Planning to create or update records.
 feature: Workfront Planning
 role: User, Admin
@@ -185,6 +185,16 @@ You can create briefs to either create or edit Planning records or to create fil
 
         ![Ideation space in record Details](assets/ideation-space-button-in-details-page.png)
 
+        >[!IMPORTANT]
+        >
+        >The point where you launch Ideation space from determines what the brief structure will be. The following scenarios exist:
+        >
+        >* When you launch it from the New record button in Planning, the brief contains the same fields as the record type you start with. 
+        >
+        >* When you launch it from a Planning existing record, the brief contains the same fields with the same values as the record. 
+        >
+        >* When you launch it from Workfront's Main Menu, the brief contains fields and information from the files you upload to the canvas. 
+
 1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space.  
 
      The Ideation space canvas opens and a new ideation is titled by default after the following format: 
@@ -240,7 +250,7 @@ You can create briefs to either create or edit Planning records or to create fil
     Information can be imported either from Workfront Planning or the Web. 
 
     You can also click the **Sources** icon ![Sources icon](assets/sources-icon.png) in the upper-right corner of the space to display a list of sources for all the cards in the space. 
-1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the space, and **@** tag others to start brainstorming inside the space.
+1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the space, on a set of cards or of a card, and **@** tag others to start brainstorming inside the space.
 
     Users will receive an email notification about the tag.
 1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-comments-icon.png) inside the comment card to filter comments by the following criteria:
