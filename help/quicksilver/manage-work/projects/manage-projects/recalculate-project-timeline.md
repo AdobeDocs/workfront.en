@@ -109,6 +109,7 @@ By default, project timelines are automatically recalculated daily when the proj
 >[!IMPORTANT]
 >
 >* If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project and you can only select a Manual update type. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+>* Timelines are not automatically recalculated for projects with tasks which have a duration of more than 1000 days. You must manually recalculate the timelines on these projects.
 >* For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled and the project timelines aren't recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
 >* If a project is complex, the automatic timeline recalculation might not occur. 
 > An example of a complex project might be a project with multiple dependencies, large number of tasks, several cross-project predecessors, or multiple task indentations. 

@@ -64,6 +64,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfront] automatically recalculates project timelines. [!DNL Workfront] can recalculate project timelines either every night or when the project scope changes, or both.
 
+>[!NOTE]
+>
+>To ensure optimal performance, timelines are not automatically recalculated for projects with tasks which have a duration of more than 1000 days. You must manually recalculate the timelines on these projects.
+
+
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**

@@ -177,7 +177,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Program</td> 
-      <td>The program associated with the portfolio of the project. You must create the program before you can add it to a project. </td> 
+      <td></p>he program associated with the portfolio of the project. You must create the program before you can add it to a project.</p>
+      <p> When a portfolio has more than 20 active programs, the Program field on a project's Overview lists only the first 20 programs in alphabetical order. Typing part of a name finds any active program of the portfolio. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Group</td> 

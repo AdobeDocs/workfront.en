@@ -238,7 +238,7 @@ For more detail about the information in this table, see [Access requirements in
       <p>This is selected by default.</p>
       <p>For more information, see <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Use CX Enterprise Coworker in Workfront</a>.</p>
       <p><b>NOTE:</b></p>
-      <p>Not all customers have access to Coworkere.</p>
+      <p>Not all customers have access to Coworker.</p>
       </td> 
      </tr>
     

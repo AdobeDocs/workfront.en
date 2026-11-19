@@ -250,10 +250,16 @@ You can create briefs to either create or edit Planning records or to create fil
     Information can be imported either from Workfront Planning or the Web. 
 
     You can also click the **Sources** icon ![Sources icon](assets/sources-icon.png) in the upper-right corner of the space to display a list of sources for all the cards in the space. 
-1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the space, on a set of cards or of a card, and **@** tag others to start brainstorming inside the space.
+1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the canvas and **@** tag others to start brainstorming inside the space.
 
     Users will receive an email notification about the tag.
+
+    >[!TIP]
+    >
+    >You can add comments for a card or a set of cards.
+    
 1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-comments-icon.png) inside the comment card to filter comments by the following criteria:
+
 
     * Reviewers
     * Time the comment was added
