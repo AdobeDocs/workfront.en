@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Mark work items complete using the [!DNL Adobe Workfront] plugin
 
+{{cc-plugin-legacy-only}}
+
 You can stay in the following [!DNL Adobe Creative Cloud] applications and seamlessly complete your work in [!DNL Adobe Workfront] with the plugin:
 
 {{cc-app-list}}

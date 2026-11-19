@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Filter and search in a board
 
+{{boards-maintenance-mode}}
+
 You can filter a board to display:
 
 * Cards assigned to certain people

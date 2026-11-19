@@ -29,12 +29,10 @@ role_v2:
 
 <span class="preview">For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
-</span>
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>The information in this article refers to functionality available only for Workfront customers who also have Adobe Workfront Planning. Your company must purchase an additional Planning package.
 >
 >The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
 >
@@ -61,7 +59,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-You can use the Ideation Space from Adobe Workfront to create briefs for your campaigns and other record types before you launch them. This invites others to brainstorm and gather information to collaboratively create the brief before launching your work. 
+You can use the Ideation space from Adobe Workfront to create briefs for your campaigns and other record types before you launch them. This invites others to brainstorm and gather information to collaboratively create the brief before launching your work. 
 
 You can share the ideation space and its respective brief with other users for better collaboration. 
 
@@ -91,29 +89,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud provider requirements</p></td> 
+   <td><p>Amazon Web Services (AWS)</p>
+   <p><b>NOTE:</b></p>
+   <p>We do not support any other cloud providers.</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront or Workflow with a Planning package</p></li>
+<li><p>Any Workflow with a Planning package</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>System requirements</p></td> 
+   <td><p>Coworker & MCP preferences settings in your System Preferences in the Setup area must be turned on</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -123,24 +133,28 @@ Or
    <td role="rowheader"><p>Adobe Planning license</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
    <ul>
-   <li><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   </li>
+   <li><p>You must add both a Workflow and a Planning license type to the access level <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>The Disable Ideation space setting in your access level must be deselected</p></li>
+   <li><p>The Disable the CX Coworker panel in Workfront setting in your access level must be deselected</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-      <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
-      <p>Editor permissions on the Ideation space of a brief to create briefs</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
@@ -174,7 +188,7 @@ For more information about Workfront access requirements, see [Access requiremen
         Everyone in your organization that has a Workflow and a Planning license in their access level can find and comment on the ideation. 
     * **Anyone with the link can comment**
 
-        Anyone that you share a link to the ideation can comment on it, including people external to your organization. 
+        Anyone that you share a link to the ideation canvas with can comment on it, including people external to your organization. 
 
 1. Click **Copy link** to generate a link to the ideation and share it with others. The link is added to your clipboard. 
 1. Click the back arrow on the Settings box to go back to sharing. 
@@ -182,13 +196,13 @@ For more information about Workfront access requirements, see [Access requiremen
 
     | Ideation space permission  | Capabilities |
     |---|---|
-    | **Editor** | Can edit, download and share the ideation space|
-    | **Commenter** | Can view and comment on the ideation space|
-    | **Viewer** | Can view the ideation space|
+    | **Editor** | Can edit, download and share the ideation canvas|
+    | **Commenter** | Can view and comment on the ideation canvas|
+    | **Viewer** | Can view the ideation canvas|
 
-1. (Optional) Include a message with your assignment, then click **Invite**. 
+1. (Optional) Include a message with your sharing invitation, then click **Invite**. 
 
-    The users invited receives an email notification about their permission assignment. 
+    The users invited receive an email notification about their permission assignment. 
 
 1. Click the **X** icon to close the **Share document** box. 
 

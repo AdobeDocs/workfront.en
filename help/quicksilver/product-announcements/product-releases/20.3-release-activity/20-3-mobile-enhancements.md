@@ -48,7 +48,7 @@ Workfront has partnered with MobileIron, a Mobile Device Management (MDM) platfo
 
 With Workfront for MobileIron, administrators can restrict things like copy/paste functionality and screen captures. You can download the Workfront for MobileIron app at [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-For information on configuring the app, see [Configure Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## New mobile Virtual Assistant
 

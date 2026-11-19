@@ -28,12 +28,10 @@ role_v2:
 
 <span class="preview">For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
-</span>
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>The information in this article refers to functionality available only for Workfront customers who also have Adobe Workfront Planning. Your company must purchase an additional Planning package.
 >
 >The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
 >
@@ -87,12 +85,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud provider requirements</p></td> 
+   <td><p>Amazon Web Services (AWS)</p>
+   <p><b>NOTE:</b></p>
+   <p>We do not support any other cloud providers.</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront or Workflow with a Planning package</p></li>
+<li><p>Any Workflow with a Planning package</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -110,6 +115,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>System requirements</p></td> 
+   <td><p>Coworker & MCP preferences settings in your System Preferences in the Setup area must be turned on</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -124,8 +134,9 @@ Or
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
    <ul>
-   <li><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   </li>
+   <li><p>You must add both a Workflow and a Planning license type to the access level <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>The Disable Ideation space setting in your access level must be deselected</p></li>
+   <li><p>The Disable the CX Coworker panel in Workfront setting in your access level must be deselected</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -162,14 +173,25 @@ You can create briefs to either create or edit Planning records or to create fil
 
 1. Log in to Workfront with Planning where Coworker has been turned on, and do one of the following to open the Ideation space for the first time to create briefs: 
 
-    * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Ideation space**
-    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > **New record** > **Start Ideation space**
+    * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > click **Ideation space**
 
-     The Ideation space opens and a new ideation is titled by default following the following format: 
+        ![Ideation space in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
+
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click **New record** > click **Start Ideation space**
+
+        ![Ideation space in new record](assets/ideation-space-in-planning-new-record.png)
+
+    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click an existing record > click **Open in Ideation space** 
+
+        ![Ideation space in record Details](assets/ideation-space-button-in-details-page.png)
+
+1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space.  
+
+     The Ideation space canvas opens and a new ideation is titled by default after the following format: 
 
      `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
     
-     For more information about creating records using the Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
+     For more information about creating records using Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
 
 1. (Conditional) To open an existing brief in Ideation space, log in to Workfront with Planning where Coworker has been turned on, and do one the following: 
 
@@ -188,7 +210,7 @@ You can create briefs to either create or edit Planning records or to create fil
 1. (Optional) Click the **+** icon in the Coworker prompt box and attach information in the following ways: 
 
     * **Commands**: Use a command from the list to prompt Coworker for content. 
-    * **Attach file**: Attach a file to the prompt box to add it or its information to the ideation space. You must ask Coworker to create cards based on the file to later send the cards to the brief. 
+    * **Attach file**: Attach a file to the prompt box to add it or its information to the ideation canvas. You must ask Coworker to create cards based on the file to later send the cards to the brief. 
     * **Reference an object**: Select an object from the list to reference it in your ideation. The object must exist in Workfront. 
 
 1. Click Enter.  
@@ -201,14 +223,17 @@ You can create briefs to either create or edit Planning records or to create fil
 
 1. (Conditional) When Coworker offers to the create cards for the ideation, answer **Yes**. 
 
-    Cards are added to the ideation space and you can see the sources for each card and decide which to add to your brief. 
+    Cards are added to the ideation canvas and you can see the sources for each card and decide which to add to your brief. 
 
     >[!TIP]
     >
     >You cannot add files directly to the brief. You must first transfer the file information to the cards which you can send to the brief.
 
+1. (Optional) Click the **Chats** icon ![Chats icon](assets/chats-icon-coworker.png) in the upper-right corner of the Coworker panel, then click **New chat** to open a new prompt or click one of the previous chats in the list to return to an older one.
 
-1. Click the **Search** icon ![Search icon](assets/search-icon.png) to search for items in the ideation space, then click when it displays in the list to navigate to it. 
+    For details on Chats, see [Manage your chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in the Adobe CX Enterprise Coworker documentation.
+
+1. Click the **Search** icon ![Search icon](assets/search-icon.png) to search for items in the ideation canvas, then click when it displays in the list to navigate to it. 
 
 1. (Optional) Click **Sources** at the bottom of every card to understand where the information was collected from. 
 
@@ -218,7 +243,7 @@ You can create briefs to either create or edit Planning records or to create fil
 1. (Optional) Click **Comments** ![Comment icon](assets/comments-icon.png) in the upper-right corner of the space, and **@** tag others to start brainstorming inside the space.
 
     Users will receive an email notification about the tag.
-1. (Optional) Click the **Filter** icon ![](assets/filter-comments-icon.png) inside the comment card to filter comments by the following criteria:
+1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-comments-icon.png) inside the comment card to filter comments by the following criteria:
 
     * Reviewers
     * Time the comment was added
@@ -232,27 +257,31 @@ You can create briefs to either create or edit Planning records or to create fil
     For example, timelines are added to date-type fields, descriptions to paragraph-type fields. 
 
 1. (Conditional) Click a card, then click **Ask AI to ...** to get ideas of the next step, before adding the information to the brief. The answers are in the context of each card's information. 
-1. Click the **Add documents** icon ![Add documents icon](assets/add-documents-in-ideation-space.png) in the upper-left corner of the Ideation space to upload documents to the space. You can add new documents or documents you have already added to the space before. 
+1. Click the **Add documents** icon ![Add documents icon](assets/add-documents-in-ideation-space.png) in the upper-left corner of the Ideation canvas to upload documents to the space. You can add new documents or documents you have already added to the space before. 
 
     >[!TIP]
     >
     >The Documents setting must be turned on to be able to access documents and upload them to the space.
-    >For information, see the section [Configure the Ideation space](#configure-the-ideation-space) in this article.
+    >For information, see the section [Configure the Ideation space canvas](#configure-the-ideation-space-canvas) in this article.
     > 
-1. Click the **Add WF Taxonomy card** icon ![Add from Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> and select a connected record type, then a record from each type to add that record's information to the record type you selected. 
+1. Click the **Add Workfront Connected Planning records** icon ![Add Workfront Connected Planning records](assets/add-from-wf-planning-on-ideations-space.png) and select a connected record type, then a record from each type to add that record's information to the record type you selected. 
 
     A card is created for the record you selected to add to the space. The record type displays in the upper-left corner of the record's card. 
 
     >[!TIP]
     >
-    >The **Add WF Taxonomy card** icon <!--check UI name--> is not available when you access the Ideation space from the Main menu and the brief is not connected to a Planning record.
+    >* The **Add Workfront Connected Planning records** icon  is not available when you access the Ideation space from the Main menu and the brief is not connected to a Planning record.
+    >
+    >* Only connected planning records will be available to add to the Ideation space canvas as context for your ideation. Each connected record card added to the canvas will influence the type of content created and will use that context where applicable during your ideation.
+    >
+    >   For example, if you want to build a campaign that must leverage existing record types, then add those records to your canvas.
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) on the connected record card and click **View in Workfront**. 
 
     The record's details page opens in another browser tab in Workfront Planning. 
-1. (Optional) Select the ideation frame or a card, click the **Delete** icon, then click **Delete** to confirm. The card is removed from the Ideation space. 
+1. (Optional) Select the ideation frame or a card, click the **Delete** icon, then click **Delete** to confirm. The card is removed from the Ideation space canvas. 
 
-    When you delete cards corresponding to a stored document or a record, the items are removed from the Ideation space but they remain in their respective applications. 
+    When you delete cards corresponding to a stored document or a record, the items are removed from the canvas but they remain in their respective applications. 
 
 1. (Optional) Use the **Ask Coworker anything** box in the lower-right corner at any time to refine your ideation.
 
@@ -262,7 +291,7 @@ You can create briefs to either create or edit Planning records or to create fil
 
     ![Copy to prompt bar icon](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Optional) Click the **Undo** or **Redo** icons ![Undo and redo icons](assets/undo-redo-icons.png) at the top of the ideation space to cancel or reverse an action. 
+1. (Optional) Click the **Undo** or **Redo** icons ![Undo and redo icons](assets/undo-redo-icons.png) at the top of the canvas to cancel or reverse an action. 
 1. Zoom out to see the complete picture: your original campaign goal, all AI-generated concept cards with citations, additional documents, the real Workfront Planning records you've pulled in (Products, Personas, etc.). The **Brief** summary card in the lower-left corner pulls it all together.
 
 1. Click the brief preview image in the lower-left corner and review the brief, then click one of the following options: 
@@ -281,11 +310,13 @@ You can create briefs to either create or edit Planning records or to create fil
     This finishes creating the record or the file with the additional information. If you started from an existing record, the information from the brief is added to the record. If you started with a new record, the record is created with the information in the brief. 
 
     For more information about updating Planning records using briefs, see the "ConsiderationsConsiderations about using the Ideation space to create records" section in the article [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
+1. (Optional) Click **Share** to share the ideation canvas with others.
 
+    For more information, see [Share an Ideation space with others](/help/quicksilver/planning/ideation/share-the-ideation-space.md). 
 
-## Configure the Ideation space
+## Configure the Ideation space canvas
 
-There are controls for the Ideation space that configure what you see on the screen as well as help you navigate the space. 
+There are controls for the Ideation space that configure what you see on the screen as well as help you navigate the canvas. 
 
 1. Click the **Settings** icon ![Settings](assets/setting-icon.png) to control where AI pulls information from, then choose from the following **Source Types**:
 
@@ -296,25 +327,29 @@ There are controls for the Ideation space that configure what you see on the scr
     -->
 1. Click **Save**. 
 
-1. Click the the **zoom level** drop-down icon to the left of the **Help** icon or the **Help** icon ![Help icon](assets/more-information-icon.png) to select an option or review the keyboard shortcuts that you can use to navigate the ideation space or select a different zoom value. 
+1. Click the the **zoom level** dropdown menu to the left of the **Help** icon ![Help icon](assets/more-information-icon.png) to select an option. 
 
-    Choose from the following zoom levels:
+    Choose from the following options:
     
-    * Zoom to 100%
-    * Zoom to 200%
-    * Zoom to fit
+    * **Zoom to fit**
+    * **Zoom in**
+    * **Zoom out**
+    * Zoom to **50**, **100**, **150**, or **200%**
+    * **Show dot grid**: Turn on selection to display dot grid. 
+    * **Product tour**: Turn off selection to opt out of guiding hints while using Ideation space.
 
-    Or use one of the following shortcuts to navigate on the page: 
+1. Click the **Help** icon ![Help icon](assets/more-information-icon.png) to review the keyboard shortcuts that you can use to navigate the canvas or select a different zoom value: 
 
-    | Action | Shortcut |
-    | --- | --- |
-    | Zoom in / out | Ctrl/⌘ + / − |
-    | Zoom to fit / fit selection | — |
-    | Zoom to cursor | Ctrl/⌘ + scroll |
-    | Pan the canvas | Hold Space + drag |
-    | Show/hide dot grid | G |
-
-
+| Action | Shortcut |
+| --- | --- |
+| Zoom in / out | Ctrl/⌘ + / − |
+| Zoom to 100% / | Ctrl/⌘ 1 / 1 |
+| Zoom to 200% / | Ctrl/⌘ 2 / 2 |
+| Zoom to fit | Ctrl/⌘ 0 / 0 |
+| Zoom to fit selection | Alt Ctrl 0 |
+| Zoom to cursor | Ctrl/⌘ scroll |
+| Pan | Hold Space drag |
+| Show/hide dot grid | G |
 
 <!--
 

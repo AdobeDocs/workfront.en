@@ -35,15 +35,16 @@ When everyone in your organization has their goals aligned to your organization'
 
 There are two approaches to connecting goals in Adobe Workfront Goals:
 
-* You can create alignment between goals by connecting goals to one another. 
+* You can create alignment between goals by connecting goals to one another. This article describes this approach. 
 
-* You can manually align two goals or you can convert results and activities of an existing goal to another goal. The converted result or activity becomes the child goal of the original goal. 
+* You can also align two goals by converting results and activities of an existing goal to another goal. The converted result or activity becomes the child goal of the original goal. 
+
+   For information about aligning goals by converting results and activities to goals, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >A goal can have a total of 1000 progress indicators.
 
-This article describes how you can align goals by connecting them to one another. For information about aligning goals by converting results and activities to goals, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Access requirements
 

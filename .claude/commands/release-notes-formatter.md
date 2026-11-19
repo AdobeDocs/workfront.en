@@ -68,6 +68,7 @@ Rules:
    - Older features follow in reverse chronological order
 
 4. **Date callout block** after each H2:
+
 ```markdown
 >[!NOTE]
 >
@@ -84,16 +85,20 @@ Rules:
 
 2. **Intro paragraph** with scheduled release month
 
-3. **`>[!IMPORTANT]` block** with release schedule table
+3. **`>[!IMPORTANT]` block** with release schedule table, followed by the badge legend that describes the Concurrent release and Off schedule badges (see the overview page template in the reference file)
 
 4. **H2 `Adobe Workfront enhancements`** with bullet list of anchor links:
+
 ```markdown
 * [Administrator enhancements](#administrator-enhancements)
 * [Document enhancements](#document-enhancements)
 ```
 
+   - If a product-area section is commented out, remove its link from this list entirely. Do not comment the link out.
+
 5. **H3 per product area** with HTML feature table (see .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Within each table, **newest features first** — the most recent row appears at the top of the table (after the header row)
+         - If a feature has a badge (`[!BADGE Off schedule]{type=Neutral}` or `[!BADGE Concurrent release]{type=Neutral}`), put it in its own `<p>` directly under the feature link paragraph, before the description paragraph.
 
 6. **Trailing sections** (H2): Release notes for other areas, Desktop proofing viewer updates, Announcements, API version, Maintenance Updates, Training updates
 
@@ -126,6 +131,8 @@ Apply these fixes when formatting:
 | Extra spaces in callout lines | Trim trailing whitespace |
 | HTML in product area pages | Keep as markdown (HTML is for overview tables only) |
 | Missing `exl-id` | Leave it out — do not generate one |
+| Badge placed after the description in an overview table | Move it into its own `<p>` directly under the feature link |
+| Mini TOC link to a commented-out section | Remove the link from the list; don't comment it out |
 
 ### Step 6: Sync the overview page
 
@@ -185,11 +192,7 @@ Common mistakes to avoid:
 - Creating a new quarter's overview page without updating `home.md`'s "Latest release" tab (it will keep pointing to the old quarter).
 - Forgetting to also add the new quarter to the current-year tab list.
 
-<<<<<<< Updated upstream
-### Step 8: Update the product releases index page
-=======
 ### Step 9: Update the product releases index page
->>>>>>> Stashed changes
 
 Whenever you create a **new quarter's overview page**, also update `help/quicksilver/product-announcements/product-releases/product-releases.md` in the same change:
 
@@ -278,6 +281,9 @@ When reviewing a release note file, verify:
 - [ ] Feature table rows in overview match product area page content
 - [ ] No broken internal links
 - [ ] Anchor links in overview match H3 section IDs
+- [ ] Overview mini TOC has no links to commented-out sections, and badges sit directly under the feature link
+- [ ] Overview `>[!IMPORTANT]` block includes the badge legend, and every badge used in a table is described in it
+- [ ] Every enhancement table in the overview that is not commented out has a matching link in the mini TOC, so sections added back when uncommented aren't missed
 - [ ] Features are ordered newest-first (both product area pages and overview tables)
 - [ ] New release-note pages are listed in `help/quicksilver/TOC.md` under the correct quarter, with the overview first and product areas in alphabetical order (Other last)
 - [ ] If a new quarter's overview page was created, `help/quicksilver/home.md` "Latest release" tab and the current-year tab point to it

@@ -135,6 +135,12 @@ For information about enabling Adobe cloud storage in your environment, see [Ena
 
 Adobe cloud storage is available in [!DNL Workfront] sandbox environments so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox, so the full unified review and approval experience must be validated in production.
 
+>[!IMPORTANT]
+>
+>When a sandbox is refreshed from production, no Adobe cloud storage data is copied to the sandbox. Adobe cloud storage projects, their documents, and associated data are not included in the refresh. This is expected behavior and a result of how Adobe cloud storage is architected. Legacy Workfront storage projects and documents continue to copy to the sandbox as usual.
+>
+>To test Adobe cloud storage in a sandbox, create new Adobe cloud storage projects and upload documents directly in that environment.
+
 If you have a Custom Refresh Sandbox, you must refresh it after upgrading to a version of Workfront that supports Adobe cloud storage to access Adobe cloud storage functionality in the sandbox. For more information, see [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considerations

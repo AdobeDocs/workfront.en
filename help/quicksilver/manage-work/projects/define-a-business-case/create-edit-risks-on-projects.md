@@ -126,8 +126,6 @@ You can create and edit risks in the Risks section of a project or a template. C
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
 
-   ![Risks section of task](assets/risks-section-on-project-2022.png)
-
 1. Click **Add More Risks** and create risks by in-line editing their information. 
 
    Or

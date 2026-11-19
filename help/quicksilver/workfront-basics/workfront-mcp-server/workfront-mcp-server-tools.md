@@ -383,10 +383,28 @@ Product requirement: Workfront Workflow or Workfront Planning.
 
 Product requirement: All customers
 
-Reporting tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
+### Boards
+
+| Title | Tool name | What it does | Action |
+| --- | --- | --- | --- |
+| Get board | `boards_get_board` | Fetches board data at varying detail levels. | Read |
+| Get card | `boards_get_card` | Fetches a single card by board ID and card ID. | Read |
+| Create card | `boards_create_card` | Creates a new card on a board in a given column. | Write |
+| Update card | `boards_update_card` | Updates a card, including scalar fields, moves, archive state, tags, members, or disconnecting it from Workfront. | Write |
+| Connect card | `boards_connect_card` | Creates a Workfront task or issue and links it to a card. | Write |
+| Create board tag | `boards_create_board_tag` | Creates a new tag in a board's tag catalog. | Write |
+| Create checklist item | `boards_create_checklist_item` | Adds a checklist item or subtask to a card. | Write |
+| Update checklist item | `boards_update_checklist_item` | Updates a checklist item's name, description, due date, status, or estimate. | Write |
+| Delete checklist item | `boards_delete_checklist_item` | Deletes a checklist item from its parent card. | Write |
+| Create column | `boards_create_column` | Adds a new plain column to a board. | Write |
+| Update column | `boards_update_column` | Renames a board column. | Write |
+| Delete column | `boards_delete_column` | Deletes a board column, moving cards first if needed. | Write |
+| Create board | `boards_create_board` | Creates a new basic board, optionally inside a workspace. | Write |
 
 
 ### Canvas Dashboards
+
+Canvas Dashboards tools let you build and manage Canvas Dashboards through chat. Describe the report you want in plain language, and the AI agentic platform creates the dashboard and widgets for you using your Workfront data.
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
@@ -420,8 +438,3 @@ Workfront MCP server tracks user intent for customers. Intent data gathered is g
 Users can disable telemetry collection by reaching out to customer support to file a request.
 
 
-## Additional tools coming soon
-
-We are working on adding the following tools to the Workfront MCP server in the future:
-
-* Boards

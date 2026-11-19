@@ -105,6 +105,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 Adobe cloud storage is available in the Custom Refresh Sandbox so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox environments, so the full unified review and approval experience must be validated in production.
 
+>[!IMPORTANT]
+>
+>When you refresh the Custom Refresh Sandbox from production, no Adobe cloud storage data is copied to the sandbox. Adobe cloud storage projects, their documents, and associated data are not included in the refresh. This is expected behavior. Legacy Workfront storage projects and documents continue to copy to the sandbox as usual.
+>
+>To test Adobe cloud storage in the Custom Refresh Sandbox, create new Adobe cloud storage projects and upload documents directly in that environment.
+
 After you upgrade to a version of Workfront that supports Adobe cloud storage, you must refresh your Custom Refresh Sandbox to access Adobe cloud storage functionality in the sandbox. Once the refresh completes, you can begin testing Adobe cloud storage. For more information, see [Enable Adobe cloud storage for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Access the Custom Refresh Sandbox from your Production environment {#access-the-custom-refresh-sandbox-from-your-production-environment}

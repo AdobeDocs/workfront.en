@@ -40,7 +40,7 @@ The following decision types count towards the monthly limit:
   
    <td><strong>Legacy document approvals</strong> 
    </td>
-   <td><strong>Unified approvlas</strong> 
+   <td><strong>Unified approvals</strong> 
    </td>
    <td><strong>Proof approvals</strong> 
    </td>

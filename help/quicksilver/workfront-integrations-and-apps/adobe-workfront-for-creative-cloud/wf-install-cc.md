@@ -37,6 +37,8 @@ topic_v2:
 ---
 # Install and open [!DNL Adobe Workfront for design and video]
 
+{{cc-plugin-legacy-only}}
+
 You can install [!DNL Adobe Workfront for design and video] from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
 
 {{cc-plugin-app-list}} 

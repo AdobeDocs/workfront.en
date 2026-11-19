@@ -50,3 +50,4 @@ This section contains articles for the following environments and capabilities:
    * [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
    * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+   * [Use Environment Promotion for Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md)

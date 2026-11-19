@@ -25,6 +25,78 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## New Workfront templates: Create project with AEM workflow and Create multiple records
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+Two new automation templates are now available in Workfront Fusion.
+
+* **Create project with AEM workflow:** Creates a project from a project template, and optionally creates the AEM linked folders that are configured for the project template and links them to the new project.
+* **Create multiple records:** Creates one or more records on a record type, with one new record for each choice in a multi-select or connected field on the current record. Each new record is linked back to the current record, and you map the fields that are copied to the new records.
+
+For information, see [Configure Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Share a Planning automation
+
+>[!NOTE]
+>
+>This feature has been temporarily removed from all environments, and will be enabled at a future date.
+>[!BADGE Off schedule]{type=Neutral}
+
+New Workfront Planning automations are now available only to their owner by default, instead of being shared automatically with everyone in the workspace. Owners can choose who gets access by sharing the automation with others. You can give other users a **Manage**, **Edit**, or **Run** access level. Existing automations stay shared with their workspace users, so current access isn't affected.
+
+For information, see [Configure Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Environment Promotion available for Workfront Planning
+
+>[!NOTE]
+>
+>Production and Sandboxes fast release: November 12, 2026
+>Production, Preview, Sandboxes for everyone: December 17, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+>[!NOTE]
+>
+>Environment Promotion for Workfront Planning is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront administrators can now promote Workfront Planning workspaces and their objects from one environment to another, so you no longer need to rebuild configurations manually. This saves time and reduces the errors that come with manual setup.
+
+Records, automations, and fields that don't belong to the exported workspaces cannot be promoted.
+
+This capability requires Prime or Ultimate Workflow and Planning packages, a Standard license, and Workfront administrator access.
+
+For information, see [Use Environment Promotion for Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
+## Ideation space for Workfront Planning now available in Open Beta
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: November 12, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+
+>[!NOTE]
+>
+>This capability is available as an open beta program. Ideation space is available only to customers who have purchased a Workfront Planning package in addition to a Workflow package. It is not available to customers who have purchased Workfront Planning as a standalone product.
+
+Workfront Planning now includes Ideation space, a collaborative area where teams can capture, organize, refine, and evaluate ideas before turning them into actionable work. Ideation space helps stakeholders centralize brainstorming, align on priorities, and seamlessly move approved concepts into planning workflows.
+
+Using the CX Enterprise Coworker, you can now create ideation briefs which you can export to files or to Workfront Planning records.
+
+With Ideation space, you can:
+
+* Capture and collaborate on ideas with your teams and stakeholders.
+* Organize, evaluate, and prioritize ideas with visibility into the intake process.
+* Turn approved ideas into planning records and workflows.
+
+For more information, see [Get started with the Ideation space for Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
 ## Improved conflict detection in dependent fields when submitting requests
 
 >[!NOTE]

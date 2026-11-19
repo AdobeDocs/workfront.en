@@ -30,9 +30,7 @@ topic_v2:
 ---
 # Manage workstreams
 
->[!IMPORTANT]
->
->Workstreams are only available to a specific group of customers.
+{{boards-workstreams}}
 
 A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates and a card list of work items. In a workstream, you can track work in iterations or sprints.
 

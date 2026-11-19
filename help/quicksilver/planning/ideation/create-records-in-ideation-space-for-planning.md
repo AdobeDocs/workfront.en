@@ -32,12 +32,10 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 <span class="preview">For more information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only as part of the **Ideation space Beta** program. </span>   
-</span>
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning. Your company must purchase an additional Planning package to access Workfront Planning.
+>The information in this article refers to functionality available only for Workfront customers who also have Adobe Workfront Planning. Your company must purchase an additional Planning package.
 >
 >The functionality described here is not available if your organization purchased Workfront Planning as a standalone product. 
 >
@@ -80,29 +78,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Cloud provider requirements</p></td> 
+   <td><p>Amazon Web Services (AWS)</p>
+   <p><b>NOTE:</b></p>
+   <p>We do not support any other cloud providers.</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul> 
-<li><p>Any Workfront or Workflow with a Planning package</p></li>
+<li><p>Any Workflow with a Planning package</p></li>
 <!--
-Not available for beta:
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>System requirements</p></td> 
+   <td><p>Coworker & MCP preferences settings in your System Preferences in the Setup area must be turned on</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow license</p></td> 
    <td><p>Standard</p>
@@ -112,20 +122,24 @@ Or
    <td role="rowheader"><p>Adobe Planning license</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> 
    <ul>
-   <li><p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   </li>
+   <li><p>You must add both a Workflow and a Planning license type to the access level <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>The Disable Ideation space setting in your access level must be deselected</p></li>
+   <li><p>The Disable the CX Coworker panel in Workfront setting in your access level must be deselected</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records </p>
       <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-      <p>View permissions to Workfront objects to add them to briefs <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>Editor permissions on the Ideation space to create briefs</p>
    </td> 
   </tr>  
@@ -144,7 +158,7 @@ Or
 
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++  
 
 ## Considerations about using the Ideation space to create or edit Planning records
 
@@ -152,7 +166,7 @@ For more information about Workfront access requirements, see [Access requiremen
 * To use the Ideation space to create or edit records, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
 * When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated space is not deleted.
-* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change?-->
+* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change after beta?-->
 * The following scenarios exist when fields are created, edited or removed in Workfront Planning: 
 
     * New fields created on records linked to Ideation briefs are added daily to the brief. New fields appear empty in the Ideation brief. 
@@ -171,8 +185,8 @@ For more information about Workfront access requirements, see [Access requiremen
 1. Click the card for a record type you can add records to. 
 1. Do one of the following to create a record:
 
-    * From any view of the record type page, click **New record** in the upper-right corner of the page and in the **Choose a way to add your records** box, click **Open the Ideation space**, then click **Continue**. 
-    * Scroll to the bottom of the record table and click **New row**, then click **Open the Ideation space**.
+    * From any view of the record type page, click **New record** in the upper-right corner of the page and in the **Choose a way to add your records** box, click **Start Ideation space**, then click **Continue**. 
+    * Scroll to the bottom of the record table and click **New row**, then click **Start Ideation space**.
 
         >[!TIP]
         >
@@ -180,17 +194,21 @@ For more information about Workfront access requirements, see [Access requiremen
 
     ![New record box with Open Ideation space button](assets/new-record-creation-picker-with-ideation.png)
 
-    The Ideation space opens in a new tab.
+1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space. 
 
-    CX Coworker opens in the right panel. 
+    The following things occur: 
 
-    The record is created immediately with a placeholder name. 
+    * The Ideation space canvas opens in a new tab.
+
+    * Coworker opens in the right panel. 
+
+    * The record is created immediately with a placeholder name. 
 
     <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. Add a prompt in the **CX Coworker** dialog box, then press Enter. 
+1. Add a prompt in the **Coworker** dialog box, then press Enter. 
 
     The more details you share, the more useful the information provided by the ideation space will be. For example, type a description of the campaign you're planning: "back to school campaign for a marketing agency". 
 
@@ -225,7 +243,7 @@ You cannot bulk-edit records in the Ideation space.
 
 1. Go to an existing record in Workfront Planning and open its details page. 
 
-1. Click **Open in Ideation space** ![](assets/open-in-ideation-space.png). This opens the Ideation space in a new tab.
+1. Click **Open in Ideation space** in the upper-right corner of the details page. This opens the Ideation space in a new tab.
 
     If an ideation for the record already exists, it opens that space.
     

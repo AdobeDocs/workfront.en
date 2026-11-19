@@ -12,6 +12,22 @@ This page describes Project enhancements made with the First Quarter 2027 releas
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## Resolve comment threads
+
+>[!NOTE]
+>
+>Preview: November 12, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+You can now resolve a comment thread for an object you have access to View, from the More menu of the top message in the Updates area. This hides it from the comment stream for all viewers. You can unresolve it later to bring it back.
+
+Resolved threads are read-only, so you can't edit, delete, reply to, react to, or pin them until they're unresolved.
+
+You can use a filter to display resolved threads in the Updates tab.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 ## Unavailable status guidance
 
 >[!NOTE]

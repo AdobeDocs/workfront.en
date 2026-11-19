@@ -243,14 +243,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >* [!UICONTROL Lists]
    >* [!UICONTROL Summary panel]
    >* [!UICONTROL Home]
-   >* [!UICONTROL Branding]
    > 
    >For information about how to customize these additional areas, see the following articles:
    >
    >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Customize the [!UICONTROL Summary panel] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
    >* [Customize Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add dashboard]**, type the **[!UICONTROL Quick link name]** for the item, then choose the dashboard.

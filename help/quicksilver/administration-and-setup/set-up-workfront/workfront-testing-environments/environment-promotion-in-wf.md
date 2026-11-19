@@ -60,9 +60,8 @@ Because environment promotion deals with object configuration, transactional obj
 * [Custom data objects](#custom-data-objects)
 * [Organization objects](#organization-objects)
 * [Other configuration objects](#other-configuration-objects)
-<!--
 * [Workfront Planning objects](#workfront-planning-objects)
--->
+
 
 ### Work objects
 
@@ -135,25 +134,24 @@ Because environment promotion deals with object configuration, transactional obj
 
 -->
 
-<!--
-
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
 
 ## Workfront Planning objects
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package.
+>
+>Environment promotion is not available for customers who purchased Workfront Planning as a standalone product. 
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
 | Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Record types | Connected record types* <br> Fields <br> Views <br> Hierarchies <br> Request forms |
+| Sharing for all objects | Groups <br> Teams <br> Job roles <br> Users <br>Companies |
 
+*Only connected record types that belong to the workspaces that are imported will transfer to the target environment. 
+
+For information, see [Use Environment Promotion for Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Environment promotion statuses
 

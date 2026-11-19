@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Delete or archive a card from a board
 
+{{boards-maintenance-mode}}
+
 When you delete an ad hoc card from a board, it is permanently deleted and can't be restored. Connected cards can be manually added back to a board after they are deleted.
 
 If you delete a connected card from a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project. To delete the card, you must delete the connected task or issue from the Workfront project.

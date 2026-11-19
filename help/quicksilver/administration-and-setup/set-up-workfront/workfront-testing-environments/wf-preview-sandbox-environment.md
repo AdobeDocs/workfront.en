@@ -80,6 +80,18 @@ Preview Sandbox also allows [!DNL Workfront] to deploy new features in a safe en
 
 The preview environment is ideal for running trainings, testing out new features, and determining setup functionality.
 
+## Adobe cloud storage in the Preview Sandbox
+
+Adobe cloud storage is available in the Preview Sandbox so you can test it before enabling it in production. However, the Frame.io viewer is not available in sandbox environments, so the full unified review and approval experience must be validated in production.
+
+>[!IMPORTANT]
+>
+>When the Preview Sandbox is refreshed from production, no Adobe cloud storage data is copied to the sandbox. Adobe cloud storage projects, their documents, and associated data are not included in the refresh. This is expected behavior. Legacy Workfront storage projects and documents continue to copy to the sandbox as usual.
+>
+>To test Adobe cloud storage in the Preview Sandbox, create new Adobe cloud storage projects and upload documents directly in that environment.
+
+For more information, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 >[!IMPORTANT]
 >
 >Planning data in Canvas Dashboards is visible only to [!DNL Workfront] administrators in sandbox environments.

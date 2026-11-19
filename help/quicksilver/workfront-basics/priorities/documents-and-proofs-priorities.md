@@ -109,7 +109,6 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**.
 
-
 ## Create a simple or advanced proof
 
 You can create a proof from a document from the worklist or the work item Details page.

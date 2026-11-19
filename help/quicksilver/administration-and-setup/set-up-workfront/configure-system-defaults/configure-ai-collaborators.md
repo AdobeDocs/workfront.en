@@ -38,15 +38,11 @@ Available AI Collaborator types include:
 
    For more information on Adobe CX Enterprise Coworker, see [Overview of CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 Licenses used by AI Collaborators are not billed. If your organization has 200 Workfront licenses and creates an AI Collaborator, 201 licenses are then in use, but only 200 are billed.
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and sends project updates, without needing to configure an external agent.</span>
 
    <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
 
 
 ## Access requirements
@@ -104,8 +100,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 >
 >We aim to connect with any agent provider, so if the provider you are using is not currently compatible with Work Agents, please reach out to your account team for assistance.
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## Create a new AI Reviewer
 
 AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intelligence.
@@ -133,8 +127,6 @@ Work Agents are agents that you can assign to tasks or issues in Workfront. You 
 Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Work Agents can be <span class="preview">Native Work Agents that use Coworker,</span> or can be from a supported external platform such as Copilot Studio, Claude, OpenAI, and IBM.
 
 >Work Agents can be assigned to tasks or issues.
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 Licenses used by work agents are not billed. If your organization has 200 Workfront licenses and creates a Work Agent, 201 licenses are then in use, but only 200 are billed.
 
@@ -165,10 +157,11 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 
    |Platform|Required authentication|
    |---|---|
-   |Copilot Studio|Web channel secret|
    |Claude Managed Agents|Anthropic API key<br>Agent ID<br>Environment ID|
-   |OpenAI Agents|API key <br>Agent ID|
+   |Copilot Studio|Web channel secret|
    |IBM watsonx Orchestrate|Service URL<br>API Key<br> Agent ID|
+   |OpenAI Agents|API key <br>Agent ID|
+   |Writer Playbooks|API Key </br>Playbook ID|
 
 1. Click **Test connection**. This lets you know whether the connection was set up correctly.
 1. In the **After the Collaborator is finished with its work, it can** area, toggle on the actions that you want the collaborator to take. 
@@ -220,46 +213,9 @@ You may find the following best practices helpful when creating an agent to use 
 
 +++
 -->
-+++ Writer
-
-
-
->[!IMPORTANT]
->
->Writer has deprecated their use of agents. Work Agents configured using Writer agents no longer work after October 9. 2026.
->
->For information on the deprecation, see [Agent Library migration & deprecation](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in the Writer documentation.
-
-
-<!--
-
->[!NOTE]
->
-> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
-
-When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
-
-More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
-
-1. Create a no-code app in Writer AI Studio. 
-1. Add a single Text input field. You can use the default name "Text input."
-1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
-1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
-
-   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
-   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
- 
-1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
-
--->
-
-+++
 
 <div class="preview">
 
-<!--
 ## Configure a Project Coordinator
 
 The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
@@ -268,25 +224,33 @@ The Project Coordinator is an out-of-the-box collaborator that monitors project 
 
 1. In the left navigation, click **AI Collaborators**.
 1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Select **Project coordinator**, then click **Continue**.
+1. In the **AI Collaborator Name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. (Optional) In the **AI Collaborator Description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access Level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects, in the same way an access level controls what a user can do.
+1. (Optional) In the **Groups** field, select the groups that the Project Coordinator will be associated with.
+
+   >[!NOTE]
+   >
+   >If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.
+
+1. In the **Coordinator actions** area, specify how the Project Coordinator sends project updates. The Project Coordinator must have permission to perform these actions. A Project Coordinator can also comment on the project and its tasks.
+
+   Project updates can include a summary of progress, project health, overdue or at-risk tasks or approvals, and missing fields or assignments.
+
+   * In the **Cadence** field, select whether the Project Coordinator sends updates daily or weekly.
+   * (Conditional) If you selected weekly, in the **Day** field, select the day of the week that updates are sent.
+   * In the **Time** field, select the time that updates are sent.
+   * In the **Time zone** field, select the time zone for the update time.
+   * In the **Who gets the update** field, select whether the update goes to the project owner or to project stakeholders. The default is the project owner.
+
 1. Click **Save**.
 
+After you save the Project Coordinator, add the **Project Coordinator** field to the project header in the layout templates that your users use. Users cannot assign a Project Coordinator to a project until the field is available in the header.
+
+For instructions, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
 For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
 
 </div>
 

@@ -31,6 +31,8 @@ topic_v2:
 
 <!-- Audited: 05/2024 -->
 
+{{boards-maintenance-mode}}
+
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.

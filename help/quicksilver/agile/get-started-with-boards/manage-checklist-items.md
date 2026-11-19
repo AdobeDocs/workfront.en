@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Manage checklist items on cards
 
+{{boards-maintenance-mode}}
+
 Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
 
 For information on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md), and [Manage cards](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).

@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add or remove members from a board
 
+{{boards-maintenance-mode}}
+
 People and teams must be added to the board as members before they can view the board.
 
 The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Only a system administrator or the current board owner can change the board owner.

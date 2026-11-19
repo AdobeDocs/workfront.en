@@ -36,7 +36,7 @@ For information about AI Collaborators generally, see [Configure AI Collaborator
   </tr> 
   <tr> 
    <td>Object permissions</td> 
-   <td>You must have Manage permission to projects to assign a Product Coordinator.</td> 
+   <td>You must have Manage permission to projects to assign a Project Coordinator.</td> 
   </tr>
   </tbody> 
 </table>
@@ -47,21 +47,30 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Project Coordinator overview
 
-The Project Coordinator is a Virtual Project Manager (VPM) that monitors your project and proactively helps keep work on track. When assigned as a project owner, it:
+The Project Coordinator monitors your project and helps keep work on track. When assigned to a project, it sends project updates on a schedule that your administrator configures. Updates can include:
 
-* Reviews project status and identifies overdue and stagnant tasks
-* Sends status update requests to task owners
-* Flags incomplete information in native fields and custom forms
-* Monitors documents for approval issues, missing forms, or inactivity
-* Tracks task dependencies and flags when predecessors put dependents at risk
-* Posts updates and follow-ups in the project update stream
-* Keeps the project owner informed of project issues
+* A summary of progress
+* Project health
+* Overdue or at-risk tasks or approvals
+* Missing fields or assignments
 
-Behavior is configurable, including which actions the collaborator performs and how frequently it checks project status.
+The Project Coordinator can also comment on the project and its tasks.
+
+Your administrator configures how often updates are sent, the time they are sent, and who receives them.
+
+You can also run the Project Coordinator on demand by mentioning it in an update on the project. The Project Coordinator runs when it is mentioned, even if it is not scheduled to run at that time.
+
+>[!NOTE]
+>
+>Project Coordinator behavior may change before general availability.
 
 ## Add the Project Coordinator to a project
 
-The Project Coordinator field appears by default in the project header. To assign a Project Coordinator to a project:
+An administrator must first create the Project Coordinator and add the **Project Coordinator** field to the project header in your layout template. Then the field appears in the project header.
+
+For more information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+To assign a Project Coordinator to a project:
 
 1. Go to the project for which you want to assign a Project Coordinator.
 1. In the project header, Click the **Project Coordinator** field.
@@ -70,6 +79,23 @@ The Project Coordinator field appears by default in the project header. To assig
    The window displays a description of the selected Project Coordinator, as well as the actions that the Project Coordinator performs.
 1. Click **Apply**.
 
+## Run the Project Coordinator by mentioning it
+
+In addition to its scheduled updates, you can trigger the Project Coordinator at any time by @mentioning it in an update on the project. The Project Coordinator runs as soon as it is mentioned, even if it is not scheduled to run at that time.
+
+To mention the Project Coordinator:
+
+1. Go to the project that has the Project Coordinator assigned.
+1. Open the **Updates** area of the project.
+1. In the update field, type **@** and select the Project Coordinator.
+1. Add your message, then post the update.
+
+   The Project Coordinator runs and posts its response.
+
+>[!NOTE]
+>
+>The Project Coordinator must be assigned to the project before you can trigger it with an @mention.
+
 ## Configure the Project Coordinator
 
-For instructions on configuring the Project Coordinator, see [Configure the Project Coordinator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator) in the article Configure AI Collaborators.
+For instructions on configuring the Project Coordinator, see [Configure the Project Coordinator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator) in the article Configure AI Collaborators.

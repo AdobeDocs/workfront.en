@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Upload proofs from [!DNL Photoshop]
 
+{{cc-plugin-legacy-only}}
+
 You can upload certain Photoshop document preset types as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
 >[!IMPORTANT]

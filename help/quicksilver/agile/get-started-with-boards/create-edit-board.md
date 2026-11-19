@@ -31,6 +31,8 @@ topic_v2:
 
 <!-- Audited: 12/2023 -->
 
+{{boards-maintenance-mode}}
+
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
 ## Access requirements

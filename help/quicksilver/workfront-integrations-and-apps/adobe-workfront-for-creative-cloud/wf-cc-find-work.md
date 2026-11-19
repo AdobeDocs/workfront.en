@@ -33,6 +33,8 @@ topic_v2:
 ---
 # Find your work using the [!DNL Adobe Workfront] plugin
 
+{{cc-plugin-legacy-only}}
+
 Find the work assigned to you in [!DNL Adobe Workfront] without leaving the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}

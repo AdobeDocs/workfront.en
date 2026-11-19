@@ -30,9 +30,7 @@ topic_v2:
 ---
 # Use the card list
 
->[!IMPORTANT]
->
->Workstreams are not available for all customers.
+{{boards-workstreams}}
 
 You can create a card list on a workstream and add the cards to iterations.
 

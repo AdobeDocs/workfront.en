@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Customize which fields are displayed on a card
 
+{{boards-maintenance-mode}}
+
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
 
 * Disabling a field so it is not displayed in either view

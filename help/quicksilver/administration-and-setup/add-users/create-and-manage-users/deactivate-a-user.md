@@ -133,7 +133,7 @@ To schedule a user for deactivation:
 1. In the left panel of the **Edit User** box, click **Resource Planning**.
 1. Click **Set deactivation date**.
 
-1. Select the datefor the **Deactivation Date**.
+1. Select the date for the **Deactivation Date**.
 
    >[!NOTE]
    >

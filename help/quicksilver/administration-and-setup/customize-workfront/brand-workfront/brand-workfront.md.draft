@@ -9,6 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+hide: true
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
 TQID: 'https://experienceleague.adobe.com/HaZjvpx-gAvX36ofor17ihVVZCawLO2LHk3fnM76mDI'
 product_v2:

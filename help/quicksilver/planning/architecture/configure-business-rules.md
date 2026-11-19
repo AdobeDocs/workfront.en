@@ -184,7 +184,7 @@ Or
 1. Click **Activate** to make the rule active for this record type, then click **Save**.
 
    Rules are applied immediately after you activate them and all users who have permissions to edit or delete records in the selected record type must follow them. 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the name of the business rule in the page header to open the **Rule details** box and update information about the business rule.  
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the name of the business rule in the page header to open the **Rule details** box and update information about the business rule.  
 1. (Optional and recommended) Click the back arrow to the left of the **Business rules** in the page header to display the record type page and go to a table view or open a record's page, then try editing or deleting a record, to test the rule you just created. 
 
 ## Manage business rules

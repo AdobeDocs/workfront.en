@@ -171,6 +171,7 @@ The timestamp includes:
 * Time
 * Time zone when the report was sent
 
+<!--
 ### Branding {#branding}
 
 If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
@@ -178,6 +179,7 @@ If your Workfront administrator has added customized branding to your Workfront 
 Reports sent in all other formats cannot be personalized with your logo.
 
 For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### Formatting {#formatting}
 

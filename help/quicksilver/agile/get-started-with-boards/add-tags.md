@@ -29,6 +29,8 @@ topic_v2:
 ---
 # Add tags
 
+{{boards-maintenance-mode}}
+
 You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards.
 
 >[!NOTE]

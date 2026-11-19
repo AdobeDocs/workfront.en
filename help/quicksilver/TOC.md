@@ -615,10 +615,7 @@ feature-set: Workfront
       * [Edit a team's settings](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Customize Adobe Workfront {#customize}
     * [Customize Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Custom branding in Adobe Workfront {#custom-branding}
-      * [Custom branding](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [Brand your instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * Layout templates {#layout-templates}
       * [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [Default Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -634,7 +631,6 @@ feature-set: Workfront
       * [Customize Filters, Views, Groupings](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [Customize user interface terminology](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [Customize the landing page](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Brand Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [Test a layout template](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [Administrative access for layout templates](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Assign users to layout templates](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
@@ -1074,7 +1070,6 @@ feature-set: Workfront
       * [Comment on proofs in Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
       * [Comment on proofs in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [Adobe Workfront for Mobile Device Management (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      * [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * Use Adobe Workfront View {#use-workfront-view}
       * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -2221,6 +2216,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning CX Enterprise Coworker overview](planning/general/planning-cx-coworker-overview.md)
+    * [Use Environment Promotion for Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Get started with the Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
@@ -2338,12 +2334,13 @@ feature-set: Workfront
     * [Manage your instance of Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-planning-sta-instance.md)
     * [Manage users in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}The Ideation space in Workfront Planning {#ideation}
-    * {hide-from-toc}[Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
+  * The Ideation space in Workfront Planning {#ideation}
+    * [Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
+    * [Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * [Access needed to use The Ideation space](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Create Planning records from Ideation space briefs](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [Share an Ideation space with others](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
