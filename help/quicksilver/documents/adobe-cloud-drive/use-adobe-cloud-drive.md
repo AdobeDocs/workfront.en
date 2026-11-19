@@ -203,6 +203,233 @@ You can copy a file out of Adobe Cloud Drive to your local drive. The original r
 >
 >Files copied to your local storage are independent copies. Changes you make to a local copy don't sync back to Adobe cloud storage.
 
+<!-- Courtney check me: New sections below (Upload to Cloud through Open in Workfront) added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf from Pulkit Goel. Verify content, placement, and heading order. -->
+
+## Upload files and folders to the cloud (Direct Upload) {#direct-upload}
+
+<!-- Courtney check me: Source PDF calls this "Upload to Cloud (Direct Upload)". Confirm heading wording. -->
+
+Direct Upload sends files and folders from your computer directly to Adobe cloud storage, without first copying them into the Adobe Cloud Drive folder.
+
+### Upload files or folders
+
+1. Right-click a file or folder in Finder (Mac) or File Explorer (Windows).
+1. Select **Upload to Cloud**.
+1. In the destination picker, select a location within one of the projects in Adobe Cloud Drive, then click **Upload Here**.
+1. Monitor progress in the **Direct Upload** section of the Sync Activity window.
+
+### Things to know about Direct Upload
+
+* Direct Upload copies the item to the cloud. The original item remains in its current location.
+* You can select multiple items to upload at once.
+* The Direct Upload section lists individual files only, up to a maximum of 500. Folders are uploaded together with their contents and aren't listed as separate entries.
+* You can upload items from your user home directory or from any attached external drive. Other cloud storage locations, such as iCloud Drive or `~/Library/CloudStorage`, aren't supported.
+* You must be signed in with an entitled Adobe account. You don't need an internet connection to start an upload. Without a connection, uploads remain queued.
+* Pausing sync cancels uploads that are in progress. Queued uploads resume automatically when you resume sync.
+* If you quit Adobe Cloud Drive during an upload, in-progress uploads are marked as cancelled. Queued uploads resume automatically when you restart the app.
+* Hidden files and folders, symbolic links, and aliases aren't supported.
+* Adobe Cloud Drive controls how many uploads run at the same time. The remaining uploads stay queued until a slot becomes available.
+* A live count of uploads, including failed uploads, is displayed, for example "3 files uploading." When all uploads complete successfully, the count changes to a summary such as "3 files uploaded." Select **Dismiss** to remove it.
+
+<!-- Courtney check me: "Pausing sync cancels uploads in progress" and the quit behavior are from the PDF. Confirm with dev that both are intended. -->
+
+### Upload status
+
+<!-- Courtney check me: Icons extracted from the PDF (48x48 px, low resolution) and named by table order. Verify each icon matches its status and ask Pulkit's team for higher-resolution originals. Add alt text review too. -->
+
+| Icon | Status | Description | Available actions |
+| --- | --- | --- | --- |
+| ![Queued icon](assets/acd-upload-status-queued.png) | Queued | The upload is waiting to start. | **Cancel** cancels this item. |
+| ![Uploading icon](assets/acd-upload-status-uploading.png) | Uploading | The upload is in progress. | **Cancel** cancels this item. |
+| ![Completed icon](assets/acd-upload-status-completed.png) | Completed | The upload finished successfully. | **Open in Workfront** opens the asset in the Workfront web interface. |
+| ![Failed icon](assets/acd-upload-status-failed.png) | Failed | The upload couldn't be completed. | **Show source file** reveals the original file. **Retry** retries the upload. Retry is available only for certain failures. |
+| ![Cancelled icon](assets/acd-upload-status-cancelled.png) | Cancelled | The upload was stopped, either by you or by the system. | None. Cancelled uploads aren't retried. You must start a new upload. |
+
+To see the reason for a failure, hover over the failed item.
+
+### Manage the upload list
+
+Each action is available only when it applies.
+
+* **Cancel all uploads:** Available when uploads are queued or in progress. Cancels all of them.
+* **Retry failed uploads:** Available when failed uploads that can be retried exist. Retries all of them. Uploads that can't be retried remain unchanged.
+* **Clear:** Available when no uploads are queued or in progress. Removes all completed, failed, and cancelled items. Local files and content already uploaded aren't affected.
+* **Automatic clearing:** Completed, failed, and cancelled items are removed automatically 24 hours after their last update. Queued and in-progress items are never removed automatically.
+
+## Pause and resume sync {#pause-resume-sync}
+
+You can pause Adobe Cloud Drive when you don't want it to upload or download files, for example on a slow or metered internet connection. While sync is paused, your changes aren't sent to the cloud, and changes from the cloud aren't downloaded to your computer. Sync stays paused until you resume it.
+
+### Pause sync
+
+1. Click the Adobe Cloud Drive icon in the system tray (Windows) or the menu bar (Mac).
+1. Click the **Menu** icon (≡) in the top-right corner of the Adobe Cloud Drive window.
+1. Select **Pause sync**.
+
+   >[!TIP]
+   >
+   >With the Adobe Cloud Drive window open, you can also press Ctrl+P (Windows) or Command+P (Mac).
+
+   The Adobe Cloud Drive window shows **Sync is paused** and the message **Files will not sync until you resume**. When you hover over the Adobe Cloud Drive icon, it shows **Adobe Cloud Drive (Paused)**.
+
+>[!NOTE]
+>
+>Pause sync is available only when you're signed in and Adobe Cloud Drive is connected.
+
+### Resume sync
+
+1. Click the Adobe Cloud Drive icon in the system tray (Windows) or the menu bar (Mac).
+1. Do one of the following:
+
+   * Click **Resume**.
+   * Click the **Menu** icon (≡), then select **Resume sync**. With the window open, you can also press Ctrl+R (Windows) or Command+R (Mac).
+
+   Adobe Cloud Drive starts syncing again, including any changes you made while sync was paused.
+
+## View and manage version history {#version-history}
+
+You can use Version History in Adobe Cloud Drive to browse saved cloud versions of a supported file, view version details and thumbnails, and revert to an earlier version. You can also edit a version's name and description if you have the required permissions.
+
+### View version history
+
+1. Navigate to your Adobe Cloud Drive folder in Finder or File Explorer.
+1. Select a supported file.
+1. Right-click the file and select **Version History**.
+1. Select a version to view its available details and thumbnail.
+
+   If the file has no previous versions, **No earlier versions** is displayed. Thumbnails might not be available for every file or version.
+
+### Edit version information
+
+1. Open Version History for the file.
+1. Select the version you want to update.
+1. Open the version's options menu and select **Edit version info**.
+1. Enter a **Version name** or **Description**.
+1. Select **Save**.
+
+   The updated information is saved and appears when you reopen Version History.
+
+### Revert to an earlier version
+
+1. Open Version History for the file.
+1. Select the version you want to restore.
+1. Select **Revert to this version**, if available.
+1. Wait for synchronization to complete.
+1. Reopen the file to verify that the content of the selected version is now current.
+
+## Manage local storage {#manage-local-storage}
+
+You can use Manage Local Storage in Adobe Cloud Drive to monitor local disk usage, set a storage limit, and view files marked as **Always on this device**.
+
+<!-- Courtney check me: PDF says "Always on this device" here but this article uses "Always Keep On This Device" for the right-click option. Confirm which label the UI shows in each place. -->
+
+### View local storage usage
+
+1. Select the Adobe Cloud Drive icon and open its options menu.
+1. Select **Manage Local Storage**.
+1. Review the current storage usage and the list of files marked as **Always on this device**.
+1. Sort the file list by **Name** or **Size** to find specific files.
+
+### Change the local storage limit
+
+1. Open **Manage Local Storage** from the Adobe Cloud Drive options menu.
+1. Enter the desired storage limit.
+1. Select **Save** to apply the change.
+
+>[!NOTE]
+>
+>Make sure sufficient free disk space is available on your device when you set the storage limit.
+
+## View sync activity {#sync-activity}
+
+Sync Activity shows recent activity between the Adobe Cloud Drive folder on your computer and Adobe cloud storage. Use it to monitor uploads and downloads, review completed changes, and identify items that couldn't sync.
+
+### View sync activity
+
+1. Select the Adobe Cloud Drive icon in the menu bar (Mac) or system tray (Windows).
+1. Expand the sync activity section using the arrow beside its status summary.
+1. Review the listed items and their status indicators. Hover over a status indicator to see transfer progress, the completed operation, or an error message.
+1. Select the more-actions menu beside an item to see the actions available for that item.
+
+### Things to know about Sync Activity
+
+* Normal sync tracks changes made through the Adobe Cloud Drive folder, including uploads, downloads, creates, renames, moves, and deletions.
+* The normal sync list contains up to 500 recent entries. New or updated entries appear at the top. Older entries might be removed as the list reaches its limit.
+* An entry can initially display **Preparing...** while its name or metadata is being resolved.
+* The summary displays the number of items currently syncing. **Sync complete** means no items are currently active. Inspect the list for failed or excluded items rather than treating this summary as confirmation that every item succeeded.
+* Files and folders excluded from sync can appear with an error that explains the unsupported name, unsupported type, or other exclusion reason.
+* Activity is cleared when you sign out. The list is an activity view, not a permanent audit history.
+
+### Sync status
+
+<!-- Courtney check me: The PDF has two sync status tables (page 7 with 4 statuses, page 8 with 3 statuses and icons). I used the page 8 icons with the page 7 descriptions where they overlap. Confirm and decide whether to keep both tables. -->
+
+| Icon | Status | Description | Available actions |
+| --- | --- | --- | --- |
+| Waiting indicator | Waiting to sync | The item is waiting for its operation to begin. | **Show in Finder** (Mac) or **Show in Explorer** (Windows), where applicable. |
+| ![Uploading icon](assets/acd-sync-status-uploading.png) | Uploading / Downloading | File content is transferring. Hover over the indicator to see the transfer direction and percentage when available. At 100%, the tooltip might show **Finalizing...** until processing completes. | **Show in Finder** or **Show in Explorer**, where applicable. |
+| ![Completed icon](assets/acd-sync-status-completed.png) | Synced / completed operation | The operation completed. The tooltip can identify Uploaded, Downloaded, Created, Renamed, Renamed on cloud, Moved, Deleted, or Deleted on cloud. | **Show in Finder** or **Show in Explorer** for non-deleted items. **Open in Workfront** for eligible completed, non-deleted items. |
+| ![Failed icon](assets/acd-sync-status-failed.png) | Sync failed / excluded | The item couldn't sync or is excluded from sync. Hover over the indicator for the reason. | **Show in Finder** or **Show in Explorer**, where applicable. Resolve the reported issue before expecting the item to sync. |
+
+Deleted items can't be revealed locally or opened in Workfront from their activity entry.
+
+### Manage the activity list
+
+| Action | Description |
+| --- | --- |
+| Expand or collapse | Use the arrow beside the sync summary to show or hide individual entries. |
+| Show in Finder / Show in Explorer | Locate a non-deleted item in the Adobe Cloud Drive folder. |
+| Open in Workfront | Open an eligible completed item in Workfront in your browser. This action isn't available for active, failed, or deleted normal-sync entries. |
+| Clear | Available when no normal-sync items are active. Clears finished entries, including failed entries, from the activity view. Clearing history doesn't delete local files or cloud content and doesn't resolve a sync failure. |
+| Dismiss | After you clear a completed batch, a synced-items summary might be shown. Select its close button to dismiss the summary. |
+
+>[!NOTE]
+>
+>Normal-sync rows don't provide the per-item **Retry** or **Cancel** actions used by Direct Upload. For information about Direct Upload, see [Upload files and folders to the cloud (Direct Upload)](#direct-upload).
+
+## Open an item in Workfront {#open-in-workfront}
+
+Open in Workfront takes you from an item in Adobe Cloud Drive to its corresponding location in Workfront in your browser. Use it to continue working with the cloud item in Workfront without searching for it manually.
+
+### Open an item from Finder or File Explorer
+
+1. Open the Adobe Cloud Drive folder in Finder (Mac) or File Explorer (Windows).
+1. Select a single file or folder associated with a Workfront item.
+1. Right-click the item and select **Open in Workfront**.
+
+   Your browser opens the corresponding Workfront location. If prompted, sign in with an account that has access to that item.
+
+### Open an item from Sync Activity
+
+1. Select the Adobe Cloud Drive icon in the menu bar (Mac) or system tray (Windows).
+1. Expand the sync activity section.
+1. For an eligible completed, non-deleted item, open the more-actions menu and select **Open in Workfront**.
+1. For a file uploaded through Direct Upload, use the same action on its completed entry in the **Direct Upload** section.
+
+### Things to know about Open in Workfront
+
+* Select only one item at a time. Opening multiple selected items in Workfront isn't supported.
+* In File Explorer, the command is hidden for items outside the Adobe Cloud Drive folder and for the drive root itself. It's disabled when multiple items are selected.
+* An item must have a corresponding Workfront location. Some folders or other items might not have a Workfront mapping, even if they're visible in Adobe Cloud Drive.
+* A new local item that hasn't finished uploading might not yet have a Workfront link. Wait for the upload to complete before you try again.
+* In normal Sync Activity, the action is offered only for eligible completed entries. It isn't offered for active, failed, or deleted entries.
+* In Direct Upload, the action is offered for completed uploads, not for queued, uploading, failed, or cancelled entries.
+* You must be signed in to Adobe Cloud Drive. Workfront might also ask you to sign in separately in the browser, and your Workfront permissions still apply.
+* You need an internet connection to retrieve an uncached link and to access Workfront. A previously resolved link doesn't provide offline access to Workfront.
+* This action opens Workfront in a browser. It doesn't open the file in its desktop application, upload another copy, or change its local offline availability.
+
+### Open in Workfront availability
+
+| Item or state | Open in Workfront behavior | What to do |
+| --- | --- | --- |
+| Single eligible item in Adobe Cloud Drive | Opens the corresponding Workfront location. | Select **Open in Workfront**. |
+| Multiple selected items | Opening multiple items isn't supported. File Explorer disables the command. | Select a single item. |
+| New item still uploading | The Workfront link might not yet be available. | Wait for the upload to complete, then try again. |
+| Completed normal-sync entry | Available when the item is eligible and hasn't been deleted. | Use the entry's more-actions menu. |
+| Completed Direct Upload entry | Available after the upload finishes. | Use the entry's more-actions menu. |
+| Item without a Workfront mapping | A message indicates that the item isn't available in Workfront. | Check the item directly in Workfront or choose another supported item. |
+| Deleted normal-sync entry | The action isn't available. | Use Workfront directly if you need to investigate the deleted item. |
+
 ## Sign out of Adobe Cloud Drive
 
 If you sign out of Adobe Cloud Drive, the drive remains visible in Finder or File Explorer. However, any changes you make inside the drive while signed out, and any changes that hadn't synced before sign-out, don't sync to the cloud.
