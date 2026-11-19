@@ -205,7 +205,7 @@ You can copy a file out of Adobe Cloud Drive to your local drive. The original r
 
 <!-- Courtney check me: New sections below (Upload to Cloud through Open in Workfront) added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf from Pulkit Goel. Verify content, placement, and heading order. -->
 
-## Upload files and folders to the cloud (Direct Upload) {#direct-upload}
+## Upload files to the cloud (Direct Upload) {#direct-upload}
 
 <!-- Courtney check me: Source PDF calls this "Upload to Cloud (Direct Upload)". Confirm heading wording. -->
 
