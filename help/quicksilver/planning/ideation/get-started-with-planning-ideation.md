@@ -170,7 +170,16 @@ To gain access to the Ideation space:
 
 ## Locate the Ideation space
 
-After you have ensured you have access to the the proper products, packages, and system and access level configured, you can locate the Ideation space in the following areas of Workfront:
+After you have ensured you have access to the the proper products, packages, and system and access level configured, you can locate the Ideation space in multiple areas of Workfront and Workfront Planning. 
+
+>[!TIP]
+>
+>You cannot remove the Ideation space area from the Main menu using a layout template. 
+>
+>For more information about blocking a user from accessing Ideation space, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+Access Ideation space in the following areas of Workfront:
 
 * In the Workfront Main Menu, by opening the Ideation space area
 
@@ -184,11 +193,16 @@ After you have ensured you have access to the the proper products, packages, and
 
     ![Ideation space in record Details page](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>The point where you launch Ideation space from determines what the brief structure will be. The following scenarios exist:
+>
+>* When you launch it from the New record button in Planning, the brief contains the same fields as the record type you start with. 
+>
+>* When you launch it from a Planning existing record, the brief contains the same fields with the same values as the record. 
+>
+>* When you launch it from Workfront's Main Menu, the brief contains fields and information from the files you upload to the canvas. 
 
->[!TIP]
->
->You cannot remove the Ideation space area from the Main menu using a layout template. For more information about blocking a user from accessing Ideation space, see [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
 
 ## Ideation space and the Adobe CX Enterprise Coworker
 

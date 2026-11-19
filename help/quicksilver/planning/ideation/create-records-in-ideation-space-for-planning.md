@@ -163,10 +163,12 @@ For more information about Workfront access requirements, see [Access requiremen
 ## Considerations about using the Ideation space to create or edit Planning records
 
 * You must launch the Ideation space from Workfront Planning to be able to create or edit a Planning record. Accessing the ideation space from the Workfront Main menu does not connect an ideation brief to a Planning record. 
+* When you launch Ideation space from a record, Workfront uses the record's structure and information to create and update the brief's fields. 
 * To use the Ideation space to create or edit records, you must have a workspace and a record type in Workfront Planning.
 * New records always start with placeholder content, regardless of how you create them. 
 * When you delete a Planning record linked to an Ideation brief, the brief remains in the Ideation space, and its associated space is not deleted.
-* Synchronization of information happens only from the Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to the Ideation space brief. <!--this might change after beta?-->
+* Synchronization happens only from Ideation space to Workfront Planning. There is no reverse or automatic sync from a Planning record to an Ideation brief.
+* Exporting to Workfront Planning overwrites all existing field data in the connected Planning record.
 * The following scenarios exist when fields are created, edited or removed in Workfront Planning: 
 
     * New fields created on records linked to Ideation briefs are added daily to the brief. New fields appear empty in the Ideation brief. 
@@ -204,9 +206,15 @@ For more information about Workfront access requirements, see [Access requiremen
 
     * The record is created immediately with a placeholder name. 
 
+    * The ideation brief is created with a placeholder name. The ideation brief fields are the same as the fields of the record type you started from. 
+
     <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (Optional) Hover over the **Workfront Planning** tag in he upper-right corner of the Ideation space canvas to view the name of the record type, the workspace you are creating a record for, and the version number of the brief you are creating. 
+
+    ![Workfront Planning workspace and record type info tag inside canvas](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. Add a prompt in the **Coworker** dialog box, then press Enter. 
 
@@ -249,9 +257,12 @@ You cannot bulk-edit records in the Ideation space.
     
     If no ideation exists, it creates an ideation space and a brief. 
 
+    The ideation brief contains the same fields as the record you started from. The field values are populated from the record into the brief.
+
     >[!TIP]
     >
     >You cannot bulk-edit records using the Ideation space. 
+
 1. Continue editing the brief as described in the section [Create records using the ideation space](#create-records-using-the-ideation-space) in this article. 
 
     <!-- 

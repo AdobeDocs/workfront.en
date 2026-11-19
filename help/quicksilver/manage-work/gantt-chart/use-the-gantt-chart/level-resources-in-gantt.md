@@ -116,6 +116,7 @@ Consider the following when leveling resources on a project:
    ![Resource leveling mode](assets/resource-leveling-mode-350x177.png)
 
 * As the project owner, or the task assignee, you can introduce a leveling delay for a task to indicate that there is a great chance that the task might need extra time. For information about adding a leveling delay to a task, see [Update task Leveling Delay](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* To ensure optimal performance, resource leveling does not work for tasks which have duration more than 1000 days.
 
 ## Apply Resource Leveling in the [!UICONTROL Gantt Chart]
 
