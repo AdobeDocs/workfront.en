@@ -276,7 +276,13 @@ To log time on a timesheet:
 
    ![summary-panel-for-task-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   Your update displays in the Updates area of the work item associated with the logged time.
+   <span class="preview">In preview:
+
+   ![summary-panel-for-task-opened-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   Your update displays in the Updates tab of the work item associated with the logged time.
 
    >[!TIP]
    >

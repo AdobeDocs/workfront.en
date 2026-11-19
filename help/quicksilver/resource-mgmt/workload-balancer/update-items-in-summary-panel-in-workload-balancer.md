@@ -96,6 +96,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    ![Summary panel](assets/summary-panel-task-wb-new-comments.png)
 
+    <span class="preview">In preview:
+   ![Summary panel](assets/summary-panel.png)
+    </span>
+
 1. Modify a number of fields for the work item, enter an update, or navigate from here to other areas of Workfront to add documents or other information to the work item.
 
    >[!CAUTION]

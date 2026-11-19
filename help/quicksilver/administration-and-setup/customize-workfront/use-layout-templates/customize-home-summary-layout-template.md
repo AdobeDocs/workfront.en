@@ -96,8 +96,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr> 
       <td role="rowheader">Tasks</td> 
       <td> <p>In a list of tasks, this setting affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p>
-      
-      <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 

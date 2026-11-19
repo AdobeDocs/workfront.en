@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Update or edit a work item in the [!UICONTROL Home] area
 
+{{highlighted-preview}}
+
 <!--Audited: 04/2024-->
 
 <!--
@@ -174,7 +176,5 @@ You can edit any field on any work item that you have access to edit.
 1. Hover over the work item, then click the **Summary** icon.
    ![Open Summary](assets/open-summary-new-home.png)
 
-1. In the Summary panel, hover over the field you want to edit.
-   If you have rights to edit the field, the field is highlighted as you hover over it.
-1. Click the field that you want to edit, then make your desired update.
+1. In the Summary panel, click the field that you want to edit, then make your desired update.
 1. Click away from the field to save your changes.
