@@ -175,7 +175,8 @@ You can edit an issue in a list using the Summary panel.
    | Hours ![Log time](assets/log-time-icon-in-summary.png)  |Click to log hours. |
    | Approvals ![Approvals icon](assets/approvals-icon-in-summary.png)  |Click to add issue approvals.  |
 
-<!-- uncomment for prod
+<!--
+uncomment for prod
 
    | Icon  |Action |
    |---|---|
@@ -185,7 +186,7 @@ You can edit an issue in a list using the Summary panel.
    | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
    | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
 
-   -->
+-->
 
    *If your organization uses Adobe cloud storage for documents, you cannot add documents to Adobe cloud storage issues in the Summary panel.
    
