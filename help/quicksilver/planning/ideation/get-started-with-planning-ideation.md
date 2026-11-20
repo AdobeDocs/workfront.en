@@ -210,7 +210,7 @@ The Ideation space uses the Adobe CX Enterprise Coworker as its prompting interf
 
 Users can ask follow-up questions and refine a brief conversationally rather than getting a single one-shot result. 
 
-When a brief is tied to a live Workfront Planning record, Coworker holds back from overwriting it so the underlying plan stays intact. The record is overridden only when you export te brief to Workfront Planning. 
+When a brief is tied to a live Workfront Planning record, Coworker holds back from overwriting it so the underlying plan stays intact. The record is overwritten only when you export the brief to Workfront Planning. 
 
 <!--
 Previous intro but oped for the more direct one above: 
