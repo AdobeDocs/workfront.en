@@ -220,11 +220,13 @@ You can copy a file out of Adobe Cloud Drive to your local drive. The original r
 
 <!-- Courtney check me: Source PDF calls this "Upload to Cloud (Direct Upload)". Confirm heading wording. -->
 
-Direct Upload sends files and folders from your computer directly to Adobe cloud storage, without first copying them into the Adobe Cloud Drive folder.
+Direct Upload sends files from your computer directly to Adobe cloud storage, without first copying them into the Adobe Cloud Drive folder.
 
-### Upload files or folders
+<!-- Courtney check me: Removed folder mentions from the Direct Upload section (intro, heading, step 1, 500-file bullet, hidden files bullet, and the Sync Activity link text), per Pulkit: folder support isn't available yet. Confirm nothing else should change. -->
 
-1. Right-click a file or folder in Finder (Mac) or File Explorer (Windows).
+### Upload files
+
+1. Right-click a file in Finder (Mac) or File Explorer (Windows).
 1. Select **Upload to Cloud**.
 1. In the destination picker, select a location within one of the projects in Adobe Cloud Drive, then click **Upload Here**.
 1. Monitor progress in the **Direct Upload** section of the Sync Activity window.
@@ -233,12 +235,12 @@ Direct Upload sends files and folders from your computer directly to Adobe cloud
 
 * Direct Upload copies the item to the cloud. The original item remains in its current location.
 * You can select multiple items to upload at once.
-* The Direct Upload section lists individual files only, up to a maximum of 500. Folders are uploaded together with their contents and aren't listed as separate entries.
+* The Direct Upload section lists individual files only, up to a maximum of 500.
 * You can upload items from your user home directory or from any attached external drive. Other cloud storage locations, such as iCloud Drive or `~/Library/CloudStorage`, aren't supported.
 * You must be signed in with an entitled Adobe account. You don't need an internet connection to start an upload. Without a connection, uploads remain queued.
 * Pausing sync cancels uploads that are in progress. Queued uploads resume automatically when you resume sync.
 * If you quit Adobe Cloud Drive during an upload, in-progress uploads are marked as cancelled. Queued uploads resume automatically when you restart the app.
-* Hidden files and folders, symbolic links, and aliases aren't supported.
+* Hidden files, symbolic links, and aliases aren't supported.
 * Adobe Cloud Drive controls how many uploads run at the same time. The remaining uploads stay queued until a slot becomes available.
 * A live count of uploads, including failed uploads, is displayed, for example "3 files uploading." When all uploads complete successfully, the count changes to a summary such as "3 files uploaded." Select **Dismiss** to remove it.
 
@@ -396,7 +398,7 @@ Deleted items can't be revealed locally or opened in Workfront from their activi
 
 >[!NOTE]
 >
->Normal-sync rows don't provide the per-item **Retry** or **Cancel** actions used by Direct Upload. For information about Direct Upload, see [Upload files and folders to the cloud (Direct Upload)](#direct-upload).
+>Normal-sync rows don't provide the per-item **Retry** or **Cancel** actions used by Direct Upload. For information about Direct Upload, see [Upload files to the cloud (Direct Upload)](#direct-upload).
 
 ## Open an item in Workfront {#open-in-workfront}
 
