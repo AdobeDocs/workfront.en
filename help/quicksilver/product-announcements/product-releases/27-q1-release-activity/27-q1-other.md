@@ -12,6 +12,21 @@ This page describes enhancements made with the First Quarter 2027 release to the
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## Updated look and feel for the summary panel for tasks, issues, and documents
+
+>[!NOTE]
+>
+>Preview: November 19, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+The Summary panel for tasks, issues, and documents has an updated look and feel to match other styling in Workfront. Information and fields are now organized into separate tabs within the Summary panel.
+
+For more information, see:
+
+* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
+
 <!--
 
 ## Enhanced list button and icon improvements

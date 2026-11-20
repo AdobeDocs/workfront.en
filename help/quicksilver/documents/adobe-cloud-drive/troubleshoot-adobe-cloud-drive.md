@@ -162,6 +162,41 @@ For information about working with Adobe Cloud Drive, see [Use Adobe Cloud Drive
 * To create, rename, or delete a project, use the Workfront web interface.
 * Ask the project owner to share the project with you with edit access.
 
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### The Upload to Cloud option isn't available
+
+**Possible causes:**
+
+* On Mac, Adobe Cloud Drive Finder Helper isn't enabled.
+
+**Solutions:**
+
+* On Mac, go to **System Settings** > **General** > **Login Items & Extensions** and make sure that Adobe Cloud Drive Finder Helper is enabled.
+
+### Uploads from Desktop, Documents, or Downloads fail with an authorization error (Mac)
+
+**Possible causes:**
+
+* Adobe Cloud Drive doesn't have permission to access the Desktop, Documents, or Downloads folders.
+* Required folder access permissions are disabled in macOS settings.
+
+**Solutions:**
+
+1. Go to **System Settings** > **Privacy & Security** > **Files & Folders**.
+1. Grant Adobe Cloud Drive access to the relevant folders.
+1. Retry the upload.
+
+### Multiple Finder Sync processes appear (Mac)
+
+**Possible causes:**
+
+* macOS might display two to three Adobe Cloud Drive Finder Sync processes in Activity Monitor as part of normal operation.
+
+**Solutions:**
+
+* No action is required. Having two to three Adobe Cloud Drive Finder Sync processes running is expected behavior.
+
 ## Get help
 
 For license questions, project access issues, or organization-specific configuration, contact your Workfront administrator.

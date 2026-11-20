@@ -62,6 +62,11 @@ You can click the Details heading to go to the full Document Details area when y
 
 ![Documents area](assets/documents-area-v2-350x199.png)
 
+<span class="preview">In preview:
+![Documents area summary panel](assets/legacy-document-summary.png)
+</span>
+
+
 For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
 ### Proof decision

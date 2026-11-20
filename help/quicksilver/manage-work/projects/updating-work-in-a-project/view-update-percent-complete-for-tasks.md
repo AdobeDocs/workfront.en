@@ -33,6 +33,8 @@ topic_v2:
 ---
 # View and update Percent Complete for tasks
 
+{{highlighted-preview}}
+
 <!--Audited: 05/2025-->
 
 You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it. 
@@ -129,6 +131,10 @@ You can update the percent complete for a task in any of the following areas:
   * Workload Balancer
 
   ![Update percent in task Summary highlighted](assets/update-percent-complete-in-task-summary-highlighted.png)
+  
+  <span class="preview">In preview:
+  ![Update percent in task Summary highlighted](assets/percent-complete-summary.png)
+  </span>
   
   For more information, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
