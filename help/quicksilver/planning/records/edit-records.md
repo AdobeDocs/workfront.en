@@ -33,11 +33,11 @@ topic_v2:
 ---
 # Edit records
 
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+-->
 
 {{planning-important-intro}}
 
@@ -169,7 +169,7 @@ Old:
     * System fields (Created by, Created date, Last modified by, Last modified date, Approved date, Approved by , Record ID) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
-* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
+* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or <www>. . 
 * You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * You can edit the order of the fields in a record's details page. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 * You can edit a record's Start and End dates by resizing or repositioning the records in the timeline and calendar views. 
@@ -385,8 +385,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Lookup fields from other records that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
-<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+1. (Optional) Click the color circle to the left of the record name to change the record color.
+Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.
 
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
@@ -444,8 +444,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click the information icon to the right of any field that displays it to view the description of a field. 
-1. <span class="preview">(Optional) Click the color circle to the left of the record name to change the record color. </span>
-<span class="preview">Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.</span>
+1. (Optional) Click the color circle to the left of the record name to change the record color.
+Records are automatically assigned colors when they are created. Click **Swatches** or **Custom** to select a new color.
 
     ![Color picker box for record details box](assets/color-picker-box-for-record-color-in-details-page.png)
 

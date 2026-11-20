@@ -212,7 +212,7 @@ For more information about Workfront access requirements, see [Access requiremen
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. (Optional) Hover over the **Workfront Planning** tag in he upper-right corner of the Ideation space canvas to view the name of the record type, the workspace you are creating a record for, and the version number of the brief you are creating. 
+1. (Optional) Hover over the **Workfront Planning** tag in the upper-right corner of the Ideation space canvas to view the name of the record type, the workspace you are creating a record for, and the version number of the brief you are creating. 
 
     ![Workfront Planning workspace and record type info tag inside canvas](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
