@@ -347,6 +347,8 @@ Consider the following when viewing updates for users and teams:
   * Timesheets
   * Iterations
 
+* The Updates section of a team displays updates made by any member of the team, including updates on projects that the team isn't associated with. Updates are not filtered by the projects or other objects the team is associated with. To view updates for a specific project, go to the Updates section of that project.
+
 * The System updates tab of the Updates area for users is populated by updates to other objects. The following are updates that display in the System updates tab of user's profile, when these fields are tracked in the Updates Feeds area of Setup:
 
   * Document addition, removal, and other document updates
