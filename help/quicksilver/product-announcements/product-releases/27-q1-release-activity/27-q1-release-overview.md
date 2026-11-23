@@ -137,6 +137,15 @@ The enhancements on this page are available in the Preview environment. This pag
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configure the Intake Coordinator prebuilt AI Collaborator</a></p>
+                <p>Administrators can now configure the Intake Coordinator, a prebuilt AI Collaborator, as a Work Agent that checks issues for missing, unclear, or inconsistent information.</p>
+            </td>
+            <td><p>November 22, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Use Writer Playbooks to create Work Agents</a></p>
                 <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>You can now use Writer Playbooks to create Work Agents.</p>
@@ -148,7 +157,7 @@ The enhancements on this page are available in the Preview environment. This pag
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Work Agents: Adobe Native support</a></p>
-                <p>You can now create a Work Agent that uses Adobe CX Coworker without configuring an external platform or entering external credentials.</p>
+                <p>You can now create a Work Agent that uses the CX Enterprise Coworker collaborator, a CX Enterprise Coworker agent powered by the Adobe Agent Orchestrator, without configuring an external platform or entering external credentials.</p>
             </td>
             <td><p>October 29, 2026</p></td>
             <td><p>November 12, 2026</p></td>
