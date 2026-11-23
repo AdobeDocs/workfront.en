@@ -94,8 +94,15 @@ Below are some types of Workfront object lists that use the enhanced list format
 | All versions view of a document | Project > Documents > Document Details > All Versions |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
-| Lists of scenario plans and initiatives | Main Menu > Scenarios |
+| Lists of scenario plans <!--and initiatives--> | Main Menu > Scenarios |
 | Lists of goals and progress indicators | <ul><li>Main Menu > Goals</li><li>Main Menu > Goals > Progress Indicators</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
