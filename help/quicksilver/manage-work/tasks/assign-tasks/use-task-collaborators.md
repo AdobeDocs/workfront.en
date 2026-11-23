@@ -23,7 +23,7 @@ role_v2:
 
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-<span class="preview">You can use a ready-to-use Adobe Native Work Agent powered by Adobe CX Coworker,</span> or a Work Agent connected to an external platform. The available capabilities and setup requirements depend on the agent's origin.
+<span class="preview">You can use a ready-to-use Adobe Native Work Agent, such as the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator like the Intake Coordinator (for more information, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)),</span> or a Work Agent connected to an external platform. The available capabilities and setup requirements depend on the agent's origin.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 

@@ -25,7 +25,7 @@ AI Collaborators are AI agents that you can assign to tasks the same way you'd a
 
 Available AI Collaborator types include AI Reviewer, Work Agents<span class="preview">, and Project Coordinators</span>.
 
-For Work Agents, you can connect an agent from a supported external platform <span class="preview">or, if your organization has Adobe CX Coworker enabled, select Adobe Native to use a ready-to-use agent powered by Adobe CX Coworker. The Adobe Native option does not require external-platform credentials.</span>
+For Work Agents, you can connect an agent from a supported external platform <span class="preview">or, if your organization has Adobe CX Coworker enabled, select Adobe Native to use the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator, such as the Intake Coordinator. The Adobe Native option does not require external-platform credentials. For a list of the options, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
 
 ## AI Collaborators at work
 
