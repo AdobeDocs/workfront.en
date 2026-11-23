@@ -153,6 +153,13 @@ For a list of best practices when creating an agent to work as a Work Agent, see
 
 1. In the **Choose agent's origin** area, select whether you want to <span class="preview">use Adobe Native</span>, connect an agent created in a common platform such as Copilot, or use a custom agent.
 1. <span class="preview">(Conditional) If you select Adobe Native, confirm that Adobe CX Coworker is enabled for your organization and that you want to use the ready-to-use Adobe Native agent.</span>
+1. <span class="preview">(Conditional) If you select Adobe Native, select the Collaborator you want to use: the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator, such as Intake Coordinator. For a list of the options, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+
+   <span class="preview">>[!NOTE]
+   >
+   >After you turn on a prebuilt AI Collaborator, it takes about 30 seconds to be provisioned. A spinner displays until the Collaborator is ready.</span>
+
+<!-- becky check me: Confirm the exact UI label for selecting a prebuilt Collaborator and the provisioning note wording (from Jeremy Flores, Slack, Nov 18). -->
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
    |Platform|Required authentication|
