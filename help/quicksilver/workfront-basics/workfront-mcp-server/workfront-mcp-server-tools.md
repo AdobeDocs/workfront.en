@@ -108,9 +108,7 @@ There are currently no entitlement limitations on approvals tools.
 | Find document version by name | `approvals_find_document_version_by_name` | Looks up a document's current version ID by filename. Supports partial matches. | Read |
 | Get document by version ID | `approvals_get_document_by_version_id` | Fetches document details (name, size, upload date, uploader) for a known document version ID. | Read |
 | Resolve document scope | `approvals_resolve_document_scope` | Expands a project or folder into the list of document version IDs it contains. Supports project, folder, and folder-by-name scopes. | Read |
-| Get documents by scope | `approvals_get_documents_by_scope` | Deprecated. Use `insights_find_workfront_data` instead. This tool listed documents inside a project or folder. | Read |
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Find a document | `approvals_find_document` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up a document by filename or document version ID. | Read |
 | Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
 
 *You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -118,10 +116,6 @@ There are currently no entitlement limitations on approvals tools.
 
 *Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
 **This tool opens an interactive upload panel in the chat, so it only works in tools that support MCP Apps. Currently, only Claude is supported for this tool. It appears under "Interactive tools" in the tool permissions and asks for approval by default.
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### Approval workflows
 
@@ -137,13 +131,6 @@ There are currently no entitlement limitations on approvals tools.
 | <span class="preview">Remove stage from path</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Removes a not-started stage from a specific path in a parallel approval workflow. Each path must keep at least one stage.</span> | <span class="preview">Write</span> |
 | <span class="preview">Reorder stages in path</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Changes the order of stages within a single path of a parallel approval workflow.</span> | <span class="preview">Write</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### Reminders
 
@@ -172,9 +159,6 @@ There are currently no entitlement limitations on approvals tools.
 | Find project by name | `approvals_find_project_by_name` | Removed August 13, 2026. Use `insights_find_id_by_name` instead. This tool looked up Workfront projects by partial name match across the system. | Read |
 | Get projects by owner | `approvals_get_projects_by_owner` | Removed August 13, 2026. Use `insights_find_workfront_data` instead. This tool listed Workfront projects where the calling user was the owner. | Read |
 | Get current user | `approvals_get_current_user` | Removed August 13, 2026. This tool returned the calling user's Workfront identity, including name, user ID, home team name, and home team ID. For similar functionality, see [Get current user](#insights-tools) under Insights tools. | Read |
-| Find user by name | `approvals_find_user_by_name` | Deprecated. Use `insights_search_users` instead. This tool looked up a Workfront user's ID by name (fuzzy or partial match), returning name, ID, email, title, and avatar URL. | Read |
-| Find team by name | `approvals_find_team_by_name` | Deprecated. Use `insights_find_id_by_name` instead. This tool looked up a Workfront team's ID by name (fuzzy or partial match). | Read |
-| Find projects | `approvals_find_projects` | Deprecated. Use `insights_find_workfront_data` instead. This tool looked up Workfront projects, optionally filtered by name and/or restricted to projects the calling user owns. | Read |
 
 ## Planning tools
 
@@ -272,11 +256,9 @@ Workflow tools are the general-purpose actions the AI agentic platform uses to w
 
 | Title | Tool name | What it does | Action |
 | --- | --- | --- | --- |
-| Search objects | `workflow_search_any_object` | This tool has been deprecated. | Read |
 | Create object | `workflow_create_any_object` | Creates a new Workfront object such as a project, task, issue, hour, assignment, program, or portfolio. | Write |
 | Update object | `workflow_update_any_object` | Updates an existing object's fields. Also supports moving a task or issue to another project, converting a task or issue into a new project (or an issue into a task), and setting task predecessors (dependencies). | Write |
 | Delete object | `workflow_delete_any_object` | Deletes a Workfront object by ID. Requires explicit user confirmation before the action is performed. | Write |
-| Resolve field names | `workflow_resolve_field_names_any_object` | This tool has been deprecated. | Read |
 | Read Workflow docs | `workflow_read_workflow_docs` | Loads the Workfront Workflow documentation, including tool usage guides and object-specific operations playbooks. This is the required first step before performing Workflow actions. | Read |
 
 ### Update object tool abilities
