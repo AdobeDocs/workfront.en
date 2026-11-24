@@ -8,8 +8,6 @@ feature: Work Management, Projects
 ---
 # Use the Project Coordinator collaborator
 
-{{highlighted-preview-article-level}}
-
 The Project Coordinator is an out-of-the-box AI Collaborator that monitors your project and notifies stakeholders about important status information.
 
 Using a Project Coordinator does not require you to configure an agent outside of Workfront.

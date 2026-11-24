@@ -9,10 +9,6 @@ role: Admin
 ---
 # Configure prebuilt AI Collaborators
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 ## Overview
 
 Prebuilt AI Collaborators are ready-made Work Agents from Adobe that are set up to do a specific job, such as checking requests for missing information. They are available as Adobe Native Work Agents, so you don't need to configure an agent in an external platform or provide external-platform credentials.
