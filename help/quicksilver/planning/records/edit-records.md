@@ -181,6 +181,13 @@ Old:
     * [Edit a record in the calendar view of a record type](#edit-a-record-in-the-calendar-view-of-a-record-type)
     * [Edit a record in the timeline view of a record type](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
+<!--
+<div class="preview">
+
+* Single-line text and number fields can be set to have unique values. Any duplicate values are highlighted with a warning. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+</div>
+-->
 
 ## Edit records
 

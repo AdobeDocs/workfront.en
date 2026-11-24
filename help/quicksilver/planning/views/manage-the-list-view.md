@@ -168,15 +168,23 @@ Removed - more direct steps below:
 
     1. Expand the dropdown views menu in the upper-left corner of the list to select another view, or click **New view** and create another one.
 
+        Views display in one of the following sections:
+
+        * **System Views**, created by Workfront. 
+        * **Shared views**, shared with you by others. 
+        * **My Views**, created by you. 
+
         >[!TIP]
         >
         >Views are shared throughout the system. If you create a Projects view for one record type, you can view it on other record types that display connected projects. 
 
     1. Hover over the name of an existing view and click the **More** menu ![More menu](assets/more-menu.png), then click one of the following:
         * **Rename**, to give the view a new name
-        * **Share**, to share the view with others
+        * **Share**, to share the view with others. When someone shares a view with you, it displays in the **Shared Views** area of the views drop-down menu. 
         * **Delete**, to delete the view. 
-            
+        * **Copy with preferences** <span class="preview"><!--or **Copy with my changes**</span>-->, to copy the view with the changes you made instead of copying the original view that was shared with you. This is available only on System Views and Shared Views. 
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->    
+
         >[!NOTE]
         >
         >* You must have Manage permissions to a view to be able to edit, share, or delete it.
@@ -185,22 +193,36 @@ Removed - more direct steps below:
         >
         >* You can reset a view that was shared with you to which you have only permissions to View, after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
         
-    1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in future and they are part of shared views.
+    1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) to add a filter to the view. Results are filtered immediately in the list. You cannot save and name filters. Filters are remembered when you access the page in the future and they are part of shared views.
 
         >[!TIP]
         >
-        >To apply a personalized filter, select one of the following options for a field value:
+        >* To apply a personalized filter, select one of the following options for a field value:
         >
-        >* **Me (logged in user)** to refer to the logged-in user in fields referring to users.
+        >   * **Me (logged in user)** to refer to the logged-in user in fields referring to users.
         >
-        >* **My teams** or **My home team** to refer to your teams in fields referring to teams.
+        >   * **My teams** or **My home team** to refer to your teams in fields referring to teams.
         >
-        >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+        >   * **My groups** or **My home group** to refer to your groups in fields referring to groups.
         >
-        >* **My company** to refer to your company in fields referring to companies.
+        >   * **My company** to refer to your company in fields referring to companies.
         > 
-        >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
-
+        >   * **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
+        <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        --> 
+   
     1. Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to select which columns to display or to hide in the view. 
     1. Hover over the name of a column, then click the down-pointing arrow to the left of the column name, then click one of the following:
         * **Rename**, to add a **Custom label** for the column. The name of the original field in Workfront does not change. 

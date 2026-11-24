@@ -215,3 +215,12 @@ You can define cross-workspace capabilities for a record type by configuring inf
     The settings are turned off by default. 
 
     For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## Configure record default permissions for a record type
+
+You can set record permissions for all records of a record type by configuring the defaults at the record-type level.
+
+All new records will receive the permissions you set in the record type Settings area by default. 
+
+For information, see [Set default permissions for records](/help/quicksilver/planning/access/set-default-record-permissions.md). 

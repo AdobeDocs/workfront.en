@@ -414,7 +414,7 @@ The grouping left panel in the Swimlane display is now resizable by dragging its
 
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Improved calendar performance for large record sets in the week view
+## Improved performance with incremental data loading in the calendar view
 
 >[!NOTE]
 >
