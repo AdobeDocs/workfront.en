@@ -328,6 +328,10 @@ Single-line text fields capture limited alphanumeric information. For example,  
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table, or  when you click the information icon next to the field name in the record's details page.
+     
+    <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. Click **Create**. 
 
     The new single-line field is added as a column to the record type, and its values can be associated with records. 
@@ -510,6 +514,9 @@ Number field types capture information in a number format.
 
     * **Name**: The name of the field, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page. 
+    <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     

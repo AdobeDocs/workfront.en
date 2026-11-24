@@ -94,8 +94,15 @@ Below are some types of Workfront object lists that use the enhanced list format
 | All versions view of a document | Project > Documents > Document Details > All Versions |
 | Boards Admin View | Boards > Admin View |
 | Documents on Adobe cloud storage | Project, task, issue, portfolio, program, template, template task > Documents |
-| Lists of scenario plans and initiatives | Main Menu > Scenarios |
+| Lists of scenario plans <!--and initiatives--> | Main Menu > Scenarios |
 | Lists of goals and progress indicators | <ul><li>Main Menu > Goals</li><li>Main Menu > Goals > Progress Indicators</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -368,7 +375,7 @@ To share a view:
 
 When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
 
-1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
    A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
    
@@ -376,7 +383,7 @@ When a view is shared with you to which you do not have permission to edit, you 
 
    >[!NOTE]
    >
-   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
+   >The **Copy with preferences** <!--<span class="preview">or **Copy with my changes**</span>--> option is only available when you have made changes to a view that was shared with you.
 
 ### Reset a view
 
@@ -454,6 +461,26 @@ Filters help you reduce the amount of information you display in the list.
 1. In the Filter box, click **Add condition**.
 1. Select a field to filter by.
 1. Select a filter modifier, such as "Is any of," "Is none of," "Is before," or "Is after." The modifier options are different depending on the type of field you are filtering by.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
     
    ![Filter in enhanced lists](assets/glist-filter-with-options.png)
