@@ -20,8 +20,6 @@ role_v2:
 ---
 # Configure AI Collaborators
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
-
 AI Collaborators are a way to onboard AI agents into your projects, tasks, and issues. You can configure an AI Collaborator, then assign it as you would a user.
 
 For example, you can configure a reviewer-type AI Collaborator with brand guidelines, then assign that collaborator to review a document.
@@ -32,7 +30,7 @@ Available AI Collaborator types include:
 
    For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Work Agent: Create a collaborator <span class="preview">powered by Adobe CX Coworker,</span> or connect an agent from a supported external platform, then assign the collaborator to a task or issue to complete work items.
+* Work Agent: Create a collaborator powered by Adobe CX Coworker, use a prebuilt collaboratr, or connect an agent from a supported external platform, then assign the collaborator to a task or issue to complete work items.
 
    For more information, see [Use Work Agents](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -40,9 +38,9 @@ Available AI Collaborator types include:
 
 Licenses used by AI Collaborators are not billed. If your organization has 200 Workfront licenses and creates an AI Collaborator, 201 licenses are then in use, but only 200 are billed.
 
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and sends project updates, without needing to configure an external agent.</span>
+* Project Coordinator: An out-of-the-box collaborator that monitors project status and sends project updates, without needing to configure an external agent.
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+   For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 
 ## Access requirements
@@ -91,9 +89,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ### For Work Agents
 
-<span class="preview">The prerequisites depend on the agent's origin:</span>
+The prerequisites depend on the agent's origin:
 
-* <span class="preview">Adobe Native: Your organization must have Adobe CX Coworker enabled. You do not need to configure an agent in an external platform or provide external-platform credentials.</span>
+* Adobe Native: To use the CX Enterprise Coworker collaborator, your organization must have Adobe CX Enterprise Coworker enabled. You do not need to configure an agent in an external platform or provide external-platform credentials.
 * External platform or custom agent: Configure the agent in the platform you plan to connect before creating the Work Agent in Workfront.
 
 >[!NOTE]
@@ -120,11 +118,9 @@ AI Reviewers can be configured to use Workfront brands, or Adobe Brand Intellige
 
 ## Configure a Work Agent
 
-<span class="preview">The following setup guidance reflects Adobe Native support and the origin-based setup model that is still in preview.</span>
-
 Work Agents are agents that you can assign to tasks or issues in Workfront. You configure the Work Agent with a name, access level, and other details, and assign it to a task as you would assign a user. 
 
-Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Work Agents can be <span class="preview">Native Work Agents that use Coworker,</span> or can be from a supported external platform such as Copilot Studio, Claude, OpenAI, and IBM.
+Because Work Agents are agents, their actions and abilities are configured where you configure your agents. Work Agents can be prebuilt Work Agents, agents that use Coworker, or can be from a supported external platform such as Copilot Studio, Claude, OpenAI, and IBM.
 
 >Work Agents can be assigned to tasks or issues.
 
@@ -151,12 +147,12 @@ For a list of best practices when creating an agent to work as a Work Agent, see
    >
    >If you are a group administrator, this field displays only groups that you are an administrator for. Group administrators must select at least one group.
 
-1. In the **Choose agent's origin** area, select whether you want to <span class="preview">use Adobe Native</span>, connect an agent created in a common platform such as Copilot, or use a custom agent.
-1. <span class="preview">(Conditional) If you select Adobe Native, select the Collaborator you want to use: the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator, such as Intake Coordinator. For more information about prebuilt collaborators, including a descriptions, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+1. In the **Choose agent's origin** area, select whether you want to use Adobe Native, connect an agent created in a common platform such as Copilot, or use a custom agent.
+1. (Conditional) If you select Adobe Native, select the Collaborator you want to use: the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator, such as Intake Coordinator. For more information about prebuilt collaborators, including descriptions, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).
 
    >[!NOTE]
    >
-   ><span class="preview">After you turn on a prebuilt AI Collaborator, it takes about 30 seconds to be provisioned. A spinner displays until the Collaborator is ready.</span>
+   >After you turn on a prebuilt AI Collaborator, it takes about 30 seconds to be provisioned. A spinner displays until the Collaborator is ready.
    
 1. (Conditional) If you are using an agent from a common platform, enter authentication details for the agent's platform:
 
@@ -219,8 +215,6 @@ You may find the following best practices helpful when creating an agent to use 
 +++
 -->
 
-<div class="preview">
-
 ## Configure a Project Coordinator
 
 The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
@@ -256,8 +250,6 @@ After you save the Project Coordinator, add the **Project Coordinator** field to
 For instructions, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
-
-</div>
 
 ## Manage AI Collaborators
 

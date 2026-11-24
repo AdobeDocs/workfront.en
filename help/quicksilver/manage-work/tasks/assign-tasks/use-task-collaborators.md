@@ -23,7 +23,7 @@ role_v2:
 
 Work Agents are AI Collaborators that can be assigned directly to Workfront tasks, issues, and requests. Like other AI Collaborators, Work Agents are configured in the Setup area and assigned to work items just like a user.
 
-<span class="preview">You can use a ready-to-use Adobe Native Work Agent, such as the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator like the Intake Coordinator (for more information, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)),</span> or a Work Agent connected to an external platform. The available capabilities and setup requirements depend on the agent's origin.
+You can use a ready-to-use Adobe Native Work Agent, such as the CX Enterprise Coworker collaborator or a prebuilt AI Collaborator like the Intake Coordinator (for more information, see [Configure prebuilt AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)), or a Work Agent connected to an external platform. The available capabilities and setup requirements depend on the agent's origin.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -65,7 +65,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Prerequisites
 
 * An administrator must configure the Work Agent in Workfront before you can use it.
-* <span class="preview">For an Adobe Native Work Agent, your organization must have Adobe CX Coworker enabled.</span>
+* For an Adobe Native Work Agent, your organization must have Adobe CX Coworker enabled.
 * For a Work Agent connected to an external platform, the agent must also be configured in that platform.
 
 ## Work Agent overview
@@ -124,7 +124,7 @@ When a Work Agent is assigned to a task or issue, it begins work when any of the
 * A task to which a Work Agent and a user are already assigned becomes ready to start, and the Work Agent was assigned first or is the primary assignee. (For example, if the task has predecessors, the predecessors are complete.)
 * A user and a Work Agent are assigned to a task, and the user is removed.
 * A user and a Work Agent are assigned to a task, and the Work Agent is set as the Primary Assignee for the task.
-* <span class="preview">A Workfront native Work Agent is @mentioned in a task.
+* A Workfront native Work Agent is @mentioned in a task.
 
 The following situations do not cause the Work Agent to begin work on the task:
 
