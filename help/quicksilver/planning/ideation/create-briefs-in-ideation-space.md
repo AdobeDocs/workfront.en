@@ -175,15 +175,23 @@ You can create briefs to either create or edit Planning records or to create fil
 
     * Go to the **Main Menu** ![Main menu](assets/main-menu-lines.png) > click **Ideation space**
 
+        The **Ideation space Home** area opens.
+
         ![Ideation space in Main Menu](assets/ideation-space-area-icon-in-main-menu.png)
 
     * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click **New record** > click **Start Ideation space**
+
+        A new canvas immediately connected to a new record opens. 
 
         ![Ideation space in new record](assets/ideation-space-in-planning-new-record.png)
 
     * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click an existing record > click **Open in Ideation space** 
 
+        The canvas connected to the selected record opens. 
+
         ![Ideation space in record Details](assets/ideation-space-button-in-details-page.png)
+
+        For more information about creating Planning records using Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
         >[!IMPORTANT]
         >
@@ -196,24 +204,39 @@ You can create briefs to either create or edit Planning records or to create fil
         >* When you launch it from Workfront's Main Menu, the brief contains fields and information from the files you upload to the canvas. 
 
 1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space.  
+1. (Conditional) If you accessed Ideation space from the **Main Menu**, and you opened the **Ideation space Home** area, do one of the following to open an ideation canvas: 
 
-     The Ideation space canvas opens and a new ideation is titled by default after the following format: 
+    * Click a recently-opened canvas at the top of the page to open it
+    * Click **Launch a new canvas** to open a new canvas and start creating an ideation brief
 
-     `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+        The Ideation space canvas opens and the new ideation is automatically titled after the following format: 
+        
+        `Untitled ideation - Month date, year at time` 
+
+        ![Empty ideation canvas with minimized brief and Coworker](assets/empty-ideation-space-with-brief-minimized.png)
+    * Search existing canvases in the upper-right corner of the **All canvases** list, then click it when it appears in the list 
+
+        ![Ideation space home area](assets/ideation-space-home-area.png)   
+
+        >[!TIP]
+        >
+        >Not all canvases in the Ideation space Home area are connected to Planning records. 
+        
+1. (Optional) In the **All canvases** area, do one of the following:
+
+    * Click **Refresh** ![Refresh icon](assets/refresh-icon.png) to renew the list of all available canvases. 
+    * Click the **card icon** ![Card icon](assets/card-icon.png) to display available canvases as cards. 
+    * Click the **list icon** ![List icon](assets/list-icon.png) to display available canvases in a list view.
+1. (Optional) From an open canvas, click the **Home** icon ![Ideation space Home icon](assets/ideation-space-home-icon.png) in the upper-left area of the screen to return to the **Ideation space Home** area.
+
+    >[!TIP]
+    >
+    >The Ideation space Home icon ![Ideation space Home icon](assets/ideation-space-home-icon.png) is available inside any canvas, even when you opened it from Workfront Planning. 
     
-     For more information about creating records using Ideation space, see [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md). 
-
-1. (Conditional) To open an existing brief in Ideation space, log in to Workfront with Planning where Coworker has been turned on, and do one the following: 
-
-    * Go to **Main Menu** ![Main menu](assets/main-menu-lines.png) > **Planning** > click a workspace > click a record type > click an existing record > **Open in Ideation space**
-    
-        The ideation name matches the name of the record. 
-
 1. (Recommended) Click the name of the ideation to change the name, if you opened it for the first time. 
     
-1. (Conditional and optional) To open another existing Ideation space, click the drop-down menu to the right of the ideation name, search for it by name, then click the ideation when it displays in the list. 
-    
-    The **Ideation space** opens and Coworker opens on the right. 
+1. (Conditional and optional) To open another existing canvas, click the drop-down menu to the right of the ideation name, search for it by name, then click the ideation when it displays in the list. 
+ 
 1. Use the Coworker prompt to describe the kind of brief you want to create. 
 
     For example, type "Create a back-to-school campaign for K-12 students to run through the month of August, for parents and teachers in the US".  To make the brief as complete as possible, indicate as much information as you have available for what kind of campaign, the timeline, the stakeholders, approvals checkpoints and other details. 

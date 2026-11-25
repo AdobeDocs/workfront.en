@@ -155,6 +155,9 @@ The following settings are required to access Ideation space in Workfront:
     >
     >For information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
+* Accept the Beta agreement 
+
+  This is a requirement during the beta program. You cannot use Ideation space without agreeing to the terms of the beta program. When accepting the agreement you do so for your user, and not for the organization. Each user must accept the agreement individually.
 
 
 ## License requirements

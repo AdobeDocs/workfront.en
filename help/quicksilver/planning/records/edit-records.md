@@ -257,7 +257,13 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     * Add a bulleted list
     * Add a numbered list
 
+    <!--update screen shot at release of new rich test box and move it below the next step-->
+
     ![Rich text toolbar on paragraph field](assets/rich-text-toolbar-on-paragraph-field.png)
+
+    <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 

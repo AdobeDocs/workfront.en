@@ -324,7 +324,7 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns <!--<span class="preview">or at the bottom of a grouping</span>-->, and select from the following options:
 
         * **SUM**: Displays the total of all cells in the column.
         * **MIN**: Displays the lowest value from all the cells in the column.
@@ -358,6 +358,7 @@ You can add up to 500 fields (or columns) in a table view.
         * Last modified by
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
+    * The aggregators show the results when computing all the records loaded on the screen, and not all available records. 
 
      
 
