@@ -2338,6 +2338,7 @@ feature-set: Workfront
     * [Manage teams in Adobe Workfront Planning as a standalone product](planning/planning-sta/manage-teams-in-planning-sta.md)
   * The Ideation space in Workfront Planning {#ideation}
     * [Ideation space for Adobe Workfront Planning: article index](planning/ideation/planning-ideation-article-index.md)
+    * [Ideation space for Adobe Workfront Planning release activity](planning/ideation/ideation-space-release-notes.md)
     * [Get started with the Ideation space for Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
     * [Access needed to use The Ideation space](planning/ideation/access-needed-to-use-ideation-space.md)
     * [Create briefs in the Ideation space](planning/ideation/create-briefs-in-ideation-space.md)

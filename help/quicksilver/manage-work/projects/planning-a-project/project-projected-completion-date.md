@@ -88,7 +88,7 @@ The criteria used to determine the Projected Completion Date differs, depending 
 * **Tasks:** The Projected Completion Date for tasks is determined based on the following criteria:
 
    * **Progress updates made on the task by the task assignee:**  Progress updates include changes to percent complete and changes of task status.
-   * **Commit Date:** If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.
+   * **Commit Date:** If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.
 
      For more information about Commit Dates, see  the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
    
@@ -105,7 +105,9 @@ The criteria used to determine the Projected Completion Date differs, depending 
 
 * **Issues:** The issue Projected Completion Date is initially set to match the issue Planned Completion Date.
 
-  If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date change to match the Commit Date.
+  If the issue assignee specifies a commit date, the Projected Completion Date  changes to match the Commit Date. This does not change the Planned Completion Date of the issue.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   For more information about Commit Dates, see the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

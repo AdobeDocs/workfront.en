@@ -196,6 +196,11 @@ For more information about Workfront access requirements, see [Access requiremen
 
     ![New record box with Open Ideation space button](assets/new-record-creation-picker-with-ideation.png)
 
+    >[!TIP]
+    >
+    >You can also access Ideation space to create records from the Workfront Main Menu. For information, see [Create briefs in the Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Read the beta agreement and click **Agree**. You must sign the agreement to use Ideation space. 
 
     The following things occur: 
@@ -212,6 +217,7 @@ For more information about Workfront access requirements, see [Access requiremen
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Optional) Click the **Home** icon ![Ideation space Home icon](assets/ideation-space-home-icon.png) in the upper-left corner of the canvas to open the **Ideation space Home** area and access another canvas. 
 1. (Optional) Hover over the **Workfront Planning** tag in the upper-right corner of the Ideation space canvas to view the name of the record type, the workspace you are creating a record for, and the version number of the brief you are creating. 
 
     ![Workfront Planning workspace and record type info tag inside canvas](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

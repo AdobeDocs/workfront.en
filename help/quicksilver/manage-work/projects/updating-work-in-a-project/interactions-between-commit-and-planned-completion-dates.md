@@ -67,7 +67,8 @@ The assignee working on the task or issue can manually update the Commit Date or
 >
 >Only the assignee can update the Commit Date of a task or issue.
 
-The assignee changing the Commit Date does not automatically change the Planned Completion Date. The reverse is also true: changing the Planned Completion Date will not change the Commit Date.
+
+The task or issue assignee changing the Commit Date does not automatically change the Planned Completion Date. The reverse is also true: changing the Planned Completion Date will not change the Commit Date. The Projected Completion Date also changes when the assignee updated the Commit Date. 
 
 When the Commit Date changes, the Project Owner gets notified through a Workfront in-app notification that this change occurred. 
 

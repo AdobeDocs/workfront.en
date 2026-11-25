@@ -165,6 +165,11 @@ To gain access to the Ideation space:
     * [Access needed to use The Ideation space](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
     * [Create Planning records from Ideation space briefs](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
     * [Create briefs in Ideation space](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Accept the Beta agreement. 
+
+    This is a requirement during the beta program. You cannot use Ideation space without agreeing to the terms of the beta program. 
+    
+    When accepting the agreement you do so for your user, and not for the organization. Each user must accept the agreement individually.
 
 1. (Recommended) Identify your first campaign: a recent one to refresh, or a new initiative to create from scratch.
 
