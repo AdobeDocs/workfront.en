@@ -210,3 +210,4 @@ To share logs with Adobe support, follow the steps in [Run the Adobe log collect
 * **Follow the project's folder structure.** Organize files within project folders as the project owner intends.
 * **Use descriptive file names.** Help your team members find what they need.
 * **Avoid creating duplicates.** Don't make unnecessary copies of files.
+

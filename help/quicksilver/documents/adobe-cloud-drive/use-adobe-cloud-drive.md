@@ -500,3 +500,4 @@ Adobe Cloud Drive uses a duplication strategy for conflicts:
 >* Communicate with team members about who is editing which files.
 >* Save frequently so changes sync promptly.
 >* Close files when you finish editing.
+

@@ -435,3 +435,4 @@ For example: `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-0
 
 1. In Workfront, check the user's permissions on the project (**View**, **Contribute**, or **Manage**).
 1. Update the user's permissions to **Contribute** or **Manage** if they need to create or edit files.
+
