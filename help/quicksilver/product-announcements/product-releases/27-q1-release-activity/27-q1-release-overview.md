@@ -177,6 +177,17 @@ The enhancements on this page are available in the Preview environment. This pag
             <td><strong>Fast release</strong></td>
             <td><strong>Quarterly</strong></td>
         </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">New features in Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0 introduces Direct Upload, pause and resume sync, Version History, local storage management, Sync Activity, and Open in Workfront.</p>
+            </td>
+            <td><p>November 25, 2026</p></td>
+            <td><p>November 25, 2026</p></td>
+            <td><p>November 25, 2026</p></td>
+        </tr>
 <!--
         <tr>
             <td>

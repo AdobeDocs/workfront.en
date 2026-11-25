@@ -12,6 +12,27 @@ This page describes Documents enhancements made with the First Quarter 2027 rele
 
 For a list of all changes available at this point in the First Quarter 2027 release cycle, see [First Quarter 2027 release overview](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
 
+## New features in Adobe Cloud Drive v1.2.0
+
+>[!NOTE]
+>
+>Preview: November 25, 2026
+>Production fast release: November 25, 2026
+>Production for everyone: November 25, 2026
+>[!BADGE Concurrent release]{type=Neutral}
+>[!BADGE Workflow Ultimate]{type=Informative}
+
+Adobe Cloud Drive v1.2.0 introduces new ways to upload files, manage sync, and work with your cloud content:
+
+* **Upload to Cloud (Direct Upload):** Right-click a file in Finder or File Explorer to upload it directly to a project in Adobe cloud storage, without first copying it into the Adobe Cloud Drive folder. Monitor progress in the Direct Upload section of Sync Activity.
+* **Pause and resume sync:** Pause Adobe Cloud Drive on a slow or metered connection, then resume when you're ready.
+* **Version History:** Browse saved cloud versions of a file, edit version names and descriptions, and revert to an earlier version.
+* **Manage Local Storage:** Monitor local disk usage, set a storage limit, and view files marked as Always on this device.
+* **Sync Activity:** Review recent uploads, downloads, and changes, and identify items that couldn't sync.
+* **Open in Workfront:** Open the Workfront location of an item directly from Finder, File Explorer, or Sync Activity.
+
+For more information, see [Use Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) and [Troubleshoot Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md).
+
 <!--
 
 ## Delegate unified document approvals
