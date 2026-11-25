@@ -68,6 +68,10 @@ For more information, see [Overview of CX Enterprise Coworker in Workfront](/hel
 
 The Intake Coordinator checks the details, custom forms, and attachments of requests for missing, unclear, or inconsistent information. It posts feedback, or makes changes with the user's approval.
 
+>[!NOTE]
+>
+>You can assign the Intake Coordinator to a routing rule when the rule is created, but cannot assign it later. 
+
 <!--
 ### Context Carrier {#context-carrier}
 
